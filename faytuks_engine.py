@@ -1354,6 +1354,7 @@ def main():
     daily_parser.add_argument("--date", required=True, help="Date (YYYY-MM-DD)")
     daily_parser.add_argument("--developments", nargs="+", help="Overnight developments")
     daily_parser.add_argument("--execute", action="store_true", help="Execute with Claude API")
+    daily_parser.add_argument("--queue", action="store_true", help="Save to draft queue after generation")
 
     # Validate command
     validate_parser = subparsers.add_parser("validate", help="Validate a tweet")
@@ -1419,6 +1420,7 @@ def main():
     post_parser = subparsers.add_parser("post", help="Post workflow (shows instructions for claude --chrome)")
     post_parser.add_argument("--draft", help="Draft ID to post")
     post_parser.add_argument("--next", action="store_true", help="Get next approved draft")
+    post_parser.add_argument("--clipboard", action="store_true", help="Copy tweet to clipboard instead of browser posting")
 
     args = parser.parse_args()
 
@@ -1475,7 +1477,27 @@ def main():
         prompt = generator.generate_prompt(args.topic, pattern, emotion=emotion, hook_config=hook_config)
         if claude:
             print("=== CLAUDE RESPONSE ===")
-            print(claude.generate(prompt))
+            response = claude.generate(prompt)
+            print(response)
+
+            # Save to queue if --queue flag set
+            if args.queue:
+                draft_mgr = DraftManager()
+                matcher = MediaMatcher()
+                media_rec = matcher.get_media_recommendation(pattern.value)
+                media_paths = [media_rec["primary_media"]] if media_rec["has_media"] else []
+
+                draft_path = draft_mgr.save_draft(
+                    english=response,
+                    persian="",
+                    pattern=pattern.value,
+                    media=media_paths,
+                    hashtags=[],
+                    sources=[args.topic]
+                )
+                print(f"\n✅ Saved to queue: {draft_path}")
+                if media_paths:
+                    print(f"📷 Auto-attached media: {media_paths[0]}")
         else:
             print("=== CLAUDE PROMPT ===")
             print(prompt)
@@ -1484,7 +1506,20 @@ def main():
         prompt = generator.generate_thread_prompt(args.topic, args.length)
         if claude:
             print("=== CLAUDE RESPONSE ===")
-            print(claude.generate(prompt))
+            response = claude.generate(prompt)
+            print(response)
+
+            if args.queue:
+                draft_mgr = DraftManager()
+                draft_path = draft_mgr.save_draft(
+                    english=response,
+                    persian="",
+                    pattern="thread",
+                    media=[],
+                    hashtags=[],
+                    sources=[args.topic]
+                )
+                print(f"\n✅ Thread saved to queue: {draft_path}")
         else:
             print("=== CLAUDE PROMPT ===")
             print(prompt)
