@@ -1,0 +1,261 @@
+{
+  "great_powers_and_iran": {
+    "title": "Iran and the Great Powers: From Silk Road to 2026",
+    "persianTitle": "ایران و قدرت‌های بزرگ: از جاده ابریشم تا ۲۰۲۶",
+    
+    "iran_china_history": {
+      "title": "20 Centuries of Iran-China Relations",
+      "persianTitle": "بیست قرن روابط ایران و چین",
+      
+      "ancient_era": {
+        "period": "550 BC - 651 AD",
+        "events": [
+          {
+            "era": "Achaemenid Empire (550-330 BC)",
+            "description": "Persian Royal Road - precursor to Silk Road. First indirect contact between Persian and Chinese civilizations."
+          },
+          {
+            "era": "Parthian Empire (247 BC - 224 AD)",
+            "description": "Silk Road formalized. Parthians controlled trade between Rome and China. An Shih Kao, Parthian prince, brought Buddhism to China (148 AD). Persian merchants in Chinese cities."
+          },
+          {
+            "era": "Sassanid Empire (224-651 AD)",
+            "description": "Peak of Silk Road trade. 13 Sassanid embassies to China recorded. Sassanid coins found all over southern China. Royal marriages between dynasties. Persian musicians and dancers in Chinese court. Joint military efforts against Hephthalites."
+          },
+          {
+            "era": "Arab Conquest (651 AD)",
+            "description": "Sassanid Prince Peroz III fled to Tang China, sought Chinese help to reconquer Iran. Some Sassanid royalty took refuge in China. Persian diaspora in Tang cities."
+          }
+        ],
+        "keyInsight": "For 1,200 years, Persia and China were the two pillars of Asian civilization, close enough to trade, far enough never to clash. This created deep mutual respect that persists."
+      },
+      
+      "medieval_era": {
+        "period": "651-1500 AD",
+        "events": [
+          {
+            "era": "Mongol Period (13th-14th century)",
+            "description": "Iran (Ilkhanate) and China (Yuan) briefly part of same empire under Genghis Khan's successors. Unprecedented exchange of knowledge, technology, people."
+          },
+          {
+            "era": "Ming Dynasty Voyages (1405-1433)",
+            "description": "Admiral Zheng He's fleet visited Persian port of Hormuz multiple times. Maritime Silk Road at its peak."
+          }
+        ]
+      },
+      
+      "19th_century_humiliation": {
+        "title": "Shared Century of Humiliation",
+        "description": "Both Iran and China experienced Western imperialism and 'unequal treaties'",
+        "parallel_experiences": {
+          "china": "Opium Wars (1839-1860), forced to open markets, 'Century of Humiliation'",
+          "iran": "Great Game between Britain and Russia, Treaty of Turkmenchay (1828), loss of Caucasus, foreign domination"
+        },
+        "significance": "Both nations' modern nationalism is shaped by this shared memory of Western humiliation. It creates instinctive solidarity against 'Western imperialism' - but also wariness of ANY foreign domination."
+      },
+      
+      "modern_relations": {
+        "pahlavi_era": {
+          "period": "1941-1979",
+          "description": "Shah maintained relations with ROC (Taiwan) until 1971, then switched to PRC. Iran voted for China's UN seat (1971). Hua Guofeng visited Shah in 1978 - one of last foreign leaders before revolution."
+        },
+        "islamic_republic_era": {
+          "period": "1979-2025",
+          "key_events": [
+            {
+              "event": "Iran-Iraq War arms sales",
+              "description": "China sold weapons to BOTH sides. Silkworm missiles to Iran. China trained IRGC."
+            },
+            {
+              "event": "China-Iran 25-Year Deal (2021)",
+              "description": "$400 billion investment plan. Critics called it 'new Treaty of Turkmenchay' - selling Iran's sovereignty to China."
+            },
+            {
+              "event": "Belt and Road Initiative",
+              "description": "Iran as key node in China's westward expansion. Rail corridor Iran-China-Europe."
+            },
+            {
+              "event": "Iranian criticism (2024-25)",
+              "description": "Even hardliners criticized China for supporting Arab claims on Iranian islands, staying silent on Uyghur persecution while Iran defended China."
+            }
+          ]
+        }
+      },
+      
+      "tweet_angles": [
+        "For 2,000 years, Persia and China were equals - the twin pillars of Asian civilization. Then both were humiliated by the West in the 19th century. But only China recovered. Iran under the mullahs sold itself to Beijing. Time to restore the balance.",
+        "The mullahs signed a 25-year deal selling Iran to China. Iranians called it a 'new Treaty of Turkmenchay' - the 1828 treaty that lost us the Caucasus. History repeating. A free Iran won't be anyone's client state.",
+        "In 651 AD, the last Sassanid prince fled to China seeking help against the Arabs. 1,400 years later, Iran's ruling mullahs prostrate themselves before Beijing. The Sassanids had more dignity in defeat."
+      ]
+    },
+    
+    "iran_russia_history": {
+      "title": "Russia and Iran: Empire vs Empire",
+      "persianTitle": "روسیه و ایران: امپراتوری در برابر امپراتوری",
+      
+      "treaty_of_gulistan_1813": {
+        "date": "1813",
+        "lost_territories": "Dagestan, Georgia, parts of Azerbaijan",
+        "significance": "First major loss of Iranian territory to Russia",
+        "context": "Qajar Iran defeated by expanding Russian Empire"
+      },
+      
+      "treaty_of_turkmenchay_1828": {
+        "date": "February 21, 1828",
+        "lost_territories": "Yerevan Khanate (Armenia), Nakhchivan, Talysh, Mughan, Ordubad - entire South Caucasus",
+        "terms": [
+          "Aras River as new border (still today's border)",
+          "20 million rubles indemnity",
+          "Russia exclusive right to Caspian fleet",
+          "Capitulatory rights for Russian exports",
+          "Russia could send consuls anywhere in Iran"
+        ],
+        "significance": "Definitive loss of Caucasus. Iran's national trauma. Every unequal deal since is compared to Turkmenchay.",
+        "population_impact": "Separated Azerbaijanis, Armenians, Talysh peoples. Georgia, Armenia, Azerbaijan are historically Iranian lands."
+      },
+      
+      "great_game_era": {
+        "period": "1813-1907",
+        "description": "Iran as buffer state between British India and Russian Empire",
+        "key_events": [
+          {
+            "event": "Anglo-Russian Convention (1907)",
+            "description": "Britain and Russia divided Iran into spheres of influence WITHOUT CONSULTING IRAN. North to Russia, south to Britain, center 'neutral.'"
+          },
+          {
+            "event": "Constitutional Revolution (1906-1911)",
+            "description": "Russia actively opposed Iranian democracy. Russian troops helped Shah bombard parliament (1908). Russians supported autocracy against constitutionalists."
+          },
+          {
+            "event": "Soviet Occupation (1941-1946)",
+            "description": "USSR occupied northern Iran in WWII. Tried to create puppet 'Azerbaijan People's Republic' and 'Republic of Mahabad' (Kurdish). Iranian Azerbaijanis did NOT rally to Soviet puppets - chose Iranian identity."
+          }
+        ]
+      },
+      
+      "modern_relations": {
+        "islamic_republic_era": [
+          {
+            "event": "Post-USSR détente",
+            "description": "Russia became major arms supplier. S-300 missile systems. Nuclear cooperation (Bushehr plant)."
+          },
+          {
+            "event": "Syria alliance",
+            "description": "Russia and Iran backed Assad together. First major military cooperation."
+          },
+          {
+            "event": "Ukraine War (2022-present)",
+            "description": "Iran provides Russia with Shahed drones. Unprecedented military cooperation. But Russia also criticized for supporting Arab claims on Iranian islands."
+          }
+        ],
+        "fundamental_tension": "Russia and Iran are allies of convenience, not genuine partners. Russia historically took Iranian territory. Iran remembers."
+      },
+      
+      "tweet_angles": [
+        "Russia took Georgia, Armenia, Azerbaijan from Iran in 1813-1828. Turkmenchay is still a curse word in Persian. Now the mullahs sell drones to their historical oppressor. A free Iran will remember who our real enemies were.",
+        "1907: Russia and Britain divided Iran between themselves without asking. 1941: Soviets tried to carve off Azerbaijan. 2021: Putin supports Arab claims on Iranian islands. Russia is not Iran's friend. Never was.",
+        "In 1908, Russian troops helped the Shah bombard Iran's parliament. Russia has ALWAYS opposed Iranian democracy. In 2026, Russia supports the mullahs for the same reason - they fear a free Iran on their border."
+      ]
+    },
+    
+    "great_game_2026": {
+      "title": "The New Great Game: How Democratic Iran Changes Everything",
+      "persianTitle": "بازی بزرگ جدید: چگونه ایران دموکراتیک همه چیز را تغییر می‌دهد",
+      
+      "current_alignment": {
+        "description": "Under Islamic Republic, Iran is junior partner in China-Russia axis",
+        "problems": [
+          "Selling oil at discount to China (desperate for any buyer)",
+          "Providing drones to Russia (becoming arms supplier to pariah state)",
+          "Alienated from West (sanctions, isolation)",
+          "No leverage in negotiations (weak position)"
+        ]
+      },
+      
+      "democratic_iran_position": {
+        "title": "How Pahlavi/Transition Government Can Reset",
+        "strategies": {
+          "with_china": {
+            "leverage": [
+              "Iran controls key Belt and Road geography - China needs Iran more than Iran needs China",
+              "Iran's natural gas (world's 2nd largest) - alternative to Russian dependency for Europe AND potential competition for Chinese market",
+              "Iran can open to Western investment - no longer captive market for Chinese goods",
+              "Democracy means rule of law - better environment for investment than corrupt theocracy"
+            ],
+            "approach": "Renegotiate 25-year deal from position of strength. Iran is transit hub between East and West - charge appropriately. No more selling sovereignty.",
+            "message": "We want partnership, not clienthood. The Silk Road was two-way trade between equals, not Chinese colonization."
+          },
+          
+          "with_russia": {
+            "leverage": [
+              "No more drone supplies for Ukraine war",
+              "South Caucasus: Iran has historic claims, large Azerbaijani population - Russia nervous",
+              "Caspian Sea resources - Iran's share matters",
+              "Iran can work with West - Russia loses ally"
+            ],
+            "approach": "Cool but correct relations. No alliance, no hostility. Trade on fair terms. Support for territorial integrity (both ways).",
+            "message": "We remember 1813. We remember 1828. We remember 1907. We remember 1941. But we're not seeking revenge - we're seeking respect."
+          },
+          
+          "with_west": {
+            "opportunity": [
+              "Sanctions relief worth $100B+ annually",
+              "Return of frozen assets ($100B+)",
+              "Diaspora investment and return",
+              "Technology transfer",
+              "NATO-adjacent security guarantees"
+            ],
+            "leverage_vs_others": "Western partnership gives Iran leverage with China and Russia. No longer captive market. Play all sides.",
+            "approach": "Strategic partnership with West while maintaining independent foreign policy. Like Turkey or India - not satellite, not adversary."
+          }
+        }
+      },
+      
+      "iran_as_regional_power": {
+        "title": "A Free Iran's Natural Advantages",
+        "points": [
+          {
+            "advantage": "Geographic centrality",
+            "description": "Bridge between Middle East, Central Asia, South Asia, Caucasus. Every trade route goes through or near Iran."
+          },
+          {
+            "advantage": "Energy resources",
+            "description": "4th largest oil reserves. 2nd largest gas reserves. Can supply Europe AND Asia."
+          },
+          {
+            "advantage": "Population and education",
+            "description": "89 million people. Highly educated. Young. Potential workforce rival to Turkey."
+          },
+          {
+            "advantage": "Civilizational prestige",
+            "description": "2,500 years of history. Cultural soft power across region (Persian language, poetry, art)."
+          },
+          {
+            "advantage": "No territorial ambitions",
+            "description": "Unlike Russia or China, democratic Iran doesn't want to conquer neighbors. Can be honest broker."
+          }
+        ]
+      },
+      
+      "tweet_angles": [
+        "Under the mullahs, Iran became China's discount gas station and Russia's drone factory. A free Iran will be partner to all, client to none. The Silk Road was two-way. Time to restore balance.",
+        "Reza Pahlavi doesn't need to choose between East and West. A free Iran has leverage BECAUSE everyone wants access. China needs our transit routes. Russia fears our potential. West wants our market. Play them all.",
+        "The mullahs sold Iran to China and Russia because they had no choice - pariah states stick together. Democratic Iran will have choices. And we'll remember who helped us and who didn't."
+      ]
+    }
+  },
+  
+  "metadata": {
+    "lastUpdated": "2026-01-17T23:00:00Z",
+    "version": "1.0",
+    "sources": [
+      "Wikipedia - China-Iran relations",
+      "Wikipedia - Treaty of Turkmenchay",
+      "Washington Institute - When China Met Iran",
+      "Middle East Institute - China and Iran Partnership",
+      "FPIF - China and Iran",
+      "Modern Diplomacy - Great Game Iran",
+      "FPRI - Trade Corridor Wars"
+    ]
+  }
+}

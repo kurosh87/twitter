@@ -1,0 +1,42 @@
+{
+  "buckets": {
+    "geopolitics": {
+      "description": "Foreign policy & Iran experts",
+      "accounts": [
+        { "handle": "AriAramesh", "name": "Ari Aramesh", "focus": "Iranian-American analyst" },
+        { "handle": "JasonMBrodsky", "name": "Jason Brodsky", "focus": "Iran policy, FDD" },
+        { "handle": "ksadjadpour", "name": "Karim Sadjadpour", "focus": "Carnegie, Iran expert" },
+        { "handle": "therealBehnamBT", "name": "Behnam Ben Taleblu", "focus": "FDD, IRGC/missiles" },
+        { "handle": "DNA_shadowx", "name": "DNA Shadow", "focus": "Iran expert" }
+      ],
+      "topics": ["iran", "trump", "irgc", "regime", "sanctions", "nuclear", "protest", "khamenei", "strike"]
+    },
+    "breaking": {
+      "description": "24hr breaking news sources",
+      "accounts": [
+        { "handle": "FaytuksNetwork", "name": "Faytuks", "focus": "OSINT news" },
+        { "handle": "MiddleEast_24", "name": "Middle East 24", "focus": "24hr regional news" }
+      ],
+      "topics": ["iran", "breaking", "protest", "israel", "hezbollah"]
+    },
+    "commentary": {
+      "description": "Opinionated Iran commentators - synthesize common threads",
+      "accounts": [
+        { "handle": "SGhasseminejad", "name": "Saeed Ghasseminejad", "focus": "Iran economy/sanctions" },
+        { "handle": "__Injaneb96", "name": "Injaneb", "focus": "Iran commentary" },
+        { "handle": "Realneo101", "name": "Realneo", "focus": "Iran vs heterodox left hypocrisy" }
+      ],
+      "topics": ["iran", "gaza", "hypocrisy", "greenwald", "tyt", "protest", "genocide"],
+      "specialFocus": {
+        "thread": "heterodox-hypocrisy",
+        "description": "Call out influencers (Greenwald, Roger Waters, TYT, Hasan Abi) who ignore Iran but cry Gaza genocide",
+        "targets": ["greenwald", "roger waters", "young turks", "hasan", "tyt", "gaza", "genocide"]
+      }
+    }
+  },
+  "defaults": {
+    "scrapeWeeks": 3,
+    "checkIntervalMinutes": 60,
+    "maxTweetsPerAccount": 500
+  }
+}

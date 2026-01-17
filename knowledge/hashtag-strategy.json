@@ -1,0 +1,226 @@
+{
+  "hashtag_strategy": {
+    "title": "Faytuks Hashtag Strategy",
+    "description": "Strategic hashtag usage for maximum reach without looking spammy",
+    
+    "core_principles": [
+      "Maximum 2 hashtags per tweet (exceptions for threads)",
+      "Hashtags should feel natural, not forced",
+      "Never hijack unrelated trending topics",
+      "Consistency helps build brand recognition",
+      "Mix evergreen and timely hashtags"
+    ],
+    
+    "hashtag_tiers": {
+      
+      "tier_1_primary": {
+        "description": "Core hashtags - use frequently",
+        "hashtags": [
+          {
+            "tag": "#IranRevolution",
+            "usage": "General uprising content",
+            "notes": "Most recognized, highest volume"
+          },
+          {
+            "tag": "#WomanLifeFreedom",
+            "persianAlt": "#زن_زندگی_آزادی",
+            "usage": "Women's rights focus, 2022 continuity",
+            "notes": "Connects to Mahsa Amini movement"
+          },
+          {
+            "tag": "#Iran",
+            "usage": "General discovery",
+            "notes": "High volume, less specific"
+          },
+          {
+            "tag": "#FreeIran",
+            "usage": "Diaspora solidarity",
+            "notes": "Strong in activist community"
+          },
+          {
+            "tag": "#RegimeChange",
+            "usage": "Explicit goal of the movement",
+            "notes": "Clear and unapologetic - this is what we want"
+          },
+          {
+            "tag": "#IRGCterrorists",
+            "usage": "IRGC designation and accountability",
+            "notes": "IRGC is a terrorist organization - call it what it is"
+          }
+        ]
+      },
+      
+      "tier_2_situational": {
+        "description": "Use when relevant to specific event",
+        "hashtags": [
+          {
+            "tag": "#MahsaAmini",
+            "usage": "Connecting to 2022 movement",
+            "notes": "Still resonant, symbol of continuity"
+          },
+          {
+            "tag": "#Rasht",
+            "usage": "Rasht-specific content",
+            "notes": "During/after Rasht events"
+          },
+          {
+            "tag": "#CinemaRex",
+            "usage": "Fire parallel content",
+            "notes": "Historical parallel tweets"
+          },
+          {
+            "tag": "#IranProtests",
+            "usage": "Breaking protest news",
+            "notes": "Commonly searched during events"
+          },
+          {
+            "tag": "#IRGC",
+            "usage": "Content about Revolutionary Guards",
+            "notes": "Policy/sanctions discussions"
+          }
+        ]
+      },
+      
+      "tier_3_historical": {
+        "description": "For anniversary and historical content",
+        "hashtags": [
+          {
+            "tag": "#1906",
+            "usage": "Constitutional Revolution anniversary",
+            "notes": "August 5"
+          },
+          {
+            "tag": "#Mashruteh",
+            "usage": "Constitutional Revolution content",
+            "notes": "Persian term, diaspora-focused"
+          },
+          {
+            "tag": "#Turkmenchay",
+            "usage": "Great power/sovereignty content",
+            "notes": "February 21 anniversary"
+          },
+          {
+            "tag": "#Guadeloupe1979",
+            "usage": "Western betrayal content",
+            "notes": "January 4 anniversary"
+          },
+          {
+            "tag": "#BlackFriday1978",
+            "usage": "Massacre parallel content",
+            "notes": "September 8 anniversary"
+          }
+        ]
+      },
+      
+      "tier_4_bilingual": {
+        "description": "Persian hashtags for diaspora reach",
+        "hashtags": [
+          {
+            "tag": "#انقلاب_ایران",
+            "transliteration": "Enqelab-e Iran",
+            "english": "Iran Revolution",
+            "usage": "Persian-speaking audience"
+          },
+          {
+            "tag": "#مهسا_امینی",
+            "transliteration": "Mahsa Amini",
+            "usage": "Persian continuity with 2022"
+          },
+          {
+            "tag": "#رشت",
+            "transliteration": "Rasht",
+            "usage": "Persian Rasht coverage"
+          }
+        ]
+      },
+      
+      "tier_5_avoid": {
+        "description": "Hashtags to AVOID - these damage credibility or association",
+        "hashtags": [
+          {
+            "tag": "#MEK or #PMOI",
+            "reason": "Traitor organization, Saddam alliance, zero support inside Iran, toxic association"
+          },
+          {
+            "tag": "Excessive emoji hashtags",
+            "reason": "Looks spammy"
+          },
+          {
+            "tag": "#NIAC",
+            "reason": "Regime apologist organization, 'NIAC' is slur inside Iran"
+          }
+        ]
+      }
+    },
+    
+    "combination_strategy": {
+      "breaking_news": {
+        "recommended": "#IranRevolution + location/event tag",
+        "example": "BREAKING: Rasht hospital overwhelmed. #IranRevolution #Rasht"
+      },
+      "historical_parallel": {
+        "recommended": "#IranRevolution + historical tag",
+        "example": "Cinema Rex 1978. Rasht 2026. Same fire. #CinemaRex #IranRevolution"
+      },
+      "victim_memorial": {
+        "recommended": "#WomanLifeFreedom OR #IranRevolution (not both)",
+        "example": "Negin Ghadimi, 28. Remember her name. #WomanLifeFreedom"
+      },
+      "analysis_thread": {
+        "recommended": "Hook tweet gets hashtags, thread tweets don't",
+        "example": "1/ Why Iran isn't Iraq. A thread. 🧵 #IranRevolution\n2/ [no hashtag]\n3/ [no hashtag]..."
+      },
+      "counter_propaganda": {
+        "recommended": "No hashtag or single relevant one",
+        "example": "The regime calls everyone terrorists. They said the same in 1978. #IranRevolution"
+      }
+    },
+    
+    "timing_strategy": {
+      "when_trending": "Lean into trending Iran hashtags IF relevant",
+      "create_vs_join": "Join existing momentum rather than trying to start new hashtags",
+      "event_specific": "Create event hashtags only for major verified events",
+      "avoid": "Never use trending unrelated hashtags to piggyback"
+    },
+    
+    "monitoring": {
+      "daily_check": [
+        "What's trending in Iran-related hashtags?",
+        "Are our hashtags gaining traction?",
+        "Any new hashtags emerging from inside Iran?"
+      ],
+      "tools": [
+        "Twitter trending",
+        "Hashtagify",
+        "Manual monitoring of activist accounts"
+      ]
+    },
+    
+    "persian_hashtag_guidelines": {
+      "when_to_use": [
+        "Reaching Persian-speaking diaspora",
+        "Content in Persian",
+        "Bilingual tweets"
+      ],
+      "formatting": "Include both English and Persian when space permits",
+      "example": "#IranRevolution #انقلاب_ایران"
+    }
+  },
+  
+  "trending_response_protocol": {
+    "if_iran_trending": {
+      "step_1": "Verify why it's trending (news event? viral video?)",
+      "step_2": "Check if Faytuks has relevant content",
+      "step_3": "Adapt existing knowledge to trending topic",
+      "step_4": "Post with trending hashtag + evergreen hashtag"
+    },
+    "if_adjacent_trending": {
+      "description": "Related topic trending (e.g., #HumanRights, #MiddleEast)",
+      "approach": "Only join if genuinely relevant, don't force"
+    },
+    "if_unrelated_trending": {
+      "description": "Completely unrelated trending topic",
+      "approach": "NEVER hijack. Looks desperate, damages credibility."
+    }
+  }
+}

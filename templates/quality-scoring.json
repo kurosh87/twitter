@@ -1,0 +1,211 @@
+{
+  "quality_scoring": {
+    "title": "Faytuks Tweet Quality Rubric",
+    "description": "Score every tweet before posting. Minimum 70/100 to publish.",
+    
+    "scoring_categories": {
+      
+      "factual_accuracy": {
+        "weight": 30,
+        "description": "Is every claim verifiable and accurate?",
+        "scores": {
+          "30": "All facts verified from Tier 1 sources, specific dates/numbers, no speculation",
+          "25": "Facts verified but from Tier 2 sources, or minor imprecision",
+          "20": "Most facts accurate but one unverified claim",
+          "10": "Multiple unverified claims or significant imprecision",
+          "0": "Contains false or fabricated information - DO NOT POST"
+        },
+        "auto_fail": "Any fabricated fact = automatic rejection"
+      },
+      
+      "historical_grounding": {
+        "weight": 20,
+        "description": "Does it connect to Iran's deep history appropriately?",
+        "scores": {
+          "20": "Strong, accurate parallel with specific dates. Illuminating connection.",
+          "15": "Good parallel but less specific, or slightly forced connection",
+          "10": "Weak parallel or historically imprecise",
+          "5": "Parallel is misleading or hyperbolic",
+          "0": "No historical grounding (may be acceptable for breaking news)"
+        },
+        "note": "Breaking news tweets may score 0 here and still pass overall"
+      },
+      
+      "voice_consistency": {
+        "weight": 20,
+        "description": "Does it match Faytuks voice?",
+        "subscores": {
+          "authoritative_accessible": {
+            "max": 4,
+            "criteria": "Confident without being academic"
+          },
+          "passionate_factual": {
+            "max": 4,
+            "criteria": "Emotional impact grounded in facts"
+          },
+          "historical_urgent": {
+            "max": 4,
+            "criteria": "Historical depth with present-day relevance"
+          },
+          "pride_not_chauvinist": {
+            "max": 4,
+            "criteria": "Persian pride without ethnic superiority"
+          },
+          "anti_regime_pro_people": {
+            "max": 4,
+            "criteria": "Critical of regime, supportive of Iranians"
+          }
+        },
+        "total": "Sum of subscores (max 20)"
+      },
+      
+      "engagement_potential": {
+        "weight": 15,
+        "description": "Will people share this?",
+        "scores": {
+          "15": "Strong hook, emotional resonance, highly shareable",
+          "12": "Good engagement elements, likely to get retweets",
+          "9": "Solid content but not particularly shareable",
+          "6": "Dry or uninspiring, low share potential",
+          "3": "Confusing or off-putting, likely to be ignored"
+        },
+        "elements_that_help": [
+          "Specific human story",
+          "Surprising historical parallel",
+          "Clear call to remember/act",
+          "Irony or reversal",
+          "Specific numbers/dates"
+        ]
+      },
+      
+      "clarity_craft": {
+        "weight": 15,
+        "description": "Is it well-written and clear?",
+        "scores": {
+          "15": "Crystal clear, perfectly crafted, every word earns its place",
+          "12": "Clear and well-written, minor room for tightening",
+          "9": "Understandable but could be clearer or more concise",
+          "6": "Confusing structure or unclear point",
+          "3": "Hard to understand, poorly constructed"
+        },
+        "checklist": [
+          "Under 280 characters?",
+          "No unnecessary words?",
+          "Clear subject and point?",
+          "Proper grammar?",
+          "Hashtags placed naturally?"
+        ]
+      }
+    },
+    
+    "automatic_deductions": {
+      "description": "Points deducted for violations",
+      "violations": {
+        "more_than_2_hashtags": -5,
+        "emojis_overuse": -5,
+        "sensationalism": -10,
+        "sectarian_language": -20,
+        "ethnic_division_language": -20,
+        "speculation_as_fact": -15,
+        "regime_quote_amplified": -10,
+        "sycophantic_praise": -5,
+        "gratuitous_violence_detail": -10
+      }
+    },
+    
+    "scoring_thresholds": {
+      "90_100": {
+        "verdict": "EXCELLENT",
+        "action": "Post immediately, consider for corpus",
+        "color": "🟢"
+      },
+      "80_89": {
+        "verdict": "GOOD",
+        "action": "Post with confidence",
+        "color": "🟢"
+      },
+      "70_79": {
+        "verdict": "ACCEPTABLE",
+        "action": "Post but note areas for improvement",
+        "color": "🟡"
+      },
+      "60_69": {
+        "verdict": "NEEDS WORK",
+        "action": "Revise before posting",
+        "color": "🟠"
+      },
+      "below_60": {
+        "verdict": "REJECT",
+        "action": "Significant rewrite needed or abandon",
+        "color": "🔴"
+      }
+    },
+    
+    "special_cases": {
+      "breaking_news": {
+        "description": "Breaking news may prioritize speed over historical depth",
+        "adjustment": "Historical grounding can be 0 if breaking, compensate elsewhere",
+        "minimum_score": 60
+      },
+      "memorial_tweet": {
+        "description": "Victim memorial tweets prioritize dignity",
+        "adjustment": "Engagement potential less important than respect",
+        "extra_check": "Does this honor the victim or exploit them?"
+      },
+      "counter_propaganda": {
+        "description": "Responses to regime claims",
+        "extra_check": "Are we amplifying the false claim? (Should minimize)",
+        "adjustment": "Clarity especially important"
+      }
+    }
+  },
+  
+  "scoring_prompt": {
+    "title": "Auto-Score Prompt for Claude",
+    "prompt": "Score this tweet using the Faytuks Quality Rubric.\n\nTWEET: {{tweet_text}}\n\nSCORE EACH CATEGORY:\n\n1. FACTUAL ACCURACY (0-30):\n- Are all facts verifiable?\n- Sources cited or citeable?\n- Any speculation presented as fact?\nScore: __/30\nReasoning: \n\n2. HISTORICAL GROUNDING (0-20):\n- Is there a historical parallel?\n- Is it accurate and appropriate?\n- Does it illuminate rather than confuse?\nScore: __/20\nReasoning:\n\n3. VOICE CONSISTENCY (0-20):\n- Authoritative/Accessible: __/4\n- Passionate/Factual: __/4\n- Historical/Urgent: __/4\n- Pride/Not Chauvinist: __/4\n- Anti-regime/Pro-people: __/4\nSubtotal: __/20\nReasoning:\n\n4. ENGAGEMENT POTENTIAL (0-15):\n- Will people share this?\n- Strong hook?\n- Emotional resonance?\nScore: __/15\nReasoning:\n\n5. CLARITY & CRAFT (0-15):\n- Clear and concise?\n- Every word earns place?\n- Under 280 chars?\nScore: __/15\nReasoning:\n\n6. DEDUCTIONS:\n- List any violations and deductions\nTotal deductions: -__\n\nFINAL CALCULATION:\nFactual: __/30\nHistorical: __/20\nVoice: __/20\nEngagement: __/15\nClarity: __/15\nDeductions: -__\n\nTOTAL: __/100\n\nVERDICT: [EXCELLENT/GOOD/ACCEPTABLE/NEEDS WORK/REJECT]\n\nRECOMMENDATION:\n[Post as-is / Post with minor edit / Revise and rescore / Reject]\n\nSUGGESTED IMPROVEMENTS:\n[If score < 90, provide specific suggestions]"
+  },
+  
+  "quick_score_checklist": {
+    "description": "Rapid pre-flight check before posting",
+    "checklist": [
+      "☐ All facts verifiable?",
+      "☐ Under 280 characters?",
+      "☐ 2 or fewer hashtags?",
+      "☐ No speculation as fact?",
+      "☐ No sectarian language?",
+      "☐ Historical parallel accurate (if used)?",
+      "☐ Would I be proud of this in a year?",
+      "☐ Does this help Iranians or just feel good?"
+    ],
+    "rule": "If any box unchecked, review before posting"
+  },
+  
+  "examples": {
+    "excellent_tweet": {
+      "text": "August 19, 1978: Cinema Rex, Abadan. 420 burned alive. Blamed on Shah. Actually: Islamist militants. January 2026: Rasht Bazaar. Protesters burned alive. Blamed on 'rioters.' Actually: IRGC. Same fire. Same lies. #CinemaRex",
+      "scores": {
+        "factual": 28,
+        "historical": 20,
+        "voice": 19,
+        "engagement": 14,
+        "clarity": 14,
+        "deductions": 0,
+        "total": 95
+      },
+      "notes": "Strong parallel, specific dates, verified facts, compelling structure"
+    },
+    "needs_work_tweet": {
+      "text": "The regime is killing everyone! When will the world wake up?! #Iran #FreeIran #Revolution #HumanRights #StopKilling",
+      "scores": {
+        "factual": 10,
+        "historical": 0,
+        "voice": 10,
+        "engagement": 8,
+        "clarity": 8,
+        "deductions": -5,
+        "total": 31
+      },
+      "notes": "Vague, no specifics, too many hashtags, no historical grounding, emotional but not factual"
+    }
+  }
+}

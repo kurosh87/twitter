@@ -1,0 +1,793 @@
+{
+  "bucket": "commentary",
+  "analyzedAt": "2026-01-17T22:55:08.252Z",
+  "totalTweets": 695,
+  "experts": [
+    {
+      "handle": "__Injaneb96",
+      "name": "Injaneb",
+      "tweetCount": 451
+    },
+    {
+      "handle": "Realneo101",
+      "name": "Realneo",
+      "tweetCount": 142
+    },
+    {
+      "handle": "SGhasseminejad",
+      "name": "Saeed Ghasseminejad",
+      "tweetCount": 102
+    }
+  ],
+  "themes": [
+    {
+      "topic": "Regime Change",
+      "mentions": 39,
+      "experts": {
+        "__Injaneb96": [
+          "Afghan mercenaries linked to the Islamic Republic attacked Iranian protesters supporting the national revolution in Hamburg, Germany.\nAs long as this ",
+          "Why do you think that is?\nBingo. \nBecause they’re killing our people.\nThe Islamic Republic claims protesters are killed by “terrorists.” Yet, governme",
+          "If this is true, then there is not a single crime Saddam Hussein committed against Iranian civilians that the Islamic Republic has not also committed."
+        ],
+        "Realneo101": [
+          "One of thousands of heroes who left and never came back.\nA dedicated physiotherapist—healing others until the Islamic regime took his life.\n#MasoudBol",
+          "Snipers! To kill who? Hulk? No — to kill unarmed protesters who want to be free from this satanic regime. Young innocent kids shot for wanting a bette",
+          "This guy's one of the terrorists who attacked Iranians with a knife in Hamburg during their protest against the Islamic regime."
+        ],
+        "SGhasseminejad": [
+          "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanya",
+          "The regime is finished. There is no turning back. It is a rotting corpse, ready to disintegrate. \nThe only question now is how fast it falls, and at w",
+          "Protests are ongoing in Iran; if they weren’t, the regime wouldn’t have shut down the internet and phone lines. This is the best opportunity in 47 yea"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "\"One man’s terrorist is another man’s freedom fighter\" \n@rogerwaters, it has been nine days since I last heard from my family and friends. I don't know if they are alive or already in a ditch.\n\nYou op",
+          "engagement": 9019
+        },
+        {
+          "expert": "Realneo101",
+          "text": "I've mostly tweeted in Persian/Farsi so far, so most of my followers are Iranian. I'm switching to mostly English now to raise global awareness about what's going on in Iran. If you're someone who wan",
+          "engagement": 15645
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanyahu, will defeat, overthrow, and destroy @khamenei_",
+          "engagement": 4950
+        }
+      ]
+    },
+    {
+      "topic": "Trump/US Policy",
+      "mentions": 22,
+      "experts": {
+        "__Injaneb96": [
+          "Former US Ambassador to Israel:\nTrump will soon eliminate Khamenei.\nTrump's comments to @politico on needing new leadership in Iran, and Khamenei's mi",
+          "May what President Trump is planning for the Islamic Republic be this legendary.\n\n#IranMassacare \n#GameOfThrones\nAgain, call me crazy but I don't beli",
+          "Again, call me crazy but I don't believe President Trump has backed down from \"hitting them hard\". He is planning something big.\n\n#IranMassacare \n#Ira"
+        ],
+        "Realneo101": [
+          "BREAKING: Trump calls for fresh leadership in Iran.\n#DigitalBlackoutIran",
+          "President Trump: \"The moment has arrived—Iran needs a new leader.\"\nAnd we all know exactly who that new leader is!",
+          "President Trump needs to see this!\n#FoxNews \n#IranMassacre"
+        ],
+        "SGhasseminejad": [
+          "Prosecutor of Tehran: \"Trump always spouts a lot of baseless nonsense, and he is dead wrong. Our response is decisive, deterrent, and swift.\"\nAli Sale",
+          "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanya",
+          "Ali Larijani, Khamenei’s National Security Council chief mocks President @realDonaldTrump \n““Trump says things like this a lot. Do not take him seriou"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "Call me crazy, but I don't believe President Trump will break his promise.",
+          "engagement": 8184
+        },
+        {
+          "expert": "Realneo101",
+          "text": "President Trump Must see this!\nThreatening the president live on TV.\ncalling him \"wild yellow dog\".!\n@FoxNews  @POTUS",
+          "engagement": 9696
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "Prosecutor of Tehran: \"Trump always spouts a lot of baseless nonsense, and he is dead wrong. Our response is decisive, deterrent, and swift.\"\nAli Salehi, the Prosecutor of Tehran, responding to the U.",
+          "engagement": 7442
+        }
+      ]
+    },
+    {
+      "topic": "Protests",
+      "mentions": 22,
+      "experts": {
+        "__Injaneb96": [
+          "Afghan mercenaries linked to the Islamic Republic attacked Iranian protesters supporting the national revolution in Hamburg, Germany.\nAs long as this ",
+          "Protests swept 180 cities and towns across Iran for at least 15 days. Even using only partial reports from major cities, a conservative estimate puts ",
+          "Why do you think that is?\nBingo. \nBecause they’re killing our people.\nThe Islamic Republic claims protesters are killed by “terrorists.” Yet, governme"
+        ],
+        "Realneo101": [
+          "Snipers! To kill who? Hulk? No — to kill unarmed protesters who want to be free from this satanic regime. Young innocent kids shot for wanting a bette",
+          "This guy's one of the terrorists who attacked Iranians with a knife in Hamburg during their protest against the Islamic regime.",
+          "Islamic Republic Ministry of Intelligence forces raided Milad Hospital in Isfahan and KIDNAPPED doctors who dared treat wounded protesters.\nThese hero"
+        ],
+        "SGhasseminejad": [
+          "Protests are ongoing in Iran; if they weren’t, the regime wouldn’t have shut down the internet and phone lines. This is the best opportunity in 47 yea",
+          "In Tehran, protesters chant, “This is the year of blood! Seyed Ali will be toppled!”",
+          "In Karaj, protesters chant, “ Long live the Shah.”"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "This is why you see Israeli flags at our protests. They are the only ones who have been standing with us since the beginning.",
+          "engagement": 6512
+        },
+        {
+          "expert": "Realneo101",
+          "text": "Islamic Republic Ministry of Intelligence forces raided Milad Hospital in Isfahan and KIDNAPPED doctors who dared treat wounded protesters.\nThese heroes now face torture or execution for doing their j",
+          "engagement": 1149
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "Ali Larijani, Khamenei’s National Security Council chief mocks President @realDonaldTrump \n““Trump says things like this a lot. Do not take him seriously,” Larijani said in response to a question abou",
+          "engagement": 4166
+        }
+      ]
+    },
+    {
+      "topic": "Supreme Leader",
+      "mentions": 6,
+      "experts": {
+        "__Injaneb96": [
+          "Former US Ambassador to Israel:\nTrump will soon eliminate Khamenei.\nTrump's comments to @politico on needing new leadership in Iran, and Khamenei's mi",
+          "The Supreme Leader of Islamic Republic, Ali Khamenei, believes he has defeated the US.\n\n#IranMassacare\n#IranRevolution2026\nThe US had made extensive p",
+          "Another threat from the Islamic Republic directed at President Trump:\n\nMohsen Rezaei, the former IRGC general commander and close ally of Supreme Lead"
+        ],
+        "Realneo101": [
+          "You can hear the agony and sheer pain in their voices — it’s as if they’re in hell. This is so disturbing… so painful… They’re chanting “Death to the "
+        ],
+        "SGhasseminejad": [
+          "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanya",
+          "Ali Larijani, Khamenei’s National Security Council chief mocks President @realDonaldTrump \n““Trump says things like this a lot. Do not take him seriou"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "Another threat from the Islamic Republic directed at President Trump:\n\nMohsen Rezaei, the former IRGC general commander and close ally of Supreme Leader Ali Khamenei, said:\n\n“Trump has his finger on t",
+          "engagement": 2480
+        },
+        {
+          "expert": "Realneo101",
+          "text": "You can hear the agony and sheer pain in their voices — it’s as if they’re in hell. This is so disturbing… so painful… They’re chanting “Death to the dictator! Death to Khamenei! Khamenei, we will put",
+          "engagement": 3993
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanyahu, will defeat, overthrow, and destroy @khamenei_",
+          "engagement": 4950
+        }
+      ]
+    },
+    {
+      "topic": "IRGC",
+      "mentions": 5,
+      "experts": {
+        "__Injaneb96": [
+          "At every critical moment when Iranians are being slaughtered, Christiane Amanpour chooses to give her platform to Islamic Republic officials or their ",
+          "Another threat from the Islamic Republic directed at President Trump:\n\nMohsen Rezaei, the former IRGC general commander and close ally of Supreme Lead",
+          "France, Italy, and Spain are blocking efforts to designate the IRGC as a terrorist organization, effectively shielding a regime that practices terror."
+        ],
+        "Realneo101": [
+          "“Trump has said his hand is on the trigger. We will cut off his hand and his finger,” senior IRGC general and member of Iran’s Expediency Council, Moh"
+        ],
+        "SGhasseminejad": [
+          "The Afghan Fatemiyoun, Iraqi Hashd al-Shaabi, and Lebanese Hezbollah are currently in Iran, assisting the IRGC in the slaughter of Iranian citizens. \n"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "France, Italy, and Spain are blocking efforts to designate the IRGC as a terrorist organization, effectively shielding a regime that practices terror.\n\nThis will remain a stain on their history. Remem",
+          "engagement": 3334
+        },
+        {
+          "expert": "Realneo101",
+          "text": "“Trump has said his hand is on the trigger. We will cut off his hand and his finger,” senior IRGC general and member of Iran’s Expediency Council, Mohsen Rezaei, said on Thursday, issuing a direct thr",
+          "engagement": 2412
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "The Afghan Fatemiyoun, Iraqi Hashd al-Shaabi, and Lebanese Hezbollah are currently in Iran, assisting the IRGC in the slaughter of Iranian citizens. \nIranians are fighting this evil octopus of radical",
+          "engagement": 4570
+        }
+      ]
+    },
+    {
+      "topic": "Military Strike",
+      "mentions": 4,
+      "experts": {
+        "__Injaneb96": [
+          "Former US Ambassador to Israel:\nTrump will soon eliminate Khamenei.\nTrump's comments to @politico on needing new leadership in Iran, and Khamenei's mi",
+          "Mr Rupert Lowe,\n\nIf America wished you well and said “this is not our fight” during World War II, you were now posting in German, not English.\n\nHistor"
+        ],
+        "SGhasseminejad": [
+          "Strike them, Mr. President, and strike hard. Liberating Iran from the Ayatollahs will be your enduring legacy, just as liberating the Jews from Babylo",
+          "Follow Navid and his daily brief, one of the best sources about what is happening in Iran.\nIt’s 2:30 a.m. in Tehran, and here are my 12 key observatio"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "Mr Rupert Lowe,\n\nIf America wished you well and said “this is not our fight” during World War II, you were now posting in German, not English.\n\nHistory will remember you, and Iranians will never forge",
+          "engagement": 2267
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "Strike them, Mr. President, and strike hard. Liberating Iran from the Ayatollahs will be your enduring legacy, just as liberating the Jews from Babylon defined Cyrus the Great. Iranians do not need Am",
+          "engagement": 5055
+        }
+      ]
+    },
+    {
+      "topic": "Regime Collapse",
+      "mentions": 2,
+      "experts": {
+        "Realneo101": [
+          "Only a few hours left... They're going to execute him at dawn, as soon as Fajr prayer time starts.\n#ErfanSoltani\nMAKE HIM FAMOUS! Erfan Soltani is sch"
+        ],
+        "SGhasseminejad": [
+          "The regime is finished. There is no turning back. It is a rotting corpse, ready to disintegrate. \nThe only question now is how fast it falls, and at w"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "Realneo101",
+          "text": "Only a few hours left... They're going to execute him at dawn, as soon as Fajr prayer time starts.\n#ErfanSoltani\nMAKE HIM FAMOUS! Erfan Soltani is scheduled to be executed by the Islamic Regime in Ira",
+          "engagement": 2263
+        },
+        {
+          "expert": "SGhasseminejad",
+          "text": "The regime is finished. There is no turning back. It is a rotting corpse, ready to disintegrate. \nThe only question now is how fast it falls, and at what cost. Military intervention would expedite thi",
+          "engagement": 3552
+        }
+      ]
+    },
+    {
+      "topic": "Nuclear Program",
+      "mentions": 1,
+      "experts": {
+        "__Injaneb96": [
+          "A regime that has killed more than 12,000 of its own unarmed civilians now claims it wants nuclear power for “peaceful” purposes.\n\nSure…"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "A regime that has killed more than 12,000 of its own unarmed civilians now claims it wants nuclear power for “peaceful” purposes.\n\nSure…",
+          "engagement": 2650
+        }
+      ]
+    },
+    {
+      "topic": "Sanctions",
+      "mentions": 1,
+      "experts": {
+        "__Injaneb96": [
+          "Mr Rupert Lowe,\n\nIf America wished you well and said “this is not our fight” during World War II, you were now posting in German, not English.\n\nHistor"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "__Injaneb96",
+          "text": "Mr Rupert Lowe,\n\nIf America wished you well and said “this is not our fight” during World War II, you were now posting in German, not English.\n\nHistory will remember you, and Iranians will never forge",
+          "engagement": 2267
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-01-17",
+      "events": [
+        "Mr President @POTUS,\n\nYou promised.",
+        "Prosecutor of Tehran: \"Trump always spouts a lot of baseless nonsense, and he is dead wrong. Our res",
+        "“If Mossad bullets kill our children, why is the Islamic Republic asking for money to return their b",
+        "VOA has been actively silencing the voices of the Iranian people using tactics indistinguishable fro",
+        "“اگر با کشتار و حکومت نظامی، هزینه خیابان را بالا برده‌اند، خانه‌های ما سنگر مبارزه و ایستادگی است: "
+      ],
+      "expertTakes": [
+        {
+          "expert": "__Injaneb96",
+          "take": "Mr President @POTUS,\n\nYou promised."
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "Prosecutor of Tehran: \"Trump always spouts a lot of baseless nonsense, and he is dead wrong. Our response is decisive, deterrent, and swift.\"\nAli Sale"
+        },
+        {
+          "expert": "__Injaneb96",
+          "take": "“If Mossad bullets kill our children, why is the Islamic Republic asking for money to return their bodies?”\nاگه بچه‌های مارو موساد میکشه، چرا جمهوری ک"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "VOA has been actively silencing the voices of the Iranian people using tactics indistinguishable from Soviet and Islamist-style censorship. It is disg"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "“اگر با کشتار و حکومت نظامی، هزینه خیابان را بالا برده‌اند، خانه‌های ما سنگر مبارزه و ایستادگی است: با اعتصاب و نرفتن سر کار، با فریاد و شعارهای شبانه"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "events": [
+        "Another evidence of Islamic Republic security forces shooting unarmed civilians point blank.",
+        "A message from an Iranian mother:\n\"I am Dorsa Sattari’s mother.\nI am the mother of Iran.\nThey shot m",
+        "Yeah, pray in front of the door. Block people from leaving. Then scream  \"IsLaMoPhbIa\" the moment so",
+        "Reports: Around 5,000 Iranian-backed Iraqi militiamen have entered Iran to suppress the people's upr",
+        "\"One man’s terrorist is another man’s freedom fighter\" \n@rogerwaters, it has been nine days since I "
+      ],
+      "expertTakes": [
+        {
+          "expert": "__Injaneb96",
+          "take": "Another evidence of Islamic Republic security forces shooting unarmed civilians point blank."
+        },
+        {
+          "expert": "__Injaneb96",
+          "take": "A message from an Iranian mother:\n\"I am Dorsa Sattari’s mother.\nI am the mother of Iran.\nThey shot my daughter.\nI buried her in our own yard, tell the"
+        },
+        {
+          "expert": "__Injaneb96",
+          "take": "Yeah, pray in front of the door. Block people from leaving. Then scream  \"IsLaMoPhbIa\" the moment someone objects.\n\nThat’s very on brand.\nDon't hide y"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "Reports: Around 5,000 Iranian-backed Iraqi militiamen have entered Iran to suppress the people's uprising.\n#DigitalBlackoutIran \n#IranMassacre"
+        },
+        {
+          "expert": "__Injaneb96",
+          "take": "\"One man’s terrorist is another man’s freedom fighter\" \n@rogerwaters, it has been nine days since I last heard from my family and friends. I don't kno"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "events": [
+        "Dear Americans,\n\nAli Ardeshir Larijani is a top-tier operative of the Islamic Republic’s power struc",
+        "به ایران کمک کنید\nHelp Iran\nAidez l'Iran\nHilfe für Iran\nAiuta l'Iran\nAdiuva Iraniam\nHjelp Iran\nAuta ",
+        "What Israel does over the next few days and weeks will have a long-lasting effect on Iran-Israel rel",
+        "President Trump Must see this!\nThreatening the president live on TV.\ncalling him \"wild yellow dog\".!",
+        "Call me crazy, but I don't believe President Trump will break his promise."
+      ],
+      "expertTakes": [
+        {
+          "expert": "__Injaneb96",
+          "take": "Dear Americans,\n\nAli Ardeshir Larijani is a top-tier operative of the Islamic Republic’s power structure. He openly threatens the United States, your "
+        },
+        {
+          "expert": "Realneo101",
+          "take": "به ایران کمک کنید\nHelp Iran\nAidez l'Iran\nHilfe für Iran\nAiuta l'Iran\nAdiuva Iraniam\nHjelp Iran\nAuta Irania\nAyuda a Irán\nHjälp Iran\nAjude o Irã\nAjude o"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "What Israel does over the next few days and weeks will have a long-lasting effect on Iran-Israel relations. \nIf Israel remains on the sidelines while "
+        },
+        {
+          "expert": "Realneo101",
+          "take": "President Trump Must see this!\nThreatening the president live on TV.\ncalling him \"wild yellow dog\".!\n@FoxNews  @POTUS"
+        },
+        {
+          "expert": "__Injaneb96",
+          "take": "Call me crazy, but I don't believe President Trump will break his promise."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "events": [
+        "You promised…",
+        "90M Iranians cut off from the world in total internet blackout for 6+ days. No help, no voices, just",
+        "A message for President Trump from Tehran:\n\nThe people of Iran are waiting for you\n\n#IranMassacre \n#",
+        "سکوت شما یعنی حمایت از ظلم و ظالم.\n#نوید_افکاری\n#IranMassacre",
+        "When?\n#IranMassacre"
+      ],
+      "expertTakes": [
+        {
+          "expert": "Realneo101",
+          "take": "You promised…"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "90M Iranians cut off from the world in total internet blackout for 6+ days. No help, no voices, just silence and slaughter. This is a crime against hu"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "A message for President Trump from Tehran:\n\nThe people of Iran are waiting for you\n\n#IranMassacre \n#DigitalBlackoutIran"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "سکوت شما یعنی حمایت از ظلم و ظالم.\n#نوید_افکاری\n#IranMassacre"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "When?\n#IranMassacre"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "events": [
+        "I've mostly tweeted in Persian/Farsi so far, so most of my followers are Iranian. I'm switching to m",
+        "دوستان تمرکزتون رو بذارید روی #ErfanSoltani و ازش توییت بزنید. من همین الان یک توییت می‌زنم براش. تر",
+        "Mr. President, you have the power to stop Ehsan from being executed tomorrow.\nPlease Save his life @",
+        "Strike them, Mr. President, and strike hard. Liberating Iran from the Ayatollahs will be your enduri",
+        "Iranian Lives Matter."
+      ],
+      "expertTakes": [
+        {
+          "expert": "Realneo101",
+          "take": "I've mostly tweeted in Persian/Farsi so far, so most of my followers are Iranian. I'm switching to mostly English now to raise global awareness about "
+        },
+        {
+          "expert": "Realneo101",
+          "take": "دوستان تمرکزتون رو بذارید روی #ErfanSoltani و ازش توییت بزنید. من همین الان یک توییت می‌زنم براش. ترامپ حساسیت شدیدی روی این مورد توی مصاحبه‌ش نشون دا"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "Mr. President, you have the power to stop Ehsan from being executed tomorrow.\nPlease Save his life @POTUS \n\n#ErfanSoltani"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "Strike them, Mr. President, and strike hard. Liberating Iran from the Ayatollahs will be your enduring legacy, just as liberating the Jews from Babylo"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "Iranian Lives Matter."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "events": [
+        "خیلی جدی جدی قرآن سر نیزه کردن که نشون میده تا فتح خیمه موشعلی ده ضربت شمشیر بیشتر فاصله نداریم.",
+        "شاهزاده از گذاشتن پرچم صحبت کردند نه تسخیر\n“. در خارج از ایران، تمامی سفارت‌خانه‌ها و کنسولگری‌های ا",
+        "President Trump needs to see this!\n\n#DigitalBlackoutIran \n#IranMassacre",
+        "Ali Larijani, Khamenei’s National Security Council chief mocks President @realDonaldTrump \n““Trump s",
+        "Iran International reports, despite the blackout, it can confirm that on Sunday night Iranians in mo"
+      ],
+      "expertTakes": [
+        {
+          "expert": "SGhasseminejad",
+          "take": "خیلی جدی جدی قرآن سر نیزه کردن که نشون میده تا فتح خیمه موشعلی ده ضربت شمشیر بیشتر فاصله نداریم."
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "شاهزاده از گذاشتن پرچم صحبت کردند نه تسخیر\n“. در خارج از ایران، تمامی سفارت‌خانه‌ها و کنسولگری‌های ایران، متعلق به ملت ایران است، و زمان آن رسیده که ب"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "President Trump needs to see this!\n\n#DigitalBlackoutIran \n#IranMassacre"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "Ali Larijani, Khamenei’s National Security Council chief mocks President @realDonaldTrump \n““Trump says things like this a lot. Do not take him seriou"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "Iran International reports, despite the blackout, it can confirm that on Sunday night Iranians in more than 20 provinces went to streets in response t"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-11",
+      "events": [
+        "This must go viral.",
+        "help my people in Iran...\n\n#IranMassacre \n#DigitalBlackoutlran \n@marcorubio",
+        "Approximately 5,000 deaths have been confirmed in Iran.\nPlease help us.\nAct now.\n\n@POTUS \n#Iran \n#Di",
+        "A guest at VOA Persian told me that after a segment in which she spoke positively about Crown Prince",
+        "This is the real picture of  the national uprising in Iran."
+      ],
+      "expertTakes": [
+        {
+          "expert": "Realneo101",
+          "take": "This must go viral."
+        },
+        {
+          "expert": "Realneo101",
+          "take": "help my people in Iran...\n\n#IranMassacre \n#DigitalBlackoutlran \n@marcorubio"
+        },
+        {
+          "expert": "Realneo101",
+          "take": "Approximately 5,000 deaths have been confirmed in Iran.\nPlease help us.\nAct now.\n\n@POTUS \n#Iran \n#DigitalBlackoutlran"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "A guest at VOA Persian told me that after a segment in which she spoke positively about Crown Prince Reza Pahlavi, she received a phone call from the "
+        },
+        {
+          "expert": "SGhasseminejad",
+          "take": "This is the real picture of  the national uprising in Iran."
+        }
+      ]
+    }
+  ],
+  "topEngagement": [
+    {
+      "expert": "Realneo101",
+      "text": "This must go viral.",
+      "likes": 26208,
+      "date": "2026-01-11T11:54:59.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "Another evidence of Islamic Republic security forces shooting unarmed civilians point blank.",
+      "likes": 24525,
+      "date": "2026-01-16T02:26:14.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "A message from an Iranian mother:\n\"I am Dorsa Sattari’s mother.\nI am the mother of Iran.\nThey shot my daughter.\nI buried her in our own yard, tell the world she is safe.\nI will lie beside her soon.\"\n\n",
+      "likes": 17039,
+      "date": "2026-01-16T18:49:25.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "I've mostly tweeted in Persian/Farsi so far, so most of my followers are Iranian. I'm switching to mostly English now to raise global awareness about what's going on in Iran. If you're someone who wan",
+      "likes": 15645,
+      "date": "2026-01-13T23:31:27.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "Dear Americans,\n\nAli Ardeshir Larijani is a top-tier operative of the Islamic Republic’s power structure. He openly threatens the United States, your military, and your service members.\n\nAt the same t",
+      "likes": 14506,
+      "date": "2026-01-15T14:52:44.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "help my people in Iran...\n\n#IranMassacre \n#DigitalBlackoutlran \n@marcorubio",
+      "likes": 14372,
+      "date": "2026-01-11T19:02:26.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "به ایران کمک کنید\nHelp Iran\nAidez l'Iran\nHilfe für Iran\nAiuta l'Iran\nAdiuva Iraniam\nHjelp Iran\nAuta Irania\nAyuda a Irán\nHjälp Iran\nAjude o Irã\nAjude o Irão\nAjută Iranul\nПомогите Ирану\nPomagajte Iranu\n",
+      "likes": 11947,
+      "date": "2026-01-15T22:01:00.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "Yeah, pray in front of the door. Block people from leaving. Then scream  \"IsLaMoPhbIa\" the moment someone objects.\n\nThat’s very on brand.\nDon't hide your faith for this dunya, Allah blessed you with I",
+      "likes": 10636,
+      "date": "2026-01-16T18:40:41.000Z"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "text": "What Israel does over the next few days and weeks will have a long-lasting effect on Iran-Israel relations. \nIf Israel remains on the sidelines while the massacre and execution of Iranians continues, ",
+      "likes": 10352,
+      "date": "2026-01-15T10:27:28.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "You promised…",
+      "likes": 9775,
+      "date": "2026-01-14T21:04:09.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "President Trump Must see this!\nThreatening the president live on TV.\ncalling him \"wild yellow dog\".!\n@FoxNews  @POTUS",
+      "likes": 9696,
+      "date": "2026-01-15T19:45:49.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "Reports: Around 5,000 Iranian-backed Iraqi militiamen have entered Iran to suppress the people's uprising.\n#DigitalBlackoutIran \n#IranMassacre",
+      "likes": 9500,
+      "date": "2026-01-16T08:57:03.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "\"One man’s terrorist is another man’s freedom fighter\" \n@rogerwaters, it has been nine days since I last heard from my family and friends. I don't know if they are alive or already in a ditch.\n\nYou op",
+      "likes": 9019,
+      "date": "2026-01-16T20:48:57.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "Call me crazy, but I don't believe President Trump will break his promise.",
+      "likes": 8184,
+      "date": "2026-01-15T16:59:36.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "Proof: The Islamic Regime is dragging wounded patients out of hospital beds and executing them with point-blank headshots.\n\nTHIS MUST GO VIRAL.\n\n#IranMassacre",
+      "likes": 8009,
+      "date": "2026-01-16T11:09:13.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "Keep talking about Iran.\nPlease be our voice.\n#IranMassacre",
+      "likes": 7925,
+      "date": "2026-01-15T18:57:00.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "The killing of Melina Asadi, a 3-year-old Kurdish child from Kermanshah, as a result of indiscriminate gunfire by regime forces.\n\nMelina Asadi, a 3-year-old Kurdish girl from Kermanshah, lost her life",
+      "likes": 7670,
+      "date": "2026-01-16T22:17:23.000Z"
+    },
+    {
+      "expert": "__Injaneb96",
+      "text": "Mr President @POTUS,\n\nYou promised.",
+      "likes": 7584,
+      "date": "2026-01-17T00:00:07.000Z"
+    },
+    {
+      "expert": "Realneo101",
+      "text": "Approximately 5,000 deaths have been confirmed in Iran.\nPlease help us.\nAct now.\n\n@POTUS \n#Iran \n#DigitalBlackoutlran",
+      "likes": 7482,
+      "date": "2026-01-11T15:50:29.000Z"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "text": "Prosecutor of Tehran: \"Trump always spouts a lot of baseless nonsense, and he is dead wrong. Our response is decisive, deterrent, and swift.\"\nAli Salehi, the Prosecutor of Tehran, responding to the U.",
+      "likes": 7442,
+      "date": "2026-01-17T12:41:17.000Z"
+    }
+  ],
+  "keyQuotes": [
+    {
+      "expert": "__Injaneb96",
+      "quote": "Former US Ambassador to Israel:\nTrump will soon eliminate Khamenei.\nTrump's comments to @politico on needing new leadership in Iran, and Khamenei's mindless baiting of Trump on X, lead me to believe that Trump is going to try to kill the Supreme Leader this week.\n\nThere will soon",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "Why do you think that is?\nBingo. \nBecause they’re killing our people.\nThe Islamic Republic claims protesters are killed by “terrorists.” Yet, government rallies happen safely with zero casualties. If terrorists were real, why don’t they hit pro-regime gatherings? Because the real",
+      "topic": "protest"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "A message from an Iranian mother:\n\"I am Dorsa Sattari’s mother.\nI am the mother of Iran.\nThey shot my daughter.\nI buried her in our own yard, tell the world she is safe.\nI will lie beside her soon.\"\n\nIn Iran, parents take the lifeless bodies of their children home because they",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "President Trump has a chance to become a hero of our time.\nIf he brings an end to the Islamic Republic, history will remember him as the man who helped save billions of lives.",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "At every critical moment when Iranians are being slaughtered, Christiane Amanpour chooses to give her platform to Islamic Republic officials or their well-known apologists. This isn’t journalism. It is a pattern, and it deserves nothing but utter contempt.\nThat's why I intensely\n",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "We will never forget the role played by Iraqi neighbors who have repeatedly taken part in killing Iranians, from the Iran-Iraq war to today, as the regime wages war on its own people with outside help.\nIran will be free one day, and Iraq will be held accountable for participating",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "The Russian Federation should go fuck itself. \n#UNSecurityCouncil",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "Another threat from the Islamic Republic directed at President Trump:\n\nMohsen Rezaei, the former IRGC general commander and close ally of Supreme Leader Ali Khamenei, said:\n\n“Trump has his finger on the trigger; we will cut off his hand.”\n\n@POTUS @realDonaldTrump",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "France, Italy, and Spain are blocking efforts to designate the IRGC as a terrorist organization, effectively shielding a regime that practices terror.\n\nThis will remain a stain on their history. Remember this moment.",
+      "topic": "iran"
+    },
+    {
+      "expert": "__Injaneb96",
+      "quote": "Saturday, Jan 17 at 2-4 PM, Iranians gather in front of the White House in Washington DC to stand with Iranian freedom fighters.\n\nTheir voices will not be silenced.\nJoin us.",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "Wake up, World!\n#IranMassacre\nBREAKING: MULTIPLE SOURCES CLAIM ISLAMIST REGIME IN IRAN HAS USED A CHEMICAL WEAPON AGAINST ITS OWN PEOPLE\n\nThis would be a major escalation\nThere is no doubt this will provoke a world wide reaction",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "You can hear the agony and sheer pain in their voices — it’s as if they’re in hell. This is so disturbing… so painful… They’re chanting “Death to the dictator! Death to Khamenei! Khamenei, we will put you in the grave!”\n#IranMassacre \n#DigitalBlackoutIran",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "Proof: The Islamic Regime is dragging wounded patients out of hospital beds and executing them with point-blank headshots.\n\nTHIS MUST GO VIRAL.\n\n#IranMassacre",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "“Trump has said his hand is on the trigger. We will cut off his hand and his finger,” senior IRGC general and member of Iran’s Expediency Council, Mohsen Rezaei, said on Thursday, issuing a direct threat against US President Donald Trump.",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "President Trump Must see this!\nThreatening the president live on TV.\ncalling him \"wild yellow dog\".!\n@FoxNews  @POTUS",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "I can’t lose hope… not when the blood of thousands has been spilled in absolute darkness.\nI believe the LIGHT is coming.\nIt has to come.\n#IranMassacre \n#DigitalBlackoutIran",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "Holy shit. The Iranian regime is threatening on TV to assassinate Trump, saying 'this time we won't miss', which basically means they were behind the first attempt!",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "Only a few hours left... They're going to execute him at dawn, as soon as Fajr prayer time starts.\n#ErfanSoltani\nMAKE HIM FAMOUS! Erfan Soltani is scheduled to be executed by the Islamic Regime in Iran tomorrow (14th of January). We know Iran collapses under international pressur",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "Trump said that the United States will take \"very strong action\" in Iran: \n\n\"When they start killing thousands of people and now you're telling me about hanging [protesters], we'll see how that works out for them. It's not going to work out good.\"",
+      "topic": "iran"
+    },
+    {
+      "expert": "Realneo101",
+      "quote": "Tehran now\n\nPeople are chanting: \"This is the final battle, Pahlavi will return.\"\n\nThey also chanting: \"Live long the king.\"\n\n#IranRevolution\n#DigitalBlackoutIran",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanyahu, will defeat, overthrow, and destroy @khamenei_ir’s regime.",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "“In diplomacy, relations with the United States will be normalized and our friendship with America and her people will be restored. The State of Israel will be recognized immediately. We will pursue the expansion of the Abraham Accords into the Cyrus accords bringing together a\nT",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "What Israel does over the next few days and weeks will have a long-lasting effect on Iran-Israel relations. \nIf Israel remains on the sidelines while the massacre and execution of Iranians continues, it will shape Iranians’ perception of the Jewish state for generations.",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "Many of the DC crowd still fight tooth and nail to bury the facts and deceive decision-makers, and it is not just NIAC and Quincy. For years, they have been trying to silence me by getting me fired from my job at FDD because I refuse to conform and have been trying to inform the\n",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "Strike them, Mr. President, and strike hard. Liberating Iran from the Ayatollahs will be your enduring legacy, just as liberating the Jews from Babylon defined Cyrus the Great. Iranians do not need American boots on the ground; a nation is already on the ground fighting. What",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "In Tehran, protesters chant, “This is the year of blood! Seyed Ali will be toppled!”",
+      "topic": "protest"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "This is the real picture of the national uprising in Iran.",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "This is the real picture of  the national uprising in Iran.",
+      "topic": "iran"
+    },
+    {
+      "expert": "SGhasseminejad",
+      "quote": "Saturday night, in Tehran, protesters chant, “This is the last battle! Pahlavi will return.”\nDespite the massacre of the last three nights, Iranians are still standing.",
+      "topic": "iran"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-01-17T20:16:32.780Z",
+  "breakingNews": "Israeli Channel 12, quoting senior US officials, says that an attack on Iran will happen and that it is only a matter of time.",
+  "synthesis": [
+    {
+      "topic": "Regime Change",
+      "expertConsensus": "3 experts agree on the importance of regime change",
+      "expertPositions": [
+        {
+          "expert": "AriAramesh",
+          "position": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, "
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "position": "One of the failures of U.S. #Iran policy over decades was the granting of visas and green cards to the Islamic Republic's elite and IR sympathizers wh"
+        },
+        {
+          "expert": "ksadjadpour",
+          "position": "2 Amidst the regime’s imposed information blackout firsthand accounts are beginning to trickle out from Iranians who’ve left the country"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "topic": "Protests",
+      "expertConsensus": "3 experts agree on the importance of protests",
+      "expertPositions": [
+        {
+          "expert": "AriAramesh",
+          "position": "Former President of Stanford Law Review @KhalessiDaniel and I make the case for intervention to strike the Iranian regime and why abandoning the prote"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "position": "Today #Iran's regime's supreme leader gave public remarks where he labeled President Trump a \"criminal\" and blamed him for the protests--which is clas"
+        },
+        {
+          "expert": "ksadjadpour",
+          "position": "1 For perspective, the Islamic Republic has already killed far more protestors (perhaps as much as 5X) in the last two weeks then were killed over the"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "topic": "Trump/US Policy",
+      "expertConsensus": "3 experts agree on the importance of trump/us policy",
+      "expertPositions": [
+        {
+          "expert": "AriAramesh",
+          "position": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, "
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "position": "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for n"
+        },
+        {
+          "expert": "ksadjadpour",
+          "position": "Trump believes his three major gambles on Iran--leaving the JCPOA (2018), killing Soleimani (2020), and bombing of nuclear facilities (2025)--were all"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "topic": "Supreme Leader",
+      "expertConsensus": "3 experts agree on the importance of supreme leader",
+      "expertPositions": [
+        {
+          "expert": "AriAramesh",
+          "position": "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over 12,000.   I spoke to the brilliant @beverleyturne"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "position": "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for n"
+        },
+        {
+          "expert": "ksadjadpour",
+          "position": "1 Ayatollah Khamenei has been taunting Trump for several days now, calling him a \"tyrant\" who \"will be overthrown.\" This may prove to be another misca"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "topic": "IRGC",
+      "expertConsensus": "Experts have varying views",
+      "expertPositions": [
+        {
+          "expert": "JasonMBrodsky",
+          "position": "#Argentina has proscribed #IRGCterrorists-Quds Force as a terrorist organization. But the UK and EU still haven't even taken this small step against o"
+        },
+        {
+          "expert": "ksadjadpour",
+          "position": "8 Siamak Namazi, an Iranian-American businessman held hostage by the regime for eight years, compared the regime to “a collection of competing mafias—"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "draftTweets": [
+    {
+      "english": "Analysis: Regime Change - Iran policy experts note 3 experts agree on the importance of regime change. Amid reports: \"Israeli Channel 12, quoting senior US officials, says that an attack on Iran wil...\"",
+      "persian": "تحلیل: رژیم Change - کارشناسان سیاست ایران 3 کارشناسان agree on the importance of رژیم change. در پی گزارش‌ها: \"Israeli Channel 12, quoting senior US officials, says that a...\"",
+      "theme": "Regime Change",
+      "basedOn": [
+        "@AriAramesh",
+        "@JasonMBrodsky",
+        "@ksadjadpour"
+      ]
+    },
+    {
+      "english": "Analysis: Protests - Iran policy experts note 3 experts agree on the importance of protests. Amid reports: \"Israeli Channel 12, quoting senior US officials, says that an attack on Iran wil...\"",
+      "persian": "تحلیل: اعتراضات - کارشناسان سیاست ایران 3 کارشناسان agree on the importance of اعتراضات. در پی گزارش‌ها: \"Israeli Channel 12, quoting senior US officials, says that a...\"",
+      "theme": "Protests",
+      "basedOn": [
+        "@AriAramesh",
+        "@JasonMBrodsky",
+        "@ksadjadpour"
+      ]
+    },
+    {
+      "english": "Analysis: Trump/US Policy - Iran policy experts note 3 experts agree on the importance of trump/us policy. Amid reports: \"Israeli Channel 12, quoting senior US officials, says that an attack on Iran wil...\"",
+      "persian": "تحلیل: ترامپ/US Policy - کارشناسان سیاست ایران 3 کارشناسان agree on the importance of ترامپ/us policy. در پی گزارش‌ها: \"Israeli Channel 12, quoting senior US officials, says that a...\"",
+      "theme": "Trump/US Policy",
+      "basedOn": [
+        "@AriAramesh",
+        "@JasonMBrodsky",
+        "@ksadjadpour"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "batch_scraping_config": {
+    "title": "Faytuks Priority Media Acquisition",
+    "description": "Batch configuration for acquiring critical images",
+    "created": "2026-01-17",
+    
+    "priority_1_critical": {
+      "description": "Must have immediately - used in most common tweets",
+      "searches": [
+        {
+          "query": "Cinema Rex Abadan 1978 fire",
+          "source": "google",
+          "output": "./media/events/cinema-rex-1978",
+          "tags": ["cinema_rex", "1978", "fire", "abadan"]
+        },
+        {
+          "query": "Cinema Rex Iran fire سینما رکس آبادان",
+          "source": "google",
+          "output": "./media/events/cinema-rex-1978",
+          "tags": ["cinema_rex", "persian"]
+        },
+        {
+          "query": "Treaty of Turkmenchay 1828 signing",
+          "source": "google",
+          "output": "./media/events/turkmenchay-1828",
+          "tags": ["turkmenchay", "1828", "russia", "treaty"]
+        },
+        {
+          "query": "Treaty_of_Turkmenchay",
+          "source": "wikipedia",
+          "output": "./media/events/turkmenchay-1828",
+          "tags": ["turkmenchay", "wikipedia"]
+        },
+        {
+          "query": "Turkmenchay treaty map Iran Russia",
+          "source": "wikimedia",
+          "output": "./media/maps/turkmenchay-loss",
+          "tags": ["turkmenchay", "map", "territory"]
+        },
+        {
+          "query": "Guadeloupe Conference 1979 Carter",
+          "source": "google",
+          "output": "./media/events/guadeloupe-1979",
+          "tags": ["guadeloupe", "1979", "carter", "western_betrayal"]
+        },
+        {
+          "query": "Rasht Iran protest 2026",
+          "source": "twitter",
+          "output": "./media/current/rasht-2026",
+          "tags": ["rasht", "2026", "current", "protest"]
+        }
+      ]
+    },
+    
+    "priority_2_high": {
+      "description": "Important historical context - use within first week",
+      "searches": [
+        {
+          "query": "Iran Constitutional Revolution 1906 Majlis",
+          "source": "google",
+          "output": "./media/historical/1906-1953",
+          "tags": ["constitutional", "1906", "majlis", "mashruteh"]
+        },
+        {
+          "query": "Iranian_Constitutional_Revolution",
+          "source": "wikipedia",
+          "output": "./media/historical/1906-1953",
+          "tags": ["constitutional", "1906", "wikipedia"]
+        },
+        {
+          "query": "Mohammad Mossadegh Iran",
+          "source": "google",
+          "output": "./media/figures/mossadegh",
+          "tags": ["mossadegh", "1951", "1953"]
+        },
+        {
+          "query": "Mohammad_Mosaddegh",
+          "source": "wikipedia",
+          "output": "./media/figures/mossadegh",
+          "tags": ["mossadegh", "wikipedia"]
+        },
+        {
+          "query": "1953 Iran coup Operation Ajax",
+          "source": "google",
+          "output": "./media/historical/1906-1953",
+          "tags": ["coup", "1953", "ajax", "cia"]
+        },
+        {
+          "query": "Khomeini return Tehran 1979 Air France",
+          "source": "google",
+          "output": "./media/historical/1979-revolution",
+          "tags": ["khomeini", "1979", "return"]
+        },
+        {
+          "query": "Iran revolution 1979 demonstrations Tehran",
+          "source": "google",
+          "output": "./media/historical/1979-revolution",
+          "tags": ["revolution", "1979", "demonstration"]
+        },
+        {
+          "query": "Women march Iran March 1979 hijab",
+          "source": "google",
+          "output": "./media/historical/1979-revolution",
+          "tags": ["women", "1979", "hijab", "march"]
+        },
+        {
+          "query": "Reza Pahlavi Crown Prince 2024",
+          "source": "google",
+          "output": "./media/figures/pahlavi-dynasty",
+          "tags": ["pahlavi", "reza", "current", "opposition"]
+        },
+        {
+          "query": "Black Friday Jaleh Square 1978 Iran",
+          "source": "google",
+          "output": "./media/events/black-friday-1978",
+          "tags": ["black_friday", "1978", "massacre", "jaleh"]
+        }
+      ]
+    },
+    
+    "priority_3_medium": {
+      "description": "Build library over time",
+      "searches": [
+        {
+          "query": "Abbas Mirza Qajar prince portrait",
+          "source": "google",
+          "output": "./media/figures/qajar",
+          "tags": ["abbas_mirza", "qajar", "turkmenchay"]
+        },
+        {
+          "query": "Iran Iraq war Khuzestan 1980",
+          "source": "google",
+          "output": "./media/historical/1980-1988",
+          "tags": ["iran_iraq_war", "khuzestan", "1980"]
+        },
+        {
+          "query": "Green Movement Iran 2009",
+          "source": "google",
+          "output": "./media/historical/1989-2009",
+          "tags": ["green_movement", "2009"]
+        },
+        {
+          "query": "Neda Agha-Soltan 2009",
+          "source": "google",
+          "output": "./media/figures/victims",
+          "tags": ["neda", "2009", "martyr", "green_movement"]
+        },
+        {
+          "query": "Mahsa Amini protests 2022",
+          "source": "google",
+          "output": "./media/historical/2022-mahsa",
+          "tags": ["mahsa_amini", "2022", "woman_life_freedom"]
+        },
+        {
+          "query": "Iran ethnic groups map",
+          "source": "google",
+          "output": "./media/maps/ethnic-distribution",
+          "tags": ["ethnic", "map", "diversity"]
+        },
+        {
+          "query": "Persian Empire historical map",
+          "source": "wikimedia",
+          "output": "./media/maps/iran-historical",
+          "tags": ["historical", "empire", "map"]
+        },
+        {
+          "query": "Silk Road Iran China trade route map",
+          "source": "google",
+          "output": "./media/maps/silk-road",
+          "tags": ["silk_road", "china", "trade", "historical"]
+        },
+        {
+          "query": "November 2019 Iran protests Bloody Aban",
+          "source": "google",
+          "output": "./media/events/bloody-november-2019",
+          "tags": ["bloody_november", "2019", "aban"]
+        }
+      ]
+    },
+    
+    "twitter_monitoring": {
+      "description": "Ongoing Twitter scraping for current events",
+      "queries": [
+        {
+          "query": "Iran protest 2026",
+          "frequency": "daily",
+          "output": "./media/current/protests"
+        },
+        {
+          "query": "Rasht massacre",
+          "frequency": "daily",
+          "output": "./media/current/rasht-2026"
+        },
+        {
+          "query": "#IranRevolution",
+          "frequency": "daily",
+          "output": "./media/current/protests"
+        },
+        {
+          "query": "from:IHRights Iran",
+          "frequency": "daily",
+          "output": "./media/current/documentation"
+        },
+        {
+          "query": "from:HengawO",
+          "frequency": "daily",
+          "output": "./media/current/documentation"
+        }
+      ]
+    }
+  },
+  
+  "execution_instructions": {
+    "step_1": "Run critical priority searches first",
+    "step_2": "Review downloaded images for quality and relevance",
+    "step_3": "Move approved images to proper directories",
+    "step_4": "Update metadata.json with new entries",
+    "step_5": "Run high priority searches",
+    "step_6": "Set up daily Twitter monitoring",
+    
+    "commands": {
+      "run_critical": "./media_scripts.sh batch batch_config_critical.json",
+      "run_high": "./media_scripts.sh batch batch_config_high.json",
+      "run_all": "python media_scraper.py batch --config media_batch_config.json"
+    }
+  }
+}

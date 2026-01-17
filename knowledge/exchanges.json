@@ -1,0 +1,93 @@
+{
+  "trump_khamenei": {
+    "description": "Twitter/Social media war between Trump and Iranian leadership",
+    "trump_statements": [
+      {
+        "date": "2026-01-02",
+        "platform": "Truth Social",
+        "quote": "If Iran shots and violently kills peaceful protesters, which is their custom, the United States of America will come to their rescue. We are locked and loaded and ready to go."
+      },
+      {
+        "date": "2026-01-02",
+        "platform": "Truth Social",
+        "quote": "Effective immediately, any Country doing business with the Islamic Republic of Iran will pay a Tariff of 25% on any and all business being done with the United States of America."
+      },
+      {
+        "date": "2026-01-14",
+        "platform": "Various",
+        "quote": "It's time to look for new leadership in Iran."
+      },
+      {
+        "date": "2026-01-14",
+        "platform": "Various",
+        "quote": "The man is a sick man who should run his country properly and stop killing people."
+      },
+      {
+        "date": "2026-01-17",
+        "platform": "Truth Social",
+        "quote": "I greatly respect the fact that all scheduled hangings, which were to take place yesterday (Over 800 of them), have been cancelled by the leadership of Iran. Thank you!"
+      }
+    ],
+    "khamenei_statements": [
+      {
+        "date": "2026-01-09",
+        "context": "Friday speech",
+        "quote": "Trump should know that world tyrants such as Pharaoh, Nimrod, Reza Shah and Mohammad Reza were brought down at the peak of their arrogance. He too will be brought down."
+      },
+      {
+        "date": "2026-01-14",
+        "context": "Public address",
+        "quote": "We find the US President guilty due to the casualties, damages and slander he inflicted upon the Iranian nation."
+      },
+      {
+        "date": "2026-01-14",
+        "context": "Public address",
+        "quote": "The Iranian nation has defeated America."
+      }
+    ],
+    "iran_counter_threats": [
+      {
+        "official": "Mohammad Bagher Ghalibaf",
+        "position": "Parliament Speaker",
+        "quote": "The disrespectful President of America should also know that with this official statement, all American centers and forces across the entire region will be legitimate targets for us in response to any potential actions."
+      },
+      {
+        "official": "Ali Shamkhani",
+        "position": "Adviser to Supreme Leader",
+        "quote": "Any interventionist hand that gets too close to the security of Iran will be cut."
+      }
+    ],
+    "sources": ["NPR", "Washington Examiner", "Iran International", "NBC News"]
+  },
+  "pahlavi_pbd": {
+    "description": "Tension between Crown Prince Reza Pahlavi and Patrick Bet-David",
+    "timeline": [
+      {
+        "date": "2026-01-09",
+        "speaker": "Patrick Bet-David",
+        "context": "X/Twitter",
+        "quote": "Intervene or don't intervene? On Monday in your WSJ interview you said don't intervene. Make up your mind."
+      },
+      {
+        "date": "2026-01",
+        "speaker": "Patrick Bet-David",
+        "context": "Podcast/X",
+        "quote": "No one is the enemy of Mohammad Reza Pahlavi. His son doesn't want the job and you guys keep acting like he does. It's been 47 years. Do you want to wait another 47 years?"
+      },
+      {
+        "date": "2026-01",
+        "speaker": "Patrick Bet-David",
+        "context": "Podcast",
+        "issue": "Pahlavi did not respond to PBD's messages - seen but not answered"
+      },
+      {
+        "date": "2026-01-17",
+        "speaker": "Patrick Bet-David",
+        "context": "X via Mario Nawfal",
+        "quote": "This is the Crown Prince's final chance to lead Iran. Reza Pahlavi, though imperfect, has been strong in recent days. For that, he deserves credit."
+      }
+    ],
+    "core_criticism": "Pahlavi backed Israeli strikes on Iran but opposed US intervention - perceived inconsistency",
+    "sources": ["X/Twitter", "PBD Podcast"]
+  }
+}

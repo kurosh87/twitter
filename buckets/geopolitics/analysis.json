@@ -1,0 +1,690 @@
+{
+  "bucket": "geopolitics",
+  "analyzedAt": "2026-01-17T22:55:08.565Z",
+  "totalTweets": 370,
+  "experts": [
+    {
+      "handle": "AriAramesh",
+      "name": "Ari Aramesh",
+      "tweetCount": 19
+    },
+    {
+      "handle": "JasonMBrodsky",
+      "name": "Jason Brodsky",
+      "tweetCount": 351
+    }
+  ],
+  "themes": [
+    {
+      "topic": "Regime Change",
+      "mentions": 89,
+      "experts": {
+        "AriAramesh": [
+          "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  باید قاطعانه حمله کند، رژیم را سر ببُرد (دیکپیتیشن) و",
+          "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, ",
+          "دانیال خالصی، رئیس پیشین Stanford Law Review، و من در این مقاله استدلال می‌کنیم که چرا مداخله برای ضربه زدن به رژیم ایران ضروری است و چرا رها کردن معت"
+        ],
+        "JasonMBrodsky": [
+          "I agree. It's very much a possibility the U.S. tries to take out Khamenei. And @SaeidGolkar and I wrote an essay during the 12-Day War describing pote",
+          "One of the failures of U.S. #Iran policy over decades was the granting of visas and green cards to the Islamic Republic's elite and IR sympathizers wh",
+          "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for n"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "AriAramesh",
+          "text": "President @realDonaldTrump: the time to act is NOW.\n\nI’ve spoken with people inside Iran using rare Starlink access. They can’t hold on for more than a few days. The regime has cut the internet and th",
+          "engagement": 8844
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "text": "Very powerful scenes of @AlinejadMasih and @radiojibi confronting #Iran's regime's mission at the UNSC today (it notably didn't send the permanent rep but one of his deputies). This was a good idea fo",
+          "engagement": 9016
+        }
+      ]
+    },
+    {
+      "topic": "Trump/US Policy",
+      "mentions": 54,
+      "experts": {
+        "AriAramesh": [
+          "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  باید قاطعانه حمله کند، رژیم را سر ببُرد (دیکپیتیشن) و",
+          "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, ",
+          "Former President of Stanford Law Review @KhalessiDaniel and I make the case for intervention to strike the Iranian regime and why abandoning the prote"
+        ],
+        "JasonMBrodsky": [
+          "\"Vice President JD Vance...supported strikes on #Iran, a U.S. official and a person close to the White House said. Vance reasoned that Trump had drawn",
+          "I agree. It's very much a possibility the U.S. tries to take out Khamenei. And @SaeidGolkar and I wrote an essay during the 12-Day War describing pote",
+          "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for n"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "AriAramesh",
+          "text": "President @realDonaldTrump: the time to act is NOW.\n\nI’ve spoken with people inside Iran using rare Starlink access. They can’t hold on for more than a few days. The regime has cut the internet and th",
+          "engagement": 8844
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "text": "I declare the names of the main killers of the people of #Iran, below which include members of its Supreme National Security Council (SNSC). All should be sanctioned and indicted.\n\n(1) Ali Khamenei\n(2",
+          "engagement": 9353
+        }
+      ]
+    },
+    {
+      "topic": "Protests",
+      "mentions": 35,
+      "experts": {
+        "AriAramesh": [
+          "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  باید قاطعانه حمله کند، رژیم را سر ببُرد (دیکپیتیشن) و",
+          "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, ",
+          "دانیال خالصی، رئیس پیشین Stanford Law Review، و من در این مقاله استدلال می‌کنیم که چرا مداخله برای ضربه زدن به رژیم ایران ضروری است و چرا رها کردن معت"
+        ],
+        "JasonMBrodsky": [
+          "\"Vice President JD Vance...supported strikes on #Iran, a U.S. official and a person close to the White House said. Vance reasoned that Trump had drawn",
+          "There's a history of Khamenei speeches taunting President Trump not working out well for him:\nToday #Iran's regime's supreme leader gave public remark",
+          "Today #Iran's regime's supreme leader gave public remarks where he labeled President Trump a \"criminal\" and blamed him for the protests--which is clas"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "AriAramesh",
+          "text": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, and cripple their command, control, and communicat",
+          "engagement": 2961
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "text": "This is a revealing statement during Friday Prayers in #Iran, with interim Friday Prayer in Tehran Leader Ahmad Khatami calling for the death penalty for protesters. Despite Araghchi's reassurances, t",
+          "engagement": 2891
+        }
+      ]
+    },
+    {
+      "topic": "Military Strike",
+      "mentions": 18,
+      "experts": {
+        "AriAramesh": [
+          "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, ",
+          "دانیال خالصی، رئیس پیشین Stanford Law Review، و من در این مقاله استدلال می‌کنیم که چرا مداخله برای ضربه زدن به رژیم ایران ضروری است و چرا رها کردن معت",
+          "Former President of Stanford Law Review @KhalessiDaniel and I make the case for intervention to strike the Iranian regime and why abandoning the prote"
+        ],
+        "JasonMBrodsky": [
+          "\"Vice President JD Vance...supported strikes on #Iran, a U.S. official and a person close to the White House said. Vance reasoned that Trump had drawn",
+          "I agree. It's very much a possibility the U.S. tries to take out Khamenei. And @SaeidGolkar and I wrote an essay during the 12-Day War describing pote",
+          "\"Israeli officials think that despite the delay, a U.S. military strike could take place in the coming days.\"\nScoop: Trump and Netanyahu discussed Ira"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "AriAramesh",
+          "text": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, and cripple their command, control, and communicat",
+          "engagement": 2961
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "text": "President Trump says he's in contact with \"opposition leaders\" of #Iran and that you'll see his message soon. The president is really keeping everyone on their toes: potential military strikes, potent",
+          "engagement": 1023
+        }
+      ]
+    },
+    {
+      "topic": "IRGC",
+      "mentions": 13,
+      "experts": {
+        "JasonMBrodsky": [
+          "#Argentina has proscribed #IRGCterrorists-Quds Force as a terrorist organization. But the UK and EU still haven't even taken this small step against o",
+          "\"Iran's governor-generals are unaffiliated with the IRGC and mostly dislike the regime.\" Really? I don't think so. They're all creatures of the regime",
+          "No surprise. Spain has been awful on these issues for years. I believe #IRGCterrorists and #Iran regime business elites have interests there which con"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "JasonMBrodsky",
+          "text": "Incredible scenes of Iranians destroying #Iran regime police vehicles. The police commander has traditionally been an #IRGCterrorists officer. These Iranians are telegraphing to the world who their en",
+          "engagement": 4249
+        }
+      ]
+    },
+    {
+      "topic": "Supreme Leader",
+      "mentions": 11,
+      "experts": {
+        "AriAramesh": [
+          "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over 12,000.   I spoke to the brilliant @beverleyturne"
+        ],
+        "JasonMBrodsky": [
+          "I agree. It's very much a possibility the U.S. tries to take out Khamenei. And @SaeidGolkar and I wrote an essay during the 12-Day War describing pote",
+          "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for n",
+          "There's a history of Khamenei speeches taunting President Trump not working out well for him:\nToday #Iran's regime's supreme leader gave public remark"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "AriAramesh",
+          "text": "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over 12,000.   I spoke to the brilliant @beverleyturner about US options to help the protesters: “decapi",
+          "engagement": 2579
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "text": "I declare the names of the main killers of the people of #Iran, below which include members of its Supreme National Security Council (SNSC). All should be sanctioned and indicted.\n\n(1) Ali Khamenei\n(2",
+          "engagement": 9353
+        }
+      ]
+    },
+    {
+      "topic": "Sanctions",
+      "mentions": 7,
+      "experts": {
+        "JasonMBrodsky": [
+          "I think the sanctions on #Iran's SNSC Secretary Ali Larijani, whom I recommended for sanctions in my @spectator piece this week, is a signal from the ",
+          "#BREAKING: the U.S. announces sanctions on #Iran's regime, including notably sanctions on SNSC Secretary Ali Larijani who hasn't been sanctioned to da",
+          "I called on the U.S. to sanction Ali Larijani in my piece in @spectator this week:"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "JasonMBrodsky",
+          "text": "I declare the names of the main killers of the people of #Iran, below which include members of its Supreme National Security Council (SNSC). All should be sanctioned and indicted.\n\n(1) Ali Khamenei\n(2",
+          "engagement": 9353
+        }
+      ]
+    },
+    {
+      "topic": "Nuclear Program",
+      "mentions": 4,
+      "experts": {
+        "JasonMBrodsky": [
+          "\"The US envoy says a diplomatic agreement with #Iran would address four issues: “(1) nuclear enrichment, (2) missiles — they have to cut back on their",
+          "The UK Foreign Secretary: \"Further measures will target finance, energy, transport, software, and other significant industries which are advancing Ira",
+          "NYT reports the Pentagon is presenting a wider ranger of strike options to President Trump against #Iran's regime, including nuclear and ballistic mis"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "JasonMBrodsky",
+          "text": "Meeting with the Iranian regime right now would be the worst thing the Trump administration could do. It would be construed as an external intervention on the side of #Iran's regime while the Iranian ",
+          "engagement": 1708
+        }
+      ]
+    },
+    {
+      "topic": "Negotiations",
+      "mentions": 1,
+      "experts": {
+        "JasonMBrodsky": [
+          "But the president indicates they might have to act before the meeting.\nNOW - Trump says Iranian leaders called him yesterday and \"they want to negotia"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "JasonMBrodsky",
+          "text": "But the president indicates they might have to act before the meeting.\nNOW - Trump says Iranian leaders called him yesterday and \"they want to negotiate... a meeting is being set up, but we may have t",
+          "engagement": 129
+        }
+      ]
+    },
+    {
+      "topic": "Regime Collapse",
+      "mentions": 1,
+      "experts": {
+        "JasonMBrodsky": [
+          "\"before deciding on the scope of a potential attack.\" Mirrors what Sen. Graham said, it's not a question of if but how big.\nPresident Trump was told t"
+        ]
+      },
+      "sentiment": "neutral",
+      "keyTweets": [
+        {
+          "expert": "JasonMBrodsky",
+          "text": "\"before deciding on the scope of a potential attack.\" Mirrors what Sen. Graham said, it's not a question of if but how big.\nPresident Trump was told that an attack on Iran would not guarantee a collap",
+          "engagement": 57
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-01-17",
+      "events": [
+        "The White House says it is “reviewing’’ the immigration situation of Iranians like Ali Larijani's da",
+        "This is an unprecedented statement for an American president to make. President Trump just called fo",
+        "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing noth",
+        "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  بای",
+        "Here the Tehran Prosecutor Ali Salehi taunts President Trump's announcement of #Iran's regime haltin"
+      ],
+      "expertTakes": [
+        {
+          "expert": "JasonMBrodsky",
+          "take": "The White House says it is “reviewing’’ the immigration situation of Iranians like Ali Larijani's daughter who gained benefits under the Biden adminis"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for n"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, "
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  باید قاطعانه حمله کند، رژیم را سر ببُرد (دیکپیتیشن) و"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Here the Tehran Prosecutor Ali Salehi taunts President Trump's announcement of #Iran's regime halting the execution of 800 people  saying he \"talks no"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "events": [
+        "This is a revealing statement during Friday Prayers in #Iran, with interim Friday Prayer in Tehran L",
+        "It's very Trumpian. I think we should stay tuned.\nI don’t buy it.",
+        "I think people hang onto every statement, Truth Social post, and news report without fully appreciat",
+        "\"Israeli officials think that despite the delay, a U.S. military strike could take place in the comi",
+        "The U.S. and its allies should make clear to #Iran's regime: as long as there is no internet connect"
+      ],
+      "expertTakes": [
+        {
+          "expert": "JasonMBrodsky",
+          "take": "This is a revealing statement during Friday Prayers in #Iran, with interim Friday Prayer in Tehran Leader Ahmad Khatami calling for the death penalty "
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "It's very Trumpian. I think we should stay tuned.\nI don’t buy it."
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "I think people hang onto every statement, Truth Social post, and news report without fully appreciating there has been an extensive psyop targeting #I"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "\"Israeli officials think that despite the delay, a U.S. military strike could take place in the coming days.\"\nScoop: Trump and Netanyahu discussed Ira"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "The U.S. and its allies should make clear to #Iran's regime: as long as there is no internet connectivity for the Iranian people, there will be no vis"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "events": [
+        "Very powerful scenes of @AlinejadMasih and @radiojibi confronting #Iran's regime's mission at the UN",
+        "اگر می‌خوای کسی رو قانع کنی که آمریکا باید دخالت کنه، با احساسات جلو نرو.\nدولت آمریکا بنیاد خیریه نی",
+        "دانیال خالصی، رئیس پیشین Stanford Law Review، و من در این مقاله استدلال می‌کنیم که چرا مداخله برای ض",
+        "Former President of Stanford Law Review @KhalessiDaniel and I make the case for intervention to stri",
+        "Beyond parody. Iran’s regime has had a chance since 1979. And President Trump knows it.\nJUST IN \n\nA "
+      ],
+      "expertTakes": [
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Very powerful scenes of @AlinejadMasih and @radiojibi confronting #Iran's regime's mission at the UNSC today (it notably didn't send the permanent rep"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "اگر می‌خوای کسی رو قانع کنی که آمریکا باید دخالت کنه، با احساسات جلو نرو.\nدولت آمریکا بنیاد خیریه نیست. سیاست خارجی با دل‌سوزی و Sympathy تصمیم‌گیری ن"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "دانیال خالصی، رئیس پیشین Stanford Law Review، و من در این مقاله استدلال می‌کنیم که چرا مداخله برای ضربه زدن به رژیم ایران ضروری است و چرا رها کردن معت"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "Former President of Stanford Law Review @KhalessiDaniel and I make the case for intervention to strike the Iranian regime and why abandoning the prote"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Beyond parody. Iran’s regime has had a chance since 1979. And President Trump knows it.\nJUST IN \n\nA senior Saudi official told AFP that Saudi Arabia, "
+        }
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "events": [
+        "Helping Iranians isn’t charity; it’s in America’s  interest. If you actually want Iranians to decide",
+        "Here #Iran’s regime’s chief justice, who once literally bit a reporter, is calling for immediate pun",
+        "Word salad. Not answering the question. The Iranian regime's strategy in uncomfortable situations is",
+        "CAUTION: graphic and horrific video from Jan. 9 via @Vahid of a young man in Karaj, #Iran after bein",
+        "This was a bad interview for Araghchi. Here he says he \"hasn't heard\" if there will be hangings in #"
+      ],
+      "expertTakes": [
+        {
+          "expert": "AriAramesh",
+          "take": "Helping Iranians isn’t charity; it’s in America’s  interest. If you actually want Iranians to decide their own future, you don’t stand back, you remov"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Here #Iran’s regime’s chief justice, who once literally bit a reporter, is calling for immediate punishment of protesters."
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Word salad. Not answering the question. The Iranian regime's strategy in uncomfortable situations is to admit nothing, deny everything, and deflect sp"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "CAUTION: graphic and horrific video from Jan. 9 via @Vahid of a young man in Karaj, #Iran after being shot in the head and legs by the Islamic Republi"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "This was a bad interview for Araghchi. Here he says he \"hasn't heard\" if there will be hangings in #Iran \"today or tomorrow or whatever.\" When asked a"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "events": [
+        "I declare the names of the main killers of the people of #Iran, below which include members of its S",
+        "«سقوط حکومت اسلامی به نفع ایالات متحده و جهان آزاد خواهد بود، و مردم ایران وضعیت بهتری خواهند داشت.»",
+        "This is truly a historic tweet by @POTUS. It's looking more and more like the U.S. is adopting a reg",
+        "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over",
+        "Good Truth Social post. No meetings with #Iran’s regime. Take over institutions and keep protesting."
+      ],
+      "expertTakes": [
+        {
+          "expert": "JasonMBrodsky",
+          "take": "I declare the names of the main killers of the people of #Iran, below which include members of its Supreme National Security Council (SNSC). All shoul"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "«سقوط حکومت اسلامی به نفع ایالات متحده و جهان آزاد خواهد بود، و مردم ایران وضعیت بهتری خواهند داشت.»  تا امروز، دوازده‌هزار ۱۲۰۰۰معترض توسط رژیم به قت"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "This is truly a historic tweet by @POTUS. It's looking more and more like the U.S. is adopting a regime change policy in #Iran. But not regime change "
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over 12,000.   I spoke to the brilliant @beverleyturne"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Good Truth Social post. No meetings with #Iran’s regime. Take over institutions and keep protesting. Help is on the way."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "events": [
+        "Mr. President @POTUS: Look out your window. Look at Lafayette Park. Look at the four corners. You’ll",
+        "آقای رئیس‌جمهور، از پنجره بیرون را ببینید. به پارک لافایت نگاه کنید. به چهار گوشه‌اش نگاه کنید. آنجا",
+        "WSJ: \"Trump currently favors attacking #Iran, officials said...\" Mr. President, do it. Your instinct",
+        "So a professor at none other than @Columbia uses his platform there to promote narratives that serve",
+        "Meeting with the Iranian regime right now would be the worst thing the Trump administration could do"
+      ],
+      "expertTakes": [
+        {
+          "expert": "AriAramesh",
+          "take": "Mr. President @POTUS: Look out your window. Look at Lafayette Park. Look at the four corners. You’ll see Lafayette, Rochambeau, Kościuszko, and von St"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "آقای رئیس‌جمهور، از پنجره بیرون را ببینید. به پارک لافایت نگاه کنید. به چهار گوشه‌اش نگاه کنید. آنجا مجسمه‌های لافایت، روشمبو، کوشیوشکو و فون اشتوبن ر"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "WSJ: \"Trump currently favors attacking #Iran, officials said...\" Mr. President, do it. Your instincts on the Iranians have been right since you've tak"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "So a professor at none other than @Columbia uses his platform there to promote narratives that serve the interests of #Iran's regime while insulting t"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Meeting with the Iranian regime right now would be the worst thing the Trump administration could do. It would be construed as an external interventio"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-11",
+      "events": [
+        "President @realDonaldTrump: the time to act is NOW.\n\nI’ve spoken with people inside Iran using rare ",
+        "Incredible scenes of Iranians destroying #Iran regime police vehicles. The police commander has trad",
+        "I was young when I left Iran. \n\nI always felt more American. Enough to want to serve this country. E",
+        "Horrifying footage from Kahrizak Medical Examiner's Office in Tehran, #Iran. This was on Thursday, J",
+        "آقای رئیس‌جمهور ترامپ: زمان اقدام، همین حالاست.\n\nمن با افرادی داخل ایران که با دسترسی نادر استارلینک"
+      ],
+      "expertTakes": [
+        {
+          "expert": "AriAramesh",
+          "take": "President @realDonaldTrump: the time to act is NOW.\n\nI’ve spoken with people inside Iran using rare Starlink access. They can’t hold on for more than "
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Incredible scenes of Iranians destroying #Iran regime police vehicles. The police commander has traditionally been an #IRGCterrorists officer. These I"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "I was young when I left Iran. \n\nI always felt more American. Enough to want to serve this country. Enough that my life, my future, my sense of belongi"
+        },
+        {
+          "expert": "JasonMBrodsky",
+          "take": "Horrifying footage from Kahrizak Medical Examiner's Office in Tehran, #Iran. This was on Thursday, January 8. The Islamic Republic is engaged in a mas"
+        },
+        {
+          "expert": "AriAramesh",
+          "take": "آقای رئیس‌جمهور ترامپ: زمان اقدام، همین حالاست.\n\nمن با افرادی داخل ایران که با دسترسی نادر استارلینک ارتباط دارند صحبت کرده‌ام. آن‌ها بیش از چند روز د"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "events": [
+        "President Trump likes the footage of the Iranian in London raising the Lion and the Sun flag above #"
+      ],
+      "expertTakes": [
+        {
+          "expert": "JasonMBrodsky",
+          "take": "President Trump likes the footage of the Iranian in London raising the Lion and the Sun flag above #Iran's regime's embassy. "
+        }
+      ]
+    }
+  ],
+  "topEngagement": [
+    {
+      "expert": "JasonMBrodsky",
+      "text": "The White House says it is “reviewing’’ the immigration situation of Iranians like Ali Larijani's daughter who gained benefits under the Biden administration — as The Post revealed viral online petiti",
+      "likes": 13359,
+      "date": "2026-01-17T13:19:36.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "Mr. President @POTUS: Look out your window. Look at Lafayette Park. Look at the four corners. You’ll see Lafayette, Rochambeau, Kościuszko, and von Steuben, two Frenchmen, one Polish patriot, and one ",
+      "likes": 13305,
+      "date": "2026-01-12T13:41:53.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "Helping Iranians isn’t charity; it’s in America’s  interest. If you actually want Iranians to decide their own future, you don’t stand back, you remove the boot from their neck.\n\nکمک به مردم ایران صدق",
+      "likes": 9745,
+      "date": "2026-01-14T14:15:08.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "I declare the names of the main killers of the people of #Iran, below which include members of its Supreme National Security Council (SNSC). All should be sanctioned and indicted.\n\n(1) Ali Khamenei\n(2",
+      "likes": 9353,
+      "date": "2026-01-13T17:21:53.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "Very powerful scenes of @AlinejadMasih and @radiojibi confronting #Iran's regime's mission at the UNSC today (it notably didn't send the permanent rep but one of his deputies). This was a good idea fo",
+      "likes": 9016,
+      "date": "2026-01-15T20:49:49.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "President @realDonaldTrump: the time to act is NOW.\n\nI’ve spoken with people inside Iran using rare Starlink access. They can’t hold on for more than a few days. The regime has cut the internet and th",
+      "likes": 8844,
+      "date": "2026-01-11T16:22:06.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "«سقوط حکومت اسلامی به نفع ایالات متحده و جهان آزاد خواهد بود، و مردم ایران وضعیت بهتری خواهند داشت.»  تا امروز، دوازده‌هزار ۱۲۰۰۰معترض توسط رژیم به قتل رسید‌ه‌اند \n\nآرش آرامش می‌گوید سقوط رژیم ایران ب",
+      "likes": 6621,
+      "date": "2026-01-13T13:09:16.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "President Trump likes the footage of the Iranian in London raising the Lion and the Sun flag above #Iran's regime's embassy. ",
+      "likes": 5205,
+      "date": "2026-01-10T23:05:06.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "This is an unprecedented statement for an American president to make. President Trump just called for regime change in #Iran: \"It's time to look for new leadership in Iran.\" He also reacted to Khamene",
+      "likes": 4839,
+      "date": "2026-01-17T16:37:23.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "اگر می‌خوای کسی رو قانع کنی که آمریکا باید دخالت کنه، با احساسات جلو نرو.\nدولت آمریکا بنیاد خیریه نیست. سیاست خارجی با دل‌سوزی و Sympathy تصمیم‌گیری نمی‌کنه.\n\nباید خیلی شفاف بگی:\nاین کار چه نفعی برای ",
+      "likes": 4457,
+      "date": "2026-01-15T22:41:14.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "Incredible scenes of Iranians destroying #Iran regime police vehicles. The police commander has traditionally been an #IRGCterrorists officer. These Iranians are telegraphing to the world who their en",
+      "likes": 4249,
+      "date": "2026-01-11T22:29:09.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "This is truly a historic tweet by @POTUS. It's looking more and more like the U.S. is adopting a regime change policy in #Iran. But not regime change in the sense that the U.S. is choosing Iran's lead",
+      "likes": 3874,
+      "date": "2026-01-13T15:02:44.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "آقای رئیس‌جمهور، از پنجره بیرون را ببینید. به پارک لافایت نگاه کنید. به چهار گوشه‌اش نگاه کنید. آنجا مجسمه‌های لافایت، روشمبو، کوشیوشکو و فون اشتوبن را می‌بینید؛ دو فرانسوی، یک میهن‌دوست لهستانی و یک ",
+      "likes": 3675,
+      "date": "2026-01-12T13:42:57.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, and cripple their command, control, and communicat",
+      "likes": 2961,
+      "date": "2026-01-17T13:05:57.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "I was young when I left Iran. \n\nI always felt more American. Enough to want to serve this country. Enough that my life, my future, my sense of belonging were built entirely here.\n\nI never went back.\n\n",
+      "likes": 2898,
+      "date": "2026-01-11T14:21:21.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "This is a revealing statement during Friday Prayers in #Iran, with interim Friday Prayer in Tehran Leader Ahmad Khatami calling for the death penalty for protesters. Despite Araghchi's reassurances, t",
+      "likes": 2891,
+      "date": "2026-01-16T12:35:08.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  باید قاطعانه حمله کند، رژیم را سر ببُرد (دیکپیتیشن) و سامانه‌های فرماندهی، کنترل و ارتباطات آن را فلج ک",
+      "likes": 2742,
+      "date": "2026-01-17T14:32:09.000Z"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "text": "Horrifying footage from Kahrizak Medical Examiner's Office in Tehran, #Iran. This was on Thursday, January 8. The Islamic Republic is engaged in a massacre of the Iranian people. The Iranian people ne",
+      "likes": 2619,
+      "date": "2026-01-11T15:00:33.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over 12,000.   I spoke to the brilliant @beverleyturner about US options to help the protesters: “decapi",
+      "likes": 2579,
+      "date": "2026-01-13T13:04:46.000Z"
+    },
+    {
+      "expert": "AriAramesh",
+      "text": "آقای رئیس‌جمهور ترامپ: زمان اقدام، همین حالاست.\n\nمن با افرادی داخل ایران که با دسترسی نادر استارلینک ارتباط دارند صحبت کرده‌ام. آن‌ها بیش از چند روز دیگر دوام نمی‌آورند. رژیم اینترنت را قطع کرده و کشت",
+      "likes": 2445,
+      "date": "2026-01-11T16:24:05.000Z"
+    }
+  ],
+  "keyQuotes": [
+    {
+      "expert": "AriAramesh",
+      "quote": "ترامپ همین حالا هم دیر کرده، اما ضربه زدن به رژیم ایران—حتی اگر دیر—بهتر از هیچ کاری نکردن است.  باید قاطعانه حمله کند، رژیم را سر ببُرد (دیکپیتیشن) و سامانه‌های فرماندهی، کنترل و ارتباطات آن را فلج کند. شکستن کمر رژیم و سرنگونی آن در راستای منافع ملی ایالات‌متحده است.\n'He's alre",
+      "topic": "iran"
+    },
+    {
+      "expert": "AriAramesh",
+      "quote": "President Trump is ALREADY LATE but hitting the Iranian regime, even late, is better than doing nothing.  must strike hard and decapitate the regime, and cripple their command, control, and communications.\n'He's already too late... These guys mowed down 20,000 peaceful protesters",
+      "topic": "iran"
+    },
+    {
+      "expert": "AriAramesh",
+      "quote": "Former President of Stanford Law Review @KhalessiDaniel and I make the case for intervention to strike the Iranian regime and why abandoning the protesters now would have disastrous consequences for the United States \nToday, @AriAramesh and I have co-authored a piece together on ",
+      "topic": "iran"
+    },
+    {
+      "expert": "AriAramesh",
+      "quote": "«سقوط حکومت اسلامی به نفع ایالات متحده و جهان آزاد خواهد بود، و مردم ایران وضعیت بهتری خواهند داشت.»  تا امروز، دوازده‌هزار ۱۲۰۰۰معترض توسط رژیم به قتل رسید‌ه‌اند \n\nآرش آرامش می‌گوید سقوط رژیم ایران به نفع مردم ایران و همچنین به سود امنیت جهانی خواهد بود\n'The US will be better of",
+      "topic": "iran"
+    },
+    {
+      "expert": "AriAramesh",
+      "quote": "As of this morning , the correct number of protesters murdered by the Islamic regime in Iran is over 12,000.   I spoke to the brilliant @beverleyturner about US options to help the protesters: “decapitate the regime by eliminating Khamenei.”\n'The US will be better off, the free w",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "\"Vice President JD Vance...supported strikes on #Iran, a U.S. official and a person close to the White House said. Vance reasoned that Trump had drawn a red line by warning Iran not to kill protesters and had to enforce it.\"\n\n\"The president will have another opportunity to sign",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "I agree. It's very much a possibility the U.S. tries to take out Khamenei. And @SaeidGolkar and I wrote an essay during the 12-Day War describing potential scenarios if #Iran's regime's supreme leader was eliminated:\nhttps://spectator.com/article/will-israel-kill-irans-supreme-le",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "One of the failures of U.S. #Iran policy over decades was the granting of visas and green cards to the Islamic Republic's elite and IR sympathizers while Americans were held hostage and the regime plotted to kill Americans. I will never understand what the U.S. government was\nThe",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "Senior US officials tells Israel's Channel 12 that: \"The attack will happen; it’s only a matter of time. The United States is preparing for action.\"",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "Here the Tehran Prosecutor Ali Salehi taunts President Trump's announcement of #Iran's regime halting the execution of 800 people  saying he \"talks nonsense,\" \"should mind his own business,\" and that the authorities' response will be \"decisive, deterrent, and swift.\" The Iran MFA",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "I think people hang onto every statement, Truth Social post, and news report without fully appreciating there has been an extensive psyop targeting #Iran's regime over the last week, especially as the U.S. buys time to move military assets into the CENTCOM theater.",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "It's very Trumpian. I think we should stay tuned.\nI don’t buy it.",
+      "topic": "trump"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "The U.S. and its allies should make clear to #Iran's regime: as long as there is no internet connectivity for the Iranian people, there will be no visas, no meetings, and you will be isolated diplomatically.\nIran plans to extend its ongoing nationwide internet blackout, which has",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "Bravo: The Munich Security Conference has withdrawn invitations previously sent to #Iran's government representatives, and no official from Iran will attend the upcoming event.",
+      "topic": "iran"
+    },
+    {
+      "expert": "JasonMBrodsky",
+      "quote": "In targeting #Iran's regime, \"The movements are part of what officials described as a process of \"setting the force.\" One well-placed source said if the president decides to carry out military action, \"This will be different, more offensive.\"\n\nThis fits President Trump's pattern",
+      "topic": "iran"
+    }
+  ]
+}

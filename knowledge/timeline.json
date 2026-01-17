@@ -1,0 +1,114 @@
+{
+  "revolution_2026": {
+    "start": "2025-12-28",
+    "name": "The 2025-2026 Iranian Revolution",
+    "trigger": "Rial crashes to 1.42M/$, Tehran Grand Bazaar protests",
+    "events": [
+      {
+        "date": "2025-12-28",
+        "event": "Protests erupt at Tehran Grand Bazaar",
+        "details": "Shopkeepers shutter shops, demonstrate against rial collapse",
+        "deaths": null,
+        "source": "ABC News"
+      },
+      {
+        "date": "2025-12-29",
+        "event": "Central Bank head Farzin resigns",
+        "details": "Protests spread to other cities, tear gas deployed",
+        "deaths": null,
+        "source": "Al Jazeera"
+      },
+      {
+        "date": "2025-12-31",
+        "event": "Fasa protests turn violent",
+        "details": "Crowds break into governor's office",
+        "deaths": null,
+        "source": "ABC News"
+      },
+      {
+        "date": "2026-01-02",
+        "event": "Trump: 'Locked and loaded'",
+        "details": "Trump warns US will rescue protesters if Iran kills them. 100+ locations in 22 provinces.",
+        "deaths": 15,
+        "source": "NPR, HRANA"
+      },
+      {
+        "date": "2026-01-03",
+        "event": "Khamenei green-lights crackdown",
+        "details": "'Rioters must be put in their place.' 170+ locations, 25 provinces.",
+        "deaths": 36,
+        "source": "Iran International"
+      },
+      {
+        "date": "2026-01-06",
+        "event": "Grand Bazaar sit-in dispersed",
+        "details": "280+ locations in 27 provinces",
+        "deaths": 36,
+        "source": "Wikipedia"
+      },
+      {
+        "date": "2026-01-08",
+        "event": "INTERNET BLACKOUT BEGINS",
+        "details": "97% internet drop at 20:30 IRST. Worst shutdown in Iran history.",
+        "deaths": 100,
+        "source": "NetBlocks, Wikipedia"
+      },
+      {
+        "date": "2026-01-09",
+        "event": "Pahlavi calls for overnight protest",
+        "details": "Mass window-shouting, street protests despite blackout",
+        "deaths": null,
+        "source": "ABC News"
+      },
+      {
+        "date": "2026-01-10",
+        "event": "AG: Protesters = 'enemy of God'",
+        "details": "Death penalty warning issued. Two-week mark.",
+        "deaths": 116,
+        "source": "CNN"
+      },
+      {
+        "date": "2026-01-11",
+        "event": "Death toll accelerates",
+        "details": "HRANA reports 544 dead",
+        "deaths": 544,
+        "source": "HRANA"
+      },
+      {
+        "date": "2026-01-12",
+        "event": "Pro-regime counter-demonstrations",
+        "details": "Regime mobilizes supporters",
+        "deaths": 646,
+        "source": "HRANA"
+      },
+      {
+        "date": "2026-01-13",
+        "event": "Starlink made free, toll surpasses 2,500",
+        "details": "Musk waives fees for Iranian users",
+        "deaths": 2500,
+        "source": "CNN, HRANA"
+      },
+      {
+        "date": "2026-01-14",
+        "event": "Iran promises retaliation",
+        "details": "Fast trials and executions announced. Trump responds.",
+        "deaths": null,
+        "source": "Iran International"
+      },
+      {
+        "date": "2026-01-16",
+        "event": "Iran jams Starlink with electronic warfare",
+        "details": "30% packet loss reported",
+        "deaths": null,
+        "source": "NYT via Iran International"
+      },
+      {
+        "date": "2026-01-17",
+        "event": "Leaked death toll: 12,000+",
+        "details": "Figure from presidential office and Supreme National Security Council",
+        "deaths": 12000,
+        "source": "Iran International"
+      }
+    ]
+  }
+}

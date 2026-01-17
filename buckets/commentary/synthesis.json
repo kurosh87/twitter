@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-01-17T20:48:45.417Z",
+  "breakingNews": "Israeli Channel 12, quoting senior US officials, says that an attack on Iran will happen and that it is only a matter of time.",
+  "synthesis": [
+    {
+      "topic": "Protests",
+      "expertConsensus": "Experts have varying views",
+      "expertPositions": [
+        {
+          "expert": "Realneo101",
+          "position": "This guy's one of the terrorists who attacked Iranians with a knife in Hamburg during their protest against the Islamic regime."
+        },
+        {
+          "expert": "SGhasseminejad",
+          "position": "Protests are ongoing in Iran; if they weren’t, the regime wouldn’t have shut down the internet and phone lines. This is the best opportunity in 47 yea"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "topic": "Regime Change",
+      "expertConsensus": "Experts have varying views",
+      "expertPositions": [
+        {
+          "expert": "Realneo101",
+          "position": "This guy's one of the terrorists who attacked Iranians with a knife in Hamburg during their protest against the Islamic regime."
+        },
+        {
+          "expert": "SGhasseminejad",
+          "position": "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanya"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "topic": "Trump/US Policy",
+      "expertConsensus": "3 experts agree on the importance of trump/us policy",
+      "expertPositions": [
+        {
+          "expert": "__Injaneb96",
+          "position": "Again, call me crazy but I don't believe President Trump has backed down from \"hitting them hard\". He is planning something big.\n\n#IranMassacare \n#Ira"
+        },
+        {
+          "expert": "Realneo101",
+          "position": "BREAKING: Trump calls for fresh leadership in Iran.\n#DigitalBlackoutIran"
+        },
+        {
+          "expert": "SGhasseminejad",
+          "position": "Prosecutor of Tehran: \"Trump always spouts a lot of baseless nonsense, and he is dead wrong. Our response is decisive, deterrent, and swift.\"\nAli Sale"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "topic": "Supreme Leader",
+      "expertConsensus": "3 experts agree on the importance of supreme leader",
+      "expertPositions": [
+        {
+          "expert": "__Injaneb96",
+          "position": "The Supreme Leader of Islamic Republic, Ali Khamenei, believes he has defeated the US.\n\n#IranMassacare\n#IranRevolution2026\nThe US had made extensive p"
+        },
+        {
+          "expert": "Realneo101",
+          "position": "You can hear the agony and sheer pain in their voices — it’s as if they’re in hell. This is so disturbing… so painful… They’re chanting “Death to the "
+        },
+        {
+          "expert": "SGhasseminejad",
+          "position": "Mark my words: this year the Iranian people, led by Crown Prince @PahlaviReza with support from President @realDonaldTrump and Prime Minister @netanya"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "topic": "Military Strike",
+      "expertConsensus": "Experts have varying views",
+      "expertPositions": [
+        {
+          "expert": "SGhasseminejad",
+          "position": "Strike them, Mr. President, and strike hard. Liberating Iran from the Ayatollahs will be your enduring legacy, just as liberating the Jews from Babylo"
+        }
+      ],
+      "confidence": "low"
+    }
+  ],
+  "draftTweets": [
+    {
+      "english": "Analysis: Protests - Iran policy experts note experts have varying views. Amid reports: \"Israeli Channel 12, quoting senior US officials, says that an attack on Iran wil...\"",
+      "persian": "تحلیل: اعتراضات - کارشناسان سیاست ایران کارشناسان have varying views. در پی گزارش‌ها: \"Israeli Channel 12, quoting senior US officials, says that a...\"",
+      "theme": "Protests",
+      "basedOn": [
+        "@Realneo101",
+        "@SGhasseminejad"
+      ]
+    },
+    {
+      "english": "Analysis: Regime Change - Iran policy experts note experts have varying views. Amid reports: \"Israeli Channel 12, quoting senior US officials, says that an attack on Iran wil...\"",
+      "persian": "تحلیل: رژیم Change - کارشناسان سیاست ایران کارشناسان have varying views. در پی گزارش‌ها: \"Israeli Channel 12, quoting senior US officials, says that a...\"",
+      "theme": "Regime Change",
+      "basedOn": [
+        "@Realneo101",
+        "@SGhasseminejad"
+      ]
+    },
+    {
+      "english": "Analysis: Trump/US Policy - Iran policy experts note 3 experts agree on the importance of trump/us policy. Amid reports: \"Israeli Channel 12, quoting senior US officials, says that an attack on Iran wil...\"",
+      "persian": "تحلیل: ترامپ/US Policy - کارشناسان سیاست ایران 3 کارشناسان agree on the importance of ترامپ/us policy. در پی گزارش‌ها: \"Israeli Channel 12, quoting senior US officials, says that a...\"",
+      "theme": "Trump/US Policy",
+      "basedOn": [
+        "@__Injaneb96",
+        "@Realneo101",
+        "@SGhasseminejad"
+      ]
+    }
+  ]
+}

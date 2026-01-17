@@ -1,0 +1,283 @@
+{
+  "multiplatform_guide": {
+    "title": "Faytuks Multi-Platform Adaptation Guide",
+    "description": "Same message, different formats for different platforms",
+    
+    "platforms": {
+      
+      "twitter_x": {
+        "name": "Twitter/X",
+        "priority": 1,
+        "primary": true,
+        "specs": {
+          "character_limit": 280,
+          "thread_support": true,
+          "hashtag_limit": "1-2 recommended",
+          "media": "Images, videos, GIFs",
+          "link_preview": true
+        },
+        "audience": {
+          "description": "News junkies, journalists, policy community, Iranian diaspora activists",
+          "tone": "News-forward, analytical, urgent",
+          "engagement_peak": "8-10 AM EST, 6-9 PM EST"
+        },
+        "best_for": [
+          "Breaking news",
+          "Threads for deep analysis",
+          "Engaging journalists and policymakers",
+          "Real-time event coverage"
+        ],
+        "avoid": [
+          "Excessive hashtags (looks spammy)",
+          "Overly emotional language",
+          "Threads longer than 10 tweets"
+        ],
+        "example": {
+          "breaking": "BREAKING: 70+ bodies at Poursina Hospital in Rasht. Eyewitnesses report security forces trapped protesters in bazaar, set fire. Iran Human Rights documenting. This is Cinema Rex 2.0.",
+          "thread_hook": "1978: Islamists burn Cinema Rex, kill 420, blame Shah. 2026: Same people burn Rasht Bazaar, kill protesters, blame 'rioters.' A thread on 47 years of fire. 🧵"
+        }
+      },
+      
+      "instagram": {
+        "name": "Instagram",
+        "priority": 2,
+        "primary": false,
+        "specs": {
+          "caption_limit": 2200,
+          "visible_caption": "125 characters before 'more'",
+          "hashtag_limit": "5-15 in caption or first comment",
+          "media_required": true,
+          "carousel_max": 10,
+          "story_duration": "15 seconds per slide"
+        },
+        "audience": {
+          "description": "Younger diaspora, visual-first users, less politically engaged but emotionally available",
+          "tone": "Emotional, visual, accessible, educational",
+          "engagement_peak": "11 AM - 1 PM, 7-9 PM EST"
+        },
+        "best_for": [
+          "Victim memorials (photo + story)",
+          "Infographics and data visualization",
+          "Educational content (carousel format)",
+          "Emotional appeals"
+        ],
+        "avoid": [
+          "Breaking news (slow for news)",
+          "Dense analytical threads",
+          "Text-only posts (algorithm punishes)"
+        ],
+        "content_types": {
+          "carousel_educational": {
+            "description": "10-slide educational carousels",
+            "example_topics": [
+              "Why Iran Isn't Iraq (10 slides)",
+              "The Cinema Rex - Rasht Parallel (8 slides)",
+              "1906-2026: Iran's Fight for Democracy (10 slides)"
+            ],
+            "design_notes": "Bold text, dark backgrounds, minimal text per slide, sources on final slide"
+          },
+          "single_image_memorial": {
+            "description": "Victim photo (if available) or name graphic",
+            "format": "Name in Persian and English, age, city, brief story",
+            "design_notes": "Dignified, not graphic, candle or memorial aesthetic"
+          },
+          "story_sequence": {
+            "description": "Quick updates, behind-the-scenes, calls to action",
+            "format": "15-second slides with text overlay",
+            "use_for": "Urgent updates, directing to main post"
+          }
+        },
+        "hashtag_strategy": {
+          "always_include": ["#IranRevolution", "#MahsaAmini", "#WomanLifeFreedom"],
+          "situation_specific": ["#Rasht", "#CinemaRex", "#IranProtests2026"],
+          "discovery": ["#Iran", "#HumanRights", "#FreeIran"],
+          "placement": "First comment to keep caption clean"
+        },
+        "example_caption": "She was 28 years old.\n\nNegin Ghadimi (نگین قدیمی) died in her father's arms in Shahsavar on January 10. Shot for wanting freedom.\n\nThe regime calls her a 'rioter.' Her family calls her a hero.\n\nSay her name. Remember her. 🕯️\n\n#RememberNegin #IranRevolution #WomanLifeFreedom"
+      },
+      
+      "threads": {
+        "name": "Threads",
+        "priority": 3,
+        "primary": false,
+        "specs": {
+          "character_limit": 500,
+          "thread_support": true,
+          "hashtag_support": "Limited functionality",
+          "media": "Images, videos",
+          "link_preview": true
+        },
+        "audience": {
+          "description": "Instagram overflow, less political, discovering news through social",
+          "tone": "Conversational, accessible, less jargon",
+          "engagement_peak": "Similar to Instagram"
+        },
+        "best_for": [
+          "Simplified explainers",
+          "Cross-posting from Twitter with added context",
+          "Younger audience outreach"
+        ],
+        "adaptation_notes": [
+          "Take Twitter thread, expand each tweet with more context",
+          "Less assumed knowledge - explain terms",
+          "More conversational, less news-wire style"
+        ],
+        "example": {
+          "twitter_original": "1978: Islamists burn Cinema Rex, kill 420, blame Shah. 2026: Same regime burns Rasht, kills protesters, blame 'rioters.' Same fire. Same lies.",
+          "threads_adapted": "In 1978, someone set fire to a movie theater in Iran called Cinema Rex. 420 people burned alive. The revolutionaries blamed the Shah's secret police.\n\nDecades later, we learned the truth: it was actually Islamic militants who did it. The same people who took power months later.\n\nFast forward to January 2026. Protesters in the city of Rasht are trapped in a bazaar. Security forces set it on fire. 70+ bodies.\n\nThe government says protesters did it to themselves.\n\nSame lie. 47 years apart."
+        }
+      },
+      
+      "telegram": {
+        "name": "Telegram",
+        "priority": 4,
+        "primary": false,
+        "specs": {
+          "character_limit": 4096,
+          "formatting": "Markdown, bold, italic, links",
+          "media": "All types, large files",
+          "channel_vs_group": "Channels for broadcast, groups for discussion"
+        },
+        "audience": {
+          "description": "Persian-speaking diaspora, Iranians with VPN inside, activist networks",
+          "tone": "Direct, urgent, can be more detailed",
+          "language": "Bilingual English/Persian ideal"
+        },
+        "best_for": [
+          "Persian-language content",
+          "Longer analysis pieces",
+          "Document sharing",
+          "Reaching Iranians inside (with VPN)"
+        ],
+        "content_types": {
+          "daily_digest": {
+            "description": "Morning summary of overnight events",
+            "format": "Bilingual, bullet points, sources linked"
+          },
+          "deep_analysis": {
+            "description": "Long-form pieces not suitable for Twitter",
+            "format": "Full article format with headers"
+          },
+          "urgent_alerts": {
+            "description": "Breaking news for rapid spread",
+            "format": "Short, shareable, bilingual"
+          }
+        },
+        "example": "🔴 گزارش فوری | URGENT REPORT\n\n**انگلیسی | English:**\n70+ bodies confirmed at Poursina Hospital, Rasht. Eyewitnesses report security forces trapped protesters in bazaar, set fire.\n\n**فارسی | Persian:**\nبیش از ۷۰ جسد در بیمارستان پورسینای رشت تأیید شد. شاهدان عینی گزارش می‌دهند نیروهای امنیتی معترضان را در بازار محاصره کرده و آتش زدند.\n\nSource: Iran Human Rights\n\n#رشت #IranProtests"
+      },
+      
+      "youtube": {
+        "name": "YouTube",
+        "priority": 5,
+        "primary": false,
+        "specs": {
+          "formats": "Long-form, Shorts (60 sec)",
+          "description_limit": 5000,
+          "tags": "Up to 500 characters total"
+        },
+        "audience": {
+          "description": "People seeking deeper understanding, documentary-style content",
+          "tone": "Educational, authoritative, visual storytelling"
+        },
+        "best_for": [
+          "Documentary-style explainers",
+          "Historical context videos",
+          "Compilation of footage from inside Iran",
+          "Shorts for viral moments"
+        ],
+        "content_types": {
+          "shorts": {
+            "description": "60-second vertical videos",
+            "topics": [
+              "Cinema Rex in 60 seconds",
+              "Why Iran isn't Iraq",
+              "Who is Reza Pahlavi?"
+            ]
+          },
+          "explainers": {
+            "description": "10-20 minute deep dives",
+            "topics": [
+              "1979: How Khomeini Stole the Revolution",
+              "The Rasht Massacre Explained",
+              "2,500 Years in 20 Minutes: Iranian Identity"
+            ]
+          }
+        }
+      }
+    },
+    
+    "cross_posting_workflow": {
+      "description": "How to adapt one piece of content across platforms",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Create Twitter version first (most constrained)",
+          "output": "280-char tweet or thread"
+        },
+        {
+          "step": 2,
+          "action": "Expand for Threads",
+          "output": "Add context, explain terms, conversational"
+        },
+        {
+          "step": 3,
+          "action": "Create Instagram visual",
+          "output": "Carousel or single image with adapted caption"
+        },
+        {
+          "step": 4,
+          "action": "Translate/adapt for Telegram",
+          "output": "Bilingual version with full links"
+        },
+        {
+          "step": 5,
+          "action": "Consider YouTube Short if visual",
+          "output": "60-second vertical video with narration"
+        }
+      ]
+    },
+    
+    "platform_priority_by_content_type": {
+      "breaking_news": ["Twitter", "Telegram", "Threads"],
+      "victim_memorial": ["Instagram", "Twitter", "Telegram"],
+      "historical_analysis": ["Twitter thread", "YouTube", "Telegram"],
+      "counter_propaganda": ["Twitter", "Threads", "Telegram"],
+      "educational_explainer": ["Instagram carousel", "YouTube", "Threads"]
+    }
+  },
+  
+  "visual_templates": {
+    "description": "Specifications for visual content creation",
+    
+    "instagram_carousel": {
+      "dimensions": "1080x1080 or 1080x1350",
+      "slides": "8-10 recommended",
+      "text_per_slide": "30-50 words maximum",
+      "font": "Bold, sans-serif, high contrast",
+      "colors": {
+        "background": "Dark (regime content), Light (hope content)",
+        "text": "White on dark, Black on light",
+        "accent": "Green (Iran flag), or #8B0000 (blood/martyrdom)"
+      }
+    },
+    
+    "twitter_image": {
+      "dimensions": "1200x675 (16:9) or 1200x1200 (1:1)",
+      "text": "Minimal - tweet carries the message",
+      "use_for": "Data visualization, maps, victim memorials"
+    },
+    
+    "story_template": {
+      "dimensions": "1080x1920 (9:16)",
+      "text_safe_zone": "Middle 60% (avoid top/bottom)",
+      "duration": "15 seconds max per slide"
+    }
+  },
+  
+  "accessibility": {
+    "alt_text": "Always include for images",
+    "captions": "Required for all video content",
+    "color_contrast": "WCAG AA minimum",
+    "reading_level": "Aim for general audience comprehension"
+  }
+}

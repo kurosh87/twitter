@@ -1,0 +1,414 @@
+{
+  "narratives": [
+    {
+      "id": "massacre_ongoing",
+      "title": "The Ongoing Massacre",
+      "persianTitle": "کشتار در جریان",
+      "description": "Documenting the regime's mass killings, executions, hospital raids, and chemical weapons use",
+      "status": "active",
+      "priority": 5,
+      "keyFacts": [
+        "12,000+ killed since Dec 28, 2025",
+        "Mass executions daily",
+        "Hospitals raided, doctors kidnapped",
+        "Chemical weapons used in Tehran, Mashhad"
+      ],
+      "relatedCategories": ["massacre"],
+      "relatedActors": ["khamenei"],
+      "tweetAngle": "Document the death toll, name the crime as genocide, never let the world forget",
+      "hashtags": ["#IranMassacre", "#IranRevolution2026"],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "internet_blackout",
+      "title": "Digital Blackout & Starlink Lifeline",
+      "persianTitle": "قطع اینترنت و نجات استارلینک",
+      "description": "Regime's attempt to hide massacre through internet blackout, and how Starlink is breaking through",
+      "status": "active",
+      "priority": 4,
+      "keyFacts": [
+        "Total internet blackout since ~Jan 10, 2026",
+        "Starlink primary connection for activists/journalists",
+        "Videos still leaking despite blackout",
+        "NetBlocks confirming connectivity at 0%"
+      ],
+      "relatedCategories": ["infrastructure"],
+      "relatedActors": ["musk", "netblocks"],
+      "tweetAngle": "Technology vs tyranny - truth finding a way despite regime's efforts",
+      "hashtags": ["#DigitalBlackoutIran", "#Starlink"],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "trump_khamenei_twitter",
+      "title": "Trump vs Khamenei Twitter War",
+      "persianTitle": "جنگ توییتری ترامپ و خامنه‌ای",
+      "description": "The back-and-forth between Trump and Khamenei on social media as regime crumbles",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "Khamenei mocking Trump from hiding",
+        "Trump responding with threats and support for people",
+        "Tit-for-tat escalation daily",
+        "Khamenei reportedly in eastern Iran bunker"
+      ],
+      "relatedCategories": ["international", "regime_action"],
+      "relatedActors": ["trump", "khamenei"],
+      "tweetAngle": "Regime desperate - hiding in bunker while talking tough on Twitter",
+      "hashtags": ["#Iran"],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "pahlavi_leadership",
+      "title": "Crown Prince Pahlavi Emerges as Leader",
+      "persianTitle": "پهلوی به عنوان رهبر",
+      "description": "The Crown Prince's role coordinating protests, strikes, and serving as interim leader candidate",
+      "status": "active",
+      "priority": 4,
+      "keyFacts": [
+        "'Javid Shah' chants in streets across Iran",
+        "Called for 3-day strike Jan 18-20",
+        "Nightly protest calls at 8pm",
+        "Patrick Bet-David interview disagreements"
+      ],
+      "relatedCategories": ["resistance"],
+      "relatedActors": ["pahlavi", "patrick_bet_david"],
+      "tweetAngle": "Opposition coalescing around legitimate heir - people choosing their future",
+      "hashtags": ["#جاویدشاه", "#IranRevolution2026"],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "khamenei_escape",
+      "title": "Khamenei's Fate - Bunker, Russia, or Death?",
+      "persianTitle": "سرنوشت خامنه‌ای - پناهگاه، روسیه یا مرگ",
+      "description": "Speculation and reports about what will happen to the Supreme Leader",
+      "status": "developing",
+      "priority": 3,
+      "keyFacts": [
+        "Reports of bunker in eastern Iran",
+        "Speculation about Russia escape route",
+        "Counter-narrative: will go down with the ship",
+        "No public appearances, only Twitter",
+        "Health concerns (age 86)"
+      ],
+      "relatedCategories": ["regime_action"],
+      "relatedActors": ["khamenei"],
+      "tweetAngle": "Rat fleeing sinking ship, or captain going down? Either way, end is near",
+      "hashtags": ["#خامنه‌ای", "#Iran"],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "western_silence",
+      "title": "Western Hypocrites' Deafening Silence",
+      "persianTitle": "سکوت کر کننده منافقان غربی",
+      "description": "Documenting how Western 'progressives' who loudly condemned Israel are silent on Iran's massacre",
+      "status": "active",
+      "priority": 2,
+      "keyFacts": [
+        "Greenwald: extensive Gaza coverage, zero Iran",
+        "Hasan Piker: daily Israel content, no Iran",
+        "Roger Waters: concerts against Israel, silent on Iran",
+        "TYT/Cenk: same selective outrage pattern",
+        "12,000+ dead and they say nothing"
+      ],
+      "relatedCategories": [],
+      "relatedActors": ["greenwald", "hasan_piker", "roger_waters", "cenk_uygur"],
+      "tweetAngle": "Not whataboutism - exposing selective humanity. Where are the 'humanitarians' now?",
+      "hashtags": ["#Iran"],
+      "frequency": "1 in 5 tweets max",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "diaspora_solidarity",
+      "title": "Diaspora Under Attack, Standing Strong",
+      "persianTitle": "حمله به دیاسپورا، مقاومت ادامه دارد",
+      "description": "Iranian diaspora protests worldwide and regime attempts to silence them",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "Hamburg knife attack on protesters",
+        "Regime agents operating abroad",
+        "Solidarity protests in major cities globally",
+        "Diaspora amplifying voices inside Iran"
+      ],
+      "relatedCategories": ["diaspora"],
+      "relatedActors": ["pahlavi"],
+      "tweetAngle": "Regime's long arm can't stop diaspora courage",
+      "hashtags": ["#IranProtests"],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "historical_pattern",
+      "title": "History Repeating - Will the West Act?",
+      "persianTitle": "تکرار تاریخ - آیا غرب عمل خواهد کرد",
+      "description": "Connecting current events to historical patterns of Western betrayal",
+      "status": "developing",
+      "priority": 2,
+      "keyFacts": [
+        "1953: CIA coup betrayed democracy",
+        "1979: Carter enabled Khomeini",
+        "2009: Obama silent on Green Movement",
+        "2022: Biden silent on Woman Life Freedom",
+        "2026: Will Trump be different?"
+      ],
+      "relatedCategories": ["historical"],
+      "relatedActors": ["trump"],
+      "tweetAngle": "Pattern of betrayal - will this time be different?",
+      "hashtags": ["#Iran"],
+      "frequency": "Occasional context, not primary",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "cinema_rex_rasht_parallel",
+      "title": "The Fire Parallel: 1978 vs 2026",
+      "persianTitle": "آتش: ۱۳۵۷ در برابر ۲۰۲۶",
+      "description": "Cinema Rex (1978) and Rasht Bazaar (2026) - same regime, same tactics, same lies",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "1978: Islamists burned 400 alive at Cinema Rex, blamed Shah",
+        "2026: Regime burned protesters at Rasht Bazaar, blamed 'rioters'",
+        "Same lie, 47 years apart",
+        "70+ bodies at Poursina Hospital alone"
+      ],
+      "relatedCategories": ["historical_parallel", "massacre"],
+      "relatedActors": ["khamenei"],
+      "tweetAngle": "1978: They burned 400 alive and blamed the Shah. 2026: Same people burn protesters and blame 'rioters'. Same regime, same tactics.",
+      "hashtags": ["#CinemaRex", "#RashtMassacre", "#IranRevolution2026"],
+      "frequency": "When historical context illuminating",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "gulf_silence",
+      "title": "Gulf States Fear Free Iran More Than Mullahs",
+      "persianTitle": "دولت‌های خلیج از ایران آزاد بیشتر می‌ترسند",
+      "description": "Why Saudi Arabia, Qatar, and other Gulf states are silent as Iran massacres its people",
+      "status": "active",
+      "priority": 2,
+      "keyFacts": [
+        "Gulf states lobbying Washington to avoid action",
+        "Fear of democratic Iran as regional competitor",
+        "89M educated population would dwarf Gulf economies",
+        "MBS and Greenwald agree on silence"
+      ],
+      "relatedCategories": ["geopolitics"],
+      "relatedActors": [],
+      "tweetAngle": "Saudi spent billions fighting Iranian proxies. Now silent as Iran massacres its own. They don't want freedom - they want a weak Iran.",
+      "hashtags": ["#Iran"],
+      "frequency": "1 in 10 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "iran_unconquerable",
+      "title": "Revolution Must Come From Within",
+      "persianTitle": "انقلاب باید از درون بیاید",
+      "description": "Iran's geography makes invasion impossible - that's why this revolution must be internal",
+      "status": "active",
+      "priority": 2,
+      "keyFacts": [
+        "Last successful invasion: Mongols 1220",
+        "89 million population, 17th largest country",
+        "Zagros mountains, central deserts protect from invasion",
+        "Every conqueror in 800 years was absorbed"
+      ],
+      "relatedCategories": ["geography"],
+      "relatedActors": [],
+      "tweetAngle": "Last invasion: 1220. Mountains, deserts, 89M people. That's why this revolution comes from WITHIN. And it is.",
+      "hashtags": ["#Iran", "#IranRevolution2026"],
+      "frequency": "1 in 10 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "ethnic_unity",
+      "title": "Iran Won't Become Yugoslavia",
+      "persianTitle": "ایران یوگسلاوی نخواهد شد",
+      "description": "Despite ethnic diversity, Iranians are united - 2,500 years of shared identity doesn't break",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "All ethnicities protesting together in 2026",
+        "Khuzestan Arabs didn't join Iraqi invasion",
+        "2,500 years continuous statehood (not 1918 like Yugoslavia)",
+        "90% Shia - religious unity crosses ethnic lines"
+      ],
+      "relatedCategories": ["ethnic_unity"],
+      "relatedActors": [],
+      "tweetAngle": "Kurds, Azeris, Baluch, Arabs, Persians - all chanting the same thing: Death to Khamenei. 2,500 years of unity doesn't break.",
+      "hashtags": ["#Iran", "#IranRevolution2026"],
+      "frequency": "1 in 8 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "pahlavi_continuity",
+      "title": "47 Years in Exile - Now Called Home",
+      "persianTitle": "۴۷ سال در تبعید - حالا فراخوانده می‌شود",
+      "description": "Crown Prince Reza Pahlavi's journey from exile to leading opposition voice",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "Left Iran 1978 at age 17, never returned",
+        "Father died 1980, only Sadat gave asylum",
+        "47 years advocating for secular democracy",
+        "Now 'Javid Shah' echoes in streets"
+      ],
+      "relatedCategories": ["historical", "resistance"],
+      "relatedActors": ["pahlavi"],
+      "tweetAngle": "For 47 years the Crown Prince waited. Now the people are calling him home. History completing its circle.",
+      "hashtags": ["#جاویدشاه", "#PahlaviReza"],
+      "frequency": "When relevant to Pahlavi news",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "great_powers_game",
+      "title": "Client to None: Iran's Great Power Reset",
+      "persianTitle": "وابسته به هیچ‌کس: بازنشانی قدرت بزرگ ایران",
+      "description": "Under mullahs, Iran became junior partner to China/Russia. A free Iran will be partner to all, client to none.",
+      "status": "active",
+      "priority": 2,
+      "keyFacts": [
+        "Treaty of Turkmenchay 1828 - Russia took Caucasus",
+        "25-year China deal called 'new Turkmenchay'",
+        "Russia bombed Iran's parliament 1908",
+        "Silk Road: Persia and China were equals for 2,000 years"
+      ],
+      "relatedCategories": ["great_powers"],
+      "relatedActors": [],
+      "tweetAngle": "The mullahs sold Iran to China and Russia because they had no choice. Democratic Iran will have choices. Partner to all, client to none.",
+      "hashtags": ["#Iran", "#IranRevolution2026"],
+      "frequency": "1 in 10 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "iran_not_iraq",
+      "title": "Iran Isn't Iraq - This Is Different",
+      "persianTitle": "ایران عراق نیست - این فرق دارد",
+      "description": "Countering the 'remember Iraq' narrative - Iran has democratic history, educated population, no neighbor saboteur",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "Iran Constitutional Revolution 1906 - first in Islamic world",
+        "97% literacy vs Afghanistan's 30%",
+        "60% university students are women",
+        "Iran sabotaged Iraq for 20 years - no one can sabotage Iran"
+      ],
+      "relatedCategories": ["iran_not_iraq"],
+      "relatedActors": [],
+      "tweetAngle": "'Remember Iraq!' is a false binary. Iran has 120 years of democratic memory, 97% literacy, and no neighbor can sabotage it. Different situation entirely.",
+      "hashtags": ["#Iran"],
+      "frequency": "1 in 8 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "constitutional_memory",
+      "title": "120 Years of Constitutional Memory",
+      "persianTitle": "۱۲۰ سال حافظه مشروطه",
+      "description": "Iran's 1906 Constitutional Revolution predates Turkey - Iranians have deep democratic tradition",
+      "status": "active",
+      "priority": 2,
+      "keyFacts": [
+        "1906 Constitutional Revolution - FIRST in Islamic world",
+        "Mossadegh democratically elected 1951",
+        "Majles (parliament) since 1906",
+        "2026 is completing what 1906 started"
+      ],
+      "relatedCategories": ["iran_not_iraq", "historical"],
+      "relatedActors": ["pahlavi"],
+      "tweetAngle": "1906: Constitutional Revolution. 1951: Mossadegh elected. 2026: Finishing what they started. This isn't 'regime change' - it's regime RESTORATION.",
+      "hashtags": ["#Iran", "#IranRevolution2026"],
+      "frequency": "1 in 10 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "mek_traitors",
+      "title": "The MEK: Traitors Cashing In",
+      "persianTitle": "منافقین: خائنانی که پول می‌گیرند",
+      "description": "MEK sided with Saddam, killed Americans, now pays US politicians millions to pretend they represent Iran",
+      "status": "active",
+      "priority": 1,
+      "keyFacts": [
+        "Sided with Saddam during Iran-Iraq war",
+        "Paid Giuliani $20K+ per speech",
+        "Bolton paid tens of thousands",
+        "Clinton delisted them 2012 after lobbying",
+        "Zero support inside Iran - viewed as traitors (Monafeghin)"
+      ],
+      "relatedCategories": ["traitors"],
+      "relatedActors": ["maryam_rajavi", "rudy_giuliani", "john_bolton", "hillary_clinton"],
+      "tweetAngle": "MEK sided with Saddam when he gassed Iranians. Now they pay American politicians millions to pretend they represent Iran. They don't. Iranians call them 'Monafeghin' - hypocrites.",
+      "hashtags": ["#Iran"],
+      "frequency": "1 in 10 tweets - context only",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "regime_apologists",
+      "title": "The Iran Lobby in Washington",
+      "persianTitle": "لابی ایران در واشنگتن",
+      "description": "NIAC, Trita Parsi, and the network whitewashing regime crimes in DC",
+      "status": "active",
+      "priority": 1,
+      "keyFacts": [
+        "Federal judge: NIAC work 'not inconsistent' with regime lobbying",
+        "NIAC lost suit, paid $180K, withheld 5,500 emails",
+        "Parsi met Obama officials 33 times 2013-2015",
+        "'NIAC' is now a slur in Iran",
+        "Iran Foreign Ministry ran 'Iran Experts Initiative'"
+      ],
+      "relatedCategories": ["regime_apologist"],
+      "relatedActors": ["trita_parsi", "niac"],
+      "tweetAngle": "A US federal judge ruled NIAC's work was 'not inconsistent with lobbying for the regime.' 'NIAC' is now a slur in Iran. Follow the money.",
+      "hashtags": ["#Iran"],
+      "frequency": "1 in 10 tweets",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "media_bias_persian",
+      "title": "Ayatollah BBC: Media That Failed Iran",
+      "persianTitle": "آیت‌الله بی‌بی‌سی: رسانه‌هایی که ایران را ناامید کردند",
+      "description": "BBC Persian, VOA, and media that tilt toward regime or MEK over legitimate opposition",
+      "status": "developing",
+      "priority": 1,
+      "keyFacts": [
+        "Iranians call it 'Ayatollah BBC'",
+        "BBC 2019 agreed to regime conditions",
+        "Near-total silence on Iran vs Gaza coverage",
+        "Iran International: $250M Saudi funding"
+      ],
+      "relatedCategories": ["media_bias"],
+      "relatedActors": ["bbc_persian", "voa_persian", "iran_international"],
+      "tweetAngle": "Iranians have a name for BBC Persian: 'Ayatollah BBC.' When the world's biggest democracy movement needs coverage, they obsess over Gaza. Not a coincidence.",
+      "hashtags": ["#Iran"],
+      "frequency": "1 in 15 tweets - very sparingly",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "economic_collapse",
+      "title": "The Rial's Collapse: 47 Years of Theft",
+      "persianTitle": "سقوط ریال: ۴۷ سال دزدی",
+      "description": "Economic disaster while regime spends billions on proxies and Khamenei hoards $200B",
+      "status": "active",
+      "priority": 3,
+      "keyFacts": [
+        "Rial lost 99%+ value since 1979 (70 to 700,000+)",
+        "Billions to Hezbollah while Iranians starve",
+        "IRGC controls 20-40% of economy",
+        "Khamenei's fortune estimated $200B"
+      ],
+      "relatedCategories": ["economic"],
+      "relatedActors": ["khamenei"],
+      "tweetAngle": "Under the Shah, 1 USD = 70 rials. Today: 1 USD = 700,000+ rials. 47 years of theft. Billions to Hezbollah while Iranians can't afford bread.",
+      "hashtags": ["#Iran", "#IranRevolution2026"],
+      "frequency": "1 in 8 tweets",
+      "lastUpdated": "2026-01-17"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-01-17T22:00:00Z",
+    "version": "1.1",
+    "guidelines": {
+      "priorityOrder": ["massacre_ongoing", "internet_blackout", "pahlavi_leadership", "trump_khamenei_twitter", "diaspora_solidarity", "ethnic_unity", "cinema_rex_rasht_parallel", "khamenei_escape", "pahlavi_continuity", "western_silence", "gulf_silence", "iran_unconquerable", "historical_pattern"],
+      "westernSilenceFrequency": "Maximum 1 in 5 tweets",
+      "historicalContextFrequency": "When illuminating, not as primary content",
+      "geopoliticsFrequency": "Maximum 1 in 10 tweets",
+      "geographyFrequency": "Maximum 1 in 10 tweets"
+    }
+  }
+}

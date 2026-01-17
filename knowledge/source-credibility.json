@@ -1,0 +1,236 @@
+{
+  "source_credibility": {
+    "title": "Source Credibility Database",
+    "description": "Evaluate sources before citing. Credibility is Faytuks' only asset.",
+    "lastUpdated": "2026-01-17",
+    
+    "tier_definitions": {
+      "tier_1": {
+        "name": "Gold Standard",
+        "description": "Can cite without additional verification. Established track record, transparent methodology.",
+        "confidence": "High - single source sufficient for factual claims",
+        "color": "🟢"
+      },
+      "tier_2": {
+        "name": "Reliable",
+        "description": "Generally accurate but verify significant claims with second source.",
+        "confidence": "Medium-High - prefer corroboration for major claims",
+        "color": "🟡"
+      },
+      "tier_3": {
+        "name": "Use with Caution",
+        "description": "May have bias or accuracy issues. Always corroborate.",
+        "confidence": "Medium - require 2+ sources before citing",
+        "color": "🟠"
+      },
+      "tier_4": {
+        "name": "Unreliable / Propaganda",
+        "description": "Known disinformation or regime-aligned. Do not cite as fact. May cite to debunk.",
+        "confidence": "None - never cite as reliable source",
+        "color": "🔴"
+      }
+    },
+    
+    "sources": {
+      
+      "human_rights_organizations": {
+        "iran_human_rights_ihrngo": {
+          "name": "Iran Human Rights (IHRNGO)",
+          "website": "https://iranhr.net",
+          "twitter": "@IHRights",
+          "tier": 1,
+          "notes": "Norway-based. Gold standard for death tolls. Verifies before publishing. Mahmood Amiry-Moghaddam leads.",
+          "strengths": ["Rigorous verification", "Conservative estimates (credible)", "Documented methodology"],
+          "weaknesses": ["Slight delay for verification (acceptable trade-off)"],
+          "use_for": ["Death tolls", "Execution counts", "Protest casualty numbers"]
+        },
+        "hengaw": {
+          "name": "Hengaw Organization for Human Rights",
+          "website": "https://hengaw.net",
+          "twitter": "@HengawO",
+          "tier": 1,
+          "notes": "Kurdish-focused but covers all Iran. Excellent on-ground network in Kurdistan and northern Iran.",
+          "strengths": ["Fast reporting", "Good sources in northwest Iran", "Names victims quickly"],
+          "weaknesses": ["Kurdistan focus means less coverage elsewhere"],
+          "use_for": ["Kurdish region events", "Named victim verification", "Rapid casualty reports"]
+        },
+        "hrana": {
+          "name": "Human Rights Activists News Agency",
+          "website": "https://www.en-hrana.org",
+          "tier": 1,
+          "notes": "Inside Iran network. Detailed arrest documentation.",
+          "strengths": ["Arrest documentation", "Prisoner information", "Court proceedings"],
+          "weaknesses": ["Network inside Iran means some risk of regime penetration"],
+          "use_for": ["Arrest reports", "Prisoner conditions", "Trial information"]
+        },
+        "amnesty_international": {
+          "name": "Amnesty International",
+          "website": "https://amnesty.org",
+          "tier": 1,
+          "notes": "Global organization. Slower but very thorough.",
+          "strengths": ["International credibility", "Thorough investigation", "Legal weight"],
+          "weaknesses": ["Slow - not for breaking news"],
+          "use_for": ["Major reports", "International advocacy", "Legal documentation"]
+        },
+        "human_rights_watch": {
+          "name": "Human Rights Watch",
+          "website": "https://hrw.org",
+          "tier": 1,
+          "notes": "Similar to Amnesty. Excellent investigations.",
+          "strengths": ["Detailed reports", "International credibility"],
+          "weaknesses": ["Slow turnaround"],
+          "use_for": ["Major investigations", "Policy advocacy"]
+        }
+      },
+      
+      "news_organizations": {
+        "iran_international": {
+          "name": "Iran International",
+          "website": "https://iranintl.com",
+          "twitter": "@IranIntl",
+          "tier": 2,
+          "notes": "London-based Persian/English news. Fast, good sources, but Saudi-linked funding raises questions for some.",
+          "strengths": ["Fast breaking news", "Good inside sources", "Professional journalism"],
+          "weaknesses": ["Funding questions (Saudi-linked)", "Seen as opposition-aligned"],
+          "use_for": ["Breaking news", "Video verification", "Rapid updates"],
+          "caution": "Verify significant exclusive claims"
+        },
+        "bbc_persian": {
+          "name": "BBC Persian",
+          "website": "https://bbc.com/persian",
+          "twitter": "@bbcpersian",
+          "tier": 1,
+          "notes": "BBC editorial standards. Trusted inside Iran.",
+          "strengths": ["Journalistic rigor", "Trusted brand", "Good verification"],
+          "weaknesses": ["Can be slow", "Sometimes overly cautious"],
+          "use_for": ["Verified news", "Background context"]
+        },
+        "iranwire": {
+          "name": "IranWire",
+          "website": "https://iranwire.com",
+          "tier": 2,
+          "notes": "Independent journalism. Good investigations.",
+          "strengths": ["Original reporting", "Good analysis"],
+          "use_for": ["In-depth stories", "Investigation"]
+        },
+        "radio_farda": {
+          "name": "Radio Farda (RFE/RL)",
+          "website": "https://radiofarda.com",
+          "tier": 2,
+          "notes": "US-funded but editorial independence. Good verification.",
+          "strengths": ["Professional standards", "Wide network"],
+          "weaknesses": ["US funding can be used against it by regime"],
+          "use_for": ["News verification", "Context"]
+        },
+        "manoto": {
+          "name": "Manoto TV",
+          "website": "https://manototv.com",
+          "tier": 3,
+          "notes": "Persian entertainment and news. Popular but less journalistic rigor.",
+          "strengths": ["Wide reach in diaspora"],
+          "weaknesses": ["Less rigorous verification", "Entertainment focus"],
+          "use_for": "Cross-reference only"
+        }
+      },
+      
+      "monitoring_tools": {
+        "netblocks": {
+          "name": "NetBlocks",
+          "website": "https://netblocks.org",
+          "twitter": "@netblocks",
+          "tier": 1,
+          "notes": "Internet monitoring. Technical, verifiable data.",
+          "strengths": ["Technical data", "Real-time monitoring", "Methodology transparent"],
+          "use_for": ["Internet blackout verification", "Connectivity data"]
+        },
+        "ooni": {
+          "name": "OONI (Open Observatory of Network Interference)",
+          "website": "https://ooni.org",
+          "tier": 1,
+          "notes": "Technical censorship monitoring.",
+          "use_for": ["Website blocking", "Censorship documentation"]
+        }
+      },
+      
+      "social_media_accounts": {
+        "verified_journalists": {
+          "tier": 2,
+          "notes": "Individual journalists with track record. Verify independently for major claims.",
+          "examples": [
+            "@khaboroborzou (Borzou Daragahi)",
+            "@faborji (Farnaz Fassihi)",
+            "@MasihAlinejad (activist-journalist)"
+          ]
+        },
+        "anonymous_accounts": {
+          "tier": 3,
+          "notes": "May have inside access but unverifiable. Never sole source.",
+          "use": "Lead for investigation only, never cite directly"
+        },
+        "diaspora_activist_accounts": {
+          "tier": 3,
+          "notes": "Passionate but may amplify unverified claims.",
+          "use": "Cross-reference, don't cite directly"
+        }
+      },
+      
+      "regime_sources": {
+        "irna": {
+          "name": "IRNA (Islamic Republic News Agency)",
+          "tier": 4,
+          "notes": "State news agency. Propaganda. Cite only to debunk or show regime position.",
+          "use_for": "Documenting regime claims (to counter)"
+        },
+        "press_tv": {
+          "name": "Press TV",
+          "tier": 4,
+          "notes": "English-language regime propaganda.",
+          "use_for": "Never cite as fact. May cite to show regime narrative."
+        },
+        "tasnim_fars": {
+          "name": "Tasnim / Fars News",
+          "tier": 4,
+          "notes": "IRGC-linked news agencies. Propaganda.",
+          "use_for": "Documenting IRGC position only"
+        },
+        "regime_official_statements": {
+          "tier": 4,
+          "notes": "Khamenei, Pezeshkian, etc. statements",
+          "use_for": "Documenting what regime says (to counter)"
+        }
+      },
+      
+      "disinformation_sources": {
+        "known_disinfo_accounts": {
+          "tier": 4,
+          "notes": "Accounts known for spreading false information",
+          "action": "Block, do not engage, do not amplify"
+        },
+        "telegram_unverified": {
+          "tier": 4,
+          "notes": "Anonymous Telegram channels without track record",
+          "action": "Never cite. May use as lead for investigation."
+        }
+      }
+    },
+    
+    "verification_workflow": {
+      "step_1": "Identify source tier",
+      "step_2_tier_1": "Can cite directly with attribution",
+      "step_2_tier_2": "Corroborate major claims with second source",
+      "step_2_tier_3": "Must have 2+ independent sources",
+      "step_2_tier_4": "Do not cite as fact. Only to debunk.",
+      "step_3": "Check for recent corrections or controversies with source",
+      "step_4": "When in doubt, wait for better sourcing"
+    },
+    
+    "red_flags": [
+      "Round numbers (exactly 1,000 dead - likely inflated)",
+      "Single anonymous source for major claim",
+      "Claim perfectly fits narrative (too good to check)",
+      "Source has history of corrections",
+      "Video/image without metadata or context",
+      "Breaking news from account with no track record"
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "tweet_synthesis_framework": {
+    "title": "Faytuks Network Tweet Synthesis Framework",
+    "persianTitle": "چارچوب ترکیب توییت شبکه فایتوکس",
+    "version": "2.0",
+    "description": "Framework for generating historically-grounded, thematic tweets that draw parallels between Iran's past and the 2026 revolution",
+    
+    "temporal_layers": {
+      "description": "Every tweet should be rooted in historical context. Use these time layers to add depth.",
+      
+      "near_term": {
+        "period": "Days to Weeks (Dec 2025 - Present)",
+        "focus": "Breaking events, immediate parallels",
+        "examples": [
+          "Rasht Bazaar fire (Jan 8-9, 2026)",
+          "Internet blackout (Jan 8+)",
+          "12,000+ massacre (Jan 8-13)",
+          "Khamenei's 'rioters' speech (Jan 9)",
+          "General strike call (Jan 18-20)"
+        ],
+        "tweet_structure": "What just happened + immediate historical echo",
+        "sample": "Rasht Bazaar 2026: regime traps protesters, sets fire, shoots those surrendering. Cinema Rex 1978: Islamists trap civilians, set fire, blame Shah. Same fire. Same killers. Different victims."
+      },
+      
+      "mid_term": {
+        "period": "Years to Decades (1979 - 2025)",
+        "focus": "Islamic Republic era patterns, previous uprisings",
+        "examples": [
+          "1988 prison massacres (5,000-30,000 killed)",
+          "1999 student protests",
+          "2009 Green Movement",
+          "2019 'Bloody November' (1,500 killed)",
+          "2022 Mahsa Amini / Woman Life Freedom"
+        ],
+        "tweet_structure": "Current event + pattern across Islamic Republic + escalating trend",
+        "sample": "1988: 5,000 prisoners executed. 2019: 1,500 protesters killed. 2022: 500+ killed. 2026: 12,000+ massacred. Each uprising bigger. Each crackdown bloodier. The regime is running out of bullets AND time."
+      },
+      
+      "long_term": {
+        "period": "Centuries (Pre-1979)",
+        "focus": "Deep history, civilizational patterns, constitutional memory",
+        "examples": [
+          "1906 Constitutional Revolution",
+          "1953 Mossadegh coup",
+          "Treaty of Turkmenchay 1828",
+          "Silk Road era (2,000+ years)",
+          "Mongol invasion (1220) - last successful",
+          "Safavid Empire, Sassanid Empire"
+        ],
+        "tweet_structure": "Current event + deep historical root + civilizational context",
+        "sample": "1906: Iran's Constitutional Revolution - first in Islamic world. 1979: Mullahs hijacked it. 2026: Iranians finally finishing what 1906 started. 120 years to complete one revolution."
+      }
+    },
+    
+    "thematic_synthesis_patterns": {
+      "pattern_1_fire_parallel": {
+        "name": "The Fire Pattern",
+        "description": "Cinema Rex 1978 vs Rasht Bazaar 2026",
+        "template": "[Event 1978] + [Blame then] → [Event 2026] + [Blame now] → [Reveal truth]",
+        "example": "1978: Islamists burn 400 alive in Cinema Rex, blame Shah. 2026: Same Islamists burn protesters in Rasht, blame 'rioters.' The arsonists never changed. Only their victims."
+      },
+      
+      "pattern_2_counter_revolution": {
+        "name": "The Counter-Revolution Pattern",
+        "description": "1979 was counter-revolution, 2026 is true revolution",
+        "template": "[1978 aspiration] → [1979 hijacking] → [47 years of tyranny] → [2026 completion]",
+        "example": "1978: Iranians wanted freedom. 1979: Khomeini stole it. For 47 years the counter-revolution ruled. 2026: The real revolution finally arrives. Better late than never."
+      },
+      
+      "pattern_3_western_betrayal": {
+        "name": "The Western Betrayal Pattern",
+        "description": "Guadeloupe 1979 vs 2026 - will they betray again?",
+        "template": "[1979 Western decision] → [Consequence] → [2026 choice] → [Call to action]",
+        "example": "Guadeloupe 1979: Carter, France, UK, Germany agreed Shah must go. Khomeini thanked them. 47 years of terror followed. 2026: Another crossroads. Choose wisely this time."
+      },
+      
+      "pattern_4_ethnic_unity": {
+        "name": "The Unity Pattern",
+        "description": "Iran isn't Yugoslavia - ethnic unity proven",
+        "template": "[Historical test of unity] → [Result] → [Current unity] → [Why it holds]",
+        "example": "1980: Saddam invaded, expecting Khuzestan Arabs to join him. They fought FOR Iran. 1946: Soviets tried to split off Azerbaijan. It stayed Iranian. 2026: Kurds, Azeris, Persians, Baluch - all chanting together. 2,500 years of unity doesn't break."
+      },
+      
+      "pattern_5_geography_fortress": {
+        "name": "The Fortress Pattern",
+        "description": "Iran's geography - curse and blessing",
+        "template": "[Historical invasion] → [Geographic defense] → [Modern implication]",
+        "example": "Last successful invasion of Iran: Mongols, 1220. Since then, mountains stopped everyone. Arabs, Turks, Soviets, Saddam - all absorbed or defeated. That's why this revolution must come from within. And it is."
+      },
+      
+      "pattern_6_great_power_game": {
+        "name": "The Great Power Pattern",
+        "description": "How to navigate China, Russia, West",
+        "template": "[Historical humiliation] → [Current dependency] → [Future leverage]",
+        "example": "1828: Treaty of Turkmenchay - Russia took the Caucasus. 2021: Mullahs signed new 'Turkmenchay' with China. 2026: A free Iran will be partner to all, client to none."
+      },
+      
+      "pattern_7_iraq_contrast": {
+        "name": "The Iraq Contrast Pattern",
+        "description": "Why Iran isn't Iraq/Afghanistan",
+        "template": "[Iraq failure reason] → [Iran opposite] → [Why 2026 different]",
+        "example": "Iraq 2003: No democratic history. Afghanistan: 30% literacy. Iran 2026: Constitutional revolution since 1906. 97% literacy. 60% of university students are women. Don't compare them."
+      },
+      
+      "pattern_8_diaspora_return": {
+        "name": "The Return Pattern",
+        "description": "Diaspora waiting to come home",
+        "template": "[Exile story] → [Diaspora strength] → [Return promise]",
+        "example": "4 million Iranians in exile. Engineers, doctors, entrepreneurs. Their parents left in 1979. Their grandchildren speak Persian at home. They're waiting. The moment the mullahs fall, watch the airports."
+      }
+    },
+    
+    "voice_guidelines": {
+      "tone": [
+        "Authoritative but not academic",
+        "Passionate but fact-based",
+        "Historical but urgent",
+        "Persian pride without chauvinism",
+        "Critical of regime, not Iranian people"
+      ],
+      
+      "avoid": [
+        "Excessive hashtags (1-2 max)",
+        "Sycophantic praise of any leader",
+        "Gratuitous violence descriptions",
+        "Sectarian language",
+        "Ethnic division promotion",
+        "Speculation presented as fact"
+      ],
+      
+      "embrace": [
+        "Specific historical facts with dates",
+        "Named victims when verified",
+        "Irony and historical rhyming",
+        "Direct challenges to regime narrative",
+        "Persian phrases with translation",
+        "Questions that make people think"
+      ]
+    },
+    
+    "sample_tweet_threads": {
+      "thread_1_cinema_rex": {
+        "topic": "Cinema Rex vs Rasht Bazaar",
+        "tweets": [
+          "THREAD: The Fire Pattern - How the Islamic Republic is using the same tactic that CREATED it 🧵",
+          "August 19, 1978: Cinema Rex, Abadan. Doors locked. Film playing. 377-470 people burned alive. Khomeini immediately blamed the Shah. The world believed him.",
+          "January 8, 2026: Rasht Bazaar. Protesters surrounded. Fire set. Those who surrendered with raised hands: shot dead. The regime blames 'rioters and terrorists.'",
+          "Here's the truth about Cinema Rex: Four Islamist militants did it. Hossein Takbalizadeh confessed in 1980. He said a local cleric called Abadan men 'soft' and needed to be 'shown.'",
+          "For 47 years the mullahs ruled on the ashes of Cinema Rex - a massacre THEY committed but blamed on the Shah. Now they're doing it again. Same fire. Same lies. Different victims.",
+          "The people setting fires haven't changed since 1978. Only their uniforms have."
+        ]
+      },
+      
+      "thread_2_counter_revolution": {
+        "topic": "1979 as Counter-Revolution",
+        "tweets": [
+          "THREAD: 1979 wasn't a revolution. It was a counter-revolution. Here's what really happened 🧵",
+          "1978: Millions of Iranians rose against the Shah. Leftists, liberals, nationalists, Islamists - united. They wanted freedom, democracy, an end to SAVAK. They succeeded.",
+          "Then Khomeini hijacked it. Within months: leftists purged. Liberals sidelined. Nationalists arrested. By 1981: mass executions. 1988: 5,000-30,000 political prisoners killed.",
+          "Christopher Hitchens called it perfectly: 'a counter-revolutionary mission to destroy the people's revolution.' Fred Halliday agreed. The broad coalition was systematically eliminated.",
+          "The Iran of 2026 isn't revolting AGAINST a revolution. It's completing the revolution that was STOLEN in 1979. 47 years later, the real revolutionaries' grandchildren finish the job.",
+          "When you hear 'Javid Shah' in the streets, understand: they're not mourning monarchy. They're reclaiming the constitutional dream that predates 1979. The dream of 1906."
+        ]
+      },
+      
+      "thread_3_not_iraq": {
+        "topic": "Why Iran Isn't Iraq",
+        "tweets": [
+          "THREAD: 'Remember Iraq!' they say. Here's why Iran in 2026 is the OPPOSITE of Iraq in 2003 🧵",
+          "Iraq 2003: Artificial state created by Britain in 1920. Three provinces, three peoples, held together only by Saddam's brutality. ZERO democratic history.",
+          "Iran 2026: Constitutional Revolution in 1906 - FIRST in the Islamic world. Parliamentary tradition older than most European nations. Democratic PM Mossadegh in 1951.",
+          "Iraq's problem: No national identity. Sunni vs Shia vs Kurd. Iran's reality: 2,500 years of Persian identity. Khuzestan Arabs fought FOR Iran against Saddam. Unity proven.",
+          "Iraq's saboteur: Iran next door, flooding it with weapons and militias for 20 years. Iran's situation: Who can play that role? Russia is busy. China doesn't care. Arab states want regime gone.",
+          "The 'Iraq lesson' is real: Don't impose democracy where it never existed. Iran's lesson is different: DO support democracy where people are DYING for it. They're not the same."
+        ]
+      }
+    },
+    
+    "daily_tweet_categories": {
+      "morning_history": {
+        "time": "Morning",
+        "focus": "Historical context tweet",
+        "description": "Start day with deep historical parallel"
+      },
+      "midday_update": {
+        "time": "Midday",
+        "focus": "Current events + immediate context",
+        "description": "Breaking news with historical echo"
+      },
+      "evening_narrative": {
+        "time": "Evening",
+        "focus": "Thematic synthesis",
+        "description": "Connect day's events to larger pattern"
+      },
+      "night_reflection": {
+        "time": "Night",
+        "focus": "Human stories / diaspora voice",
+        "description": "Personal narratives, emotional connection"
+      }
+    }
+  },
+  
+  "metadata": {
+    "lastUpdated": "2026-01-17T23:30:00Z",
+    "version": "2.0",
+    "purpose": "Framework for generating historically-grounded tweets about Iran's 2026 revolution",
+    "usage": "Select pattern → Pull facts from knowledge JSONs → Apply voice guidelines → Generate tweet"
+  }
+}

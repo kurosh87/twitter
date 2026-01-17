@@ -1,0 +1,297 @@
+{
+  "media_repository": {
+    "title": "Faytuks Media Repository",
+    "description": "Structured storage for images, videos, and visual assets organized by topic, time period, and usage rights",
+    "lastUpdated": "2026-01-17",
+    
+    "directory_structure": {
+      "root": "/media",
+      "structure": {
+        "/media/historical": {
+          "description": "Historical images organized by era and topic",
+          "subdirs": {
+            "/1800s": "19th century - Qajar era, Turkmenchay, Great Game",
+            "/1906-1953": "Constitutional Revolution, Mossadegh era",
+            "/1953-1979": "Pahlavi era, White Revolution, pre-revolution",
+            "/1979-revolution": "Islamic Revolution period",
+            "/1980-1988": "Iran-Iraq War",
+            "/1989-2009": "Post-Khomeini, Green Movement",
+            "/2022-mahsa": "Mahsa Amini protests",
+            "/2026-revolution": "Current uprising"
+          }
+        },
+        "/media/events": {
+          "description": "Specific historical events",
+          "subdirs": {
+            "/cinema-rex-1978": "Cinema Rex fire images and documents",
+            "/turkmenchay-1828": "Treaty signing, maps, aftermath",
+            "/guadeloupe-1979": "Conference photos, participants",
+            "/black-friday-1978": "Jaleh Square massacre",
+            "/1988-executions": "Prison massacre documentation",
+            "/bloody-november-2019": "November 2019 crackdown"
+          }
+        },
+        "/media/figures": {
+          "description": "Key historical and current figures",
+          "subdirs": {
+            "/pahlavi-dynasty": "Reza Shah, Mohammad Reza Shah, Reza Pahlavi II",
+            "/mossadegh": "Mohammad Mossadegh",
+            "/khomeini": "Ruhollah Khomeini",
+            "/khamenei": "Ali Khamenei",
+            "/regime-officials": "Current regime figures",
+            "/opposition": "Opposition leaders, activists",
+            "/victims": "Verified victims (with consent considerations)"
+          }
+        },
+        "/media/maps": {
+          "description": "Historical and current maps",
+          "subdirs": {
+            "/iran-historical": "Historical Iran borders",
+            "/turkmenchay-loss": "Territory lost to Russia",
+            "/ethnic-distribution": "Ethnic group maps",
+            "/protest-spread": "Protest location maps"
+          }
+        },
+        "/media/documents": {
+          "description": "Historical documents, treaties, newspapers",
+          "subdirs": {
+            "/treaties": "Turkmenchay, Gulistan, etc.",
+            "/newspapers": "Historical headlines",
+            "/declassified": "CIA, State Dept documents"
+          }
+        },
+        "/media/current": {
+          "description": "Current events - scraped from social media",
+          "subdirs": {
+            "/protests": "Protest footage and images",
+            "/aftermath": "Aftermath documentation",
+            "/victims": "Victim photos (verified, with ethics review)",
+            "/regime-response": "Regime forces, crackdowns"
+          }
+        },
+        "/media/infographics": {
+          "description": "Created visual content",
+          "subdirs": {
+            "/timelines": "Historical timelines",
+            "/comparisons": "Before/after, parallel comparisons",
+            "/statistics": "Death tolls, economic data",
+            "/explainers": "Educational graphics"
+          }
+        },
+        "/media/video": {
+          "description": "Video content",
+          "subdirs": {
+            "/historical": "Historical footage",
+            "/current": "Current protest footage",
+            "/clips": "Short clips for social media"
+          }
+        }
+      }
+    },
+    
+    "metadata_schema": {
+      "required_fields": {
+        "id": "Unique identifier (e.g., IMG_2026_01_17_001)",
+        "filename": "Original filename",
+        "source_url": "Where it was downloaded from",
+        "source_type": "google_images | twitter | news_article | archive | created",
+        "download_date": "ISO datetime",
+        "category": "Primary category from directory structure",
+        "subcategory": "Subcategory",
+        "tags": "Array of searchable tags",
+        "description": "What the image shows",
+        "date_depicted": "Date of what's shown in image (if known)",
+        "location_depicted": "Location shown (if known)"
+      },
+      "optional_fields": {
+        "attribution": "Credit/attribution required",
+        "license": "Usage rights (public_domain | cc_by | fair_use | unknown)",
+        "original_tweet_id": "If from Twitter",
+        "original_author": "Twitter handle or photographer",
+        "verified": "Has this been fact-checked?",
+        "persian_description": "Persian language description",
+        "usage_notes": "Any restrictions or considerations",
+        "quality_rating": "1-5 quality score",
+        "resolution": "Width x Height"
+      }
+    },
+    
+    "topic_media_requirements": {
+      "description": "What media we need for each major topic",
+      "topics": {
+        "turkmenchay_1828": {
+          "needed": [
+            "Treaty signing scene (painting/illustration)",
+            "Map showing territory lost",
+            "Abbas Mirza portrait (Iranian negotiator)",
+            "General Paskevich portrait (Russian commander)",
+            "Aras River (current border)",
+            "Before/after territory map"
+          ],
+          "search_queries": [
+            "Treaty of Turkmenchay 1828",
+            "Abbas Mirza portrait",
+            "Iran Russia border 1828",
+            "Caucasus Persian Empire map",
+            "Qajar dynasty Russia war"
+          ],
+          "priority": "high",
+          "usage": "Great power game tweets, China deal comparisons"
+        },
+        "cinema_rex_1978": {
+          "needed": [
+            "Cinema Rex building before fire",
+            "Aftermath photos",
+            "Newspaper headlines",
+            "Memorial images",
+            "Abadan city context"
+          ],
+          "search_queries": [
+            "Cinema Rex Abadan 1978",
+            "Cinema Rex fire Iran",
+            "آتش سوزی سینما رکس آبادان"
+          ],
+          "priority": "critical",
+          "usage": "Fire parallel with Rasht"
+        },
+        "guadeloupe_1979": {
+          "needed": [
+            "Conference photo (Carter, Giscard, Callaghan, Schmidt)",
+            "Individual leader portraits",
+            "Guadeloupe location/venue",
+            "Contemporary newspaper coverage"
+          ],
+          "search_queries": [
+            "Guadeloupe Conference 1979",
+            "Carter Giscard Callaghan Schmidt",
+            "January 1979 summit Iran"
+          ],
+          "priority": "high",
+          "usage": "Western betrayal narrative"
+        },
+        "constitutional_revolution_1906": {
+          "needed": [
+            "First Majlis (parliament) photos",
+            "Constitutional activists",
+            "Mozaffar ad-Din Shah signing",
+            "Tehran demonstrations",
+            "Sattar Khan, Baqer Khan portraits"
+          ],
+          "search_queries": [
+            "Iran Constitutional Revolution 1906",
+            "Majlis 1906 Tehran",
+            "انقلاب مشروطه ایران",
+            "ستار خان"
+          ],
+          "priority": "high",
+          "usage": "Democratic heritage tweets"
+        },
+        "mossadegh_era": {
+          "needed": [
+            "Mossadegh portraits (multiple)",
+            "Oil nationalization celebrations",
+            "1953 coup aftermath",
+            "Time Man of the Year cover",
+            "Mossadegh at UN/court"
+          ],
+          "search_queries": [
+            "Mohammad Mossadegh",
+            "Iran oil nationalization 1951",
+            "Operation Ajax 1953",
+            "محمد مصدق"
+          ],
+          "priority": "high",
+          "usage": "1953 coup anniversary, democratic history"
+        },
+        "1979_revolution": {
+          "needed": [
+            "Mass demonstrations Tehran",
+            "Khomeini return (Air France)",
+            "Shah departure",
+            "Women's march March 8 1979",
+            "Embassy takeover"
+          ],
+          "search_queries": [
+            "Iran Revolution 1979",
+            "Khomeini return Tehran",
+            "Shah leaves Iran 1979",
+            "Iranian Revolution demonstrations"
+          ],
+          "priority": "medium",
+          "usage": "Counter-revolution narrative"
+        },
+        "ethnic_unity": {
+          "needed": [
+            "Khuzestan 1980 (Arabs fighting for Iran)",
+            "Azerbaijan 1946 (Soviet puppet collapse)",
+            "Kurdish regions solidarity",
+            "Multi-ethnic protest images 2022/2026"
+          ],
+          "search_queries": [
+            "Khuzestan Iran Iraq war",
+            "Azerbaijan People's Republic 1946",
+            "Iranian Kurdish solidarity",
+            "Iran ethnic groups map"
+          ],
+          "priority": "medium",
+          "usage": "Unity counter-narrative"
+        },
+        "rasht_2026": {
+          "needed": [
+            "Protest images (verified)",
+            "Aftermath documentation",
+            "Hospital scenes (ethical considerations)",
+            "Bazaar before/after if available"
+          ],
+          "search_queries": "SCRAPE FROM TWITTER - do not use Google for current events",
+          "priority": "critical",
+          "usage": "Current event documentation",
+          "ethics_note": "Verify before using, consider victim dignity"
+        },
+        "pahlavi_family": {
+          "needed": [
+            "Reza Pahlavi current photos",
+            "Reza Pahlavi with Iranian diaspora",
+            "Historical Pahlavi photos for context",
+            "Farah Pahlavi"
+          ],
+          "search_queries": [
+            "Reza Pahlavi 2024",
+            "Reza Pahlavi diaspora",
+            "Crown Prince Reza Pahlavi"
+          ],
+          "priority": "medium",
+          "usage": "Opposition/transition narrative"
+        }
+      }
+    },
+    
+    "ethics_guidelines": {
+      "victim_images": {
+        "rules": [
+          "Only use with family consent if identifiable",
+          "Never show graphic injury/death",
+          "Prefer memorial-style images over documentation",
+          "Verify identity before using name with image",
+          "Consider cultural sensitivity"
+        ]
+      },
+      "current_events": {
+        "rules": [
+          "Verify authenticity before using",
+          "Don't endanger people by showing identifiable faces at protests",
+          "Blur faces of protesters if needed",
+          "Credit original source when possible"
+        ]
+      },
+      "historical_images": {
+        "rules": [
+          "Check copyright/usage rights",
+          "Prefer public domain or fair use",
+          "Attribution where required",
+          "Don't misrepresent context"
+        ]
+      }
+    }
+  }
+}

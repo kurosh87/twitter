@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-01-17T21:00:00.000Z",
+  "bucket": "commentary",
+  "drafts": [
+    {
+      "theme": "Western Silence / Heterodox Hypocrisy",
+      "synthesizedFrom": ["Realneo101", "piersmorgan (via RT)"],
+      "english": "The silence is deafening. Pro-Palestinian celebrities who condemned every Israeli airstrike are nowhere to be found as Iran's regime massacres its own people. Where is Roger Waters? Where is Hasan Piker? Iranians are dying for freedom.",
+      "persian": "سکوت کر کننده است. سلبریتی‌های طرفدار فلسطین که هر حمله اسرائیل را محکوم کردند، در برابر کشتار مردم ایران سکوت کرده‌اند. راجر واترز کجاست؟ حسن پایکر کجاست؟ ایرانی‌ها برای آزادی می‌میرند.",
+      "viralPotential": "high",
+      "basedOn": [
+        "Piers Morgan: 'Fascinating to observe the almost total silence from loudly pro-Palestinian celebrities...' (80K likes)",
+        "Realneo101: 'FUCK YOU, Roger. You're a terrorist supporter.' (46K likes)"
+      ]
+    },
+    {
+      "theme": "Regime Crackdown / Hospital Raids",
+      "synthesizedFrom": ["Realneo101", "SGhasseminejad"],
+      "english": "Islamic Republic forces raided Milad Hospital in Isfahan and kidnapped doctors who treated wounded protesters. In Tehran's grand bazaar, protesters respond: 'Not this way! Not that way!' The people refuse to be silenced.",
+      "persian": "نیروهای رژیم به بیمارستان میلاد اصفهان یورش بردند و پزشکانی که به معترضان زخمی کمک کردند را ربودند. در بازار بزرگ تهران، مردم پاسخ می‌دهند: نه این راه، نه اون راه! ملت ساکت نمی‌شود.",
+      "viralPotential": "high",
+      "basedOn": [
+        "Realneo101: 'Islamic Republic Ministry of Intelligence forces raided Milad Hospital...'",
+        "SGhasseminejad: 'Tehran's grand bazaar. Protesters chant...' (7K likes)"
+      ]
+    },
+    {
+      "theme": "International Support / Trump Statement",
+      "synthesizedFrom": ["__Injaneb96", "Realneo101", "SGhasseminejad"],
+      "english": "Trump: 'The moment has arrived—Iran needs a new leader.' Three Iran experts agree: this is the best opportunity in 47 years. The regime has shut down internet and phones, but Starlink keeps the truth flowing. The world is watching.",
+      "persian": "ترامپ: «لحظه فرا رسیده—ایران به رهبر جدید نیاز دارد.» سه کارشناس ایران موافقند: این بهترین فرصت در ۴۷ سال است. رژیم اینترنت و تلفن را قطع کرده، اما استارلینک حقیقت را زنده نگه می‌دارد.",
+      "viralPotential": "high",
+      "basedOn": [
+        "__Injaneb96: 'I don't believe President Trump has backed down from hitting them hard'",
+        "SGhasseminejad: 'Thanks to Elon Musk's Starlink, Iranians are managing to share videos...' (8K likes)",
+        "SGhasseminejad: 'This is the best opportunity in 47 years'"
+      ]
+    },
+    {
+      "theme": "Hamburg Attack / Global Reach",
+      "synthesizedFrom": ["Realneo101", "__Injaneb96"],
+      "english": "BREAKING: Afghan attackers with knives targeted peaceful Iranian solidarity demonstrators in Hamburg. 2 seriously injured. The Islamic Republic's terror extends beyond Iran's borders—even diaspora protesters aren't safe.",
+      "persian": "فوری: مهاجمان افغان با چاقو به تظاهرات همبستگی ایرانیان در هامبورگ حمله کردند. ۲ نفر به شدت مجروح شدند. ترور جمهوری اسلامی از مرزهای ایران فراتر می‌رود—حتی معترضان خارج از کشور در امان نیستند.",
+      "viralPotential": "medium",
+      "basedOn": [
+        "Realneo101: 'Breaking in Hamburg: Knife-wielding Afghan attackers target peaceful Iranian solidarity demo'",
+        "__Injaneb96: 'This man is one of those who attacked Iranians in Hamburg with a knife'"
+      ]
+    },
+    {
+      "theme": "Regime End Near",
+      "synthesizedFrom": ["SGhasseminejad", "Realneo101"],
+      "english": "Iran expert Ghasseminejad: 'The regime is finished. There is no turning back. It is a rotting corpse, ready to disintegrate.' Protests continue despite internet blackout. In Aligudarz, Shiraz, Tehran—the chant is the same: Javid Shah.",
+      "persian": "غصمی‌نژاد: «رژیم تمام شده. راه برگشتی نیست. جنازه‌ای در حال تجزیه است.» اعتراضات با وجود قطع اینترنت ادامه دارد. در الیگودرز، شیراز، تهران—شعار یکی است: جاوید شاه.",
+      "viralPotential": "high",
+      "basedOn": [
+        "SGhasseminejad: 'The regime is finished. There is no turning back. It is a rotting corpse...'",
+        "Realneo101: 'انقلاب در بجنورد آغاز شد' (13K likes)"
+      ]
+    }
+  ]
+}

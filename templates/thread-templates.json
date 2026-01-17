@@ -1,0 +1,336 @@
+{
+  "thread_templates": {
+    "title": "Faytuks Thread Library",
+    "description": "Pre-built thread structures for common topics. Fill in the blanks with current context.",
+    
+    "templates": {
+      
+      "cinema_rex_rasht_parallel": {
+        "id": "THREAD_001",
+        "title": "The Fire Pattern: Cinema Rex 1978 → Rasht 2026",
+        "estimatedLength": 8,
+        "hook": "47 years apart, same tactic, same killers. A thread on how the regime burns its enemies alive. 🧵",
+        "structure": [
+          {
+            "tweet": 1,
+            "type": "hook",
+            "template": "47 years apart, same tactic, same killers. A thread on how the Islamic Republic burns its enemies alive. 🧵"
+          },
+          {
+            "tweet": 2,
+            "type": "historical_setup",
+            "template": "August 19, 1978. Abadan. Cinema Rex. A movie theater showing an Iranian film. 500+ people inside. Someone locks the doors. Someone lights a fire."
+          },
+          {
+            "tweet": 3,
+            "type": "historical_detail",
+            "template": "377-470 people burned alive. Families. Children. Trapped. The Shah's SAVAK was immediately blamed. Western media ran with it. The world was horrified."
+          },
+          {
+            "tweet": 4,
+            "type": "reveal",
+            "template": "But the perpetrators weren't SAVAK. They were Islamist militants. Four were later identified and executed by... the Islamic Republic itself. For the crime of following orders too literally."
+          },
+          {
+            "tweet": 5,
+            "type": "bridge",
+            "template": "The fire at Cinema Rex helped bring down the Shah. The men who ordered it came to power months later. They've ruled for 47 years. They never forgot what worked."
+          },
+          {
+            "tweet": 6,
+            "type": "modern_parallel",
+            "template": "January 8-9, 2026. Rasht Bazaar. Protesters surrounded. Exits blocked. Fire set. Those who tried to surrender with raised hands: shot dead. 70+ bodies arrived at Poursina Hospital."
+          },
+          {
+            "tweet": 7,
+            "type": "regime_response",
+            "template": "Pezeshkian blamed the protesters for the fire. Just like they blamed the Shah in 1978. Same playbook. Same lies. 47 years later."
+          },
+          {
+            "tweet": 8,
+            "type": "conclusion",
+            "template": "The regime was born in fire. It rules by fire. It will end in fire of its own making. Cinema Rex. Rasht Bazaar. Same killers. Different decade. Never forget."
+          }
+        ],
+        "sources": ["knowledge-history.json:cinema_rex_1978", "knowledge-facts.json:rasht_massacre"]
+      },
+      
+      "why_iran_isnt_iraq": {
+        "id": "THREAD_002",
+        "title": "Why Iran Isn't Iraq: The 'Remember Iraq' Crowd Is Wrong",
+        "estimatedLength": 10,
+        "hook": "Every time Iranians rise up, someone says 'remember Iraq.' Here's why that comparison is historically illiterate. 🧵",
+        "structure": [
+          {
+            "tweet": 1,
+            "type": "hook",
+            "template": "Every time Iranians rise up, someone says 'remember Iraq.' Here's why that comparison is historically illiterate. 🧵"
+          },
+          {
+            "tweet": 2,
+            "type": "iraq_problem_1",
+            "template": "IRAQ PROBLEM #1: No democratic history. Iraq was created by Britain in 1920. Lines on a map. Sunni, Shia, Kurd forced together. No shared national identity. No democratic memory."
+          },
+          {
+            "tweet": 3,
+            "type": "iran_contrast_1",
+            "template": "IRAN: Constitutional Revolution in 1906. FIRST in the entire Islamic world. Before Turkey (1908). 120 years of democratic aspiration. Mossadegh elected 1951. They REMEMBER freedom."
+          },
+          {
+            "tweet": 4,
+            "type": "iraq_problem_2",
+            "template": "IRAQ PROBLEM #2: Iran next door. For 20 years after 2003, Iran funded Shia militias, provided IEDs, trained insurgents. Iran turned Iraq into America's quagmire. On purpose."
+          },
+          {
+            "tweet": 5,
+            "type": "iran_contrast_2",
+            "template": "IRAN 2026: Who's the 'Iran' next door to sabotage them? Russia is busy in Ukraine. China is transactional, not ideological. Turkey is NATO. Arab states FEAR a strong Iran. No saboteur."
+          },
+          {
+            "tweet": 6,
+            "type": "iraq_problem_3",
+            "template": "IRAQ PROBLEM #3: External invasion. US troops. 'Occupier' narrative. Nationalism and Islamism combined against foreign presence. Easy for insurgents to recruit."
+          },
+          {
+            "tweet": 7,
+            "type": "iran_contrast_3",
+            "template": "IRAN 2026: Revolution from WITHIN. Iranians rising themselves. No foreign troops proposed. No 'occupier' narrative possible. The regime can't blame America for Iranians wanting freedom."
+          },
+          {
+            "tweet": 8,
+            "type": "false_binary",
+            "template": "The 'Iraq' crowd pretends the only options are 'do nothing' or 'invade.' False binary. Iranians are asking for: Starlink, sanctions on IRGC, moral support, recognition. Not Marines."
+          },
+          {
+            "tweet": 9,
+            "type": "diaspora_factor",
+            "template": "One more thing Iraq didn't have: 4+ million educated diaspora ready to return. Doctors, engineers, entrepreneurs. Brain GAIN waiting to happen. Iran's reconstruction workforce is in LA and London."
+          },
+          {
+            "tweet": 10,
+            "type": "conclusion",
+            "template": "Stop saying 'remember Iraq' to justify doing nothing while 12,000 die. Iraq was artificial, invaded, sabotaged by Iran itself. Iran is ancient, rising internally, with no saboteur. Not. The. Same."
+          }
+        ],
+        "sources": ["knowledge-iran-not-iraq.json"]
+      },
+      
+      "turkmenchay_to_china_deal": {
+        "id": "THREAD_003",
+        "title": "From Turkmenchay to China: 200 Years of Iran's Great Power Trap",
+        "estimatedLength": 9,
+        "hook": "In 1828, Iran signed away its Caucasus to Russia. In 2021, the mullahs signed another deal Iranians call 'new Turkmenchay.' A thread on Iran's great power problem - and solution. 🧵",
+        "structure": [
+          {
+            "tweet": 1,
+            "type": "hook",
+            "template": "In 1828, Iran signed away the Caucasus to Russia. In 2021, mullahs signed a deal Iranians call 'new Turkmenchay.' A thread on Iran's great power trap - and how free Iran escapes it. 🧵"
+          },
+          {
+            "tweet": 2,
+            "type": "historical_context",
+            "template": "February 21, 1828: Treaty of Turkmenchay. After losing two wars to Russia, Iran ceded: Armenia, Azerbaijan, Dagestan. The Aras River became the border. It still is. Iran's greatest humiliation."
+          },
+          {
+            "tweet": 3,
+            "type": "historical_impact",
+            "template": "Turkmenchay split families, peoples, nations. Azerbaijanis divided. Armenians divided. 200 years later, that wound still bleeds. Every unequal deal since has been compared to it."
+          },
+          {
+            "tweet": 4,
+            "type": "great_game",
+            "template": "1813-1907: The Great Game. Britain vs Russia. Iran as buffer state. In 1907, they divided Iran into spheres WITHOUT CONSULTING IRAN. The north to Russia. The south to Britain. The insult endures."
+          },
+          {
+            "tweet": 5,
+            "type": "silk_road_glory",
+            "template": "But there was another era. The Silk Road. For 2,000 years, Iran and China traded as EQUALS. Parthian princes brought Buddhism to China. Sassanid coins found in Guangzhou. Partnership, not clienthood."
+          },
+          {
+            "tweet": 6,
+            "type": "modern_dependency",
+            "template": "2021: The 25-year Iran-China deal. $400 billion investment. Iranian critics immediately called it 'new Turkmenchay.' Why? The mullahs were selling sovereignty to survive sanctions."
+          },
+          {
+            "tweet": 7,
+            "type": "regime_weakness",
+            "template": "The Islamic Republic has no leverage. Isolated from the West, it begs China for scraps. Sells oil at discount. Provides drones to Russia. Junior partner in an axis of desperation."
+          },
+          {
+            "tweet": 8,
+            "type": "free_iran_leverage",
+            "template": "Free Iran has LEVERAGE. World's 2nd largest gas reserves. Belt and Road geography (China needs Iran). Western investment waiting. 89 million educated consumers. Partners compete for access."
+          },
+          {
+            "tweet": 9,
+            "type": "conclusion",
+            "template": "The Silk Road was two-way trade between equals. Turkmenchay was surrender. The China deal was desperation. Free Iran chooses: partner to all, client to none. That's what 2026 is about."
+          }
+        ],
+        "sources": ["knowledge-great-powers.json"]
+      },
+      
+      "1979_hijacking_2026_completion": {
+        "id": "THREAD_004",
+        "title": "How Khomeini Stole the Revolution - And How 2026 Takes It Back",
+        "estimatedLength": 10,
+        "hook": "1978: Iranians wanted freedom. 1979: Khomeini stole it. 2026: The grandchildren are finishing the job. A thread on the revolution that took 47 years to complete. 🧵",
+        "structure": [
+          {
+            "tweet": 1,
+            "type": "hook",
+            "template": "1978: Iranians wanted freedom. 1979: Khomeini stole it. 2026: The grandchildren are finishing the job. A thread on the revolution that took 47 years to complete. 🧵"
+          },
+          {
+            "tweet": 2,
+            "type": "1978_coalition",
+            "template": "1978's revolution was a COALITION. Liberals wanting democracy. Leftists wanting socialism. Nationalists wanting independence. Islamists wanting theocracy. They agreed on one thing: Shah must go."
+          },
+          {
+            "tweet": 3,
+            "type": "khomeini_deception",
+            "template": "Khomeini promised everyone what they wanted. In Paris, he told Western journalists he'd be a 'Gandhi figure.' He promised not to rule directly. He promised women's rights would be protected."
+          },
+          {
+            "tweet": 4,
+            "type": "liberal_purge",
+            "template": "1979-1981: Khomeini purged the liberals first. Mehdi Bazargan resigned. Sadegh Ghotbzadeh executed. Abolhassan Banisadr impeached, fled. Anyone who believed the 'Gandhi' talk: eliminated."
+          },
+          {
+            "tweet": 5,
+            "type": "leftist_purge",
+            "template": "1981-1988: Then the leftists. MEK, Tudeh, Fadaiyan. Thousands imprisoned, thousands executed. The 1988 prison massacre: 5,000-30,000 political prisoners killed in weeks. Khomeini's last act."
+          },
+          {
+            "tweet": 6,
+            "type": "women_betrayed",
+            "template": "March 8, 1979: 100,000 women marched against mandatory hijab. Khomeini had promised. He lied. Women who helped make the revolution were its first victims. They've never stopped fighting."
+          },
+          {
+            "tweet": 7,
+            "type": "counter_revolution_complete",
+            "template": "By 1988, Khomeini had murdered EVERYONE who helped him. Liberals. Leftists. Nationalists. Even Islamists who disagreed. The 'revolution' was complete. It was a counter-revolution all along."
+          },
+          {
+            "tweet": 8,
+            "type": "memory_survives",
+            "template": "But they couldn't kill the memory. Parents told children. Exiles wrote books. The truth survived. The grandchildren of 1978's revolutionaries know what was stolen from them."
+          },
+          {
+            "tweet": 9,
+            "type": "2026_context",
+            "template": "2022: 'Woman, Life, Freedom.' 2026: Revolution 2.0. This time, no Khomeini in Paris with false promises. This time, they know who the enemy is. This time, they won't be fooled."
+          },
+          {
+            "tweet": 10,
+            "type": "conclusion",
+            "template": "2026 isn't a new revolution. It's the SAME revolution - 47 years delayed. The revolution Khomeini stole. The freedom 1978 demanded. The Iran that should have been. Finally becoming."
+          }
+        ],
+        "sources": ["knowledge-history.json", "knowledge-narratives.json"]
+      },
+      
+      "ethnic_unity_myth_busting": {
+        "id": "THREAD_005",
+        "title": "Will Iran Fragment? No. Here's 2,500 Years of Proof.",
+        "estimatedLength": 8,
+        "hook": "Every time Iran faces crisis, someone predicts 'fragmentation.' They've been wrong for 2,500 years. A thread on Iranian unity. 🧵",
+        "structure": [
+          {
+            "tweet": 1,
+            "type": "hook",
+            "template": "Every time Iran faces crisis, someone predicts 'fragmentation.' Kurds will break away. Azeris will join Azerbaijan. Baluch will revolt. They've been wrong for 2,500 years. Here's why. 🧵"
+          },
+          {
+            "tweet": 2,
+            "type": "composition",
+            "template": "Yes, Iran is diverse. Persian 61%, Azeri 16%, Kurdish 10%, Lur 6%, Arab 2%, Baluch 2%, Turkmen 2%. But diversity ≠ division. Switzerland has 4 languages. India has 22. Nations hold."
+          },
+          {
+            "tweet": 3,
+            "type": "khuzestan_test",
+            "template": "TEST #1: 1980. Saddam invades. Expects Arabs of Khuzestan (oil-rich, bordering Iraq) to defect. They fought FOR Iran. Eight years of war. Not one province defected. Not one."
+          },
+          {
+            "tweet": 4,
+            "type": "azerbaijan_test",
+            "template": "TEST #2: 1946. Soviets occupy northern Iran. Create puppet 'Azerbaijan People's Republic.' Expect Azeris to rally to ethnic brothers. They didn't. When Iranian army returned, they cheered."
+          },
+          {
+            "tweet": 5,
+            "type": "2026_unity",
+            "template": "TEST #3: 2026. Protests in ALL 31 provinces. Kurdish KDPI calls for solidarity with ALL Iranians. Azeris march with Persians. Baluch protest in Zahedan. TOGETHER. Not separately."
+          },
+          {
+            "tweet": 6,
+            "type": "yugoslavia_contrast",
+            "template": "Yugoslavia was created in 1918, collapsed in 1991. 73 years. Iran has existed for 2,500 years. Survived Greeks, Arabs, Mongols, Turks, Russians, British. It's not Yugoslavia. Stop comparing."
+          },
+          {
+            "tweet": 7,
+            "type": "identity_depth",
+            "template": "Iranian identity isn't ethnicity. It's civilization. Ferdowsi's Shahnameh. Hafez's poetry. Nowruz. 3,000 years of shared culture. You can be Kurdish AND Iranian. Azeri AND Iranian. They're not exclusive."
+          },
+          {
+            "tweet": 8,
+            "type": "conclusion",
+            "template": "The regime WANTS you to fear fragmentation. That's how they stay in power. 'Us or chaos.' But Iranians aren't fighting each other. They're fighting the regime. TOGETHER. 2,500 years strong."
+          }
+        ],
+        "sources": ["knowledge-geography-unity.json"]
+      },
+      
+      "massacre_escalation_pattern": {
+        "id": "THREAD_006",
+        "title": "The Math of Massacre: Each Crackdown Bigger, Each Uprising Stronger",
+        "estimatedLength": 7,
+        "hook": "1988: 5,000+ executed. 2019: 1,500 killed. 2022: 500+ killed. 2026: 12,000+ killed. Each crackdown bloodier. Each uprising bigger. A thread on the regime's doom spiral. 🧵",
+        "structure": [
+          {
+            "tweet": 1,
+            "type": "hook",
+            "template": "1988: 5,000+ executed. 2019: 1,500 killed. 2022: 500+ killed. 2026: 12,000+ killed. Each crackdown bloodier. Each uprising bigger. A thread on the regime's doom spiral. 🧵"
+          },
+          {
+            "tweet": 2,
+            "type": "1988",
+            "template": "Summer 1988: Khomeini's last order. Execute all political prisoners who won't repent. 5,000-30,000 killed in weeks. Mass graves still being discovered. They thought terror would ensure obedience forever."
+          },
+          {
+            "tweet": 3,
+            "type": "1999_2009",
+            "template": "1999: Student protests. Regime attacks dormitory. 2009: Green Movement. Millions in streets. Regime kills hundreds. Imprisons thousands. Each time they think: 'This will end it.'"
+          },
+          {
+            "tweet": 4,
+            "type": "2019",
+            "template": "November 2019: Gas price protests. Regime kills 1,500+ in ONE WEEK. Deadliest crackdown since 1988. Complete internet blackout. They thought they'd crushed the spirit."
+          },
+          {
+            "tweet": 5,
+            "type": "2022",
+            "template": "September 2022: Mahsa Amini dies. 'Woman, Life, Freedom.' Months of protests. 500+ killed. 20,000+ arrested. Universities, streets, even children. The regime survived. Barely."
+          },
+          {
+            "tweet": 6,
+            "type": "2026",
+            "template": "December 2025: Economic collapse triggers Tehran Bazaar. Within days: 31 provinces. The regime's response: 12,000+ killed in two weeks. More than all previous crackdowns combined."
+          },
+          {
+            "tweet": 7,
+            "type": "conclusion",
+            "template": "The math is clear: each massacre creates more martyrs, more rage, more determination. They've run out of room. When you've already killed 12,000, what threat is left? This is the final chapter."
+          }
+        ],
+        "sources": ["knowledge-facts.json", "knowledge-history.json"]
+      }
+    }
+  },
+  
+  "usage_instructions": {
+    "how_to_use": "Select template matching current news. Fill in [placeholders] with current details. Post as thread.",
+    "timing": "Threads work best in evening hours (6-9 PM EST) when people have time to read",
+    "frequency": "Maximum 1 thread per day to avoid fatigue",
+    "adaptation": "Templates can be shortened or extended based on breaking news"
+  }
+}

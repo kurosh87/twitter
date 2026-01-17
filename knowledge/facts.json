@@ -1,0 +1,849 @@
+{
+  "facts": [
+    {
+      "id": "death_toll_jan2026",
+      "statement": "12,000+ Iranians killed by regime since Dec 28, 2025",
+      "persianStatement": "بیش از ۱۲ هزار ایرانی از ۲۸ دسامبر ۲۰۲۵ توسط رژیم کشته شده‌اند",
+      "category": "massacre",
+      "confidence": "reported",
+      "sources": [
+        "HRANA",
+        "IranHumanRights",
+        "diaspora reports"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "chemical_weapons_used",
+      "statement": "Chemical agents used against protesters in Tehran and Mashhad",
+      "persianStatement": "عوامل شیمیایی علیه معترضان در تهران و مشهد استفاده شده",
+      "category": "massacre",
+      "confidence": "reported",
+      "sources": [
+        "Video evidence",
+        "medical reports",
+        "@__Injaneb96",
+        "@SGhasseminejad",
+        "@Realneo101"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "hospital_raids",
+      "statement": "Regime forces raiding hospitals, kidnapping doctors who treat wounded protesters",
+      "persianStatement": "نیروهای رژیم به بیمارستان‌ها حمله کرده و پزشکانی که به زخمی‌ها کمک می‌کنند را ربوده‌اند",
+      "category": "massacre",
+      "confidence": "verified",
+      "sources": [
+        "Multiple video sources",
+        "medical community reports",
+        "@__Injaneb96",
+        "@SGhasseminejad"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "dateVerified": "2026-01-17",
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "mass_executions_daily",
+      "statement": "Mass executions of prisoners happening daily since uprising began",
+      "persianStatement": "اعدام‌های دسته‌جمعی زندانیان هر روز از شروع قیام ادامه دارد",
+      "category": "massacre",
+      "confidence": "reported",
+      "sources": [
+        "HRANA",
+        "prisoner rights groups"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "internet_blackout",
+      "statement": "Total internet blackout in Iran since approximately Jan 10, 2026",
+      "persianStatement": "قطع کامل اینترنت در ایران از حدود ۱۰ ژانویه ۲۰۲۶",
+      "category": "infrastructure",
+      "confidence": "verified",
+      "sources": [
+        "NetBlocks",
+        "connectivity data"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "starlink_lifeline",
+      "statement": "Starlink terminals becoming primary internet connection for activists and journalists inside Iran",
+      "persianStatement": "استارلینک به اتصال اصلی اینترنت برای فعالان و روزنامه‌نگاران داخل ایران تبدیل شده",
+      "category": "infrastructure",
+      "confidence": "verified",
+      "sources": [
+        "User reports",
+        "Musk statements"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "pahlavi_strike_call",
+      "statement": "Crown Prince Pahlavi called for 3-day general strike Jan 18-20, 2026",
+      "persianStatement": "شاهزاده پهلوی خواستار اعتصاب سراسری سه‌روزه از ۱۸ تا ۲۰ ژانویه شد",
+      "category": "resistance",
+      "confidence": "verified",
+      "sources": [
+        "@PahlaviReza Twitter"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "pahlavi_nightly_protests",
+      "statement": "Pahlavi calling for nightly protests at 8pm local time",
+      "persianStatement": "پهلوی خواستار تظاهرات شبانه ساعت ۸ شب به وقت محلی شده",
+      "category": "resistance",
+      "confidence": "verified",
+      "sources": [
+        "@PahlaviReza Twitter"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "khamenei_bunker",
+      "statement": "Reports indicate Khamenei in bunker in eastern Iran, may flee to Russia",
+      "persianStatement": "گزارش‌ها حاکی از حضور خامنه‌ای در پناهگاه در شرق ایران، احتمال فرار به روسیه",
+      "category": "regime_action",
+      "confidence": "unconfirmed",
+      "sources": [
+        "OSINT reports",
+        "opposition sources"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "khamenei_trump_twitter",
+      "statement": "Khamenei and Trump engaged in Twitter tit-for-tat, Khamenei mocking Trump",
+      "persianStatement": "خامنه‌ای و ترامپ در جنگ توییتری، خامنه‌ای ترامپ را مسخره می‌کند",
+      "category": "international",
+      "confidence": "verified",
+      "sources": [
+        "Twitter/X posts"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "trump_new_leadership",
+      "statement": "Trump stated 'Iran needs new leadership' in Jan 2026",
+      "persianStatement": "ترامپ در ژانویه ۲۰۲۶ گفت 'ایران به رهبری جدید نیاز دارد'",
+      "category": "international",
+      "confidence": "verified",
+      "sources": [
+        "Trump statements"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "hamburg_attack",
+      "statement": "Knife attack on Iranian diaspora protesters in Hamburg, Germany",
+      "persianStatement": "حمله با چاقو به تظاهرکنندگان ایرانی در هامبورگ آلمان",
+      "category": "diaspora",
+      "confidence": "verified",
+      "sources": [
+        "News reports"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "pbd_pahlavi_disagreement",
+      "statement": "Patrick Bet-David and Crown Prince Pahlavi had public disagreements during interview",
+      "persianStatement": "پاتریک بت‌دیوید و شاهزاده پهلوی در مصاحبه اختلاف نظر علنی داشتند",
+      "category": "resistance",
+      "confidence": "verified",
+      "sources": [
+        "Valuetainment interview"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "javid_shah_chants",
+      "statement": "Protesters chanting 'Javid Shah' (Long live the Shah) in streets across Iran",
+      "persianStatement": "معترضان در خیابان‌های سراسر ایران شعار 'جاوید شاه' سر می‌دهند",
+      "category": "resistance",
+      "confidence": "verified",
+      "sources": [
+        "Video evidence from multiple cities"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "1988_prison_massacres",
+      "statement": "Islamic Republic executed 5,000+ political prisoners in 1988 prison massacres",
+      "persianStatement": "جمهوری اسلامی در کشتار زندان‌های ۱۳۶۷ بیش از ۵۰۰۰ زندانی سیاسی را اعدام کرد",
+      "category": "historical",
+      "confidence": "verified",
+      "sources": [
+        "Amnesty International",
+        "UN reports",
+        "survivor testimony"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "total_regime_deaths",
+      "statement": "Islamic Republic has killed 150,000+ Iranians since 1979",
+      "persianStatement": "جمهوری اسلامی از سال ۱۳۵۸ بیش از ۱۵۰ هزار ایرانی را کشته است",
+      "category": "historical",
+      "confidence": "reported",
+      "sources": [
+        "Various human rights organizations"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:17:44.502Z"
+    },
+    {
+      "id": "bloody_november_2019",
+      "statement": "1,500+ killed in November 2019 'Bloody November' protests",
+      "persianStatement": "بیش از ۱۵۰۰ نفر در آبان ۱۳۹۸ 'آبان خونین' کشته شدند",
+      "category": "historical",
+      "confidence": "reported",
+      "sources": [
+        "Reuters special investigation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "uprising_start_date",
+      "statement": "Current uprising began December 28, 2025",
+      "persianStatement": "قیام فعلی در ۲۸ دسامبر ۲۰۲۵ آغاز شد",
+      "category": "resistance",
+      "confidence": "verified",
+      "sources": [
+        "News reports",
+        "social media documentation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "cities_in_revolt",
+      "statement": "Major protests in Tehran, Mashhad, Isfahan, Shiraz, Tabriz, Karaj, Ahvaz, Kermanshah, Rasht, Yazd",
+      "persianStatement": "تظاهرات بزرگ در تهران، مشهد، اصفهان، شیراز، تبریز، کرج، اهواز، کرمانشاه، رشت، یزد",
+      "category": "resistance",
+      "confidence": "verified",
+      "sources": [
+        "Video evidence"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "cinema_rex_1978",
+      "statement": "Islamists burned 377-470 people alive at Cinema Rex (1978), blamed Shah - later confessed",
+      "persianStatement": "اسلامگرایان ۳۷۷ تا ۴۷۰ نفر را در سینما رکس زنده سوزاندند (۱۳۵۷)، شاه را متهم کردند - بعداً اعتراف کردند",
+      "category": "historical_parallel",
+      "confidence": "verified",
+      "sources": [
+        "Historical records",
+        "1980 confession"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "rasht_bazaar_2026",
+      "statement": "Regime forces set fires at Rasht Bazaar (Jan 8-9, 2026), shot surrendering protesters, 70+ bodies at hospital",
+      "persianStatement": "نیروهای رژیم در بازار رشت آتش‌سوزی کردند (۸-۹ ژانویه ۲۰۲۶)، به معترضان تسلیم‌شده شلیک کردند، ۷۰+ جسد در بیمارستان",
+      "category": "massacre",
+      "confidence": "verified",
+      "sources": [
+        "Eyewitness testimony",
+        "Video evidence",
+        "Poursina Hospital reports"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "shah_abandoned_1979",
+      "statement": "Every 'ally' refused dying Shah asylum in 1979 - only Sadat gave him a home to die",
+      "persianStatement": "همه 'متحدان' پناهندگی شاه در حال مرگ را رد کردند (۱۹۷۹) - فقط سادات به او خانه‌ای برای مردن داد",
+      "category": "historical",
+      "confidence": "verified",
+      "sources": [
+        "Historical records"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "guadeloupe_conference",
+      "statement": "Western leaders at Guadeloupe Conference (Jan 1979) decided to let Shah fall",
+      "persianStatement": "رهبران غربی در کنفرانس گوادلوپ (ژانویه ۱۹۷۹) تصمیم گرفتند شاه سقوط کند",
+      "category": "historical",
+      "confidence": "verified",
+      "sources": [
+        "Historical documentation",
+        "Yves Bonnet revelation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "1979_counter_revolution",
+      "statement": "1979 was a counter-revolution - Khomeini hijacked popular uprising, murdered all who helped him",
+      "persianStatement": "۱۳۵۷ ضد انقلاب بود - خمینی قیام مردمی را ربود، همه کسانی که کمکش کردند را کشت",
+      "category": "historical",
+      "confidence": "verified",
+      "sources": [
+        "Christopher Hitchens",
+        "Fred Halliday",
+        "Historical analysis"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "gulf_states_silent",
+      "statement": "Gulf states quietly lobbying Washington to avoid action against Iran during massacre",
+      "persianStatement": "کشورهای خلیج فارس بی‌سروصدا از واشنگتن می‌خواهند در زمان کشتار اقدامی علیه ایران نکند",
+      "category": "geopolitics",
+      "confidence": "verified",
+      "sources": [
+        "Brookings",
+        "Carnegie",
+        "Ynet analysis Jan 2026"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_second_largest_gas",
+      "statement": "Iran has world's second largest natural gas reserves - direct competitor to Qatar",
+      "persianStatement": "ایران دومین ذخایر بزرگ گاز طبیعی جهان را دارد - رقیب مستقیم قطر",
+      "category": "geopolitics",
+      "confidence": "verified",
+      "sources": [
+        "Energy statistics"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "greenwald_mbs_same",
+      "statement": "Glenn Greenwald and MBS agree on one thing: silence on Iran's 12,000+ dead",
+      "persianStatement": "گلن گرینوالد و محمد بن سلمان در یک چیز توافق دارند: سکوت درباره ۱۲ هزار کشته ایران",
+      "category": "geopolitics",
+      "confidence": "verified",
+      "sources": [
+        "Observable silence pattern"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_not_invaded_since_1220",
+      "statement": "Iran has not been successfully invaded since Mongols in 1220 - every conqueror absorbed",
+      "persianStatement": "ایران از زمان مغول‌ها در ۱۲۲۰ با موفقیت اشغال نشده - هر فاتحی جذب شد",
+      "category": "geography",
+      "confidence": "verified",
+      "sources": [
+        "Historical analysis",
+        "National Interest"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_89m_population",
+      "statement": "Iran has 89 million population - 17th largest country in world",
+      "persianStatement": "ایران ۸۹ میلیون جمعیت دارد - هفدهمین کشور بزرگ جهان",
+      "category": "geography",
+      "confidence": "verified",
+      "sources": [
+        "Population statistics"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "tehran_larger_than_nyc",
+      "statement": "Tehran (9.6 million) is larger than New York City",
+      "persianStatement": "تهران (۹.۶ میلیون) بزرگتر از نیویورک است",
+      "category": "geography",
+      "confidence": "verified",
+      "sources": [
+        "Population statistics"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "ethnic_unity_2026",
+      "statement": "All ethnicities (Kurds, Azeris, Baluch, Arabs, Persians) protesting regime together in 2026",
+      "persianStatement": "همه اقوام (کردها، آذری‌ها، بلوچ‌ها، عرب‌ها، فارس‌ها) در ۲۰۲۶ با هم علیه رژیم تظاهرات می‌کنند",
+      "category": "ethnic_unity",
+      "confidence": "verified",
+      "sources": [
+        "Video evidence from multiple regions"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "khuzestan_loyalty_1980",
+      "statement": "Arabs of Khuzestan did NOT join Iraqi invasion (1980-88) despite Saddam's appeals",
+      "persianStatement": "عرب‌های خوزستان علیرغم درخواست صدام به تهاجم عراق (۱۹۸۰-۸۸) نپیوستند",
+      "category": "ethnic_unity",
+      "confidence": "verified",
+      "sources": [
+        "Iran-Iraq War history"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_2500_years_statehood",
+      "statement": "2,500 years of continuous Persian statehood - unlike Yugoslavia (created 1918)",
+      "persianStatement": "۲۵۰۰ سال دولت مداوم پارسی - برخلاف یوگسلاوی (تأسیس ۱۹۱۸)",
+      "category": "ethnic_unity",
+      "confidence": "verified",
+      "sources": [
+        "Historical records"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_90pct_shia",
+      "statement": "90% of Iran is Shia Muslim - religious unity that crosses ethnic lines",
+      "persianStatement": "۹۰٪ ایران شیعه مسلمان است - وحدت مذهبی که از مرزهای قومی فراتر می‌رود",
+      "category": "ethnic_unity",
+      "confidence": "verified",
+      "sources": [
+        "Demographic data"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 25,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "treaty_turkmenchay_1828",
+      "statement": "Treaty of Turkmenchay (1828): Russia took Armenia, Azerbaijan, Georgia from Iran - still a curse word in Persian",
+      "persianStatement": "عهدنامه ترکمنچای (۱۸۲۸): روسیه ارمنستان، آذربایجان، گرجستان را از ایران گرفت - هنوز در فارسی یک ناسزاست",
+      "category": "great_powers",
+      "confidence": "verified",
+      "sources": [
+        "Historical records",
+        "Treaty documentation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 20,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "russia_bombed_parliament_1908",
+      "statement": "In 1908, Russian troops helped the Shah bombard Iran's parliament - Russia has always opposed Iranian democracy",
+      "persianStatement": "در ۱۹۰۸، نیروهای روسیه به شاه کمک کردند تا مجلس ایران را بمباران کند - روسیه همیشه مخالف دموکراسی ایران بوده",
+      "category": "great_powers",
+      "confidence": "verified",
+      "sources": [
+        "Historical records",
+        "Constitutional Revolution documentation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "china_iran_25year_deal",
+      "statement": "China-Iran 25-year deal (2021) for $400B - Iranians called it 'new Treaty of Turkmenchay', selling sovereignty",
+      "persianStatement": "قرارداد ۲۵ ساله چین-ایران (۲۰۲۱) به ارزش ۴۰۰ میلیارد دلار - ایرانیان آن را 'ترکمنچای جدید' نامیدند، فروش حاکمیت",
+      "category": "great_powers",
+      "confidence": "verified",
+      "sources": [
+        "News reports",
+        "Iranian criticism"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "silk_road_equals",
+      "statement": "For 2,000 years, Persia and China were equals - twin pillars of Asian civilization trading as partners",
+      "persianStatement": "به مدت ۲۰۰۰ سال، ایران و چین برابر بودند - دو ستون تمدن آسیا که به عنوان شریک تجارت می‌کردند",
+      "category": "great_powers",
+      "confidence": "verified",
+      "sources": [
+        "Historical records",
+        "Silk Road documentation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "soviet_puppet_states_1946",
+      "statement": "USSR tried to create puppet 'Azerbaijan Republic' and 'Republic of Mahabad' (1946) - Iranian Azeris chose Iran",
+      "persianStatement": "شوروی تلاش کرد 'جمهوری آذربایجان' و 'جمهوری مهاباد' دست‌نشانده بسازد (۱۹۴۶) - آذری‌های ایرانی ایران را انتخاب کردند",
+      "category": "great_powers",
+      "confidence": "verified",
+      "sources": [
+        "Historical records",
+        "Azerbaijan Crisis 1946"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "constitutional_revolution_1906",
+      "statement": "Iran's Constitutional Revolution (1906) was the FIRST in the Islamic world - predates Turkey by 2 years",
+      "persianStatement": "انقلاب مشروطه ایران (۱۹۰۶) اولین در جهان اسلام بود - ۲ سال قبل از ترکیه",
+      "category": "iran_not_iraq",
+      "confidence": "verified",
+      "sources": [
+        "Historical records",
+        "Persian Constitutional Revolution"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_literacy_97pct",
+      "statement": "Iran's literacy rate is 97% - Afghanistan was 30% at US invasion. This isn't nation-building from scratch.",
+      "persianStatement": "نرخ سواد ایران ۹۷٪ است - افغانستان در زمان حمله آمریکا ۳۰٪ بود. این ملت‌سازی از صفر نیست.",
+      "category": "iran_not_iraq",
+      "confidence": "verified",
+      "sources": [
+        "UNESCO data",
+        "World Bank"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "women_60pct_university",
+      "statement": "60% of Iran's university students are women - educated women who remember freedom under the Shah",
+      "persianStatement": "۶۰٪ دانشجویان ایران زن هستند - زنان تحصیلکرده‌ای که آزادی زمان شاه را به یاد دارند",
+      "category": "iran_not_iraq",
+      "confidence": "verified",
+      "sources": [
+        "Iranian education statistics"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "diaspora_4_million",
+      "statement": "4+ million educated Iranians in diaspora - engineers, doctors, entrepreneurs ready to return",
+      "persianStatement": "بیش از ۴ میلیون ایرانی تحصیلکرده در دیاسپورا - مهندسان، پزشکان، کارآفرینان آماده بازگشت",
+      "category": "iran_not_iraq",
+      "confidence": "verified",
+      "sources": [
+        "Diaspora statistics"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iraq_created_1920",
+      "statement": "Iraq was created by Britain in 1920 from three Ottoman provinces - never had democracy before 2003",
+      "persianStatement": "عراق در ۱۹۲۰ توسط بریتانیا از سه ولایت عثمانی ساخته شد - هرگز قبل از ۲۰۰۳ دموکراسی نداشت",
+      "category": "iran_not_iraq",
+      "confidence": "verified",
+      "sources": [
+        "Historical records"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "iran_sabotaged_iraq",
+      "statement": "Iran spent 20 years sabotaging Iraq - funded militias, provided IEDs, killed Americans. Now karma: no one can sabotage Iran.",
+      "persianStatement": "ایران ۲۰ سال عراق را خراب کرد - به شبه‌نظامیان کمک کرد، بمب‌های کنار جاده‌ای داد، آمریکایی‌ها را کشت. حالا کارما: کسی نمی‌تواند ایران را خراب کند.",
+      "category": "iran_not_iraq",
+      "confidence": "verified",
+      "sources": [
+        "Iraq War analysis",
+        "Military reports"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "mek_giuliani_paid",
+      "statement": "Rudy Giuliani paid $20,000+ per MEK speech, never registered as foreign agent under FARA",
+      "persianStatement": "رودی جولیانی برای هر سخنرانی منافقین بیش از ۲۰ هزار دلار گرفت، هرگز به عنوان عامل خارجی ثبت نکرد",
+      "category": "traitors",
+      "confidence": "verified",
+      "sources": [
+        "NBC News",
+        "DOJ investigations"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "mek_bolton_paid",
+      "statement": "John Bolton paid 'tens of thousands' for MEK conference speeches before becoming Trump's NSA",
+      "persianStatement": "جان بولتون برای سخنرانی در کنفرانس‌های منافقین 'ده‌ها هزار دلار' گرفت قبل از اینکه مشاور امنیت ملی ترامپ شود",
+      "category": "traitors",
+      "confidence": "verified",
+      "sources": [
+        "News reports",
+        "Financial disclosures"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:30:30.801Z"
+    },
+    {
+      "id": "mek_clinton_delisting",
+      "statement": "Hillary Clinton delisted MEK as terror organization Sept 2012 after years of paid lobbying campaign",
+      "persianStatement": "هیلاری کلینتون منافقین را در سپتامبر ۲۰۱۲ از لیست تروریستی خارج کرد پس از سال‌ها لابی‌گری پولی",
+      "category": "traitors",
+      "confidence": "verified",
+      "sources": [
+        "State Department records",
+        "Congress.gov"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "mek_saddam_alliance",
+      "statement": "MEK sided with Saddam Hussein during Iran-Iraq war - fought against their own countrymen while Iraq invaded",
+      "persianStatement": "منافقین در جنگ ایران-عراق کنار صدام حسین ایستادند - علیه هموطنان خود جنگیدند در حالی که عراق حمله کرده بود",
+      "category": "traitors",
+      "confidence": "verified",
+      "sources": [
+        "Iran-Iraq War history",
+        "MEK documentation"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "mek_lobbying_millions",
+      "statement": "MEK-linked organizations paid $1.5M to lobbying firms in 2011 alone for terror delisting",
+      "persianStatement": "سازمان‌های مرتبط با منافقین فقط در سال ۲۰۱۱ ۱.۵ میلیون دلار به شرکت‌های لابی برای خروج از لیست تروریستی پرداختند",
+      "category": "traitors",
+      "confidence": "verified",
+      "sources": [
+        "Congress.gov CRS Report"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "mek_no_support_iran",
+      "statement": "MEK/NCRI has zero popular support inside Iran - viewed as traitors (Monafeghin) for Saddam alliance",
+      "persianStatement": "منافقین هیچ حمایت مردمی در ایران ندارند - به خاطر اتحاد با صدام خائن (منافق) شناخته می‌شوند",
+      "category": "traitors",
+      "confidence": "verified",
+      "sources": [
+        "Iranian public opinion",
+        "Diaspora consensus"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 10,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "niac_court_ruling",
+      "statement": "Federal judge ruled NIAC's work 'not inconsistent with the idea that Parsi was an advocate for the regime'",
+      "persianStatement": "قاضی فدرال حکم داد کار نایاک 'با این ایده که پارسی مدافع رژیم بود ناسازگار نیست'",
+      "category": "regime_apologist",
+      "confidence": "verified",
+      "sources": [
+        "Judge John Bates ruling 2012",
+        "Court documents"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "niac_lost_suit_180k",
+      "statement": "NIAC lost defamation suit, ordered to pay $180K, found to have withheld 5,500 emails in discovery",
+      "persianStatement": "نایاک دعوای افترا را باخت، مجبور به پرداخت ۱۸۰ هزار دلار شد، ۵,۵۰۰ ایمیل را در کشف مخفی کرده بود",
+      "category": "regime_apologist",
+      "confidence": "verified",
+      "sources": [
+        "Federal court records",
+        "Appeals court ruling"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "parsi_obama_33_meetings",
+      "statement": "Trita Parsi met Obama officials 33 times between 2013-2015 while lobbying for Iran nuclear deal",
+      "persianStatement": "تریتا پارسی ۳۳ بار بین ۲۰۱۳-۲۰۱۵ با مقامات اوباما ملاقات کرد در حالی که برای توافق هسته‌ای ایران لابی می‌کرد",
+      "category": "regime_apologist",
+      "confidence": "verified",
+      "sources": [
+        "White House visitor logs",
+        "Hassan Dai research"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "niac_slur_iran",
+      "statement": "'NIAC' became a slur inside Iran - synonymous with 'regime lobbyist/apologist' even among dissidents",
+      "persianStatement": "'نایاک' در ایران یک توهین شده - مترادف با 'لابیست/مدافع رژیم' حتی بین مخالفان",
+      "category": "regime_apologist",
+      "confidence": "verified",
+      "sources": [
+        "Holly Dagres 2022",
+        "Atena Daemi tweet"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "bbc_ayatollah_bbc",
+      "statement": "Iranians call BBC Persian 'Ayatollah BBC' - campaign accusing it of pro-regime editorial tilt",
+      "persianStatement": "ایرانیان به بی‌بی‌سی فارسی می‌گویند 'آیت‌الله بی‌بی‌سی' - کمپینی که آن را به تمایل سرمقاله‌ای طرفدار رژیم متهم می‌کند",
+      "category": "media_bias",
+      "confidence": "verified",
+      "sources": [
+        "GB News",
+        "Iranian social media campaigns"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "bbc_gaza_vs_iran_silence",
+      "statement": "Israeli embassy slammed BBC for 'near-total silence' on Iran protests while obsessing over Gaza coverage",
+      "persianStatement": "سفارت اسرائیل از بی‌بی‌سی به خاطر 'سکوت تقریباً کامل' درباره اعتراضات ایران در حالی که وسواس پوشش غزه دارد انتقاد کرد",
+      "category": "media_bias",
+      "confidence": "verified",
+      "sources": [
+        "Israeli embassy statement",
+        "GB News report"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "iran_intl_saudi_250m",
+      "statement": "Iran International received $250M funding from Saudi Arabia according to The Guardian",
+      "persianStatement": "ایران اینترنشنال طبق گاردین ۲۵۰ میلیون دلار بودجه از عربستان سعودی دریافت کرده",
+      "category": "media_bias",
+      "confidence": "verified",
+      "sources": [
+        "The Guardian"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "rial_collapse_99pct",
+      "statement": "Iranian rial lost 99%+ of value since 1979 - from 70 rials/USD to 700,000+ rials/USD",
+      "persianStatement": "ریال ایران از ۱۹۷۹ بیش از ۹۹٪ ارزش خود را از دست داده - از ۷۰ ریال به بیش از ۷۰۰,۰۰۰ ریال برای هر دلار",
+      "category": "economic",
+      "confidence": "verified",
+      "sources": [
+        "Exchange rate data",
+        "Economic reports"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "irgc_economy_control",
+      "statement": "IRGC controls estimated 20-40% of Iran's economy through front companies and monopolies",
+      "persianStatement": "سپاه تخمین زده می‌شود ۲۰-۴۰٪ اقتصاد ایران را از طریق شرکت‌های پوششی و انحصارات کنترل می‌کند",
+      "category": "economic",
+      "confidence": "verified",
+      "sources": [
+        "Economic analyses",
+        "Sanctions research"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    },
+    {
+      "id": "khamenei_fortune_200b",
+      "statement": "Khamenei's personal fortune estimated at $200 billion through Setad conglomerate and foundations",
+      "persianStatement": "ثروت شخصی خامنه‌ای حدود ۲۰۰ میلیارد دلار از طریق ستاد و بنیادها تخمین زده می‌شود",
+      "category": "economic",
+      "confidence": "reported",
+      "sources": [
+        "Reuters investigation",
+        "Treasury sanctions research"
+      ],
+      "dateAdded": "2026-01-17",
+      "usageCount": 15,
+      "lastUsed": "2026-01-17T22:55:37.807Z"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-01-17T22:55:37.807Z",
+    "version": "1.1"
+  }
+}

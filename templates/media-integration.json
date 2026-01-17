@@ -1,0 +1,343 @@
+# Media-Integrated Tweet Generation
+
+## Overview
+
+Every tweet should consider visual accompaniment. This module integrates media selection into the tweet generation pipeline.
+
+---
+
+## PROMPT: Tweet with Media Recommendation
+
+```
+Generate a tweet with media recommendation.
+
+TOPIC: {{topic}}
+PATTERN: {{pattern}}
+CURRENT NEWS: {{news_context}}
+
+AVAILABLE MEDIA FOR THIS TOPIC:
+{{media_catalog_results}}
+
+Generate:
+
+1. TWEET TEXT (max 280 characters)
+
+2. MEDIA RECOMMENDATION:
+   - Primary image: [filename and reason]
+   - Alternative: [filename]
+   - If no suitable image: "ACQUIRE: [search query]"
+
+3. ALT TEXT (for accessibility):
+   [Description of image for screen readers]
+
+4. MEDIA TREATMENT:
+   - [ ] Use as-is
+   - [ ] Create comparison (specify what to compare)
+   - [ ] Add text overlay (specify text)
+   - [ ] Blur faces needed
+   - [ ] No image recommended
+
+5. ATTRIBUTION (if required):
+   [Credit line to include]
+```
+
+---
+
+## PROMPT: Comparison Image Request
+
+For parallel tweets (e.g., Cinema Rex = Rasht), generate comparison specs:
+
+```
+Generate comparison image specifications.
+
+PARALLEL TYPE: {{parallel}} (e.g., "fire_parallel")
+EVENT 1: {{historical_event}}
+EVENT 2: {{current_event}}
+
+AVAILABLE IMAGES:
+Historical: {{historical_images}}
+Current: {{current_images}}
+
+Generate:
+
+1. IMAGE SELECTION:
+   - Left image (historical): [filename]
+   - Right image (current): [filename]
+
+2. COMPARISON LAYOUT:
+   - [ ] Side-by-side (equal size)
+   - [ ] Top-bottom
+   - [ ] Overlay with opacity
+
+3. TEXT OVERLAYS:
+   - Left label: "{{year}}: {{brief_description}}"
+   - Right label: "{{year}}: {{brief_description}}"
+   - Bottom text (optional): "{{tagline}}"
+
+4. VISUAL NOTES:
+   - Color treatment: [original / B&W / sepia for historical]
+   - Border/divider: [yes/no]
+   - Logo/watermark: [position if any]
+
+5. ALT TEXT:
+   "[Full description for accessibility]"
+```
+
+---
+
+## Media Selection Logic
+
+### By Pattern
+
+```python
+PATTERN_MEDIA_MAPPING = {
+    "fire_parallel": {
+        "primary": ["cinema_rex", "rasht_2026", "fire", "aftermath"],
+        "treatment": "comparison",
+        "notes": "Side-by-side 1978 vs 2026"
+    },
+    "counter_revolution": {
+        "primary": ["1979", "revolution", "khomeini", "demonstrations"],
+        "treatment": "historical",
+        "notes": "Show what was promised vs delivered"
+    },
+    "western_betrayal": {
+        "primary": ["guadeloupe", "carter", "1979_summit"],
+        "treatment": "historical",
+        "notes": "Conference photo of four leaders"
+    },
+    "ethnic_unity": {
+        "primary": ["khuzestan", "azerbaijan", "ethnic_map"],
+        "treatment": "map_or_historical",
+        "notes": "Show multi-ethnic unity"
+    },
+    "iraq_contrast": {
+        "primary": ["constitutional", "1906", "majlis", "mossadegh"],
+        "treatment": "historical",
+        "notes": "Prove democratic history"
+    },
+    "great_power_game": {
+        "primary": ["turkmenchay", "silk_road", "map", "treaty"],
+        "treatment": "historical_or_map",
+        "notes": "Territory loss or trade routes"
+    },
+    "constitutional_memory": {
+        "primary": ["1906", "majlis", "sattar_khan", "constitutional"],
+        "treatment": "historical",
+        "notes": "Show democratic origins"
+    },
+    "massacre_escalation": {
+        "primary": ["1988", "2019", "2022", "protest"],
+        "treatment": "none_or_careful",
+        "notes": "No graphic images - use documents or memorials"
+    }
+}
+```
+
+### By Tweet Type
+
+```python
+TWEET_TYPE_MEDIA = {
+    "breaking_news": {
+        "media": "optional",
+        "preference": "screenshot_of_source",
+        "caution": "verify before using"
+    },
+    "historical_anchor": {
+        "media": "recommended",
+        "preference": "historical_photo",
+        "treatment": "context_setting"
+    },
+    "victim_memorial": {
+        "media": "if_available",
+        "preference": "portrait_or_memorial",
+        "caution": "dignity_first"
+    },
+    "counter_propaganda": {
+        "media": "evidence_based",
+        "preference": "documents_or_comparison",
+        "treatment": "factual"
+    },
+    "thread_tweet": {
+        "media": "every_2_3_tweets",
+        "preference": "variety",
+        "treatment": "narrative_supporting"
+    }
+}
+```
+
+---
+
+## Integrated Generation Example
+
+### Input
+```json
+{
+  "topic": "Rasht massacre parallel to Cinema Rex",
+  "pattern": "fire_parallel",
+  "news": "70 bodies at Poursina Hospital after bazaar fire"
+}
+```
+
+### Media Catalog Query
+```json
+{
+  "cinema_rex": [
+    {"id": "IMG_001", "file": "cinema_rex_aftermath.jpg", "quality": 4},
+    {"id": "IMG_002", "file": "cinema_rex_building.jpg", "quality": 3}
+  ],
+  "rasht_2026": [
+    {"id": "IMG_010", "file": "rasht_hospital_report.jpg", "quality": 4, "source": "@IHRights"}
+  ]
+}
+```
+
+### Output
+```
+TWEET:
+"August 1978: Cinema Rex, Abadan. 420 burned alive. Blamed on Shah. Actually: Islamists.
+January 2026: Rasht Bazaar. 70+ burned/shot. Blamed on 'rioters.' Actually: IRGC.
+Same fire. Same lies. 47 years apart."
+
+MEDIA RECOMMENDATION:
+- Primary: Create comparison image
+  - Left: cinema_rex_aftermath.jpg (verified, public domain)
+  - Right: rasht_hospital_report.jpg (verified, credit @IHRights)
+- Treatment: Side-by-side with year labels
+
+COMPARISON SPEC:
+- Left label: "1978: Cinema Rex"
+- Right label: "2026: Rasht Bazaar"  
+- Bottom: "Same fire. Same lies."
+
+ALT TEXT:
+"Side-by-side comparison: Left shows aftermath of Cinema Rex fire in 1978; Right shows 2026 Rasht hospital receiving bodies. Both incidents involved trapped civilians and regime blame-shifting."
+
+ATTRIBUTION:
+"Right image via @IHRights"
+```
+
+---
+
+## No-Image Scenarios
+
+Some tweets are better without images:
+
+1. **Unverified breaking news** - Wait for verification
+2. **Sensitive victim content** - When images could be traumatizing
+3. **Complex analysis** - When image would distract
+4. **Rapid response** - When speed matters more than engagement
+
+```
+TWEET: [text]
+
+MEDIA RECOMMENDATION: None
+REASON: [Breaking news - wait for verified images before adding visual]
+FOLLOW-UP: Consider adding image in reply once verified
+```
+
+---
+
+## Image Acquisition Triggers
+
+When catalog search returns no results:
+
+```
+TWEET: [text]
+
+MEDIA RECOMMENDATION: 
+- No suitable image in catalog
+- ACQUIRE: Run "./media_scripts.sh google 'Treaty of Turkmenchay 1828 map' ./media/events/turkmenchay-1828"
+- FALLBACK: Post without image, add in future with "A visual reminder:" quote tweet
+
+ACQUISITION PRIORITY: High (needed for recurring topic)
+```
+
+---
+
+## Daily Media Check
+
+Before generating daily tweet package, check media status:
+
+```bash
+# Check what's available for today's likely topics
+python media_scraper.py status --topics "fire_parallel,massacre_escalation,constitutional_memory"
+
+# Output:
+# fire_parallel: 5 images (✓ sufficient)
+# massacre_escalation: 2 images (⚠️ could use more)
+# constitutional_memory: 8 images (✓ sufficient)
+# 
+# RECOMMENDED ACQUISITION:
+# - ./media_scripts.sh google "November 2019 Iran protests" ./media/events/bloody-november-2019
+```
+
+---
+
+## Platform-Specific Media
+
+### Twitter/X
+- Single image or up to 4 images
+- GIFs supported
+- Video up to 2:20
+- Recommended: 1200x675 or 1:1
+
+### Instagram
+- Single image or carousel (up to 10)
+- 1080x1080 or 1080x1350
+- Video up to 60 seconds (feed), 90 seconds (reels)
+- REQUIRES image - no text-only posts
+
+### Threads
+- Similar to Instagram
+- Can include images
+- Less visual-dependent than Instagram
+
+### Telegram
+- High-res images supported
+- Longer videos allowed
+- Can include documents/PDFs
+
+---
+
+## Comparison Image Generator Spec
+
+For automated comparison creation:
+
+```python
+class ComparisonImageGenerator:
+    def generate(self, 
+                 left_image: str,
+                 right_image: str,
+                 left_label: str,
+                 right_label: str,
+                 bottom_text: str = None,
+                 style: str = "side_by_side") -> str:
+        """
+        Generate comparison image.
+        
+        Args:
+            left_image: Path to historical image
+            right_image: Path to current image
+            left_label: Text label for left (e.g., "1978")
+            right_label: Text label for right (e.g., "2026")
+            bottom_text: Optional tagline
+            style: "side_by_side", "top_bottom", "overlay"
+        
+        Returns:
+            Path to generated comparison image
+        """
+        # Implementation using PIL or ImageMagick
+        pass
+```
+
+Command-line version:
+```bash
+python media_tools.py compare \
+  --left ./media/events/cinema-rex-1978/aftermath.jpg \
+  --right ./media/current/rasht-2026/hospital.jpg \
+  --left-label "1978: Cinema Rex" \
+  --right-label "2026: Rasht Bazaar" \
+  --bottom "Same fire. Same lies." \
+  --output ./media/comparisons/cinema_rasht_comparison.jpg
+```

@@ -1,0 +1,266 @@
+{
+  "anniversary_calendar": {
+    "title": "Iran Historical Anniversary Calendar",
+    "purpose": "Auto-generate historically-grounded tweets on significant dates",
+    "description": "Every date is an opportunity to connect past to present",
+    
+    "january": [
+      {
+        "date": "01-04",
+        "year": 1979,
+        "event": "Guadeloupe Conference",
+        "description": "Carter, Giscard, Callaghan, Schmidt agree Shah must go. Gave green light to Khomeini.",
+        "significance": "Western betrayal moment - enabled theocratic takeover",
+        "tweetAngle": "On this day in 1979, four Western leaders decided Iran's fate without Iranians. They chose Khomeini over democracy. 47 years later, Iranians are undoing that choice themselves.",
+        "pattern": "western_betrayal",
+        "hashtags": ["Guadeloupe1979", "IranRevolution"]
+      },
+      {
+        "date": "01-09",
+        "year": 1978,
+        "event": "Qom Protests Begin",
+        "description": "Seminary students protest article insulting Khomeini. Police kill several. Sparks 40-day mourning cycles leading to revolution.",
+        "significance": "The spark that lit the 1978-79 revolution",
+        "tweetAngle": "January 9, 1978: Qom. The spark that became a revolution. January 2026: Tehran Bazaar. History doesn't repeat, but it rhymes.",
+        "pattern": "counter_revolution",
+        "hashtags": ["Qom1978"]
+      },
+      {
+        "date": "01-16",
+        "year": 1979,
+        "event": "Shah Leaves Iran",
+        "description": "Mohammad Reza Shah departs Iran 'on vacation.' Never returns. Dies in Egypt 1980.",
+        "significance": "End of 2,500 years of monarchy, beginning of theocracy",
+        "tweetAngle": "January 16, 1979: The Shah left. He thought he'd return. 47 years later, his son may complete what his father couldn't - a free Iran.",
+        "pattern": "counter_revolution",
+        "hashtags": ["Shah", "Pahlavi"]
+      }
+    ],
+    
+    "february": [
+      {
+        "date": "02-01",
+        "year": 1979,
+        "event": "Khomeini Returns to Iran",
+        "description": "Ayatollah Khomeini returns from 15 years exile in France on Air France chartered flight.",
+        "significance": "The hijacker arrives. Counter-revolution begins.",
+        "tweetAngle": "February 1, 1979: Khomeini flew from Paris on Air France. Western capitals celebrated. 47 years and millions of victims later, Iranians are finally undoing that day.",
+        "pattern": "counter_revolution",
+        "hashtags": ["Khomeini1979"]
+      },
+      {
+        "date": "02-10",
+        "year": 1979,
+        "event": "Imperial Guard Surrenders",
+        "description": "Last Shah loyalist military units surrender. Revolution complete.",
+        "significance": "Military collapse enabled theocratic takeover",
+        "tweetAngle": null,
+        "pattern": "counter_revolution"
+      },
+      {
+        "date": "02-11",
+        "year": 1979,
+        "event": "Islamic Revolution Victory Day",
+        "description": "Regime's official celebration of revolution. Regime holds rallies.",
+        "significance": "COUNTER-PROGRAMMING opportunity",
+        "tweetAngle": "The regime celebrates February 11 as 'Victory Day.' Victory for whom? For Khomeini who executed the revolutionaries. For theocrats who stole democracy. 2026 will give Iran a real victory.",
+        "pattern": "counter_revolution",
+        "hashtags": ["Feb11"]
+      },
+      {
+        "date": "02-21",
+        "year": 1828,
+        "event": "Treaty of Turkmenchay",
+        "description": "Iran signs humiliating treaty with Russia, loses Caucasus territories forever.",
+        "significance": "Iran's greatest national humiliation - used to criticize any 'sellout' deal",
+        "tweetAngle": "February 21, 1828: Turkmenchay. Iran lost the Caucasus to Russia. 2021: Mullahs signed 25-year deal with China. Iranians called it 'new Turkmenchay.' Free Iran will be partner to all, client to none.",
+        "pattern": "great_power_game",
+        "hashtags": ["Turkmenchay"]
+      }
+    ],
+    
+    "march": [
+      {
+        "date": "03-08",
+        "year": 1979,
+        "event": "Women's Day Protests Against Hijab",
+        "description": "100,000 women march in Tehran against mandatory hijab. Khomeini temporarily backs down.",
+        "significance": "Women resisted from DAY ONE. Regime's first crisis.",
+        "tweetAngle": "March 8, 1979: Just weeks after Khomeini took power, 100,000 women marched against mandatory hijab. They resisted from day one. 47 years later, 'Woman, Life, Freedom' finishes what they started.",
+        "pattern": "counter_revolution",
+        "hashtags": ["InternationalWomensDay", "WomanLifeFreedom"]
+      },
+      {
+        "date": "03-20/21",
+        "year": "annual",
+        "event": "Nowruz (Persian New Year)",
+        "description": "Ancient Persian celebration predating Islam by millennia. Regime has tried to suppress.",
+        "significance": "Iranian identity transcends Islamic Republic",
+        "tweetAngle": "Nowruz has been celebrated for 3,000 years. The Islamic Republic is 47 years old. Which will survive? Happy New Year to all Iranians - this year, may freedom be your gift.",
+        "pattern": "constitutional_memory",
+        "hashtags": ["Nowruz", "PersianNewYear"]
+      }
+    ],
+    
+    "april": [
+      {
+        "date": "04-01",
+        "year": 1979,
+        "event": "Islamic Republic Referendum",
+        "description": "Sham referendum with only one choice: 'Islamic Republic - Yes or No?' 98% 'yes' claimed.",
+        "significance": "No option for secular democracy, constitutional monarchy",
+        "tweetAngle": "April 1, 1979: Iran's 'referendum' offered one choice: Islamic Republic - Yes or No? No option for democracy. No option for constitutional monarchy. 47 years later, Iranians are choosing for themselves.",
+        "pattern": "counter_revolution",
+        "hashtags": []
+      }
+    ],
+    
+    "june": [
+      {
+        "date": "06-12",
+        "year": 2009,
+        "event": "Green Movement Election",
+        "description": "Disputed election. Ahmadinejad declared winner despite evidence of fraud. Protests begin.",
+        "significance": "2009 uprising - precursor to 2022 and 2026",
+        "tweetAngle": "June 2009: Iranians demanded 'Where is my vote?' The regime answered with bullets and Evin Prison. 17 years later, they're not asking anymore. They're taking their country back.",
+        "pattern": "massacre_escalation",
+        "hashtags": ["GreenMovement"]
+      },
+      {
+        "date": "06-20",
+        "year": 2009,
+        "event": "Neda Agha-Soltan Killed",
+        "description": "26-year-old woman shot dead by Basij. Her death filmed, went viral. Symbol of Green Movement.",
+        "significance": "Iconic martyr - her death galvanized movement",
+        "tweetAngle": "June 20, 2009: Neda Agha-Soltan, 26, was shot through the heart in Tehran. Her dying moments went viral. She became a symbol. Now, thousands of Nedas are rising to finish what she started.",
+        "pattern": "massacre_escalation",
+        "hashtags": ["Neda", "RememberNeda"]
+      }
+    ],
+    
+    "july": [
+      {
+        "date": "07-09",
+        "year": 1999,
+        "event": "1999 Student Protests (18 Tir)",
+        "description": "Tehran University students protest newspaper closure. Regime attacks dormitory, kills several.",
+        "significance": "First major post-Khomeini uprising",
+        "tweetAngle": "July 9, 1999: Students protested. Regime attacked their dormitory at night. Threw students from windows. That generation is now middle-aged. Their children are in the streets in 2026.",
+        "pattern": "massacre_escalation",
+        "hashtags": ["18Tir"]
+      }
+    ],
+    
+    "august": [
+      {
+        "date": "08-05",
+        "year": 1906,
+        "event": "Constitutional Revolution Victory",
+        "description": "Mozaffar ad-Din Shah signs constitution. First in Islamic world. Parliament established.",
+        "significance": "FOUNDATIONAL - proves Iran has democratic DNA",
+        "tweetAngle": "August 5, 1906: Iran became the FIRST nation in the Islamic world with a constitution. Before Turkey. Before anyone. 120 years later, Iranians are still fighting for that same dream.",
+        "pattern": "constitutional_memory",
+        "hashtags": ["Mashruteh", "1906"]
+      },
+      {
+        "date": "08-19",
+        "year": 1953,
+        "event": "CIA Coup (Operation AJAX)",
+        "description": "CIA/MI6 overthrow democratically elected PM Mossadegh. Restore Shah's absolute power.",
+        "significance": "Original sin of US-Iran relations. Led to 1979.",
+        "tweetAngle": "August 19, 1953: The CIA overthrew Iran's democracy. 26 years later, Iranians got revolution - but not freedom. 2026: They're finally getting both. This time, no one can steal it.",
+        "pattern": "western_betrayal",
+        "hashtags": ["Mossadegh", "1953Coup"]
+      },
+      {
+        "date": "08-19",
+        "year": 1978,
+        "event": "Cinema Rex Fire",
+        "description": "377-470 burned alive in Abadan movie theater. Blamed on SAVAK. Actually: Islamist militants.",
+        "significance": "CRITICAL PARALLEL - same tactic used in Rasht 2026",
+        "tweetAngle": "August 19, 1978: Cinema Rex, Abadan. 420 burned alive. Blamed on Shah. Actually: Islamist militants. Same people who would soon rule Iran. Same tactic used in Rasht 2026. Same fire. Same killers.",
+        "pattern": "fire_parallel",
+        "hashtags": ["CinemaRex", "Rasht"]
+      }
+    ],
+    
+    "september": [
+      {
+        "date": "09-08",
+        "year": 1978,
+        "event": "Black Friday (Jaleh Square Massacre)",
+        "description": "Martial law declared. Troops fire on protesters in Tehran. 64-88 killed (regime later claimed thousands).",
+        "significance": "Point of no return for 1978 revolution",
+        "tweetAngle": "September 8, 1978: Black Friday. Troops fired on protesters at Jaleh Square. It was the point of no return. Every massacre has a Black Friday. 2026 has had many.",
+        "pattern": "massacre_escalation",
+        "hashtags": ["BlackFriday1978"]
+      },
+      {
+        "date": "09-16",
+        "year": 2022,
+        "event": "Mahsa Amini Dies",
+        "description": "22-year-old Kurdish woman dies in morality police custody. Sparks 'Woman, Life, Freedom' uprising.",
+        "significance": "2022 uprising that weakened regime before 2026",
+        "tweetAngle": "September 16, 2022: Mahsa Amini, 22, died in custody for 'improper hijab.' Her death sparked 'Woman, Life, Freedom.' The regime thought they crushed it. They only delayed it.",
+        "pattern": "counter_revolution",
+        "hashtags": ["MahsaAmini", "WomanLifeFreedom"]
+      },
+      {
+        "date": "09-22",
+        "year": 1980,
+        "event": "Iran-Iraq War Begins",
+        "description": "Saddam Hussein invades Iran. 8-year war begins. 500,000-1,000,000 dead.",
+        "significance": "War consolidated regime power, created IRGC dominance",
+        "tweetAngle": "September 22, 1980: Saddam invaded Iran. Expected Arabs of Khuzestan to defect. They fought FOR Iran. That's Iranian unity. No one can break it - not Saddam, not the mullahs.",
+        "pattern": "ethnic_unity",
+        "hashtags": ["IranIraqWar"]
+      }
+    ],
+    
+    "november": [
+      {
+        "date": "11-04",
+        "year": 1979,
+        "event": "US Embassy Hostage Crisis Begins",
+        "description": "Students storm US embassy. 52 Americans held 444 days. Khomeini uses to consolidate power.",
+        "significance": "Destroyed US-Iran relations, empowered hardliners",
+        "tweetAngle": "November 4, 1979: Students stormed the US Embassy thinking they were revolutionaries. Khomeini used them to purge liberals and leftists. They were tools for a theocratic coup. History's cruelest irony.",
+        "pattern": "counter_revolution",
+        "hashtags": ["HostageCrisis"]
+      },
+      {
+        "date": "11-15",
+        "year": 2019,
+        "event": "Bloody November Begins",
+        "description": "Gas price protests. Regime kills 1,500+ in one week. Deadliest crackdown since 1988.",
+        "significance": "Proved regime willing to kill en masse",
+        "tweetAngle": "November 2019: 1,500 killed in one week. The regime thought that would end dissent forever. It only created more martyrs. Their children are in the streets in 2026.",
+        "pattern": "massacre_escalation",
+        "hashtags": ["BloodyNovember", "AbanMassacre"]
+      }
+    ],
+    
+    "december": [
+      {
+        "date": "12-28",
+        "year": 2025,
+        "event": "2026 Revolution Begins",
+        "description": "Tehran Bazaar protests over economic collapse. Spreads nationwide within days.",
+        "significance": "Beginning of current uprising",
+        "tweetAngle": "December 28, 2025: It began at Tehran's Grand Bazaar. Merchants protesting the rial collapse. Within days: 31 provinces, 190 cities. The revolution 47 years in the making has begun.",
+        "pattern": "counter_revolution",
+        "hashtags": ["IranRevolution2026"]
+      }
+    ]
+  },
+  
+  "usage_instructions": {
+    "daily_check": "Each morning, check if today matches any anniversary",
+    "if_match": "Generate tweet using provided angle or create new one",
+    "multiple_dates": "Prioritize most relevant to current events",
+    "integration": "Combine anniversary with breaking news when possible",
+    "example": "If Rasht massacre news on Aug 19, lead with Cinema Rex parallel"
+  },
+  
+  "prompt_for_anniversary_tweet": "Today is {{date}}. On this date in {{year}}, {{event}} occurred.\n\nHistorical significance: {{significance}}\n\nCurrent context: {{current_news}}\n\nGenerate a tweet that:\n1. Connects this anniversary to the 2026 revolution\n2. Uses the {{pattern}} synthesis pattern\n3. Stays under 280 characters\n4. Makes history feel alive and relevant"
+}

@@ -1,0 +1,219 @@
+{
+  "quote_bank": {
+    "title": "Intellectual Voices on Iran",
+    "purpose": "Authoritative quotes to strengthen arguments and add intellectual weight",
+    
+    "by_topic": {
+      "counter_revolution_thesis": [
+        {
+          "quote": "A counter-revolutionary mission to destroy the people's revolution.",
+          "author": "Christopher Hitchens",
+          "context": "Describing Khomeini's 1979 takeover",
+          "source": "Various writings on Iran",
+          "usage": "Use when framing 1979 as hijacking of democratic movement"
+        },
+        {
+          "quote": "The Islamic Republic was a counter-revolution to the aspirations of 1978-79.",
+          "author": "Fred Halliday",
+          "context": "Academic analysis of 1979",
+          "source": "Iran: Dictatorship and Development",
+          "usage": "Academic backing for counter-revolution thesis"
+        }
+      ],
+      
+      "western_complicity": [
+        {
+          "quote": "The disintegration of Iran would be the most massive American defeat since the beginning of the Cold War.",
+          "author": "Zbigniew Brzezinski",
+          "context": "1978 memo warning about Iran",
+          "source": "Carter administration documents",
+          "usage": "Show US knew stakes, didn't act"
+        },
+        {
+          "quote": "We created a Frankenstein.",
+          "author": "Kermit Roosevelt",
+          "context": "CIA officer who ran 1953 coup, reflecting on consequences",
+          "source": "Countercoup memoir",
+          "usage": "Original sin of 1953 leading to 1979"
+        }
+      ],
+      
+      "iran_iraq_distinction": [
+        {
+          "quote": "If you see democracies failing in parts of the world, it isn't because the people aren't ready. It's because elites have the power to resist democratic changes.",
+          "author": "Academic analysis",
+          "context": "Why democracy 'fails' in Middle East",
+          "usage": "Counter the 'Iranians aren't ready' narrative"
+        }
+      ],
+      
+      "persian_civilization": [
+        {
+          "quote": "Persia was a world unto itself, a universe of references, metaphors, ideas and histories, at least as rich as ancient Greece.",
+          "author": "Various historians",
+          "context": "Persian cultural weight",
+          "usage": "Establish civilizational depth"
+        }
+      ],
+      
+      "regime_nature": [
+        {
+          "quote": "The entire population is treated as a minority of wards, governed by a theocratic guardian class.",
+          "author": "Christopher Hitchens",
+          "context": "On Velayat-e Faqih",
+          "source": "Writings on Iran",
+          "usage": "Explain how regime sees its own people"
+        }
+      ]
+    },
+    
+    "by_author": {
+      "christopher_hitchens": {
+        "credentials": "British-American author, journalist, literary critic",
+        "relevance": "Wrote extensively on 1979 revolution, anti-theocracy",
+        "caution": "Some may associate with Iraq War support - use selectively"
+      },
+      "fred_halliday": {
+        "credentials": "Professor of International Relations, LSE",
+        "relevance": "Academic expert on Iran, coined 'counter-revolution' framing",
+        "weight": "Academic credibility"
+      },
+      "ervand_abrahamian": {
+        "credentials": "Distinguished Professor, CUNY",
+        "relevance": "Leading historian of modern Iran",
+        "weight": "Scholarly authority"
+      }
+    }
+  },
+  
+  "persian_phrases": {
+    "title": "Persian Phrases for Tweets",
+    "purpose": "Add authenticity, connect with diaspora, educate non-Persians",
+    
+    "protest_slogans": [
+      {
+        "persian": "زن، زندگی، آزادی",
+        "transliteration": "Zan, Zendegi, Azadi",
+        "english": "Woman, Life, Freedom",
+        "origin": "Kurdish slogan adopted in 2022 Mahsa Amini protests",
+        "usage": "Universal, well-known"
+      },
+      {
+        "persian": "مرگ بر دیکتاتور",
+        "transliteration": "Marg bar diktator",
+        "english": "Death to the dictator",
+        "usage": "Direct anti-Khamenei"
+      },
+      {
+        "persian": "جاوید شاه",
+        "transliteration": "Javid Shah",
+        "english": "Long live the Shah / Eternal Shah",
+        "context": "Chanted in 2022-2026, calling for Pahlavi",
+        "usage": "Monarchist sentiment, historical continuity"
+      },
+      {
+        "persian": "نه غزه، نه لبنان، جانم فدای ایران",
+        "transliteration": "Na Gaza, na Lobnan, janam fadaye Iran",
+        "english": "Neither Gaza nor Lebanon, I sacrifice my life for Iran",
+        "context": "Rejecting regime's foreign adventures",
+        "usage": "Domestic priorities over proxy wars"
+      },
+      {
+        "persian": "ایرانی می‌میرد، ذلت نمی‌پذیرد",
+        "transliteration": "Irani mimirad, zellat nemipazirad",
+        "english": "Iranians will die but never accept humiliation",
+        "usage": "Pride and determination"
+      },
+      {
+        "persian": "توپ، تانک، فشفشه، آخوند باید گم بشه",
+        "transliteration": "Toop, tank, feshfeshe, akhund bayad gom beshe",
+        "english": "Cannon, tank, firecrackers - the mullah must go",
+        "usage": "Direct anti-clerical"
+      }
+    ],
+    
+    "historical_terms": [
+      {
+        "persian": "ترکمنچای",
+        "transliteration": "Turkmenchay",
+        "english": "Treaty of Turkmenchay (1828)",
+        "meaning": "Symbol of national humiliation, loss of territory to Russia",
+        "usage": "Any 'sellout' deal - 25-year China deal called 'new Turkmenchay'"
+      },
+      {
+        "persian": "مشروطه",
+        "transliteration": "Mashruteh",
+        "english": "Constitutional (Revolution of 1906)",
+        "meaning": "Iran's democratic awakening",
+        "usage": "Democratic heritage"
+      },
+      {
+        "persian": "مجلس",
+        "transliteration": "Majles",
+        "english": "Parliament",
+        "meaning": "Iranian parliament since 1906",
+        "usage": "Democratic institution"
+      },
+      {
+        "persian": "ولایت فقیه",
+        "transliteration": "Velayat-e Faqih",
+        "english": "Guardianship of the Islamic Jurist",
+        "meaning": "Khomeini's doctrine - Supreme Leader rules all",
+        "usage": "Explain theocratic structure"
+      },
+      {
+        "persian": "بسیج",
+        "transliteration": "Basij",
+        "english": "Mobilization (paramilitary force)",
+        "meaning": "Regime's street-level enforcers",
+        "usage": "Who's doing the killing"
+      },
+      {
+        "persian": "سپاه پاسداران",
+        "transliteration": "Sepah-e Pasdaran",
+        "english": "Islamic Revolutionary Guard Corps (IRGC)",
+        "meaning": "Regime's military/economic power center",
+        "usage": "Real power structure"
+      }
+    ],
+    
+    "cultural_phrases": [
+      {
+        "persian": "ایران من",
+        "transliteration": "Iran-e man",
+        "english": "My Iran",
+        "usage": "Emotional connection"
+      },
+      {
+        "persian": "وطن",
+        "transliteration": "Vatan",
+        "english": "Homeland",
+        "usage": "Patriotic sentiment"
+      },
+      {
+        "persian": "آزادی",
+        "transliteration": "Azadi",
+        "english": "Freedom",
+        "usage": "Universal aspiration"
+      },
+      {
+        "persian": "شهید",
+        "transliteration": "Shahid",
+        "english": "Martyr",
+        "meaning": "Someone who died for a cause",
+        "usage": "Honoring victims"
+      }
+    ],
+    
+    "usage_guidelines": {
+      "format": "Persian text + (transliteration) + 'English meaning'",
+      "example": "جاوید شاه (Javid Shah) - 'Long live the Shah' echoes through Tehran's streets",
+      "frequency": "1-2 Persian phrases per day maximum",
+      "audience_note": "Resonates with diaspora, educates Western audience"
+    }
+  },
+  
+  "metadata": {
+    "lastUpdated": "2026-01-17"
+  }
+}

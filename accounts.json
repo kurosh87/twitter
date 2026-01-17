@@ -1,0 +1,33 @@
+{
+  "accounts": [
+    {
+      "id": "faytuks",
+      "handle": "@FaytuksNetwork",
+      "type": "osint",
+      "description": "OSINT news account - auto bilingual",
+      "authFile": "auth/faytuks.json",
+      "style": {
+        "prefixes": ["BREAKING:", "NEW:", "UPDATE:"],
+        "useEmojis": false,
+        "sourceAttribution": true
+      }
+    },
+    {
+      "id": "personal1",
+      "handle": "@example_personal",
+      "type": "personal",
+      "description": "Personal Iranian account - user provides content",
+      "authFile": "auth/personal1.json",
+      "style": {
+        "prefixes": [],
+        "useEmojis": true,
+        "sourceAttribution": false
+      }
+    }
+  ],
+  "defaults": {
+    "delayBetweenPosts": 120,
+    "maxTweetAge": 3600000,
+    "checkInterval": 180000
+  }
+}

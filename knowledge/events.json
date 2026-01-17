@@ -1,0 +1,684 @@
+{
+  "events": [
+    {
+      "id": "evt_2026-01-27_call_for_coordinated_protests_",
+      "date": "2026-01-27",
+      "category": "protest",
+      "severity": 3,
+      "title": "Call for coordinated protests January 27-29",
+      "description": "Call issued for Iranian compatriots to participate in nightly protests with national slogans at 8 PM from Saturday to Monday, January 27-29",
+      "location": "Iran",
+      "sources": [
+        {
+          "name": "@SGhasseminejad",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_death_toll_12k",
+      "date": "2026-01-17",
+      "category": "massacre",
+      "severity": 5,
+      "title": "Leaked Death Toll: 12,000+",
+      "description": "Figure from presidential office and Supreme National Security Council",
+      "location": null,
+      "sources": [
+        {
+          "name": "Iran International",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [
+        "evt_2026-01-11_death_toll_544"
+      ],
+      "tags": [
+        "death-toll",
+        "leak",
+        "massacre"
+      ]
+    },
+    {
+      "id": "evt_2026-01-17_afghan_mercenaries_attack_iran",
+      "date": "2026-01-17",
+      "category": "regime_action",
+      "severity": 3,
+      "title": "Afghan mercenaries attack Iranian protesters in Hamburg",
+      "description": "Afghan mercenaries linked to the Islamic Republic attacked Iranian protesters supporting the national revolution in Hamburg, Germany",
+      "location": "Hamburg, Germany",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_protests_in_180_iranian_cities",
+      "date": "2026-01-17",
+      "category": "protest",
+      "severity": 5,
+      "title": "Protests in 180 Iranian cities",
+      "description": "Protests swept 180 cities and towns across Iran for at least 15 days with estimated casualties",
+      "location": "Iran (180 cities)",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_heavy_tear_gas_use_in_shahin_s",
+      "date": "2026-01-17",
+      "category": "protest",
+      "severity": 4,
+      "title": "Heavy tear gas use in Shahin Shahr Isfahan",
+      "description": "Thursday night protests in Shahin Shahr Isfahan with extensive tear gas use forcing residents to leave homes and burn materials to counter the gas",
+      "location": "Shahin Shahr, Isfahan",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_casualties_reported_in_lahijan",
+      "date": "2026-01-17",
+      "category": "massacre",
+      "severity": 5,
+      "title": "Casualties reported in Lahijan",
+      "description": "Report of approximately 300 killed in Lahijan, with family member death mentioned",
+      "location": "Lahijan, Iran",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_mass_protests_in_babol",
+      "date": "2026-01-17",
+      "category": "protest",
+      "severity": 4,
+      "title": "Mass protests in Babol",
+      "description": "Thursday protests in Babol with tens of thousands of participants, families participating, crowds stretching across the city",
+      "location": "Babol, Iran",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_internet_shutdown_continues",
+      "date": "2026-01-17",
+      "category": "regime_action",
+      "severity": 4,
+      "title": "Internet shutdown continues",
+      "description": "Internet connectivity in Iran remains at approximately 2% of normal levels after 200 hours, with only limited VPN access",
+      "location": "Iran",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_armed_confrontation_with_woman",
+      "date": "2026-01-17",
+      "category": "regime_action",
+      "severity": 3,
+      "title": "Armed confrontation with woman leaving home",
+      "description": "Woman confronted by armed motorcycle convoy while leaving home Friday night at 10:30, threatened with shooting",
+      "location": "Iran",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_iranian_civilians_discuss_prep",
+      "date": "2026-01-17",
+      "category": "resistance",
+      "severity": 3,
+      "title": "Iranian civilians discuss preparation for death in casual gatherings",
+      "description": "Iranian woman reports that in family and friendly gatherings, people casually discuss instructions for if they are killed - not to look for bodies, sign documents, or pay money to clerics",
+      "location": "Iran",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_regime_forces_storm_building_w",
+      "date": "2026-01-17",
+      "category": "regime_action",
+      "severity": 4,
+      "title": "Regime forces storm building with armed response",
+      "description": "Footage from Tehran shows Islamic regime forces armed with guns and batons storming a building where civilians had taken refuge, with one citizen blocking the doorway",
+      "location": "Tehran",
+      "sources": [
+        {
+          "name": "@Realneo101",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_knife_attack_on_iranian_protes",
+      "date": "2026-01-17",
+      "category": "diaspora",
+      "severity": 3,
+      "title": "Knife attack on Iranian protesters in Hamburg",
+      "description": "Afghan attackers with knives targeted peaceful Iranian solidarity demonstration in Hamburg, resulting in 2 serious injuries",
+      "location": "Hamburg",
+      "sources": [
+        {
+          "name": "@Realneo101",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_trump_calls_for_new_leadership",
+      "date": "2026-01-17",
+      "category": "international",
+      "severity": 3,
+      "title": "Trump calls for new leadership in Iran",
+      "description": "President Trump stated that the moment has arrived for Iran to have new leadership",
+      "location": null,
+      "sources": [
+        {
+          "name": "@Realneo101",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_children_arrested_and_detained",
+      "date": "2026-01-17",
+      "category": "regime_action",
+      "severity": 5,
+      "title": "Children arrested and detained with bags over heads",
+      "description": "Iranian children aged 8-13 years old reportedly lined up in handcuffs with bags over their heads for singing anti-regime slogans",
+      "location": "Iran",
+      "sources": [
+        {
+          "name": "@Realneo101",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_claims_of_chemical_weapon_use_",
+      "date": "2026-01-17",
+      "category": "massacre",
+      "severity": 5,
+      "title": "Claims of chemical weapon use against civilians",
+      "description": "Multiple sources claim the Iranian regime has used chemical weapons against its own people",
+      "location": "Iran",
+      "sources": [
+        {
+          "name": "@Realneo101",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-17_tehran_prosecutor_responds_to_",
+      "date": "2026-01-17",
+      "category": "regime_action",
+      "severity": 3,
+      "title": "Tehran prosecutor responds to Trump about executions",
+      "description": "Tehran prosecutor Ali Salehi responded to Trump's remarks about halting execution of 800 people in Iran, calling Trump's statements baseless nonsense",
+      "location": "Tehran",
+      "sources": [
+        {
+          "name": "@SGhasseminejad",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-16_starlink_jamming",
+      "date": "2026-01-16",
+      "category": "infrastructure",
+      "severity": 3,
+      "title": "Iran Jams Starlink with Electronic Warfare",
+      "description": "30% packet loss reported from GPS signal disruption",
+      "location": null,
+      "sources": [
+        {
+          "name": "NYT via Iran International",
+          "url": null,
+          "date": "2026-01-16"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2026-01-13_starlink_free"
+      ],
+      "tags": [
+        "starlink",
+        "jamming",
+        "electronic-warfare"
+      ]
+    },
+    {
+      "id": "evt_2026-01-14_retaliation_promise",
+      "date": "2026-01-14",
+      "category": "regime_action",
+      "severity": 4,
+      "title": "Iran Promises Retaliation",
+      "description": "Fast trials and executions announced. Trump responds.",
+      "location": null,
+      "sources": [
+        {
+          "name": "Iran International",
+          "url": null,
+          "date": "2026-01-14"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [],
+      "tags": [
+        "executions",
+        "trials",
+        "threat"
+      ]
+    },
+    {
+      "id": "evt_2026-01-13_starlink_free",
+      "date": "2026-01-13",
+      "category": "infrastructure",
+      "severity": 4,
+      "title": "Starlink Made Free, Toll Surpasses 2,500",
+      "description": "Musk waives fees for Iranian users",
+      "location": null,
+      "sources": [
+        {
+          "name": "CNN",
+          "url": null,
+          "date": "2026-01-13"
+        },
+        {
+          "name": "HRANA",
+          "url": null,
+          "date": "2026-01-13"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2026-01-08_internet_blackout",
+        "evt_2026-01-16_starlink_jamming"
+      ],
+      "tags": [
+        "starlink",
+        "musk",
+        "internet"
+      ]
+    },
+    {
+      "id": "evt_2026-01-12_counter_demos",
+      "date": "2026-01-12",
+      "category": "regime_action",
+      "severity": 3,
+      "title": "Pro-Regime Counter-Demonstrations",
+      "description": "Regime mobilizes supporters. Death toll rises to ~646.",
+      "location": null,
+      "sources": [
+        {
+          "name": "HRANA",
+          "url": null,
+          "date": "2026-01-12"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [],
+      "tags": [
+        "counter-protest",
+        "basij"
+      ]
+    },
+    {
+      "id": "evt_2026-01-11_death_toll_544",
+      "date": "2026-01-11",
+      "category": "massacre",
+      "severity": 5,
+      "title": "Death Toll Accelerates to 544",
+      "description": "HRANA reports 544 dead",
+      "location": null,
+      "sources": [
+        {
+          "name": "HRANA",
+          "url": null,
+          "date": "2026-01-11"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [],
+      "tags": [
+        "death-toll",
+        "massacre"
+      ]
+    },
+    {
+      "id": "evt_2026-01-10_enemy_of_god",
+      "date": "2026-01-10",
+      "category": "regime_action",
+      "severity": 5,
+      "title": "AG: Protesters = 'Enemy of God'",
+      "description": "Death penalty warning issued. Two-week mark. ~116 reported dead.",
+      "location": null,
+      "sources": [
+        {
+          "name": "CNN",
+          "url": null,
+          "date": "2026-01-10"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [],
+      "tags": [
+        "legal",
+        "death-penalty",
+        "moharebeh"
+      ]
+    },
+    {
+      "id": "evt_2026-01-09_pahlavi_overnight",
+      "date": "2026-01-09",
+      "category": "resistance",
+      "severity": 3,
+      "title": "Pahlavi Calls for Overnight Protest",
+      "description": "Mass window-shouting, street protests despite blackout",
+      "location": null,
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": null,
+          "date": "2026-01-09"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [],
+      "tags": [
+        "pahlavi",
+        "protest",
+        "resistance"
+      ]
+    },
+    {
+      "id": "evt_2026-01-08_internet_blackout",
+      "date": "2026-01-08",
+      "category": "infrastructure",
+      "severity": 5,
+      "title": "Internet Blackout Begins",
+      "description": "97% internet drop at 20:30 IRST. Worst shutdown in Iran history. ~100 reported dead.",
+      "location": null,
+      "sources": [
+        {
+          "name": "NetBlocks",
+          "url": null,
+          "date": "2026-01-08"
+        },
+        {
+          "name": "Wikipedia",
+          "url": null,
+          "date": "2026-01-08"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2026-01-13_starlink_free"
+      ],
+      "tags": [
+        "internet",
+        "blackout",
+        "censorship"
+      ]
+    },
+    {
+      "id": "evt_2026-01-08_death_of_3_year_old_melina_asa",
+      "date": "2026-01-08",
+      "category": "massacre",
+      "severity": 5,
+      "title": "Death of 3-year-old Melina Asadi",
+      "description": "Melina Asadi, a 3-year-old Kurdish child from Kermanshah, was killed by indiscriminate gunfire by regime forces on Taq-e Bostan Boulevard",
+      "location": "Kermanshah, Iran",
+      "sources": [
+        {
+          "name": "@__Injaneb96",
+          "url": null,
+          "date": "2026-01-17"
+        }
+      ],
+      "verified": false,
+      "relatedEvents": [],
+      "tags": []
+    },
+    {
+      "id": "evt_2026-01-06_bazaar_dispersed",
+      "date": "2026-01-06",
+      "category": "regime_action",
+      "severity": 4,
+      "title": "Grand Bazaar Sit-In Dispersed",
+      "description": "280+ locations in 27 provinces",
+      "location": "Tehran",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": null,
+          "date": "2026-01-06"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2025-12-28_bazaar_protests"
+      ],
+      "tags": [
+        "bazaar",
+        "crackdown"
+      ]
+    },
+    {
+      "id": "evt_2026-01-03_khamenei_crackdown",
+      "date": "2026-01-03",
+      "category": "regime_action",
+      "severity": 5,
+      "title": "Khamenei Green-Lights Crackdown",
+      "description": "'Rioters must be put in their place.' 170+ locations, 25 provinces. ~36 reported dead.",
+      "location": null,
+      "sources": [
+        {
+          "name": "Iran International",
+          "url": null,
+          "date": "2026-01-03"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2026-01-02_trump_locked_loaded"
+      ],
+      "tags": [
+        "khamenei",
+        "crackdown",
+        "massacre"
+      ]
+    },
+    {
+      "id": "evt_2026-01-02_trump_locked_loaded",
+      "date": "2026-01-02",
+      "category": "international",
+      "severity": 4,
+      "title": "Trump: 'Locked and Loaded'",
+      "description": "Trump warns US will rescue protesters if Iran kills them. 100+ locations in 22 provinces. 25% tariff threat on countries doing business with Iran.",
+      "location": null,
+      "sources": [
+        {
+          "name": "NPR",
+          "url": null,
+          "date": "2026-01-02"
+        },
+        {
+          "name": "HRANA",
+          "url": null,
+          "date": "2026-01-02"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2026-01-03_khamenei_crackdown"
+      ],
+      "tags": [
+        "trump",
+        "international",
+        "warning"
+      ]
+    },
+    {
+      "id": "evt_2025-12-31_fasa_violence",
+      "date": "2025-12-31",
+      "category": "protest",
+      "severity": 3,
+      "title": "Fasa Protests Turn Violent",
+      "description": "Crowds break into governor's office",
+      "location": "Fasa",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": null,
+          "date": "2025-12-31"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [],
+      "tags": [
+        "violence",
+        "escalation"
+      ]
+    },
+    {
+      "id": "evt_2025-12-29_farzin_resigns",
+      "date": "2025-12-29",
+      "category": "regime_action",
+      "severity": 3,
+      "title": "Central Bank Head Farzin Resigns",
+      "description": "Protests spread to other cities, tear gas deployed",
+      "location": null,
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": null,
+          "date": "2025-12-29"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2025-12-28_bazaar_protests"
+      ],
+      "tags": [
+        "economy",
+        "resignation",
+        "central-bank"
+      ]
+    },
+    {
+      "id": "evt_2025-12-28_bazaar_protests",
+      "date": "2025-12-28",
+      "category": "protest",
+      "severity": 4,
+      "title": "Tehran Grand Bazaar Protests Erupt",
+      "description": "Shopkeepers shutter shops, demonstrate against rial collapse to 1.42M/$",
+      "location": "Tehran",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": null,
+          "date": "2025-12-28"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": [
+        "evt_2025-12-29_farzin_resigns"
+      ],
+      "tags": [
+        "bazaar",
+        "economy",
+        "rial",
+        "trigger"
+      ]
+    }
+  ]
+}

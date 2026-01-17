@@ -1,0 +1,41 @@
+{
+  "khamenei": {
+    "bunker": {
+      "location": "Lavizan, northeast Tehran",
+      "depth": "90-100 meters underground",
+      "protection": "Anti-bomb and anti-aircraft systems",
+      "proximity": "Near secret military and nuclear research facilities",
+      "security": "Guarded by elite unit hidden even from IRGC",
+      "comparison": "More secure than Fordo nuclear facility",
+      "sources": ["Israel Hayom", "Agenzia Nova", "Iran International"]
+    },
+    "moscow_contingency": {
+      "name": "Moscow Contingency",
+      "description": "Escape plan to Russia if regime collapses",
+      "passengers": "Up to 20 family members and aides",
+      "parallel": "Mirrors Assad's December 2024 flight to Moscow",
+      "negotiator": "Ali Asghar Hejazi, deputy chief of staff to Khamenei",
+      "russian_assurance": "Safe corridor guaranteed by senior Russian official",
+      "sources": ["Jerusalem Post", "The Times UK", "EADaily"]
+    },
+    "psychological_profile": {
+      "assessment_source": "Western intelligence agency",
+      "description": "Paranoid leader, weaker mentally and physically since 12-day war",
+      "behavior": "Obsession with survival, secluded himself during Israel conflict",
+      "age": 86
+    }
+  },
+  "starlink": {
+    "units_in_iran": 50000,
+    "blackout_start": "2026-01-08T20:30:00+03:30",
+    "internet_drop": "97%",
+    "fee_waiver_date": "2026-01-14",
+    "jamming": {
+      "method": "GPS signal disruption",
+      "effect": "30% packet loss",
+      "start": "2026-01-08"
+    },
+    "regime_response": "Raiding homes, arresting Starlink users",
+    "sources": ["NPR", "NBC News", "NYT"]
+  }
+}

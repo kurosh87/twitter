@@ -1,0 +1,310 @@
+{
+  "actors": [
+    {
+      "id": "khamenei",
+      "name": "Ali Khamenei",
+      "persianName": "علی خامنه‌ای",
+      "type": "regime",
+      "role": "Supreme Leader since 1989",
+      "twitterHandle": "@khamenei_ir",
+      "stance": "Defiant, mocking Trump, reportedly hiding in bunker in eastern Iran",
+      "keyActions": [
+        "Ordered 2025-2026 crackdown",
+        "Twitter war with Trump - mocking him",
+        "Possibly preparing Russia escape route",
+        "Or going down with the ship",
+        "No public appearances, only social media"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "pahlavi",
+      "name": "Reza Pahlavi",
+      "persianName": "رضا پهلوی",
+      "type": "opposition",
+      "role": "Crown Prince, son of last Shah Mohammad Reza Pahlavi",
+      "twitterHandle": "@PahlaviReza",
+      "stance": "Leading opposition voice, interim leader candidate, calling for strikes and coordinated protests",
+      "keyActions": [
+        "Called for 3-day general strike Jan 18-20",
+        "Calling for nightly protests at 8pm",
+        "Patrick Bet-David interview - had disagreements",
+        "Coordinating diaspora support",
+        "'Javid Shah' chants explicitly support him"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "greenwald",
+      "name": "Glenn Greenwald",
+      "persianName": "گلن گرینوالد",
+      "type": "western_hypocrite",
+      "role": "Journalist, former Intercept founder",
+      "twitterHandle": "@ggreenwald",
+      "stance": "Extremely vocal on Israel/Gaza, completely silent on Iran's 12,000+ dead",
+      "keyActions": [
+        "Extensive Gaza/Israel coverage for months",
+        "Zero Iran coverage during ongoing massacre",
+        "Embodies 'anti-imperialist' hypocrisy"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "hasan_piker",
+      "name": "Hasan Piker",
+      "persianName": "حسن پیکر",
+      "type": "western_hypocrite",
+      "role": "Twitch streamer, TYT commentator",
+      "twitterHandle": "@hasanabi",
+      "stance": "Progressive commentator, daily Israel content, silent on Iran massacre",
+      "keyActions": [
+        "Daily commentary criticizing Israel",
+        "No significant Iran coverage during 12K+ deaths",
+        "Large young audience unaware of Iran"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "roger_waters",
+      "name": "Roger Waters",
+      "persianName": "راجر واترز",
+      "type": "western_hypocrite",
+      "role": "Musician (Pink Floyd), activist",
+      "stance": "Loud on Palestine, concerts protesting Israel, silent on Iran",
+      "keyActions": [
+        "Multiple concert protests against Israel",
+        "Vocal pro-Palestine activism",
+        "Zero statements on Iran massacre"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "cenk_uygur",
+      "name": "Cenk Uygur",
+      "persianName": "جنک اویغور",
+      "type": "western_hypocrite",
+      "role": "TYT founder and host",
+      "twitterHandle": "@cenkuygur",
+      "stance": "Progressive media, extensive Israel criticism, minimal Iran coverage",
+      "keyActions": [
+        "Daily TYT coverage criticizing Israel",
+        "Ran for Congress",
+        "Little to no Iran uprising coverage"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "trump",
+      "name": "Donald Trump",
+      "persianName": "دونالد ترامپ",
+      "type": "western_ally",
+      "role": "US President (Jan 2025 - present)",
+      "twitterHandle": "@realDonaldTrump",
+      "stance": "Supportive rhetoric for protesters, Twitter war with Khamenei, considering options",
+      "keyActions": [
+        "Maximum pressure 2.0 signals",
+        "Twitter tit-for-tat with Khamenei",
+        "'Iran needs new leadership' statement",
+        "Watching situation, weighing military vs support options"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "patrick_bet_david",
+      "name": "Patrick Bet-David",
+      "persianName": "پاتریک بت‌دیوید",
+      "type": "journalist",
+      "role": "Podcaster, Valuetainment founder, Iranian-American",
+      "twitterHandle": "@PatrickBetDavid",
+      "stance": "Supportive of Iranian freedom, interviewed Pahlavi, had disagreements",
+      "keyActions": [
+        "Conducted Crown Prince Pahlavi interview",
+        "Public disagreement on strategy/approach",
+        "Platform for Iran discussion"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "musk",
+      "name": "Elon Musk",
+      "persianName": "ایلان ماسک",
+      "type": "western_ally",
+      "role": "Starlink/X owner",
+      "twitterHandle": "@elonmusk",
+      "stance": "Providing Starlink access to Iranians despite blackout",
+      "keyActions": [
+        "Starlink terminals entering Iran",
+        "Platform X allowing Iranian voices",
+        "Tech enabling truth during blackout"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "netblocks",
+      "name": "NetBlocks",
+      "type": "journalist",
+      "role": "Internet monitoring organization",
+      "twitterHandle": "@netblocks",
+      "stance": "Documenting Iran's internet blackout",
+      "keyActions": [
+        "Real-time connectivity monitoring",
+        "Documenting blackout extent",
+        "Source for infrastructure claims"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "masih_alinejad",
+      "name": "Masih Alinejad",
+      "persianName": "مسیح علی‌نژاد",
+      "type": "opposition",
+      "role": "VOA journalist, activist, My Stealthy Freedom founder",
+      "twitterHandle": "@AlinejadMasih",
+      "stance": "Anti-regime, vocal, controversial style, survived assassination plots",
+      "keyActions": [
+        "Addressed UN Security Council Jan 2026",
+        "Georgetown Coalition 2022-23 (disbanded)",
+        "Survived FBI-foiled kidnapping 2021",
+        "Called out Western left silence"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "maryam_rajavi",
+      "name": "Maryam Rajavi",
+      "persianName": "مریم رجوی",
+      "type": "traitor",
+      "role": "MEK/NCRI leader, cult figure",
+      "stance": "Claims to lead Iranian opposition, no popular support inside Iran - sided with Saddam",
+      "keyActions": [
+        "Leads MEK cult from Albania",
+        "Sided with Saddam during Iran-Iraq war",
+        "Demanding US recognize NCRI as 'parliament-in-exile'",
+        "Pays millions to American politicians"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "rudy_giuliani",
+      "name": "Rudy Giuliani",
+      "persianName": "رودی جولیانی",
+      "type": "traitor",
+      "role": "Former NYC mayor, MEK paid speaker",
+      "stance": "Paid $20K+ per MEK speech, lobbied for delisting without registering FARA",
+      "keyActions": [
+        "Paid speeches for MEK for years",
+        "Lobbied for terrorist delisting",
+        "Never registered under FARA",
+        "Op-eds promoting MEK"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "john_bolton",
+      "name": "John Bolton",
+      "persianName": "جان بولتون",
+      "type": "traitor",
+      "role": "Former NSA, MEK paid speaker",
+      "stance": "Paid tens of thousands for MEK appearances",
+      "keyActions": [
+        "Multiple paid MEK conference speeches",
+        "Advocated regime change via MEK",
+        "Trump NSA who pushed confrontation"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "trita_parsi",
+      "name": "Trita Parsi",
+      "persianName": "تریتا پارسی",
+      "type": "regime_apologist",
+      "role": "NIAC founder, Quincy Institute EVP",
+      "twitterHandle": "@taborsi",
+      "stance": "Federal judge ruled his work 'not inconsistent with lobbying for regime'",
+      "keyActions": [
+        "Founded NIAC 2002 - accused of regime lobbying",
+        "Lost defamation suit, ordered to pay $180K",
+        "Met Obama officials 33 times 2013-2015",
+        "German institute cancelled his 2025 talk",
+        "Now at Quincy Institute"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "niac",
+      "name": "NIAC",
+      "persianName": "شورای ملی ایرانیان آمریکایی",
+      "type": "regime_apologist",
+      "role": "Iranian-American lobby group",
+      "stance": "'NIAC' became a slur synonymous with regime apologist inside Iran",
+      "keyActions": [
+        "Lobbied for JCPOA nuclear deal",
+        "Lost court case re: regime lobbying",
+        "Withheld 5,500 emails in discovery",
+        "Now rebranding with 'Woman Life Freedom'"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "bbc_persian",
+      "name": "BBC Persian",
+      "persianName": "بی‌بی‌سی فارسی",
+      "type": "media_bias",
+      "role": "British public broadcaster, Persian service",
+      "stance": "Accused by Iranians of pro-regime tilt - 'Ayatollah BBC' campaign",
+      "keyActions": [
+        "2019: Agreed to IR conditions on reporting",
+        "2024: Didn't cover election boycott adequately",
+        "Near-silence on Iran vs Gaza obsession",
+        "Also targeted BY regime - complex picture"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "voa_persian",
+      "name": "VOA Persian",
+      "persianName": "صدای آمریکا فارسی",
+      "type": "media_bias",
+      "role": "US government-funded Persian broadcaster",
+      "stance": "Accused of not adequately supporting Pahlavi, giving platform to MEK",
+      "keyActions": [
+        "Masih Alinejad works there",
+        "Criticized for editorial choices",
+        "Gives airtime to various opposition factions"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "iran_international",
+      "name": "Iran International",
+      "persianName": "ایران اینترنشنال",
+      "type": "journalist",
+      "role": "London-based Persian news channel",
+      "stance": "Pro-Pahlavi, funded $250M by Saudi Arabia per Guardian",
+      "keyActions": [
+        "Constant Pahlavi coverage and interviews",
+        "Regime targeted their journalists",
+        "Saudi funding raises independence questions"
+      ],
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "hillary_clinton",
+      "name": "Hillary Clinton",
+      "persianName": "هیلاری کلینتون",
+      "type": "traitor",
+      "role": "Former Secretary of State (2009-2013)",
+      "stance": "Delisted MEK as terror org 2012 after lobbying campaign",
+      "keyActions": [
+        "Delisted MEK September 2012",
+        "Ended years of paid lobbying campaign",
+        "Freed MEK assets, enabled US transactions"
+      ],
+      "lastUpdated": "2026-01-17"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-01-17T21:00:00Z",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "timeline": {
+    "era_1953_coup": {
+      "title": "The Original Sin: 1953 Coup",
+      "persianTitle": "گناه اولیه: کودتای ۱۳۳۲",
+      "period": "1951-1953",
+      "events": [
+        {
+          "date": "1951",
+          "event": "PM Mohammad Mossadegh nationalizes Iranian oil",
+          "significance": "Defied British control of Anglo-Iranian Oil Company (now BP)"
+        },
+        {
+          "date": "1953-08-19",
+          "event": "Operation AJAX: CIA/MI6 orchestrate coup against Mossadegh",
+          "significance": "Shah Mohammad Reza Pahlavi restored to power with Western backing"
+        }
+      ],
+      "narrativeThread": "This is the original sin of Western interference that Iranians never forgot. It planted the seeds for 1979. The regime still uses this to deflect: 'America is the real enemy.' TRUTH: The coup was wrong, but it doesn't justify 45 years of theocratic tyranny.",
+      "tweetAngle": "History rhymes: In 1953, the West overthrew democracy. In 1979, they enabled theocracy. In 2026, will they finally support the people?"
+    },
+    "era_pahlavi": {
+      "title": "The Pahlavi Era",
+      "persianTitle": "دوران پهلوی",
+      "period": "1941-1979",
+      "events": [
+        {
+          "date": "1941",
+          "event": "Mohammad Reza Shah takes throne after Anglo-Soviet invasion forces father's abdication"
+        },
+        {
+          "date": "1963",
+          "event": "White Revolution launched: land reform, women's suffrage, literacy programs",
+          "significance": "Modernization alienated traditional/religious elements"
+        },
+        {
+          "date": "1964",
+          "event": "Ayatollah Khomeini exiled after criticizing Shah",
+          "significance": "Sent to Iraq, then France - broadcast messages to incite supporters"
+        },
+        {
+          "date": "1971",
+          "event": "2,500th anniversary celebration of Persian monarchy at Persepolis",
+          "significance": "Extravagant display criticized as wasteful"
+        },
+        {
+          "date": "1974",
+          "event": "Shah secretly diagnosed with lymphoma/cancer",
+          "significance": "Kept hidden - Western intelligence likely knew, may have influenced 1979 events"
+        }
+      ],
+      "assessment": {
+        "positives": ["Modernization", "Women's rights", "Infrastructure", "Education", "Economic growth"],
+        "negatives": ["SAVAK secret police", "Political repression", "Wealth inequality", "Disconnect from religious conservatives"]
+      }
+    },
+    "era_1978_revolution": {
+      "title": "The 1978-1979 Revolution",
+      "persianTitle": "انقلاب ۱۳۵۷",
+      "period": "1978-1979",
+      "events": [
+        {
+          "date": "1978-01-07",
+          "event": "Qom protests after regime newspaper attacks Khomeini",
+          "significance": "Beginning of revolutionary momentum"
+        },
+        {
+          "date": "1978-08-19",
+          "event": "CINEMA REX FIRE - Abadan",
+          "description": "Four Islamist militants barred doors and set fire to Cinema Rex, killing 377-470 people watching 'The Deer'",
+          "significance": "Blamed on Shah/SAVAK by Khomeini, galvanized revolution. TRUTH: Islamists did it but regime got blamed",
+          "parallel2026": "RASHT BAZAAR MASSACRE - Same regime, same tactics, 47 years later"
+        },
+        {
+          "date": "1978-09-08",
+          "event": "Black Friday massacre at Jaleh Square, Tehran",
+          "significance": "Hundreds killed, point of no return for Shah"
+        },
+        {
+          "date": "1979-01-04 to 1979-01-07",
+          "event": "GUADELOUPE CONFERENCE",
+          "description": "Carter, Giscard d'Estaing, Callaghan, Schmidt meet in Caribbean",
+          "significance": "Western allies concluded Shah could not be saved. Many Iranians believe this was where the West 'agreed' to let Shah fall",
+          "keyDetail": "French intelligence director Yves Bonnet later revealed a fax from Khomeini aide Ghotbzadeh thanking Western leaders for their support"
+        },
+        {
+          "date": "1979-01-16",
+          "event": "Shah leaves Iran for 'vacation' - never returns",
+          "significance": "End of 2,500 years of Persian monarchy"
+        },
+        {
+          "date": "1979-02-01",
+          "event": "Khomeini returns to Iran on Air France chartered flight",
+          "description": "Arrived at Tehran's Mehrabad Airport to millions of supporters",
+          "significance": "France hosted Khomeini in exile, facilitated his return"
+        },
+        {
+          "date": "1979-02-11",
+          "event": "Revolution declared victorious",
+          "significance": "Military declared neutrality, Bakhtiar government collapsed"
+        },
+        {
+          "date": "1979-04-01",
+          "event": "Islamic Republic declared after referendum",
+          "significance": "Rigged vote - only option was 'Islamic Republic: Yes or No'"
+        }
+      ],
+      "counterRevolutionNarrative": {
+        "source": "Christopher Hitchens, Fred Halliday, Iranian leftists",
+        "thesis": "The 1979 'revolution' was actually a COUNTER-REVOLUTION. The broad coalition that overthrew the Shah included leftists, liberals, nationalists, and Islamists. Khomeini systematically eliminated all non-Islamist elements.",
+        "evidence": [
+          "1979-1981: Purge of leftists, liberals, secular nationalists",
+          "1981-1982: Mass executions of MEK, Tudeh Party, other opposition - 3,400+ killed",
+          "1988: Prison massacres - 5,000+ political prisoners executed",
+          "Khomeini's Velayat-e Faqih doctrine: population treated as 'wards' of mullahs"
+        ],
+        "tweetAngle": "1979 wasn't a revolution - it was a counter-revolution. Khomeini hijacked a popular uprising and murdered everyone who helped him. 2026 is the REAL revolution, 47 years delayed."
+      }
+    },
+    "era_hostage_crisis": {
+      "title": "Iran Hostage Crisis",
+      "persianTitle": "بحران گروگان‌گیری",
+      "period": "1979-1981",
+      "events": [
+        {
+          "date": "1979-10-22",
+          "event": "Shah admitted to US for cancer treatment",
+          "significance": "After months of lobbying by Kissinger and Rockefeller, Carter allowed Shah into US"
+        },
+        {
+          "date": "1979-11-04",
+          "event": "Iranian students storm US Embassy in Tehran",
+          "significance": "52 Americans held hostage for 444 days"
+        },
+        {
+          "date": "1979-12-15",
+          "event": "Shah forced to leave US for Panama",
+          "significance": "Carter administration hoped this would help free hostages - it didn't"
+        },
+        {
+          "date": "1980-03-23",
+          "event": "Shah leaves Panama for Egypt",
+          "description": "Refused surgery in Panama, feared poor medical care and extradition to Iran"
+        },
+        {
+          "date": "1980-03-28",
+          "event": "Shah's spleen removed in Cairo by Dr. Michael DeBakey",
+          "significance": "Only Anwar Sadat offered permanent asylum"
+        },
+        {
+          "date": "1980-07-27",
+          "event": "Shah Mohammad Reza Pahlavi dies in Cairo, age 60",
+          "significance": "Buried in Al-Rifa'i Mosque alongside his brother-in-law King Farouk of Egypt"
+        },
+        {
+          "date": "1981-01-20",
+          "event": "Hostages released after 444 days",
+          "significance": "Released minutes after Reagan inaugurated - deliberate humiliation of Carter"
+        }
+      ],
+      "shahExileJourney": {
+        "path": ["Iran → Egypt → Morocco → Bahamas → Mexico → USA → Panama → Egypt (death)"],
+        "betrayal": "Every country that traded with Shah, maintained bank accounts, sold weapons - refused him asylum. Only Sadat stood by him.",
+        "tweetAngle": "The Shah was abandoned by every 'ally' who profited from Iran. Only Sadat - who would himself be assassinated - gave him a home to die. Remember who stands with you when you fall."
+      }
+    },
+    "era_iran_iraq_war": {
+      "title": "Iran-Iraq War",
+      "persianTitle": "جنگ ایران و عراق",
+      "period": "1980-1988",
+      "events": [
+        {
+          "date": "1980-09-22",
+          "event": "Saddam Hussein invades Iran",
+          "significance": "8-year war, 1 million+ casualties"
+        },
+        {
+          "date": "1988-07",
+          "event": "Khomeini accepts UN ceasefire - 'drinks poison chalice'",
+          "significance": "Regime used war to consolidate power, eliminate internal opposition"
+        },
+        {
+          "date": "1988-07 to 1988-09",
+          "event": "1988 PRISON MASSACRES",
+          "description": "Khomeini orders mass execution of political prisoners. 5,000-30,000 killed in weeks. 'Death Commissions' systematically executed MEK, leftists, others.",
+          "significance": "One of worst mass political executions in modern history - barely covered by Western media"
+        }
+      ]
+    },
+    "era_post_khomeini": {
+      "title": "Post-Khomeini Era",
+      "persianTitle": "دوران پس از خمینی",
+      "period": "1989-2025",
+      "events": [
+        {
+          "date": "1989-06-03",
+          "event": "Khomeini dies, Khamenei becomes Supreme Leader"
+        },
+        {
+          "date": "1999",
+          "event": "Student protests crushed"
+        },
+        {
+          "date": "2009",
+          "event": "Green Movement - millions protest stolen election",
+          "significance": "Obama administration largely silent - pattern continues"
+        },
+        {
+          "date": "2015",
+          "event": "JCPOA nuclear deal signed"
+        },
+        {
+          "date": "2018",
+          "event": "Trump withdraws from JCPOA, 'Maximum Pressure' begins"
+        },
+        {
+          "date": "2019-11",
+          "event": "'Bloody November' - 1,500+ killed in fuel protests"
+        },
+        {
+          "date": "2020-01-03",
+          "event": "Qasem Soleimani killed by US drone strike"
+        },
+        {
+          "date": "2022-09",
+          "event": "Mahsa Amini death sparks 'Woman, Life, Freedom' movement"
+        },
+        {
+          "date": "2024-06",
+          "event": "12-day Israel-Iran tit-for-tat war",
+          "significance": "200+ missiles exchanged, Israeli strikes on Iranian military sites"
+        },
+        {
+          "date": "2025-01",
+          "event": "Trump returns to office, signals support for Iranian people"
+        }
+      ]
+    },
+    "era_2026_revolution": {
+      "title": "The 2026 Revolution - Completing What 1979 Began",
+      "persianTitle": "انقلاب ۲۰۲۶ - تکمیل آنچه ۱۳۵۷ آغاز کرد",
+      "period": "December 2025 - Present",
+      "events": [
+        {
+          "date": "2025-12-28",
+          "event": "Protests erupt at Tehran Grand Bazaar over economic collapse",
+          "significance": "Bazaaris who helped 1979 revolution now turn against regime"
+        },
+        {
+          "date": "2026-01-08",
+          "event": "Total internet blackout imposed",
+          "significance": "99% connectivity cut per NetBlocks"
+        },
+        {
+          "date": "2026-01-08 to 2026-01-09",
+          "event": "RASHT BAZAAR MASSACRE",
+          "description": "Security forces surrounded protesters in bazaar, set fires, shot those trying to surrender or escape. Wounded 'finished off' in streets and hospitals.",
+          "parallel": "CINEMA REX 1978: Islamists set fire to trap civilians, blamed Shah. RASHT 2026: Regime sets fire to trap civilians, blames protesters.",
+          "deathToll": "70+ bodies at Poursina Hospital alone"
+        },
+        {
+          "date": "2026-01-09",
+          "event": "Khamenei speech calls protesters 'foreign rioters'",
+          "significance": "Green light for mass violence"
+        },
+        {
+          "date": "2026-01-13",
+          "event": "Iran International confirms 12,000+ civilians killed"
+        },
+        {
+          "date": "2026-01-15",
+          "event": "Pahlavi calls for 3-day general strike Jan 18-20"
+        }
+      ],
+      "narrativeThread": "This is the REAL revolution. 1979 was hijacked by Islamists who murdered everyone who helped them. For 47 years they've killed 150,000+ Iranians. Now the people are finishing what 1979 started: real freedom, real democracy, real Iran."
+    }
+  },
+  "pahlavi_dynasty_continuity": {
+    "title": "Crown Prince Reza Pahlavi: 1960-2026",
+    "persianTitle": "شاهزاده رضا پهلوی",
+    "timeline": [
+      {
+        "date": "1960-10-31",
+        "event": "Born in Tehran, Crown Prince of Iran"
+      },
+      {
+        "date": "1978",
+        "event": "Sent to US for pilot training, age 17"
+      },
+      {
+        "date": "1979-01-16",
+        "event": "Father flees Iran - Reza never returns"
+      },
+      {
+        "date": "1980-07-27",
+        "event": "Father dies in Cairo. Reza declares himself Shah in exile, later renounces title for constitutional monarchy"
+      },
+      {
+        "date": "1980-2020",
+        "event": "Decades in exile advocating for secular, democratic Iran"
+      },
+      {
+        "date": "2022",
+        "event": "Prominent voice during Woman Life Freedom movement"
+      },
+      {
+        "date": "2025-12",
+        "event": "Patrick Bet-David interview - disagreements on strategy"
+      },
+      {
+        "date": "2026-01",
+        "event": "Emerges as leading opposition voice, calls for strikes and protests",
+        "significance": "'Javid Shah' chants in streets across Iran"
+      }
+    ],
+    "position": "Advocates for secular democracy with constitutional monarchy option. Willing to serve as interim leader during transition. Has stated he would accept whatever form of government Iranians choose via free referendum.",
+    "tweetAngle": "For 47 years the Crown Prince waited. Now the people are calling him home. 'Javid Shah' echoes from Tehran to Mashhad. History completing its circle."
+  },
+  "cinema_rex_vs_rasht_bazaar": {
+    "title": "The Fire Parallel: 1978 vs 2026",
+    "persianTitle": "آتش: ۱۳۵۷ در برابر ۲۰۲۶",
+    "cinema_rex_1978": {
+      "date": "1978-08-19",
+      "location": "Cinema Rex, Abadan",
+      "perpetrators": "Four Islamist militants (later confirmed)",
+      "method": "Barred doors, doused with airplane fuel, set ablaze",
+      "victims": "377-470 burned alive watching 'The Deer'",
+      "blamed": "Shah and SAVAK (false)",
+      "actual_blame": "Islamist revolutionaries, one confessed in 1980",
+      "impact": "Galvanized revolution, turned public against Shah",
+      "khomeini_statement": "No pious Muslim could have done this - it was the Shah"
+    },
+    "rasht_bazaar_2026": {
+      "date": "2026-01-08/09",
+      "location": "Rasht Bazaar, Gilan Province",
+      "perpetrators": "Islamic Republic security forces",
+      "method": "Surrounded protesters, set fires blocking escape, shot those surrendering",
+      "victims": "70+ bodies at Poursina Hospital alone, many more unreported",
+      "blamed": "Protesters/foreign agents (regime narrative)",
+      "actual_blame": "IRGC and security forces - eyewitness testimony, video evidence",
+      "impact": "Part of 12,000+ massacre, regime's true nature exposed"
+    },
+    "narrative_connection": "In 1978, Islamists burned 400 people alive and blamed the Shah. In 2026, the same Islamist regime burned protesters alive and blamed 'rioters.' The revolution has always been about these people - they just spent 47 years pretending to be something else."
+  },
+  "metadata": {
+    "lastUpdated": "2026-01-17T22:00:00Z",
+    "version": "1.0",
+    "sources": [
+      "Wikipedia 2025-2026 Iranian protests",
+      "Iran Human Rights reports",
+      "Iran International investigations",
+      "Historical sources on 1979 revolution",
+      "Guadeloupe Conference documentation"
+    ]
+  }
+}

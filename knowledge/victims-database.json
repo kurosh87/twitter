@@ -1,0 +1,166 @@
+{
+  "victims_database": {
+    "title": "Verified Victims of 2026 Iran Uprising",
+    "persianTitle": "قربانیان تأیید شده قیام ۲۰۲۶ ایران",
+    "purpose": "Humanize statistics with real names and stories. Every number is a person.",
+    "lastUpdated": "2026-01-17",
+    "totalVerified": 127,
+    "note": "This is a SAMPLE structure. In production, would be populated from HRANA, Iran Human Rights, Hengaw reports.",
+
+    "victims": [
+      {
+        "id": "V001",
+        "name": "Negin Ghadimi",
+        "persianName": "نگین قدیمی",
+        "age": 28,
+        "gender": "female",
+        "city": "Shahsavar (Tonekabon)",
+        "province": "Mazandaran",
+        "ethnicity": "Gilaki",
+        "date_of_death": "2026-01-10",
+        "circumstances": "Shot during protests. Died in her father's arms after being struck by a bullet.",
+        "source": "Hengaw Organization",
+        "source_url": "https://hengaw.net/en/news/2026/01/article-113",
+        "verified": true,
+        "occupation": null,
+        "family_status": null,
+        "image_available": false,
+        "tweet_angles": [
+          "Negin Ghadimi, 28, died in her father's arms in Shahsavar. Shot for wanting freedom.",
+          "Her name was Negin. She was 28. She died in her father's arms while he watched helplessly. Remember her."
+        ]
+      },
+      {
+        "id": "V002",
+        "name": "Mehdi Saheli",
+        "persianName": "مهدی ساحلی",
+        "age": 26,
+        "gender": "male",
+        "city": "Ramsar",
+        "province": "Mazandaran",
+        "ethnicity": "Gilaki",
+        "date_of_death": "2026-01-10",
+        "circumstances": "Killed when government forces opened fire during protests in city square.",
+        "source": "Hengaw Organization",
+        "source_url": "https://hengaw.net/en/news/2026/01/article-113",
+        "verified": true,
+        "occupation": null,
+        "tweet_angles": [
+          "Mehdi Saheli was 26. He stood in a square in Ramsar. They shot him for it."
+        ]
+      },
+      {
+        "id": "V003",
+        "name": "Meysam Zarei Bejarkanari",
+        "persianName": "میثم زارعی بجرکناری",
+        "age": 39,
+        "gender": "male",
+        "city": "Rasht",
+        "province": "Gilan",
+        "ethnicity": "Gilaki",
+        "date_of_death": "2026-01-08",
+        "circumstances": "Shot directly by government forces during Rasht protests.",
+        "source": "Hengaw Organization",
+        "verified": true,
+        "tweet_angles": [
+          "Meysam was 39. Father? Husband? We don't know yet. We know he was murdered in Rasht on January 8."
+        ]
+      },
+      {
+        "id": "V004",
+        "name": "Abbas Khadem",
+        "persianName": "عباس خادم",
+        "age": null,
+        "gender": "male",
+        "city": "Rostamabad",
+        "province": "Gilan",
+        "ethnicity": "Gilaki",
+        "date_of_death": "2026-01-08",
+        "circumstances": "Sports coach. Shot in the neck by government forces during protests. Died from bullet wound to neck.",
+        "source": "Hengaw Organization",
+        "verified": true,
+        "occupation": "Sports coach",
+        "tweet_angles": [
+          "Abbas Khadem was a sports coach in Rostamabad. Taught kids to play. Shot in the neck for standing with protesters.",
+          "A coach. Someone who dedicated his life to nurturing youth. Shot in the neck. His name was Abbas Khadem."
+        ]
+      },
+      {
+        "id": "V005",
+        "name": "Mehdi Ghadimi",
+        "persianName": "مهدی قدیمی",
+        "age": null,
+        "gender": "male",
+        "city": "Babol",
+        "province": "Mazandaran",
+        "ethnicity": "Gilaki",
+        "date_of_death": "2026-01-10",
+        "circumstances": "Football player. Killed by direct fire during protests.",
+        "source": "Hengaw Organization",
+        "verified": true,
+        "occupation": "Football player",
+        "tweet_angles": [
+          "Mehdi Ghadimi was a football player from Babol. Shot dead for protesting. His teammates will never see him again."
+        ]
+      },
+      {
+        "id": "V006",
+        "name": "Parnia Shad Bejarkanari",
+        "persianName": "پرنیا شاد بجرکناری",
+        "age": null,
+        "gender": "female",
+        "city": "Rasht area",
+        "province": "Gilan",
+        "ethnicity": "Gilaki",
+        "date_of_death": "2026-01-08",
+        "circumstances": "One of two women killed in Gilan protests.",
+        "source": "Hengaw Organization",
+        "verified": true,
+        "tweet_angles": [
+          "Parnia. Her name means 'silk' in Persian. They killed her anyway."
+        ]
+      }
+    ],
+
+    "statistics_by_province": {
+      "Gilan": {"verified": 22, "estimated": 100},
+      "Mazandaran": {"verified": 10, "estimated": 50},
+      "Tehran": {"verified": 25, "estimated": 500},
+      "Isfahan": {"verified": 8, "estimated": 200},
+      "Fars": {"verified": 12, "estimated": 150}
+    },
+
+    "statistics_by_demographic": {
+      "women_verified": 15,
+      "minors_verified": 8,
+      "students_verified": 12,
+      "workers_verified": 20
+    },
+
+    "usage_guidelines": {
+      "rules": [
+        "Always use verified information only",
+        "Include source attribution",
+        "Respect family wishes if known",
+        "Don't speculate about circumstances",
+        "Use names to humanize, not exploit",
+        "Alternate between statistics and individual stories"
+      ],
+      "tweet_frequency": "1 victim-focused tweet per day maximum to avoid desensitization",
+      "thread_format": "For multiple victims, use thread format with dignity"
+    },
+
+    "prompt_for_victim_tweets": "Generate a tweet honoring this victim.\n\nVICTIM INFO:\nName: {{name}}\nAge: {{age}}\nCity: {{city}}\nCircumstances: {{circumstances}}\nOccupation: {{occupation}}\n\nRULES:\n1. Dignified, not exploitative\n2. Humanize without sensationalizing\n3. Include name prominently\n4. Keep factual\n5. End with call to remember, not just rage\n\nOUTPUT: A single tweet that honors their memory while advancing the cause."
+  },
+
+  "metadata": {
+    "data_sources": [
+      "Hengaw Organization for Human Rights",
+      "Iran Human Rights (IHRNGO)",
+      "HRANA (Human Rights Activists News Agency)",
+      "Iran International verified reports"
+    ],
+    "update_frequency": "Daily when internet access permits",
+    "verification_standard": "Minimum 2 independent sources or 1 source with documentation"
+  }
+}
