@@ -1329,6 +1329,7 @@ def main():
                                                "contrast", "pattern_break", "time_anchor"],
                            help="Hook type for opener (auto-selected if not specified)")
     gen_parser.add_argument("--execute", action="store_true", help="Execute with Claude API (default: prompt only)")
+    gen_parser.add_argument("--queue", action="store_true", help="Save to draft queue after generation")
 
     # Detect command - test auto-detection
     detect_parser = subparsers.add_parser("detect", help="Auto-detect patterns from text")
@@ -1339,12 +1340,14 @@ def main():
     thread_parser.add_argument("--topic", required=True, help="Topic for the thread")
     thread_parser.add_argument("--length", type=int, default=6, help="Number of tweets")
     thread_parser.add_argument("--execute", action="store_true", help="Execute with Claude API")
+    thread_parser.add_argument("--queue", action="store_true", help="Save to draft queue after generation")
 
     # Counter command
     counter_parser = subparsers.add_parser("counter", help="Generate counter-narrative")
     counter_parser.add_argument("--claim", required=True, help="Claim to counter")
     counter_parser.add_argument("--source", default="regime", help="Source type (regime/tankie/mek/niac/bbc/voa)")
     counter_parser.add_argument("--execute", action="store_true", help="Execute with Claude API")
+    counter_parser.add_argument("--queue", action="store_true", help="Save to draft queue after generation")
 
     # Daily command
     daily_parser = subparsers.add_parser("daily", help="Generate daily package")
