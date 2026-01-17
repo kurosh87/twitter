@@ -20,6 +20,13 @@ from typing import Optional, List, Dict, Any
 from dataclasses import dataclass
 from enum import Enum
 
+# Load .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent / ".env")
+except ImportError:
+    pass  # dotenv not installed, rely on environment
+
 try:
     import anthropic
     ANTHROPIC_AVAILABLE = True
@@ -56,26 +63,51 @@ GENERATION_HISTORY_FILE = KNOWLEDGE_DIR / "generation-history.json"
 
 
 class ClaudeClient:
-    """Wrapper for Claude API calls."""
+    """Wrapper for Claude API calls via Vercel AI Gateway."""
+
+    # AI Gateway base URL
+    AI_GATEWAY_URL = "https://ai-gateway.vercel.sh"
+
+    # Model constants (AI Gateway format: provider/model)
+    OPUS = "anthropic/claude-opus-4.5"
+    SONNET = "anthropic/claude-sonnet-4.5"
 
     def __init__(self, api_key: Optional[str] = None):
         if not ANTHROPIC_AVAILABLE:
             raise ImportError("anthropic package not installed. Run: pip install anthropic")
-        self.client = anthropic.Anthropic(api_key=api_key or os.getenv("ANTHROPIC_API_KEY"))
 
-    def generate(self, prompt: str, model: str = "claude-sonnet-4-20250514", max_tokens: int = 1024) -> str:
-        """Execute prompt with Claude API."""
+        # Use AI Gateway key
+        key = api_key or os.getenv("AI_GATEWAY_API_KEY")
+        if not key:
+            raise ValueError("No API key found. Set AI_GATEWAY_API_KEY in .env")
+
+        self.client = anthropic.Anthropic(
+            api_key=key,
+            base_url=self.AI_GATEWAY_URL
+        )
+
+    def generate(self, prompt: str, model: str = None, max_tokens: int = 1024) -> str:
+        """Execute prompt with Claude API. Default: Opus 4.5."""
         response = self.client.messages.create(
-            model=model,
+            model=model or self.OPUS,
             max_tokens=max_tokens,
             messages=[{"role": "user", "content": prompt}]
         )
         return response.content[0].text
 
-    def generate_with_system(self, prompt: str, system: str, model: str = "claude-sonnet-4-20250514") -> str:
-        """Execute prompt with system message."""
+    def generate_fast(self, prompt: str, max_tokens: int = 512) -> str:
+        """Fast generation with Sonnet (for breaking news translation)."""
         response = self.client.messages.create(
-            model=model,
+            model=self.SONNET,
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return response.content[0].text
+
+    def generate_with_system(self, prompt: str, system: str, model: str = None) -> str:
+        """Execute prompt with system message. Default: Opus 4.5."""
+        response = self.client.messages.create(
+            model=model or self.OPUS,
             max_tokens=1024,
             system=system,
             messages=[{"role": "user", "content": prompt}]
@@ -398,7 +430,7 @@ HASHTAGS: [suggested hashtags]
 """
 
     def translate_to_persian(self, english_text: str, claude_client: 'ClaudeClient') -> str:
-        """Translate breaking news to Persian for bilingual posting."""
+        """Translate breaking news to Persian for bilingual posting. Uses Sonnet for speed."""
         prompt = f"""Translate this breaking news tweet to Persian (Farsi).
 
 ENGLISH:
@@ -413,7 +445,7 @@ RULES:
 6. Output ONLY the Persian translation, nothing else
 
 PERSIAN:"""
-        return claude_client.generate(prompt).strip()
+        return claude_client.generate_fast(prompt).strip()
 
     def enrich_draft(self, draft: Dict, claude_client: 'ClaudeClient' = None) -> Dict:
         """Enrich a bucket-based draft with historical context."""
