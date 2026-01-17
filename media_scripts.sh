@@ -23,6 +23,232 @@ echo -e "${GREEN}Faytuks Media Scraper${NC}"
 echo "================================"
 
 #######################################
+# ACTUAL IMAGE DOWNLOAD FUNCTIONS
+#######################################
+
+# Download a single image with proper headers
+download_image() {
+    local url="$1"
+    local output="$2"
+
+    # Use curl with browser-like headers to avoid blocks
+    curl -sL \
+        -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+        -H "Referer: https://www.google.com" \
+        -H "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" \
+        "$url" -o "$output"
+
+    # Check if download succeeded
+    if [ -f "$output" ] && [ -s "$output" ]; then
+        # Verify it's actually an image, not HTML error
+        file_type=$(file -b "$output" | head -c 10)
+        if [[ "$file_type" == *"HTML"* ]] || [[ "$file_type" == *"XML"* ]]; then
+            echo -e "${RED}Downloaded HTML instead of image: $output${NC}"
+            rm "$output"
+            return 1
+        fi
+        echo -e "${GREEN}Downloaded: $output ($(du -h "$output" | cut -f1))${NC}"
+        return 0
+    else
+        echo -e "${RED}Failed to download: $url${NC}"
+        return 1
+    fi
+}
+
+# Download all images from Wikipedia JSON extraction
+download_wikipedia_images() {
+    local json_file="$1"
+    local output_dir="$2"
+
+    if [ ! -f "$json_file" ]; then
+        echo -e "${RED}JSON file not found: $json_file${NC}"
+        return 1
+    fi
+
+    mkdir -p "$output_dir"
+
+    echo -e "${YELLOW}Processing Wikipedia images from: $json_file${NC}"
+
+    python3 << PYEOF
+import json
+import subprocess
+import os
+import sys
+from urllib.parse import unquote
+
+json_file = "$json_file"
+output_dir = "$output_dir"
+
+# Read the JSON file (it's double-encoded from agent-browser)
+with open(json_file, 'r') as f:
+    raw = f.read().strip()
+
+# Handle double-encoding: first strip outer quotes if present
+if raw.startswith('"') and raw.endswith('"'):
+    raw = raw[1:-1]
+    # Unescape the inner JSON using codecs
+    import codecs
+    raw = codecs.decode(raw, 'unicode_escape')
+
+try:
+    data = json.loads(raw)
+except json.JSONDecodeError as e:
+    print(f"Failed to parse JSON: {e}")
+    sys.exit(1)
+
+downloaded = 0
+skipped = 0
+
+for i, img in enumerate(data):
+    src = img.get('src', '')
+
+    if not src:
+        continue
+
+    # Skip tiny icons and SVG logos
+    if any(skip in src for skip in ['Symbol_category', 'Commons-logo', 'OOjs_UI_icon', 'P_history', '/20px-', '/40px-']):
+        skipped += 1
+        continue
+
+    # Convert thumb URL to full-res URL
+    # Thumb format: /thumb/a/af/Image.jpg/440px-Image.jpg
+    # Full format: /a/af/Image.jpg
+    if '/thumb/' in src:
+        # Remove /thumb/ and the size prefix at the end
+        full_url = src.replace('/thumb/', '/')
+        # Remove the last path component (e.g., /440px-Image.jpg)
+        full_url = '/'.join(full_url.rsplit('/', 1)[:-1])
+    else:
+        full_url = src
+
+    # Ensure https://
+    if full_url.startswith('//'):
+        full_url = 'https:' + full_url
+    elif not full_url.startswith('http'):
+        full_url = 'https://upload.wikimedia.org' + full_url
+
+    # Get filename from URL
+    filename = unquote(full_url.split('/')[-1])
+    # Clean up filename
+    filename = filename.replace(':', '_').replace('?', '_').replace('&', '_')[:100]
+
+    # Add index prefix to maintain order
+    ext = filename.split('.')[-1].lower()[:4]
+    if ext not in ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg']:
+        ext = 'jpg'  # Default
+
+    output_file = os.path.join(output_dir, f"wiki_{i:03d}_{filename}")
+
+    # Don't re-download existing files
+    if os.path.exists(output_file):
+        print(f"Skipping existing: {output_file}")
+        continue
+
+    print(f"Downloading: {full_url}")
+    print(f"  -> {output_file}")
+
+    result = subprocess.run([
+        'curl', '-sL',
+        '-A', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        '-H', 'Referer: https://en.wikipedia.org/',
+        full_url, '-o', output_file
+    ], capture_output=True)
+
+    # Check if it's actually an image
+    if os.path.exists(output_file):
+        check = subprocess.run(['file', '-b', output_file], capture_output=True, text=True)
+        if 'HTML' in check.stdout or 'XML' in check.stdout or os.path.getsize(output_file) < 1000:
+            print(f"  ERROR: Got HTML or tiny file, removing")
+            os.remove(output_file)
+        else:
+            size = os.path.getsize(output_file)
+            print(f"  SUCCESS: {size:,} bytes")
+            downloaded += 1
+
+print(f"\nDownloaded: {downloaded} images")
+print(f"Skipped: {skipped} (icons/small)")
+PYEOF
+
+    echo -e "${GREEN}Wikipedia image download complete${NC}"
+}
+
+# Download images from Twitter JSON extraction
+download_twitter_images() {
+    local json_file="$1"
+    local output_dir="$2"
+
+    if [ ! -f "$json_file" ]; then
+        echo -e "${RED}JSON file not found: $json_file${NC}"
+        return 1
+    fi
+
+    mkdir -p "$output_dir"
+
+    echo -e "${YELLOW}Downloading Twitter images from: $json_file${NC}"
+
+    python3 << PYEOF
+import json
+import subprocess
+import os
+
+json_file = "$json_file"
+output_dir = "$output_dir"
+
+with open(json_file, 'r') as f:
+    raw = f.read().strip()
+
+# Handle potential double-encoding
+if raw.startswith('"') and raw.endswith('"'):
+    raw = raw[1:-1].replace('\\"', '"')
+
+data = json.loads(raw)
+downloaded = 0
+
+for i, img in enumerate(data):
+    url = img.get('url', '')
+    if not url:
+        continue
+
+    # Ensure large size
+    if 'name=' in url:
+        url = url.split('?')[0] + '?format=jpg&name=large'
+
+    output_file = os.path.join(output_dir, f"twitter_{i:03d}.jpg")
+
+    print(f"Downloading: {url}")
+    result = subprocess.run([
+        'curl', '-sL',
+        '-A', 'Mozilla/5.0',
+        '-H', 'Referer: https://twitter.com/',
+        url, '-o', output_file
+    ])
+
+    if os.path.exists(output_file) and os.path.getsize(output_file) > 1000:
+        print(f"  SUCCESS: {os.path.getsize(output_file):,} bytes")
+        downloaded += 1
+    else:
+        print(f"  FAILED")
+        if os.path.exists(output_file):
+            os.remove(output_file)
+
+print(f"\nDownloaded: {downloaded} images")
+PYEOF
+}
+
+# Batch download all Wikipedia images from a directory's JSON files
+download_all_wikipedia() {
+    local base_dir="${1:-$MEDIA_ROOT}"
+
+    echo -e "${YELLOW}Scanning for Wikipedia JSON files in: $base_dir${NC}"
+
+    find "$base_dir" -name "wikipedia_images.json" | while read json_file; do
+        dir=$(dirname "$json_file")
+        echo -e "\n${GREEN}Processing: $dir${NC}"
+        download_wikipedia_images "$json_file" "$dir"
+    done
+}
+
+#######################################
 # Google Images Search and Download
 #######################################
 google_image_search() {
@@ -297,21 +523,35 @@ close_browser() {
 show_help() {
     echo "Usage: ./media_scripts.sh <command> [arguments]"
     echo ""
-    echo "Commands:"
-    echo "  google <query> <output_dir>     - Search Google Images"
-    echo "  twitter <query> <output_dir>    - Search Twitter for media"
-    echo "  tweet <url> <output_dir>        - Download media from specific tweet"
-    echo "  wikipedia <article> <output_dir>- Get images from Wikipedia article"
-    echo "  wikimedia <query> <output_dir>  - Search Wikimedia Commons"
-    echo "  interactive <url>               - Open headed browser for manual scraping"
-    echo "  batch <config.json>             - Run batch searches from config file"
-    echo "  close                           - Close browser session"
+    echo "SEARCH COMMANDS (extract URLs only):"
+    echo "  google <query> <output_dir>      - Search Google Images (saves screenshot + refs)"
+    echo "  twitter <query> <output_dir>     - Search Twitter for media (extracts URLs)"
+    echo "  wikipedia <article> <output_dir> - Extract images from Wikipedia article"
+    echo "  wikimedia <query> <output_dir>   - Search Wikimedia Commons"
+    echo ""
+    echo "DOWNLOAD COMMANDS (actually download images):"
+    echo "  download-wiki <json> <output_dir>   - Download images from Wikipedia JSON"
+    echo "  download-twitter <json> <output_dir>- Download images from Twitter JSON"
+    echo "  download-all [base_dir]             - Download all Wikipedia images in directory tree"
+    echo "  download-url <url> <output_file>    - Download single image URL"
+    echo ""
+    echo "OTHER COMMANDS:"
+    echo "  tweet <url> <output_dir>         - Download media from specific tweet"
+    echo "  interactive <url>                - Open headed browser for manual scraping"
+    echo "  batch <config.json>              - Run batch searches from config file"
+    echo "  close                            - Close browser session"
+    echo ""
+    echo "WORKFLOW:"
+    echo "  1. Extract: ./media_scripts.sh wikipedia \"Cinema_Rex_fire\" ./media/events/cinema-rex"
+    echo "  2. Download: ./media_scripts.sh download-wiki ./media/events/cinema-rex/wikipedia_images.json ./media/events/cinema-rex"
+    echo ""
+    echo "  Or batch all Wikipedia downloads:"
+    echo "  ./media_scripts.sh download-all ./media"
     echo ""
     echo "Examples:"
-    echo "  ./media_scripts.sh google \"Treaty of Turkmenchay 1828\" ./media/events/turkmenchay"
-    echo "  ./media_scripts.sh twitter \"Rasht protest\" ./media/current/rasht"
-    echo "  ./media_scripts.sh tweet \"https://twitter.com/user/status/123\" ./media/current/tweets"
-    echo "  ./media_scripts.sh wikipedia \"Treaty_of_Turkmenchay\" ./media/events/turkmenchay"
+    echo "  ./media_scripts.sh wikipedia \"Guadeloupe_Conference\" ./media/events/guadeloupe-1979"
+    echo "  ./media_scripts.sh download-wiki ./media/events/guadeloupe-1979/wikipedia_images.json ./media/events/guadeloupe-1979"
+    echo "  ./media_scripts.sh download-url \"https://upload.wikimedia.org/...jpg\" ./output.jpg"
 }
 
 # Parse command
@@ -330,6 +570,18 @@ case "$1" in
         ;;
     wikimedia)
         wikimedia_search "$2" "$3"
+        ;;
+    download-wiki)
+        download_wikipedia_images "$2" "$3"
+        ;;
+    download-twitter)
+        download_twitter_images "$2" "$3"
+        ;;
+    download-all)
+        download_all_wikipedia "$2"
+        ;;
+    download-url)
+        download_image "$2" "$3"
         ;;
     interactive)
         interactive_scrape "$2"

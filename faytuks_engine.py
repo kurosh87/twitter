@@ -311,6 +311,231 @@ class MediaMatcher:
         return recommendation
 
 
+class TweetEnricher:
+    """Enriches bucket tweets with historical parallels from knowledge base."""
+
+    def __init__(self, knowledge_base: 'KnowledgeBase'):
+        self.kb = knowledge_base
+
+    def detect_pattern(self, text: str) -> Optional[str]:
+        """Detect the best matching pattern for a tweet."""
+        matches = auto_detect_pattern(text)
+        return matches[0][0] if matches else None
+
+    def get_historical_context(self, pattern: str) -> Dict:
+        """Get relevant historical facts for a pattern."""
+        facts = self.kb.get_facts()
+        history = self.kb.data.get("history", {})
+
+        # Pattern-specific fact retrieval
+        pattern_facts = {
+            "fire_parallel": ["Cinema Rex", "Rasht", "arson"],
+            "massacre_escalation": ["1988", "2019", "Bloody November", "death toll"],
+            "counter_revolution": ["1979", "Khomeini", "hijacked"],
+            "western_betrayal": ["Guadeloupe", "Carter", "1979"],
+            "constitutional_memory": ["1906", "Mossadegh", "constitutional"],
+            "ethnic_unity": ["Khuzestan", "Azerbaijan", "unity"],
+            "great_power_game": ["Turkmenchay", "China", "Russia"],
+            "iraq_contrast": ["Iraq", "2003", "Afghanistan"],
+            "diaspora_return": ["diaspora", "exile", "4 million"],
+        }
+
+        keywords = pattern_facts.get(pattern, [])
+        relevant_facts = []
+        for fact in facts:
+            text = fact.get("fact", "").lower()
+            if any(kw.lower() in text for kw in keywords):
+                relevant_facts.append(fact)
+
+        # Get historical era info
+        eras = history.get("eras", {})
+        relevant_era = None
+        era_mapping = {
+            "fire_parallel": "1978_revolution",
+            "counter_revolution": "islamic_republic_1979",
+            "constitutional_memory": "constitutional_1906",
+            "massacre_escalation": "uprisings_2019_2022",
+        }
+        if pattern in era_mapping:
+            relevant_era = eras.get(era_mapping[pattern])
+
+        return {
+            "facts": relevant_facts[:3],  # Top 3 relevant facts
+            "era": relevant_era,
+            "pattern": pattern
+        }
+
+    def generate_enrichment_prompt(self, original_tweet: str, context: Dict) -> str:
+        """Generate a Claude prompt to create an enriched supplemental tweet."""
+        facts_text = "\n".join([f"- {f.get('fact', '')}" for f in context.get('facts', [])])
+        era = context.get('era', {})
+        era_text = f"\nHistorical era: {era.get('name', 'N/A')}\n{era.get('description', '')}" if era else ""
+
+        return f"""Create a supplemental tweet that adds historical depth to this current news.
+
+ORIGINAL TWEET (from Iranian commentator):
+{original_tweet}
+
+DETECTED PATTERN: {context.get('pattern', 'N/A')}
+
+RELEVANT HISTORICAL FACTS:
+{facts_text}
+{era_text}
+
+YOUR TASK:
+Create a tweet that:
+1. References the current event implicitly (don't repeat it)
+2. Draws a specific historical parallel
+3. Uses the pattern: "[Historical fact]. [Connection to now]. [Insight]."
+4. Maximum 280 characters
+5. 1-2 hashtags maximum
+6. Tone: authoritative, ironic, fact-based
+
+OUTPUT FORMAT:
+TWEET: [your tweet]
+PARALLEL: [which historical parallel you used]
+HASHTAGS: [suggested hashtags]
+"""
+
+    def enrich_draft(self, draft: Dict, claude_client: 'ClaudeClient' = None) -> Dict:
+        """Enrich a bucket-based draft with historical context."""
+        text = draft.get('english', '')
+        pattern = self.detect_pattern(text)
+
+        if not pattern:
+            pattern = draft.get('pattern', 'massacre_escalation')
+
+        context = self.get_historical_context(pattern)
+
+        enriched = {
+            **draft,
+            "detected_pattern": pattern,
+            "historical_context": {
+                "facts_count": len(context.get('facts', [])),
+                "era": context.get('era', {}).get('name') if context.get('era') else None
+            }
+        }
+
+        if claude_client:
+            prompt = self.generate_enrichment_prompt(text, context)
+            response = claude_client.generate(prompt)
+            enriched["supplemental_tweet"] = response
+            enriched["enrichment_prompt"] = prompt
+
+        return enriched
+
+
+class FaytuksDaemon:
+    """Continuous operation daemon for tweet generation and posting."""
+
+    def __init__(self, knowledge_base: 'KnowledgeBase'):
+        self.kb = knowledge_base
+        self.enricher = TweetEnricher(knowledge_base)
+        self.draft_mgr = DraftManager()
+        self.running = False
+
+    def scrape_recent_tweets(self, bucket: str, max_age_hours: int) -> List[Dict]:
+        """Get recent tweets from a bucket."""
+        from datetime import timezone, timedelta
+
+        bucket_files = {
+            "breaking": [Path(__file__).parent / "buckets/breaking/middleeast_24-tweets.json"],
+            "commentary": [
+                Path(__file__).parent / "buckets/commentary/__injaneb96-tweets.json",
+                Path(__file__).parent / "buckets/commentary/realneo101-tweets.json",
+            ],
+            "geopolitics": [
+                Path(__file__).parent / "buckets/geopolitics/jasonmbrodsky-tweets.json",
+                Path(__file__).parent / "buckets/geopolitics/ariaramesh-tweets.json",
+            ],
+        }
+
+        now = datetime.now(timezone.utc)
+        cutoff = now - timedelta(hours=max_age_hours)
+        recent = []
+
+        for file_path in bucket_files.get(bucket, []):
+            if not file_path.exists():
+                continue
+            try:
+                with open(file_path, 'r') as f:
+                    data = json.load(f)
+                tweets = data.get('tweets', data if isinstance(data, list) else [])
+                for t in tweets:
+                    try:
+                        ts = datetime.fromisoformat(t.get('date', '').replace('Z', '+00:00'))
+                        if ts > cutoff and not t.get('isRetweet', False):
+                            t['bucket'] = bucket
+                            t['handle'] = file_path.stem.replace('-tweets', '')
+                            recent.append(t)
+                    except:
+                        continue
+            except:
+                continue
+
+        return sorted(recent, key=lambda x: x.get('date', ''), reverse=True)
+
+    def generate_drafts_from_buckets(self, claude_client: 'ClaudeClient' = None) -> List[str]:
+        """Generate drafts from recent bucket tweets."""
+        created = []
+
+        # Breaking: < 1 hour
+        breaking = self.scrape_recent_tweets("breaking", max_age_hours=1)
+
+        # Commentary & Geopolitics: < 24 hours
+        commentary = self.scrape_recent_tweets("commentary", max_age_hours=24)
+        geopolitics = self.scrape_recent_tweets("geopolitics", max_age_hours=24)
+
+        all_tweets = breaking + commentary + geopolitics
+
+        for tweet in all_tweets[:10]:  # Top 10
+            pattern = self.enricher.detect_pattern(tweet.get('text', ''))
+            draft_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+            draft = {
+                "id": f"auto_{draft_id}",
+                "created_at": datetime.now().isoformat(),
+                "status": "pending",
+                "pattern": pattern or "general",
+                "english": tweet.get('text', ''),
+                "persian": "",
+                "media": [],
+                "sources": [f"@{tweet.get('handle', 'unknown')}", tweet.get('bucket', '')],
+                "source_tweet_date": tweet.get('date', ''),
+            }
+
+            # Enrich with historical context
+            if claude_client:
+                enriched = self.enricher.enrich_draft(draft, claude_client)
+                draft = enriched
+
+            path = self.draft_mgr.save_draft(
+                english=draft['english'],
+                persian="",
+                pattern=draft['pattern'],
+                sources=draft.get('sources', [])
+            )
+            created.append(path)
+
+        return created
+
+    def run_cycle(self, claude_client: 'ClaudeClient' = None) -> Dict:
+        """Run one complete cycle: scrape → enrich → queue."""
+        results = {
+            "timestamp": datetime.now().isoformat(),
+            "drafts_created": [],
+            "errors": []
+        }
+
+        try:
+            created = self.generate_drafts_from_buckets(claude_client)
+            results["drafts_created"] = created
+        except Exception as e:
+            results["errors"].append(str(e))
+
+        return results
+
+
 class DraftManager:
     """Manages tweet drafts with media attachments."""
 
@@ -1405,22 +1630,59 @@ def main():
     media_parser.add_argument("--all", action="store_true", help="Check all patterns")
     media_parser.add_argument("--acquire", action="store_true", help="Show acquisition commands for missing media")
 
-    # Draft command - save drafts with media
-    draft_parser = subparsers.add_parser("draft", help="Manage tweet drafts")
+    # Draft/Queue command - manage tweet drafts
+    draft_parser = subparsers.add_parser("draft", help="Manage tweet drafts (alias: queue)")
     draft_parser.add_argument("--list", action="store_true", help="List pending drafts")
+    draft_parser.add_argument("--approved", action="store_true", help="List approved drafts")
+    draft_parser.add_argument("--posted-list", action="store_true", help="List posted drafts")
+    draft_parser.add_argument("--preview", help="Preview draft by ID with media suggestions")
     draft_parser.add_argument("--save", action="store_true", help="Save a new draft")
     draft_parser.add_argument("--english", help="English tweet text")
     draft_parser.add_argument("--persian", help="Persian tweet text")
     draft_parser.add_argument("--pattern", help="Synthesis pattern used")
     draft_parser.add_argument("--media", nargs="+", help="Media file paths to attach")
+    draft_parser.add_argument("--attach", nargs=2, metavar=("ID", "PATH"), help="Attach media to draft")
     draft_parser.add_argument("--approve", help="Approve draft by ID")
-    draft_parser.add_argument("--posted", help="Mark draft as posted by ID")
+    draft_parser.add_argument("--reject", help="Delete draft by ID")
+    draft_parser.add_argument("--stats", action="store_true", help="Show queue statistics")
+
+    # Queue command - alias for draft
+    queue_parser = subparsers.add_parser("queue", help="Manage tweet queue (alias for draft)")
+    queue_parser.add_argument("action", nargs="?", choices=["list", "preview", "approve", "attach", "reject", "stats"],
+                              help="Queue action")
+    queue_parser.add_argument("id", nargs="?", help="Draft ID")
+    queue_parser.add_argument("path", nargs="?", help="Media path for attach")
+    queue_parser.add_argument("--approved", action="store_true", help="List approved")
+    queue_parser.add_argument("--posted", action="store_true", help="List posted")
 
     # Post command - workflow for Chrome posting
     post_parser = subparsers.add_parser("post", help="Post workflow (shows instructions for claude --chrome)")
     post_parser.add_argument("--draft", help="Draft ID to post")
     post_parser.add_argument("--next", action="store_true", help="Get next approved draft")
     post_parser.add_argument("--clipboard", action="store_true", help="Copy tweet to clipboard instead of browser posting")
+
+    # Posted command - track posted tweets
+    posted_parser = subparsers.add_parser("posted", help="Track posted tweets")
+    posted_parser.add_argument("action", nargs="?", choices=["confirm", "list", "stats"],
+                               default="list", help="Action")
+    posted_parser.add_argument("id", nargs="?", help="Draft ID for confirm")
+    posted_parser.add_argument("--url", help="Tweet URL for confirm")
+
+    # Refresh command - scrape buckets and generate drafts
+    refresh_parser = subparsers.add_parser("refresh", help="Refresh drafts from bucket tweets")
+    refresh_parser.add_argument("--execute", action="store_true", help="Enrich with Claude API")
+    refresh_parser.add_argument("--breaking-hours", type=int, default=1, help="Max age for breaking (default: 1h)")
+    refresh_parser.add_argument("--other-hours", type=int, default=24, help="Max age for other buckets (default: 24h)")
+
+    # Enrich command - add historical parallels to a draft
+    enrich_parser = subparsers.add_parser("enrich", help="Enrich draft with historical parallels")
+    enrich_parser.add_argument("--draft", required=True, help="Draft ID to enrich")
+    enrich_parser.add_argument("--execute", action="store_true", help="Generate supplemental tweet with Claude")
+
+    # Daemon command - continuous operation
+    daemon_parser = subparsers.add_parser("daemon", help="Run continuous operation daemon")
+    daemon_parser.add_argument("--interval", type=int, default=3600, help="Check interval in seconds (default: 1h)")
+    daemon_parser.add_argument("--execute", action="store_true", help="Enable Claude API enrichment")
 
     args = parser.parse_args()
 
@@ -1528,7 +1790,20 @@ def main():
         prompt = generator.generate_counter_prompt(args.claim, args.source)
         if claude:
             print("=== CLAUDE RESPONSE ===")
-            print(claude.generate(prompt))
+            response = claude.generate(prompt)
+            print(response)
+
+            if args.queue:
+                draft_mgr = DraftManager()
+                draft_path = draft_mgr.save_draft(
+                    english=response,
+                    persian="",
+                    pattern="counter_" + args.source,
+                    media=[],
+                    hashtags=[],
+                    sources=[args.claim]
+                )
+                print(f"\n✅ Counter-narrative saved to queue: {draft_path}")
         else:
             print("=== CLAUDE PROMPT ===")
             print(prompt)
@@ -1538,7 +1813,20 @@ def main():
         prompt = daily_gen.generate_daily_prompt(args.date, developments)
         if claude:
             print("=== CLAUDE RESPONSE ===")
-            print(claude.generate(prompt))
+            response = claude.generate(prompt)
+            print(response)
+
+            if args.queue:
+                draft_mgr = DraftManager()
+                draft_path = draft_mgr.save_draft(
+                    english=response,
+                    persian="",
+                    pattern="daily_package",
+                    media=[],
+                    hashtags=[],
+                    sources=developments[:3] if developments else []
+                )
+                print(f"\n✅ Daily package saved to queue: {draft_path}")
         else:
             print("=== CLAUDE PROMPT ===")
             print(prompt)
@@ -1784,7 +2072,31 @@ def main():
     elif args.command == "draft":
         draft_mgr = DraftManager()
 
-        if args.list:
+        if args.stats:
+            # Queue statistics
+            pending = list((DRAFTS_DIR / "pending").glob("*.json"))
+            approved = list((DRAFTS_DIR / "approved").glob("*.json"))
+            posted = list((DRAFTS_DIR / "posted").glob("*.json"))
+
+            print("=== QUEUE STATISTICS ===\n")
+            print(f"📋 Pending:  {len(pending)}")
+            print(f"✅ Approved: {len(approved)}")
+            print(f"📤 Posted:   {len(posted)}")
+            print(f"\n📊 Total:    {len(pending) + len(approved) + len(posted)}")
+
+            # Pattern breakdown
+            if posted:
+                patterns = {}
+                for f in posted:
+                    with open(f, 'r', encoding='utf-8') as file:
+                        d = json.load(file)
+                        p = d.get('pattern', 'unknown')
+                        patterns[p] = patterns.get(p, 0) + 1
+                print("\n📖 Posted by pattern:")
+                for p, count in sorted(patterns.items(), key=lambda x: -x[1]):
+                    print(f"   {p}: {count}")
+
+        elif args.list:
             drafts = draft_mgr.list_pending()
             print(f"=== PENDING DRAFTS ({len(drafts)}) ===\n")
             for d in drafts:
@@ -1792,6 +2104,92 @@ def main():
                 print(f"ID: {d['id']} | {d.get('pattern', 'N/A')} | {media_status}")
                 print(f"   EN: {d.get('english', '')[:80]}...")
                 print()
+
+        elif args.approved:
+            approved_files = list((DRAFTS_DIR / "approved").glob("*.json"))
+            print(f"=== APPROVED DRAFTS ({len(approved_files)}) ===\n")
+            for f in approved_files:
+                with open(f, 'r', encoding='utf-8') as file:
+                    d = json.load(file)
+                media_status = f"📷 {len(d.get('media', []))} media" if d.get('media') else "No media"
+                print(f"ID: {d['id']} | {d.get('pattern', 'N/A')} | {media_status}")
+                print(f"   EN: {d.get('english', '')[:80]}...")
+                print()
+
+        elif getattr(args, 'posted_list', False):
+            posted_files = list((DRAFTS_DIR / "posted").glob("*.json"))
+            print(f"=== POSTED DRAFTS ({len(posted_files)}) ===\n")
+            for f in posted_files:
+                with open(f, 'r', encoding='utf-8') as file:
+                    d = json.load(file)
+                posted_at = d.get('posted_at', 'N/A')[:10] if d.get('posted_at') else 'N/A'
+                print(f"ID: {d['id']} | Posted: {posted_at}")
+                print(f"   EN: {d.get('english', '')[:80]}...")
+                if d.get('tweet_id'):
+                    print(f"   URL: https://x.com/FaytuksNetwork/status/{d['tweet_id']}")
+                print()
+
+        elif args.preview:
+            # Find draft by ID
+            draft = None
+            for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+                for f in folder.glob(f"*{args.preview}*.json"):
+                    with open(f, 'r', encoding='utf-8') as file:
+                        draft = json.load(file)
+                    break
+            if draft:
+                print(f"=== DRAFT PREVIEW: {draft['id']} ===\n")
+                print(f"Pattern: {draft.get('pattern', 'N/A')}")
+                print(f"Created: {draft.get('created_at', 'N/A')}")
+                print(f"Status: {draft.get('status', 'N/A')}")
+                print(f"\n--- ENGLISH ---\n{draft.get('english', '')}")
+                if draft.get('persian'):
+                    print(f"\n--- PERSIAN ---\n{draft.get('persian', '')}")
+                print(f"\n--- MEDIA ---")
+                if draft.get('media'):
+                    for m in draft['media']:
+                        exists = "✅" if (MEDIA_DIR / m).exists() else "❌"
+                        print(f"  {exists} {m}")
+                else:
+                    # Suggest media based on pattern
+                    matcher = MediaMatcher()
+                    rec = matcher.get_media_recommendation(draft.get('pattern', ''))
+                    if rec["has_media"]:
+                        print(f"  💡 Suggested: {rec['primary_media']}")
+                        print(f"     Attach with: draft --attach {draft['id']} {rec['primary_media']}")
+                    else:
+                        print("  No media attached")
+            else:
+                print(f"Draft '{args.preview}' not found")
+
+        elif args.attach:
+            draft_id, media_path = args.attach
+            # Find and update draft
+            updated = False
+            for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+                for f in folder.glob(f"*{draft_id}*.json"):
+                    with open(f, 'r', encoding='utf-8') as file:
+                        draft = json.load(file)
+                    draft['media'] = draft.get('media', []) + [media_path]
+                    with open(f, 'w', encoding='utf-8') as file:
+                        json.dump(draft, file, indent=2, ensure_ascii=False)
+                    print(f"✅ Attached {media_path} to draft {draft_id}")
+                    updated = True
+                    break
+            if not updated:
+                print(f"❌ Draft {draft_id} not found")
+
+        elif args.reject:
+            # Delete draft
+            deleted = False
+            for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+                for f in folder.glob(f"*{args.reject}*.json"):
+                    f.unlink()
+                    print(f"✅ Draft {args.reject} deleted")
+                    deleted = True
+                    break
+            if not deleted:
+                print(f"❌ Draft {args.reject} not found")
 
         elif args.save:
             if not args.english:
@@ -1817,70 +2215,387 @@ def main():
 
         elif args.approve:
             if draft_mgr.approve_draft(args.approve):
-                print(f"✅ Draft {args.approve} approved")
+                print(f"✅ Draft {args.approve} approved and moved to approved/")
             else:
-                print(f"❌ Draft {args.approve} not found")
-
-        elif args.posted:
-            if draft_mgr.mark_posted(args.posted):
-                print(f"✅ Draft {args.posted} marked as posted")
-            else:
-                print(f"❌ Draft {args.posted} not found in approved")
+                print(f"❌ Draft {args.approve} not found in pending/")
 
         else:
-            print("Usage: python faytuks_engine.py draft --list")
+            print("Usage: python faytuks_engine.py draft --list [--approved|--posted-list]")
+            print("       python faytuks_engine.py draft --preview <draft_id>")
             print("       python faytuks_engine.py draft --save --english 'text' --pattern fire_parallel")
+            print("       python faytuks_engine.py draft --attach <draft_id> <media_path>")
             print("       python faytuks_engine.py draft --approve <draft_id>")
+            print("       python faytuks_engine.py draft --reject <draft_id>")
+            print("       python faytuks_engine.py draft --stats")
 
     elif args.command == "post":
-        draft_mgr = DraftManager()
+        import subprocess
 
         # Find draft to post
         draft = None
+        draft_file = None
         if args.draft:
             for f in (DRAFTS_DIR / "approved").glob(f"*{args.draft}*.json"):
                 with open(f, 'r', encoding='utf-8') as file:
                     draft = json.load(file)
+                draft_file = f
                 break
         elif args.next:
             approved = list((DRAFTS_DIR / "approved").glob("*.json"))
             if approved:
-                with open(approved[0], 'r', encoding='utf-8') as f:
+                draft_file = approved[0]
+                with open(draft_file, 'r', encoding='utf-8') as f:
                     draft = json.load(f)
 
         if not draft:
             approved_count = len(list((DRAFTS_DIR / "approved").glob("*.json")))
-            print(f"No draft specified. {approved_count} drafts in approved/")
+            pending_count = len(list((DRAFTS_DIR / "pending").glob("*.json")))
+            print(f"📋 Queue: {pending_count} pending | {approved_count} approved")
+            if approved_count == 0 and pending_count > 0:
+                print("\n💡 Approve a draft first: draft --approve <id>")
             print("\nUsage:")
-            print("  python faytuks_engine.py post --next       # Get next approved draft")
-            print("  python faytuks_engine.py post --draft ID   # Post specific draft")
+            print("  python faytuks_engine.py post --next              # Get next approved draft")
+            print("  python faytuks_engine.py post --draft ID          # Post specific draft")
+            print("  python faytuks_engine.py post --draft ID --clipboard  # Copy to clipboard")
         else:
-            print("=" * 60)
-            print("POSTING WORKFLOW (use with: claude --chrome)")
-            print("=" * 60)
-            print(f"\n📝 DRAFT ID: {draft['id']}")
-            print(f"📊 PATTERN: {draft.get('pattern', 'N/A')}")
-            print(f"\n--- ENGLISH ---")
-            print(draft.get('english', ''))
-            print(f"\n--- PERSIAN ---")
-            print(draft.get('persian', ''))
+            tweet_text = draft.get('english', '')
 
-            if draft.get('media'):
-                print(f"\n📷 MEDIA TO ATTACH:")
-                for m in draft['media']:
-                    full_path = MEDIA_DIR / m
-                    exists = "✅" if full_path.exists() else "❌ NOT FOUND"
-                    print(f"   {exists} {full_path}")
+            if args.clipboard:
+                # Copy to clipboard using pbcopy (macOS)
+                try:
+                    process = subprocess.Popen(['pbcopy'], stdin=subprocess.PIPE)
+                    process.communicate(tweet_text.encode('utf-8'))
+                    print("✅ Tweet copied to clipboard!\n")
+                except Exception as e:
+                    print(f"❌ Clipboard error: {e}")
+                    print(f"\n--- COPY THIS ---\n{tweet_text}\n--- END ---\n")
 
-            print("\n" + "=" * 60)
-            print("INSTRUCTIONS FOR claude --chrome:")
-            print("=" * 60)
-            print("1. Open Twitter/X compose tweet")
-            print("2. Copy the English text above")
-            print("3. Attach media file(s) if listed")
-            print("4. Post the tweet")
-            print(f"5. Run: python faytuks_engine.py draft --posted {draft['id']}")
-            print("=" * 60)
+                print(f"📝 Draft: {draft['id']}")
+                print(f"📊 Pattern: {draft.get('pattern', 'N/A')}")
+                print(f"📏 Length: {len(tweet_text)} chars")
+
+                if draft.get('media'):
+                    print(f"\n📷 Media to attach:")
+                    for m in draft['media']:
+                        full_path = MEDIA_DIR / m
+                        if full_path.exists():
+                            print(f"   {full_path}")
+                        else:
+                            print(f"   ❌ {full_path} (NOT FOUND)")
+
+                print(f"\n📋 Next steps:")
+                print(f"   1. Open https://x.com/compose/tweet")
+                print(f"   2. Paste (Cmd+V)")
+                if draft.get('media'):
+                    print(f"   3. Attach media file(s) above")
+                    print(f"   4. Post")
+                else:
+                    print(f"   3. Post")
+                print(f"\n✅ After posting, confirm with:")
+                print(f"   python faytuks_engine.py posted confirm {draft['id']} --url <tweet_url>")
+            else:
+                # Full posting workflow instructions
+                print("=" * 60)
+                print("POSTING WORKFLOW (use with: claude --chrome)")
+                print("=" * 60)
+                print(f"\n📝 DRAFT ID: {draft['id']}")
+                print(f"📊 PATTERN: {draft.get('pattern', 'N/A')}")
+                print(f"\n--- ENGLISH ---")
+                print(tweet_text)
+                if draft.get('persian'):
+                    print(f"\n--- PERSIAN ---")
+                    print(draft.get('persian', ''))
+
+                if draft.get('media'):
+                    print(f"\n📷 MEDIA TO ATTACH:")
+                    for m in draft['media']:
+                        full_path = MEDIA_DIR / m
+                        exists = "✅" if full_path.exists() else "❌ NOT FOUND"
+                        print(f"   {exists} {full_path}")
+
+                print("\n" + "=" * 60)
+                print("INSTRUCTIONS FOR claude --chrome:")
+                print("=" * 60)
+                print("1. Navigate to https://x.com/compose/tweet")
+                print("2. Click the compose textarea")
+                print("3. Type or paste the English text")
+                if draft.get('media'):
+                    print("4. Click photo icon and attach media file(s)")
+                    print("5. Click Post button")
+                else:
+                    print("4. Click Post button")
+                print(f"\nAfter posting, confirm with:")
+                print(f"  python faytuks_engine.py posted confirm {draft['id']} --url <tweet_url>")
+                print("=" * 60)
+
+    elif args.command == "queue":
+        # Alias for draft command with positional args
+        draft_mgr = DraftManager()
+
+        if args.action == "list":
+            if args.approved:
+                approved_files = list((DRAFTS_DIR / "approved").glob("*.json"))
+                print(f"=== APPROVED ({len(approved_files)}) ===\n")
+                for f in approved_files:
+                    with open(f, 'r', encoding='utf-8') as file:
+                        d = json.load(file)
+                    print(f"{d['id']} | {d.get('pattern', 'N/A')}")
+            elif args.posted:
+                posted_files = list((DRAFTS_DIR / "posted").glob("*.json"))
+                print(f"=== POSTED ({len(posted_files)}) ===\n")
+                for f in posted_files:
+                    with open(f, 'r', encoding='utf-8') as file:
+                        d = json.load(file)
+                    print(f"{d['id']} | Posted: {d.get('posted_at', 'N/A')[:10] if d.get('posted_at') else 'N/A'}")
+            else:
+                drafts = draft_mgr.list_pending()
+                print(f"=== PENDING ({len(drafts)}) ===\n")
+                for d in drafts:
+                    media = "📷" if d.get('media') else ""
+                    print(f"{d['id']} | {d.get('pattern', 'N/A')} {media}")
+                    print(f"  {d.get('english', '')[:60]}...")
+                    print()
+
+        elif args.action == "preview" and args.id:
+            draft = None
+            for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+                for f in folder.glob(f"*{args.id}*.json"):
+                    with open(f, 'r', encoding='utf-8') as file:
+                        draft = json.load(file)
+                    break
+            if draft:
+                print(f"=== {draft['id']} ===\n")
+                print(draft.get('english', ''))
+                if draft.get('media'):
+                    print(f"\n📷 {draft['media']}")
+            else:
+                print(f"Draft {args.id} not found")
+
+        elif args.action == "approve" and args.id:
+            if draft_mgr.approve_draft(args.id):
+                print(f"✅ {args.id} approved")
+            else:
+                print(f"❌ {args.id} not found")
+
+        elif args.action == "attach" and args.id and args.path:
+            for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+                for f in folder.glob(f"*{args.id}*.json"):
+                    with open(f, 'r', encoding='utf-8') as file:
+                        draft = json.load(file)
+                    draft['media'] = draft.get('media', []) + [args.path]
+                    with open(f, 'w', encoding='utf-8') as file:
+                        json.dump(draft, file, indent=2, ensure_ascii=False)
+                    print(f"✅ Attached {args.path}")
+                    break
+
+        elif args.action == "reject" and args.id:
+            for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+                for f in folder.glob(f"*{args.id}*.json"):
+                    f.unlink()
+                    print(f"✅ {args.id} deleted")
+                    break
+
+        elif args.action == "stats":
+            pending = len(list((DRAFTS_DIR / "pending").glob("*.json")))
+            approved = len(list((DRAFTS_DIR / "approved").glob("*.json")))
+            posted = len(list((DRAFTS_DIR / "posted").glob("*.json")))
+            print(f"📋 Pending: {pending} | ✅ Approved: {approved} | 📤 Posted: {posted}")
+
+        else:
+            print("Usage: queue list [--approved|--posted]")
+            print("       queue preview <id>")
+            print("       queue approve <id>")
+            print("       queue attach <id> <path>")
+            print("       queue reject <id>")
+            print("       queue stats")
+
+    elif args.command == "posted":
+        # Handle posted command
+        if args.action == "confirm" and args.id:
+            draft_mgr = DraftManager()
+            tweet_url = args.url if hasattr(args, 'url') else None
+            # Extract tweet ID from URL if provided
+            tweet_id = None
+            if tweet_url and '/status/' in tweet_url:
+                tweet_id = tweet_url.split('/status/')[-1].split('?')[0]
+            if draft_mgr.mark_posted(args.id, tweet_id=tweet_id):
+                print(f"✅ {args.id} marked as posted")
+                if tweet_url:
+                    print(f"   URL: {tweet_url}")
+            else:
+                print(f"❌ {args.id} not found in approved/")
+
+        elif args.action == "list":
+            posted_files = list((DRAFTS_DIR / "posted").glob("*.json"))
+            print(f"=== POSTED TWEETS ({len(posted_files)}) ===\n")
+            for f in sorted(posted_files, key=lambda x: x.stat().st_mtime, reverse=True):
+                with open(f, 'r', encoding='utf-8') as file:
+                    d = json.load(file)
+                posted_at = d.get('posted_at', '')[:10] if d.get('posted_at') else 'N/A'
+                print(f"{d['id']} | {posted_at} | {d.get('pattern', 'N/A')}")
+                if d.get('tweet_id'):
+                    print(f"  https://x.com/FaytuksNetwork/status/{d['tweet_id']}")
+                print()
+
+        elif args.action == "stats":
+            posted_files = list((DRAFTS_DIR / "posted").glob("*.json"))
+            patterns = {}
+            for f in posted_files:
+                with open(f, 'r', encoding='utf-8') as file:
+                    d = json.load(file)
+                p = d.get('pattern', 'unknown')
+                patterns[p] = patterns.get(p, 0) + 1
+
+            print(f"=== POSTING STATS ===\n")
+            print(f"Total posted: {len(posted_files)}")
+            print(f"\nBy pattern:")
+            for p, count in sorted(patterns.items(), key=lambda x: -x[1]):
+                print(f"  {p}: {count}")
+
+        else:
+            print("Usage: posted confirm <id> --url <tweet_url>")
+            print("       posted list")
+            print("       posted stats")
+
+    elif args.command == "refresh":
+        # Refresh drafts from bucket tweets
+        daemon = FaytuksDaemon(kb)
+        enricher = TweetEnricher(kb)
+
+        print("=== REFRESHING FROM BUCKETS ===\n")
+
+        # Breaking: immediate (< 10 minutes) - auto-approve
+        breaking_mins = getattr(args, 'breaking_hours', 1) * 60  # Convert to use minutes
+        breaking = daemon.scrape_recent_tweets("breaking", max_age_hours=0.17)  # ~10 mins
+
+        # Commentary & Geopolitics: < 24 hours - drafts only
+        other_hours = getattr(args, 'other_hours', 24)
+        commentary = daemon.scrape_recent_tweets("commentary", max_age_hours=other_hours)
+        geopolitics = daemon.scrape_recent_tweets("geopolitics", max_age_hours=other_hours)
+
+        print(f"Breaking (< 10 min):     {len(breaking)} tweets → AUTO-APPROVE")
+        print(f"Commentary (< {other_hours}h):    {len(commentary)} tweets → drafts")
+        print(f"Geopolitics (< {other_hours}h):   {len(geopolitics)} tweets → drafts")
+
+        created_breaking = 0
+        created_drafts = 0
+
+        # Process breaking tweets - immediate posting
+        for tweet in breaking[:5]:
+            pattern = enricher.detect_pattern(tweet.get('text', ''))
+            draft_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+            path = daemon.draft_mgr.save_draft(
+                english=tweet.get('text', ''),
+                persian="",
+                pattern=pattern or "breaking",
+                sources=[f"@{tweet.get('handle', '')}", "breaking"]
+            )
+
+            # Auto-approve breaking tweets
+            daemon.draft_mgr.approve_draft(draft_id)
+            created_breaking += 1
+            print(f"  ⚡ BREAKING: @{tweet.get('handle', '')} → approved")
+
+        # Process other buckets as regular drafts
+        for tweet in (commentary + geopolitics)[:10]:
+            pattern = enricher.detect_pattern(tweet.get('text', ''))
+
+            path = daemon.draft_mgr.save_draft(
+                english=tweet.get('text', ''),
+                persian="",
+                pattern=pattern or "general",
+                sources=[f"@{tweet.get('handle', '')}", tweet.get('bucket', '')]
+            )
+            created_drafts += 1
+
+        print(f"\n✅ Created: {created_breaking} breaking (auto-approved), {created_drafts} drafts")
+
+        # Show queue status
+        pending = len(list((DRAFTS_DIR / "pending").glob("*.json")))
+        approved = len(list((DRAFTS_DIR / "approved").glob("*.json")))
+        print(f"📋 Queue: {pending} pending | {approved} approved (ready to post)")
+
+    elif args.command == "enrich":
+        # Enrich a draft with historical parallels
+        enricher = TweetEnricher(kb)
+
+        # Find draft
+        draft = None
+        for folder in [DRAFTS_DIR / "pending", DRAFTS_DIR / "approved"]:
+            for f in folder.glob(f"*{args.draft}*.json"):
+                with open(f, 'r', encoding='utf-8') as file:
+                    draft = json.load(file)
+                draft_path = f
+                break
+
+        if not draft:
+            print(f"Draft '{args.draft}' not found")
+        else:
+            print(f"=== ENRICHING: {draft.get('id', args.draft)} ===\n")
+
+            # Detect pattern
+            pattern = enricher.detect_pattern(draft.get('english', ''))
+            print(f"Detected pattern: {pattern or 'none'}")
+
+            # Get historical context
+            context = enricher.get_historical_context(pattern or 'massacre_escalation')
+            print(f"\nRelevant facts: {len(context.get('facts', []))}")
+            for fact in context.get('facts', [])[:3]:
+                print(f"  - {fact.get('fact', '')[:80]}...")
+
+            if context.get('era'):
+                print(f"\nHistorical era: {context['era'].get('name', 'N/A')}")
+
+            if claude:
+                prompt = enricher.generate_enrichment_prompt(draft.get('english', ''), context)
+                print("\n=== SUPPLEMENTAL TWEET ===")
+                response = claude.generate(prompt)
+                print(response)
+
+                # Save enrichment to draft
+                draft['supplemental_tweet'] = response
+                draft['enriched_at'] = datetime.now().isoformat()
+                with open(draft_path, 'w', encoding='utf-8') as file:
+                    json.dump(draft, file, indent=2, ensure_ascii=False)
+                print(f"\n✅ Enrichment saved to draft")
+            else:
+                print("\n(Add --execute to generate supplemental tweet with Claude)")
+
+    elif args.command == "daemon":
+        import time
+
+        daemon = FaytuksDaemon(kb)
+        interval = args.interval
+
+        print("=" * 60)
+        print("FAYTUKS CONTINUOUS DAEMON")
+        print("=" * 60)
+        print(f"\nInterval: {interval} seconds ({interval/60:.1f} minutes)")
+        print(f"Claude enrichment: {'enabled' if claude else 'disabled'}")
+        print("\nPress Ctrl+C to stop\n")
+
+        cycle = 0
+        while True:
+            cycle += 1
+            print(f"\n--- Cycle {cycle} at {datetime.now().strftime('%H:%M:%S')} ---")
+
+            try:
+                results = daemon.run_cycle(claude)
+                print(f"Created: {len(results.get('drafts_created', []))} drafts")
+                if results.get('errors'):
+                    print(f"Errors: {results['errors']}")
+
+                # Show queue status
+                pending = len(list((DRAFTS_DIR / "pending").glob("*.json")))
+                approved = len(list((DRAFTS_DIR / "approved").glob("*.json")))
+                print(f"Queue: {pending} pending | {approved} approved")
+
+            except Exception as e:
+                print(f"Error: {e}")
+
+            print(f"Sleeping {interval}s...")
+            time.sleep(interval)
 
     else:
         parser.print_help()
