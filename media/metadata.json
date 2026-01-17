@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "last_updated": "2026-01-17T15:39:07.650348",
-  "total_items": 193,
+  "last_updated": "2026-01-17T15:49:30.427983",
+  "total_items": 377,
   "categories": {
     "historical": "Pre-2022 historical images",
     "events": "Key historical events (Cinema Rex, Turkmenchay, etc.)",
@@ -43,7 +43,7 @@
       "size_bytes": 173569,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.653684"
+      "added": "2026-01-17T15:49:30.436230"
     },
     {
       "id": "IMG_0001",
@@ -64,7 +64,7 @@
       "size_bytes": 222917,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.656593"
+      "added": "2026-01-17T15:49:30.439598"
     },
     {
       "id": "IMG_0002",
@@ -85,7 +85,7 @@
       "size_bytes": 1499970,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.659337"
+      "added": "2026-01-17T15:49:30.444445"
     },
     {
       "id": "IMG_0003",
@@ -106,7 +106,7 @@
       "size_bytes": 2212563,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.662221"
+      "added": "2026-01-17T15:49:30.448622"
     },
     {
       "id": "IMG_0004",
@@ -127,7 +127,7 @@
       "size_bytes": 157109,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.664634"
+      "added": "2026-01-17T15:49:30.451301"
     },
     {
       "id": "IMG_0005",
@@ -148,7 +148,7 @@
       "size_bytes": 4606075,
       "file_type": "GIF image data, version 87a, 2530 x 4029",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.666988"
+      "added": "2026-01-17T15:49:30.453869"
     },
     {
       "id": "IMG_0006",
@@ -169,7 +169,7 @@
       "size_bytes": 6138040,
       "file_type": "PNG image data, 2255 x 1584, 8-bit/color RGB, non-",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.669486"
+      "added": "2026-01-17T15:49:30.457298"
     },
     {
       "id": "IMG_0007",
@@ -190,7 +190,7 @@
       "size_bytes": 47708,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.671654"
+      "added": "2026-01-17T15:49:30.462344"
     },
     {
       "id": "IMG_0008",
@@ -211,7 +211,7 @@
       "size_bytes": 770819,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.674570"
+      "added": "2026-01-17T15:49:30.466487"
     },
     {
       "id": "IMG_0009",
@@ -232,7 +232,7 @@
       "size_bytes": 168533,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.677411"
+      "added": "2026-01-17T15:49:30.470548"
     },
     {
       "id": "IMG_0010",
@@ -254,7 +254,7 @@
       "size_bytes": 1714,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.679782"
+      "added": "2026-01-17T15:49:30.474287"
     },
     {
       "id": "IMG_0011",
@@ -276,7 +276,7 @@
       "size_bytes": 22223,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.681845"
+      "added": "2026-01-17T15:49:30.477836"
     },
     {
       "id": "IMG_0012",
@@ -298,7 +298,7 @@
       "size_bytes": 75265,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.683942"
+      "added": "2026-01-17T15:49:30.481492"
     },
     {
       "id": "IMG_0013",
@@ -320,7 +320,7 @@
       "size_bytes": 46051,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.686104"
+      "added": "2026-01-17T15:49:30.485574"
     },
     {
       "id": "IMG_0014",
@@ -342,7 +342,7 @@
       "size_bytes": 710776,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.688636"
+      "added": "2026-01-17T15:49:30.489122"
     },
     {
       "id": "IMG_0015",
@@ -364,7 +364,7 @@
       "size_bytes": 925830,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.691391"
+      "added": "2026-01-17T15:49:30.494396"
     },
     {
       "id": "IMG_0016",
@@ -386,7 +386,7 @@
       "size_bytes": 131440,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.694063"
+      "added": "2026-01-17T15:49:30.498014"
     },
     {
       "id": "IMG_0017",
@@ -408,7 +408,7 @@
       "size_bytes": 15403,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.696474"
+      "added": "2026-01-17T15:49:30.502276"
     },
     {
       "id": "IMG_0018",
@@ -430,7 +430,7 @@
       "size_bytes": 13483,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.698774"
+      "added": "2026-01-17T15:49:30.507310"
     },
     {
       "id": "IMG_0019",
@@ -452,7 +452,7 @@
       "size_bytes": 215588,
       "file_type": "PNG image data, 367 x 479, 8-bit/color RGBA, non-i",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.700756"
+      "added": "2026-01-17T15:49:30.511187"
     },
     {
       "id": "IMG_0020",
@@ -474,7 +474,7 @@
       "size_bytes": 14791,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.702664"
+      "added": "2026-01-17T15:49:30.513764"
     },
     {
       "id": "IMG_0021",
@@ -496,7 +496,7 @@
       "size_bytes": 39185,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.704755"
+      "added": "2026-01-17T15:49:30.516590"
     },
     {
       "id": "IMG_0022",
@@ -518,7 +518,7 @@
       "size_bytes": 105968,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.706934"
+      "added": "2026-01-17T15:49:30.519343"
     },
     {
       "id": "IMG_0023",
@@ -540,7 +540,7 @@
       "size_bytes": 26445,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.709047"
+      "added": "2026-01-17T15:49:30.522592"
     },
     {
       "id": "IMG_0024",
@@ -562,7 +562,7 @@
       "size_bytes": 135602,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.711586"
+      "added": "2026-01-17T15:49:30.526998"
     },
     {
       "id": "IMG_0025",
@@ -584,7 +584,7 @@
       "size_bytes": 28146,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.714049"
+      "added": "2026-01-17T15:49:30.530168"
     },
     {
       "id": "IMG_0026",
@@ -604,7 +604,7 @@
       "size_bytes": 235938,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.716436"
+      "added": "2026-01-17T15:49:30.534237"
     },
     {
       "id": "IMG_0027",
@@ -624,7 +624,7 @@
       "size_bytes": 21744,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.718412"
+      "added": "2026-01-17T15:49:30.536951"
     },
     {
       "id": "IMG_0028",
@@ -644,7 +644,7 @@
       "size_bytes": 57445,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.720433"
+      "added": "2026-01-17T15:49:30.539268"
     },
     {
       "id": "IMG_0029",
@@ -664,7 +664,7 @@
       "size_bytes": 38746,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.722339"
+      "added": "2026-01-17T15:49:30.541423"
     },
     {
       "id": "IMG_0030",
@@ -684,7 +684,7 @@
       "size_bytes": 61126,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.724433"
+      "added": "2026-01-17T15:49:30.546396"
     },
     {
       "id": "IMG_0031",
@@ -704,7 +704,7 @@
       "size_bytes": 13175,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.726671"
+      "added": "2026-01-17T15:49:30.548966"
     },
     {
       "id": "IMG_0032",
@@ -724,7 +724,7 @@
       "size_bytes": 37327,
       "file_type": "GIF image data, version 89a, 500 x 722",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.728997"
+      "added": "2026-01-17T15:49:30.551091"
     },
     {
       "id": "IMG_0033",
@@ -744,7 +744,7 @@
       "size_bytes": 30063,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.731183"
+      "added": "2026-01-17T15:49:30.553483"
     },
     {
       "id": "IMG_0034",
@@ -764,7 +764,7 @@
       "size_bytes": 1808653,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.734004"
+      "added": "2026-01-17T15:49:30.556137"
     },
     {
       "id": "IMG_0035",
@@ -785,7 +785,7 @@
       "size_bytes": 239237,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.736417"
+      "added": "2026-01-17T15:49:30.558857"
     },
     {
       "id": "IMG_0036",
@@ -806,7 +806,7 @@
       "size_bytes": 336654,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.738922"
+      "added": "2026-01-17T15:49:30.563359"
     },
     {
       "id": "IMG_0037",
@@ -827,7 +827,7 @@
       "size_bytes": 272000,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.741290"
+      "added": "2026-01-17T15:49:30.567170"
     },
     {
       "id": "IMG_0038",
@@ -848,7 +848,7 @@
       "size_bytes": 361216,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.743582"
+      "added": "2026-01-17T15:49:30.570574"
     },
     {
       "id": "IMG_0039",
@@ -869,7 +869,7 @@
       "size_bytes": 190345,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.746024"
+      "added": "2026-01-17T15:49:30.573488"
     },
     {
       "id": "IMG_0040",
@@ -890,7 +890,7 @@
       "size_bytes": 54498,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.748211"
+      "added": "2026-01-17T15:49:30.575683"
     },
     {
       "id": "IMG_0041",
@@ -911,7 +911,7 @@
       "size_bytes": 218173,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.750717"
+      "added": "2026-01-17T15:49:30.578771"
     },
     {
       "id": "IMG_0042",
@@ -932,7 +932,7 @@
       "size_bytes": 297161,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.753136"
+      "added": "2026-01-17T15:49:30.581676"
     },
     {
       "id": "IMG_0043",
@@ -953,7 +953,7 @@
       "size_bytes": 537623,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.755677"
+      "added": "2026-01-17T15:49:30.584425"
     },
     {
       "id": "IMG_0044",
@@ -974,7 +974,7 @@
       "size_bytes": 56052,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.758114"
+      "added": "2026-01-17T15:49:30.586608"
     },
     {
       "id": "IMG_0045",
@@ -995,7 +995,7 @@
       "size_bytes": 457851,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.760828"
+      "added": "2026-01-17T15:49:30.589494"
     },
     {
       "id": "IMG_0046",
@@ -1015,7 +1015,7 @@
       "size_bytes": 99857,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.763217"
+      "added": "2026-01-17T15:49:30.592090"
     },
     {
       "id": "IMG_0047",
@@ -1035,7 +1035,7 @@
       "size_bytes": 47708,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.765313"
+      "added": "2026-01-17T15:49:30.594765"
     },
     {
       "id": "IMG_0048",
@@ -1055,7 +1055,7 @@
       "size_bytes": 3632699,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.767832"
+      "added": "2026-01-17T15:49:30.597379"
     },
     {
       "id": "IMG_0049",
@@ -1072,10 +1072,10 @@
         "demonstrations"
       ],
       "era": "1970s",
-      "size_bytes": 16008665,
-      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "size_bytes": 733455,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.770346"
+      "added": "2026-01-17T15:49:30.600489"
     },
     {
       "id": "IMG_0050",
@@ -1095,7 +1095,7 @@
       "size_bytes": 647155,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.773033"
+      "added": "2026-01-17T15:49:30.603483"
     },
     {
       "id": "IMG_0051",
@@ -1115,7 +1115,7 @@
       "size_bytes": 4772339,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.775655"
+      "added": "2026-01-17T15:49:30.606255"
     },
     {
       "id": "IMG_0052",
@@ -1135,7 +1135,7 @@
       "size_bytes": 1091674,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.778144"
+      "added": "2026-01-17T15:49:30.609352"
     },
     {
       "id": "IMG_0053",
@@ -1155,7 +1155,7 @@
       "size_bytes": 57445,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.780129"
+      "added": "2026-01-17T15:49:30.612039"
     },
     {
       "id": "IMG_0054",
@@ -1175,7 +1175,7 @@
       "size_bytes": 90341,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.782733"
+      "added": "2026-01-17T15:49:30.614461"
     },
     {
       "id": "IMG_0055",
@@ -1195,7 +1195,7 @@
       "size_bytes": 41797,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.785032"
+      "added": "2026-01-17T15:49:30.616463"
     },
     {
       "id": "IMG_0056",
@@ -1215,7 +1215,7 @@
       "size_bytes": 365982,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.787638"
+      "added": "2026-01-17T15:49:30.619285"
     },
     {
       "id": "IMG_0057",
@@ -1235,7 +1235,7 @@
       "size_bytes": 98061,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.789918"
+      "added": "2026-01-17T15:49:30.621858"
     },
     {
       "id": "IMG_0058",
@@ -1255,7 +1255,7 @@
       "size_bytes": 231574,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.792146"
+      "added": "2026-01-17T15:49:30.624302"
     },
     {
       "id": "IMG_0059",
@@ -1275,7 +1275,7 @@
       "size_bytes": 158589,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.794286"
+      "added": "2026-01-17T15:49:30.627313"
     },
     {
       "id": "IMG_0060",
@@ -1295,7 +1295,7 @@
       "size_bytes": 53477,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.796549"
+      "added": "2026-01-17T15:49:30.630247"
     },
     {
       "id": "IMG_0061",
@@ -1315,7 +1315,7 @@
       "size_bytes": 97597,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.798800"
+      "added": "2026-01-17T15:49:30.632921"
     },
     {
       "id": "IMG_0062",
@@ -1335,7 +1335,7 @@
       "size_bytes": 189700,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.800918"
+      "added": "2026-01-17T15:49:30.635308"
     },
     {
       "id": "IMG_0063",
@@ -1355,7 +1355,7 @@
       "size_bytes": 50768985,
       "file_type": "PDF document, version 1.6 (zip deflate encoded)",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.803849"
+      "added": "2026-01-17T15:49:30.638976"
     },
     {
       "id": "IMG_0064",
@@ -1375,7 +1375,7 @@
       "size_bytes": 100103,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.806455"
+      "added": "2026-01-17T15:49:30.641753"
     },
     {
       "id": "IMG_0065",
@@ -1395,7 +1395,7 @@
       "size_bytes": 120812,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.808844"
+      "added": "2026-01-17T15:49:30.645150"
     },
     {
       "id": "IMG_0066",
@@ -1415,7 +1415,7 @@
       "size_bytes": 174941,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.811282"
+      "added": "2026-01-17T15:49:30.649317"
     },
     {
       "id": "IMG_0067",
@@ -1435,7 +1435,7 @@
       "size_bytes": 200454,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.813512"
+      "added": "2026-01-17T15:49:30.652050"
     },
     {
       "id": "IMG_0068",
@@ -1455,7 +1455,7 @@
       "size_bytes": 32972,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.815571"
+      "added": "2026-01-17T15:49:30.654769"
     },
     {
       "id": "IMG_0069",
@@ -1475,7 +1475,7 @@
       "size_bytes": 3949305,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.818020"
+      "added": "2026-01-17T15:49:30.657849"
     },
     {
       "id": "IMG_0070",
@@ -1495,7 +1495,7 @@
       "size_bytes": 37672,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.819937"
+      "added": "2026-01-17T15:49:30.664726"
     },
     {
       "id": "IMG_0071",
@@ -1515,7 +1515,7 @@
       "size_bytes": 67217,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.822297"
+      "added": "2026-01-17T15:49:30.682486"
     },
     {
       "id": "IMG_0072",
@@ -1535,7 +1535,7 @@
       "size_bytes": 3810346,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.825110"
+      "added": "2026-01-17T15:49:30.690602"
     },
     {
       "id": "IMG_0073",
@@ -1555,7 +1555,7 @@
       "size_bytes": 2317363,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.828613"
+      "added": "2026-01-17T15:49:30.694546"
     },
     {
       "id": "IMG_0074",
@@ -1575,7 +1575,7 @@
       "size_bytes": 911012,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.856332"
+      "added": "2026-01-17T15:49:30.698390"
     },
     {
       "id": "IMG_0075",
@@ -1595,7 +1595,7 @@
       "size_bytes": 132016,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.859091"
+      "added": "2026-01-17T15:49:30.701970"
     },
     {
       "id": "IMG_0076",
@@ -1615,7 +1615,7 @@
       "size_bytes": 133295,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.861870"
+      "added": "2026-01-17T15:49:30.705325"
     },
     {
       "id": "IMG_0077",
@@ -1635,7 +1635,7 @@
       "size_bytes": 110169,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.864200"
+      "added": "2026-01-17T15:49:30.709002"
     },
     {
       "id": "IMG_0078",
@@ -1655,7 +1655,7 @@
       "size_bytes": 90998,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.866379"
+      "added": "2026-01-17T15:49:30.713268"
     },
     {
       "id": "IMG_0079",
@@ -1675,7 +1675,7 @@
       "size_bytes": 148662,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.868843"
+      "added": "2026-01-17T15:49:30.716303"
     },
     {
       "id": "IMG_0080",
@@ -1695,7 +1695,7 @@
       "size_bytes": 101009,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.871408"
+      "added": "2026-01-17T15:49:30.718996"
     },
     {
       "id": "IMG_0081",
@@ -1715,7 +1715,7 @@
       "size_bytes": 51584,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.873823"
+      "added": "2026-01-17T15:49:30.721596"
     },
     {
       "id": "IMG_0082",
@@ -1735,7 +1735,7 @@
       "size_bytes": 34968,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.875919"
+      "added": "2026-01-17T15:49:30.723945"
     },
     {
       "id": "IMG_0083",
@@ -1755,7 +1755,7 @@
       "size_bytes": 38424,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.878328"
+      "added": "2026-01-17T15:49:30.726634"
     },
     {
       "id": "IMG_0084",
@@ -1776,7 +1776,7 @@
       "size_bytes": 39822,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:07.881013"
+      "added": "2026-01-17T15:49:30.729844"
     },
     {
       "id": "IMG_0085",
@@ -1797,7 +1797,7 @@
       "size_bytes": 79542,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.883528"
+      "added": "2026-01-17T15:49:30.733045"
     },
     {
       "id": "IMG_0086",
@@ -1818,7 +1818,7 @@
       "size_bytes": 2254930,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.886203"
+      "added": "2026-01-17T15:49:30.735846"
     },
     {
       "id": "IMG_0087",
@@ -1839,7 +1839,7 @@
       "size_bytes": 91915,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.888535"
+      "added": "2026-01-17T15:49:30.738180"
     },
     {
       "id": "IMG_0088",
@@ -1860,7 +1860,7 @@
       "size_bytes": 133923,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.890812"
+      "added": "2026-01-17T15:49:30.740576"
     },
     {
       "id": "IMG_0089",
@@ -1881,7 +1881,7 @@
       "size_bytes": 64097,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.892977"
+      "added": "2026-01-17T15:49:30.743552"
     },
     {
       "id": "IMG_0090",
@@ -1902,7 +1902,7 @@
       "size_bytes": 294400,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.895556"
+      "added": "2026-01-17T15:49:30.747396"
     },
     {
       "id": "IMG_0091",
@@ -1923,7 +1923,7 @@
       "size_bytes": 161656,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.897759"
+      "added": "2026-01-17T15:49:30.750278"
     },
     {
       "id": "IMG_0092",
@@ -1944,7 +1944,7 @@
       "size_bytes": 180292,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.900169"
+      "added": "2026-01-17T15:49:30.753680"
     },
     {
       "id": "IMG_0093",
@@ -1965,7 +1965,7 @@
       "size_bytes": 133915,
       "file_type": "PNG image data, 672 x 600, 8-bit/color RGBA, non-i",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.902383"
+      "added": "2026-01-17T15:49:30.756229"
     },
     {
       "id": "IMG_0094",
@@ -1986,7 +1986,7 @@
       "size_bytes": 27278,
       "file_type": "PNG image data, 500 x 391, 8-bit colormap, non-int",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.904419"
+      "added": "2026-01-17T15:49:30.758409"
     },
     {
       "id": "IMG_0095",
@@ -2007,7 +2007,7 @@
       "size_bytes": 1738363,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.907248"
+      "added": "2026-01-17T15:49:30.761994"
     },
     {
       "id": "IMG_0096",
@@ -2028,7 +2028,7 @@
       "size_bytes": 103181,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.909379"
+      "added": "2026-01-17T15:49:30.764887"
     },
     {
       "id": "IMG_0097",
@@ -2049,7 +2049,7 @@
       "size_bytes": 71840,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.911608"
+      "added": "2026-01-17T15:49:30.767233"
     },
     {
       "id": "IMG_0098",
@@ -2070,7 +2070,7 @@
       "size_bytes": 219948,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.913874"
+      "added": "2026-01-17T15:49:30.769669"
     },
     {
       "id": "IMG_0099",
@@ -2091,7 +2091,7 @@
       "size_bytes": 51761,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.915964"
+      "added": "2026-01-17T15:49:30.772575"
     },
     {
       "id": "IMG_0100",
@@ -2112,7 +2112,7 @@
       "size_bytes": 187122,
       "file_type": "PNG image data, 1000 x 1067, 8-bit/color RGB, non-",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.918014"
+      "added": "2026-01-17T15:49:30.774882"
     },
     {
       "id": "IMG_0101",
@@ -2133,7 +2133,7 @@
       "size_bytes": 162377,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.920362"
+      "added": "2026-01-17T15:49:30.777787"
     },
     {
       "id": "IMG_0102",
@@ -2154,7 +2154,7 @@
       "size_bytes": 925689,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.923203"
+      "added": "2026-01-17T15:49:30.780808"
     },
     {
       "id": "IMG_0103",
@@ -2175,7 +2175,7 @@
       "size_bytes": 1490004,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.926025"
+      "added": "2026-01-17T15:49:30.783520"
     },
     {
       "id": "IMG_0104",
@@ -2196,7 +2196,7 @@
       "size_bytes": 86583,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.928486"
+      "added": "2026-01-17T15:49:30.785935"
     },
     {
       "id": "IMG_0105",
@@ -2217,7 +2217,7 @@
       "size_bytes": 164388,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.930780"
+      "added": "2026-01-17T15:49:30.788592"
     },
     {
       "id": "IMG_0106",
@@ -2238,7 +2238,7 @@
       "size_bytes": 69776,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.932783"
+      "added": "2026-01-17T15:49:30.791266"
     },
     {
       "id": "IMG_0107",
@@ -2259,7 +2259,7 @@
       "size_bytes": 915317,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.935244"
+      "added": "2026-01-17T15:49:30.794759"
     },
     {
       "id": "IMG_0108",
@@ -2280,7 +2280,7 @@
       "size_bytes": 107077,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.937490"
+      "added": "2026-01-17T15:49:30.797237"
     },
     {
       "id": "IMG_0109",
@@ -2301,7 +2301,7 @@
       "size_bytes": 455951,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.939863"
+      "added": "2026-01-17T15:49:30.801122"
     },
     {
       "id": "IMG_0110",
@@ -2322,7 +2322,7 @@
       "size_bytes": 64097,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.942112"
+      "added": "2026-01-17T15:49:30.803445"
     },
     {
       "id": "IMG_0111",
@@ -2343,10 +2343,220 @@
       "size_bytes": 2247579,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.945001"
+      "added": "2026-01-17T15:49:30.805912"
     },
     {
       "id": "IMG_0112",
+      "filename": "wiki_051_War_of_the_Cities_map.png",
+      "path": "historical/1980-1988/wiki_051_War_of_the_Cities_map.png",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 478741,
+      "file_type": "PNG image data, 643 x 800, 16-bit/color RGB, non-i",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.808669"
+    },
+    {
+      "id": "IMG_0113",
+      "filename": "wiki_052_Wafiq_Al-Samarrai.JPG",
+      "path": "historical/1980-1988/wiki_052_Wafiq_Al-Samarrai.JPG",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 59888,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.811019"
+    },
+    {
+      "id": "IMG_0114",
+      "filename": "wiki_053_President_Ali_Khamenei_in_Iran-Iraq_War.jpg",
+      "path": "historical/1980-1988/wiki_053_President_Ali_Khamenei_in_Iran-Iraq_War.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 100842,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.813300"
+    },
+    {
+      "id": "IMG_0115",
+      "filename": "wiki_054_Operation_dawn_8_map.svg",
+      "path": "historical/1980-1988/wiki_054_Operation_dawn_8_map.svg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 323934,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.816510"
+    },
+    {
+      "id": "IMG_0116",
+      "filename": "wiki_055_Mersad.jpg",
+      "path": "historical/1980-1988/wiki_055_Mersad.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 91915,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.818797"
+    },
+    {
+      "id": "IMG_0117",
+      "filename": "wiki_056_Adnan_Khairallah_Army.jpg",
+      "path": "historical/1980-1988/wiki_056_Adnan_Khairallah_Army.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 60527,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.820783"
+    },
+    {
+      "id": "IMG_0118",
+      "filename": "wiki_057_Small_Boats_of_Iran_in_Taker_war_3.JPG",
+      "path": "historical/1980-1988/wiki_057_Small_Boats_of_Iran_in_Taker_war_3.JPG",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 215875,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.822895"
+    },
+    {
+      "id": "IMG_0119",
+      "filename": "wiki_058_Chemical_weapon1.jpg",
+      "path": "historical/1980-1988/wiki_058_Chemical_weapon1.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 79542,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.824873"
+    },
+    {
+      "id": "IMG_0120",
+      "filename": "wiki_059_Bild-Prayingmantis5sahand.jpg",
+      "path": "historical/1980-1988/wiki_059_Bild-Prayingmantis5sahand.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 1131101,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.828083"
+    },
+    {
+      "id": "IMG_0121",
+      "filename": "wiki_060_TBO-4-POVs-17061988.jpg",
+      "path": "historical/1980-1988/wiki_060_TBO-4-POVs-17061988.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 790488,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.830972"
+    },
+    {
+      "id": "IMG_0122",
       "filename": "wiki_001_Amir_Kabir_University_uprising_September_2022_(3).jpg",
       "path": "historical/2022-mahsa/wiki_001_Amir_Kabir_University_uprising_September_2022_(3).jpg",
       "directory": "historical/2022-mahsa",
@@ -2363,10 +2573,10 @@
       "size_bytes": 9589809,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.947819"
+      "added": "2026-01-17T15:49:30.833664"
     },
     {
-      "id": "IMG_0113",
+      "id": "IMG_0123",
       "filename": "wiki_002_Uprising_in_Tehran,_Keshavarz_Boulvard_September_2022_(3).jpg",
       "path": "historical/2022-mahsa/wiki_002_Uprising_in_Tehran,_Keshavarz_Boulvard_September_2022_(3).jpg",
       "directory": "historical/2022-mahsa",
@@ -2383,10 +2593,10 @@
       "size_bytes": 684933,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.950417"
+      "added": "2026-01-17T15:49:30.836372"
     },
     {
-      "id": "IMG_0114",
+      "id": "IMG_0124",
       "filename": "wiki_016_\u0632\u0646_\u0632\u0646\u062f\u06af\u06cc_\u0622\u0632\u0627\u062f\u06cc.jpg",
       "path": "historical/2022-mahsa/wiki_016_\u0632\u0646_\u0632\u0646\u062f\u06af\u06cc_\u0622\u0632\u0627\u062f\u06cc.jpg",
       "directory": "historical/2022-mahsa",
@@ -2403,10 +2613,10 @@
       "size_bytes": 6071869,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.953045"
+      "added": "2026-01-17T15:49:30.839384"
     },
     {
-      "id": "IMG_0115",
+      "id": "IMG_0125",
       "filename": "wiki_017_2022_Iran_Protests_(Killed).svg",
       "path": "historical/2022-mahsa/wiki_017_2022_Iran_Protests_(Killed).svg",
       "directory": "historical/2022-mahsa",
@@ -2423,10 +2633,10 @@
       "size_bytes": 358820,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.955497"
+      "added": "2026-01-17T15:49:30.842515"
     },
     {
-      "id": "IMG_0116",
+      "id": "IMG_0126",
       "filename": "wiki_018_2022_Iran_Protests_(Killed)_County.svg",
       "path": "historical/2022-mahsa/wiki_018_2022_Iran_Protests_(Killed)_County.svg",
       "directory": "historical/2022-mahsa",
@@ -2443,10 +2653,10 @@
       "size_bytes": 1628599,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.958435"
+      "added": "2026-01-17T15:49:30.846545"
     },
     {
-      "id": "IMG_0117",
+      "id": "IMG_0127",
       "filename": "wiki_019_Iran_solidairty_protests_22_October_2022_in_Berlin_19.jpg",
       "path": "historical/2022-mahsa/wiki_019_Iran_solidairty_protests_22_October_2022_in_Berlin_19.jpg",
       "directory": "historical/2022-mahsa",
@@ -2463,10 +2673,10 @@
       "size_bytes": 4819252,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.961500"
+      "added": "2026-01-17T15:49:30.849539"
     },
     {
-      "id": "IMG_0118",
+      "id": "IMG_0128",
       "filename": "wiki_022_Iran_national_team_fan_04.jpg",
       "path": "historical/2022-mahsa/wiki_022_Iran_national_team_fan_04.jpg",
       "directory": "historical/2022-mahsa",
@@ -2483,10 +2693,10 @@
       "size_bytes": 4163151,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.964224"
+      "added": "2026-01-17T15:49:30.852397"
     },
     {
-      "id": "IMG_0119",
+      "id": "IMG_0129",
       "filename": "wiki_001_Portrait_of_Ruhollah_Khomeini.jpg",
       "path": "figures/khomeini/wiki_001_Portrait_of_Ruhollah_Khomeini.jpg",
       "directory": "figures/khomeini",
@@ -2502,10 +2712,10 @@
       "size_bytes": 161656,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.966564"
+      "added": "2026-01-17T15:49:30.855036"
     },
     {
-      "id": "IMG_0120",
+      "id": "IMG_0130",
       "filename": "wiki_002_Ruhollah_Khomeini_signature.svg",
       "path": "figures/khomeini/wiki_002_Ruhollah_Khomeini_signature.svg",
       "directory": "figures/khomeini",
@@ -2521,10 +2731,10 @@
       "size_bytes": 3247,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.968429"
+      "added": "2026-01-17T15:49:30.857049"
     },
     {
-      "id": "IMG_0121",
+      "id": "IMG_0131",
       "filename": "wiki_004_Ruhollah_Khomeinii_(3x4_cropped).jpg",
       "path": "figures/khomeini/wiki_004_Ruhollah_Khomeinii_(3x4_cropped).jpg",
       "directory": "figures/khomeini",
@@ -2540,10 +2750,10 @@
       "size_bytes": 647643,
       "file_type": "JPEG image data, baseline, precision 8, 1536x2048,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.970622"
+      "added": "2026-01-17T15:49:30.860021"
     },
     {
-      "id": "IMG_0122",
+      "id": "IMG_0132",
       "filename": "wiki_005_Emblem_of_Iran.svg",
       "path": "figures/khomeini/wiki_005_Emblem_of_Iran.svg",
       "directory": "figures/khomeini",
@@ -2559,10 +2769,10 @@
       "size_bytes": 1290,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.972746"
+      "added": "2026-01-17T15:49:30.862566"
     },
     {
-      "id": "IMG_0123",
+      "id": "IMG_0133",
       "filename": "wiki_006_Ruhollah_Khomeini_birthplace_5.jpg",
       "path": "figures/khomeini/wiki_006_Ruhollah_Khomeini_birthplace_5.jpg",
       "directory": "figures/khomeini",
@@ -2578,10 +2788,10 @@
       "size_bytes": 299985,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.975175"
+      "added": "2026-01-17T15:49:30.865046"
     },
     {
-      "id": "IMG_0124",
+      "id": "IMG_0134",
       "filename": "wiki_007_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0647\u0645\u062f\u0631\u0633\u0627\u0646.JPG",
       "path": "figures/khomeini/wiki_007_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0647\u0645\u062f\u0631\u0633\u0627\u0646.JPG",
       "directory": "figures/khomeini",
@@ -2597,10 +2807,10 @@
       "size_bytes": 305192,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.977703"
+      "added": "2026-01-17T15:49:30.867530"
     },
     {
-      "id": "IMG_0125",
+      "id": "IMG_0135",
       "filename": "wiki_008_Ayatollah_Khomeini_young.jpg",
       "path": "figures/khomeini/wiki_008_Ayatollah_Khomeini_young.jpg",
       "directory": "figures/khomeini",
@@ -2616,10 +2826,10 @@
       "size_bytes": 15590,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.980072"
+      "added": "2026-01-17T15:49:30.869634"
     },
     {
-      "id": "IMG_0126",
+      "id": "IMG_0136",
       "filename": "wiki_009_Ruhollah_Khomeini_speaking_to_his_followers_against_capitulation_day_1964.jpg",
       "path": "figures/khomeini/wiki_009_Ruhollah_Khomeini_speaking_to_his_followers_against_capitulation_day_1964.jpg",
       "directory": "figures/khomeini",
@@ -2635,10 +2845,10 @@
       "size_bytes": 56153,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.982286"
+      "added": "2026-01-17T15:49:30.871877"
     },
     {
-      "id": "IMG_0127",
+      "id": "IMG_0137",
       "filename": "wiki_010_June_3,_1963_speech_by_Ruhollah_Khomeini-_Feyziyeh_School,_Qom_(5).jpg",
       "path": "figures/khomeini/wiki_010_June_3,_1963_speech_by_Ruhollah_Khomeini-_Feyziyeh_School,_Qom_(5).jpg",
       "directory": "figures/khomeini",
@@ -2654,10 +2864,10 @@
       "size_bytes": 87671,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.984777"
+      "added": "2026-01-17T15:49:30.874059"
     },
     {
-      "id": "IMG_0128",
+      "id": "IMG_0138",
       "filename": "wiki_011_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
       "path": "figures/khomeini/wiki_011_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
       "directory": "figures/khomeini",
@@ -2670,13 +2880,13 @@
         "islamic_republic"
       ],
       "era": "1970s-1980s",
-      "size_bytes": 13389472,
-      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "size_bytes": 752531,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.987368"
+      "added": "2026-01-17T15:49:30.876847"
     },
     {
-      "id": "IMG_0129",
+      "id": "IMG_0139",
       "filename": "wiki_012_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0646\u0645\u0627\u0632.JPG",
       "path": "figures/khomeini/wiki_012_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0646\u0645\u0627\u0632.JPG",
       "directory": "figures/khomeini",
@@ -2692,10 +2902,10 @@
       "size_bytes": 35824,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.989496"
+      "added": "2026-01-17T15:49:30.879482"
     },
     {
-      "id": "IMG_0130",
+      "id": "IMG_0140",
       "filename": "wiki_013_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u062a\u0631\u06a9\u06cc\u0647.JPG",
       "path": "figures/khomeini/wiki_013_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u062a\u0631\u06a9\u06cc\u0647.JPG",
       "directory": "figures/khomeini",
@@ -2711,10 +2921,10 @@
       "size_bytes": 33203,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.991573"
+      "added": "2026-01-17T15:49:30.881537"
     },
     {
-      "id": "IMG_0131",
+      "id": "IMG_0141",
       "filename": "wiki_014_Khomeini's_House_in_Iraq-Najaf_Ashraf_by_Samenp.jpg",
       "path": "figures/khomeini/wiki_014_Khomeini's_House_in_Iraq-Najaf_Ashraf_by_Samenp.jpg",
       "directory": "figures/khomeini",
@@ -2730,10 +2940,10 @@
       "size_bytes": 171424,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.993911"
+      "added": "2026-01-17T15:49:30.884154"
     },
     {
-      "id": "IMG_0132",
+      "id": "IMG_0142",
       "filename": "wiki_015_Imam_in_Paris.jpg",
       "path": "figures/khomeini/wiki_015_Imam_in_Paris.jpg",
       "directory": "figures/khomeini",
@@ -2749,10 +2959,10 @@
       "size_bytes": 365982,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.996219"
+      "added": "2026-01-17T15:49:30.886810"
     },
     {
-      "id": "IMG_0133",
+      "id": "IMG_0143",
       "filename": "wiki_016_Imam_Khomeini_in_Mehrabad.jpg",
       "path": "figures/khomeini/wiki_016_Imam_Khomeini_in_Mehrabad.jpg",
       "directory": "figures/khomeini",
@@ -2768,10 +2978,10 @@
       "size_bytes": 98628,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:07.998690"
+      "added": "2026-01-17T15:49:30.890458"
     },
     {
-      "id": "IMG_0134",
+      "id": "IMG_0144",
       "filename": "wiki_017_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0645\u0631\u062f\u0645.JPG",
       "path": "figures/khomeini/wiki_017_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0645\u0631\u062f\u0645.JPG",
       "directory": "figures/khomeini",
@@ -2787,10 +2997,10 @@
       "size_bytes": 549960,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.001282"
+      "added": "2026-01-17T15:49:30.894694"
     },
     {
-      "id": "IMG_0135",
+      "id": "IMG_0145",
       "filename": "wiki_018_Carpet_given_to_Id_Kah_mosque_by_Ayatollah_Khomeini.jpg",
       "path": "figures/khomeini/wiki_018_Carpet_given_to_Id_Kah_mosque_by_Ayatollah_Khomeini.jpg",
       "directory": "figures/khomeini",
@@ -2806,10 +3016,10 @@
       "size_bytes": 506189,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.003649"
+      "added": "2026-01-17T15:49:30.897881"
     },
     {
-      "id": "IMG_0136",
+      "id": "IMG_0146",
       "filename": "wiki_019_KhomeiniRajai32.jpg",
       "path": "figures/khomeini/wiki_019_KhomeiniRajai32.jpg",
       "directory": "figures/khomeini",
@@ -2825,10 +3035,10 @@
       "size_bytes": 157737,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.005771"
+      "added": "2026-01-17T15:49:30.900391"
     },
     {
-      "id": "IMG_0137",
+      "id": "IMG_0147",
       "filename": "wiki_020_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(5).jpg",
       "path": "figures/khomeini/wiki_020_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(5).jpg",
       "directory": "figures/khomeini",
@@ -2844,10 +3054,10 @@
       "size_bytes": 298241,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.008079"
+      "added": "2026-01-17T15:49:30.902790"
     },
     {
-      "id": "IMG_0138",
+      "id": "IMG_0148",
       "filename": "wiki_021_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(6).jpg",
       "path": "figures/khomeini/wiki_021_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(6).jpg",
       "directory": "figures/khomeini",
@@ -2863,10 +3073,10 @@
       "size_bytes": 323208,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.010291"
+      "added": "2026-01-17T15:49:30.905087"
     },
     {
-      "id": "IMG_0139",
+      "id": "IMG_0149",
       "filename": "wiki_022_President_Ali_Khamenei_visit_to_Ruhollah_Khomeini_-_August_13,_1986.jpg",
       "path": "figures/khomeini/wiki_022_President_Ali_Khamenei_visit_to_Ruhollah_Khomeini_-_August_13,_1986.jpg",
       "directory": "figures/khomeini",
@@ -2882,10 +3092,10 @@
       "size_bytes": 334888,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.012657"
+      "added": "2026-01-17T15:49:30.907424"
     },
     {
-      "id": "IMG_0140",
+      "id": "IMG_0150",
       "filename": "wiki_024_Iranian_Conservatism_Flags_Symbol.svg",
       "path": "figures/khomeini/wiki_024_Iranian_Conservatism_Flags_Symbol.svg",
       "directory": "figures/khomeini",
@@ -2901,10 +3111,10 @@
       "size_bytes": 20447,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.014795"
+      "added": "2026-01-17T15:49:30.910400"
     },
     {
-      "id": "IMG_0141",
+      "id": "IMG_0151",
       "filename": "wiki_027_Esfahan_(Iran)_Emam_Place_with_Emam_Mosque.JPG",
       "path": "figures/khomeini/wiki_027_Esfahan_(Iran)_Emam_Place_with_Emam_Mosque.JPG",
       "directory": "figures/khomeini",
@@ -2920,10 +3130,10 @@
       "size_bytes": 436399,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.017251"
+      "added": "2026-01-17T15:49:30.913109"
     },
     {
-      "id": "IMG_0142",
+      "id": "IMG_0152",
       "filename": "wiki_029_Imam_Khomeini_Potrait.jpg",
       "path": "figures/khomeini/wiki_029_Imam_Khomeini_Potrait.jpg",
       "directory": "figures/khomeini",
@@ -2939,10 +3149,10 @@
       "size_bytes": 541009,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.020023"
+      "added": "2026-01-17T15:49:30.915536"
     },
     {
-      "id": "IMG_0143",
+      "id": "IMG_0153",
       "filename": "wiki_030_\u0628\u0686\u0647_\u0648_\u062e\u0645\u06cc\u0646\u06cc.JPG",
       "path": "figures/khomeini/wiki_030_\u0628\u0686\u0647_\u0648_\u062e\u0645\u06cc\u0646\u06cc.JPG",
       "directory": "figures/khomeini",
@@ -2958,10 +3168,10 @@
       "size_bytes": 79143,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.022367"
+      "added": "2026-01-17T15:49:30.917716"
     },
     {
-      "id": "IMG_0144",
+      "id": "IMG_0154",
       "filename": "wiki_031_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0646\u0648\u0647\u200c\u0647\u0627.JPG",
       "path": "figures/khomeini/wiki_031_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0646\u0648\u0647\u200c\u0647\u0627.JPG",
       "directory": "figures/khomeini",
@@ -2977,10 +3187,690 @@
       "size_bytes": 150584,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.024436"
+      "added": "2026-01-17T15:49:30.919890"
     },
     {
-      "id": "IMG_0145",
+      "id": "IMG_0155",
+      "filename": "wiki_001_Meeting_of_the_families_of_the_martyrs_of_the_authority_with_the_Leader_of_the_Revolution_on_the_bir",
+      "path": "figures/khamenei/wiki_001_Meeting_of_the_families_of_the_martyrs_of_the_authority_with_the_Leader_of_the_Revolution_on_the_bir",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1043250,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.922750"
+    },
+    {
+      "id": "IMG_0156",
+      "filename": "wiki_002_Ali_Khamenei_signature.svg",
+      "path": "figures/khamenei/wiki_002_Ali_Khamenei_signature.svg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 4968,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.924856"
+    },
+    {
+      "id": "IMG_0157",
+      "filename": "wiki_005_Childhood_photo_of_Seyed_Ali_Khamenei.jpg",
+      "path": "figures/khamenei/wiki_005_Childhood_photo_of_Seyed_Ali_Khamenei.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 22663,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.927586"
+    },
+    {
+      "id": "IMG_0158",
+      "filename": "wiki_006_Ali_Khamenei_in_Iranian_Revolution_protests.jpg",
+      "path": "figures/khamenei/wiki_006_Ali_Khamenei_in_Iranian_Revolution_protests.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 90998,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.929938"
+    },
+    {
+      "id": "IMG_0159",
+      "filename": "wiki_007_Ali_Khamenei_in_military_uniform_during_Iran-Iraq_war.jpg",
+      "path": "figures/khamenei/wiki_007_Ali_Khamenei_in_military_uniform_during_Iran-Iraq_war.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 421689,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.932126"
+    },
+    {
+      "id": "IMG_0160",
+      "filename": "wiki_008_Ayatolla_Ali_Khamenei_in_Hospital_after_Assassination_Attempt_by_khamenei.ir03.jpg",
+      "path": "figures/khamenei/wiki_008_Ayatolla_Ali_Khamenei_in_Hospital_after_Assassination_Attempt_by_khamenei.ir03.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 81308,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.934266"
+    },
+    {
+      "id": "IMG_0161",
+      "filename": "wiki_009_Ali_Khamenei_is_shaking_hand_with_his_left_hand.jpg",
+      "path": "figures/khamenei/wiki_009_Ali_Khamenei_is_shaking_hand_with_his_left_hand.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 75073,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.936233"
+    },
+    {
+      "id": "IMG_0162",
+      "filename": "wiki_010_Jumu'ah_pray_Ali_Kamenei_as_Jumu'ah_Imam.jpg",
+      "path": "figures/khamenei/wiki_010_Jumu'ah_pray_Ali_Kamenei_as_Jumu'ah_Imam.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 47118,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.938274"
+    },
+    {
+      "id": "IMG_0163",
+      "filename": "wiki_011_Ali_Khamenei_(right)_in_trench_during_Iran-Iraq_war.jpg",
+      "path": "figures/khamenei/wiki_011_Ali_Khamenei_(right)_in_trench_during_Iran-Iraq_war.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 2109125,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.940887"
+    },
+    {
+      "id": "IMG_0164",
+      "filename": "wiki_012_Ali_Khamenei_reading_Will_of_Ruhollah_Khomeini_in_Majlis.jpg",
+      "path": "figures/khamenei/wiki_012_Ali_Khamenei_reading_Will_of_Ruhollah_Khomeini_in_Majlis.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 196385,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.943264"
+    },
+    {
+      "id": "IMG_0165",
+      "filename": "wiki_013_Ali_Khamenei_crop.jpg",
+      "path": "figures/khamenei/wiki_013_Ali_Khamenei_crop.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 512217,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.946037"
+    },
+    {
+      "id": "IMG_0166",
+      "filename": "wiki_014_Khamenei_meets_with_members_of_parliament_2022_D.jpeg",
+      "path": "figures/khamenei/wiki_014_Khamenei_meets_with_members_of_parliament_2022_D.jpeg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1673849,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.948604"
+    },
+    {
+      "id": "IMG_0167",
+      "filename": "wiki_015_Ayatollah_Ali_Khamenei_at_the_Great_Conference_of_Basij_members_at_Azadi_stadium_October_2018_033.jp",
+      "path": "figures/khamenei/wiki_015_Ayatollah_Ali_Khamenei_at_the_Great_Conference_of_Basij_members_at_Azadi_stadium_October_2018_033.jp",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 2032543,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.951166"
+    },
+    {
+      "id": "IMG_0168",
+      "filename": "wiki_017_Hossein_Fardi_and_Supreme_Leader_Ayatollah_Khamenei.jpg",
+      "path": "figures/khamenei/wiki_017_Hossein_Fardi_and_Supreme_Leader_Ayatollah_Khamenei.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 52369,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.953168"
+    },
+    {
+      "id": "IMG_0169",
+      "filename": "wiki_018_Khamenei_meeting_Assembly_of_Experts_members_06.jpg",
+      "path": "figures/khamenei/wiki_018_Khamenei_meeting_Assembly_of_Experts_members_06.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 870652,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.955675"
+    },
+    {
+      "id": "IMG_0170",
+      "filename": "wiki_019_5th_International_Conference_in_Support_of_the_Palestinian_Intifada,_Tehran_(1).jpg",
+      "path": "figures/khamenei/wiki_019_5th_International_Conference_in_Support_of_the_Palestinian_Intifada,_Tehran_(1).jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 529842,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.957985"
+    },
+    {
+      "id": "IMG_0171",
+      "filename": "wiki_020_Ahmad_Mohammad_Amer_in_International_Quran_Competition's_participants_Meeting_With_Ali_Khamenei_2013",
+      "path": "figures/khamenei/wiki_020_Ahmad_Mohammad_Amer_in_International_Quran_Competition's_participants_Meeting_With_Ali_Khamenei_2013",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 748990,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.960933"
+    },
+    {
+      "id": "IMG_0172",
+      "filename": "wiki_021_Heads_of_State___Participants_of_31th_International_Islamic_Unity_Conference_Meeting_with_Ayatollah_",
+      "path": "figures/khamenei/wiki_021_Heads_of_State___Participants_of_31th_International_Islamic_Unity_Conference_Meeting_with_Ayatollah_",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1373070,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.963821"
+    },
+    {
+      "id": "IMG_0173",
+      "filename": "wiki_022_Ali_Khamenei_met_with_Hajj_authorities_2018_09.jpg",
+      "path": "figures/khamenei/wiki_022_Ali_Khamenei_met_with_Hajj_authorities_2018_09.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1742291,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.966632"
+    },
+    {
+      "id": "IMG_0174",
+      "filename": "wiki_023_Ayatollah_Ali_Khamenei_at_the_Great_Conference_of_Basij_members_at_Azadi_stadium_October_2018_012.jp",
+      "path": "figures/khamenei/wiki_023_Ayatollah_Ali_Khamenei_at_the_Great_Conference_of_Basij_members_at_Azadi_stadium_October_2018_012.jp",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 3441777,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.969580"
+    },
+    {
+      "id": "IMG_0175",
+      "filename": "wiki_024_Ayatollah_khamenei._by_YPA.ir_01.jpg",
+      "path": "figures/khamenei/wiki_024_Ayatollah_khamenei._by_YPA.ir_01.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 88600,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.972013"
+    },
+    {
+      "id": "IMG_0176",
+      "filename": "wiki_025_Meeting_between_Putin_and_Khamenei_2.jpeg",
+      "path": "figures/khamenei/wiki_025_Meeting_between_Putin_and_Khamenei_2.jpeg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1048268,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.974730"
+    },
+    {
+      "id": "IMG_0177",
+      "filename": "wiki_026_Ali_Khamenei_met_with_Xi_Jinping_in_Tehran_2016_(3).jpg",
+      "path": "figures/khamenei/wiki_026_Ali_Khamenei_met_with_Xi_Jinping_in_Tehran_2016_(3).jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 520720,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.977976"
+    },
+    {
+      "id": "IMG_0178",
+      "filename": "wiki_027_Swedish_PM_Stefan_L\u00f6fven_meeting_Iranian_Supreme_Leader_Ali_Khamenei_04.jpg",
+      "path": "figures/khamenei/wiki_027_Swedish_PM_Stefan_L\u00f6fven_meeting_Iranian_Supreme_Leader_Ali_Khamenei_04.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 200475,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.980891"
+    },
+    {
+      "id": "IMG_0179",
+      "filename": "wiki_028_Imam_Khamenei_met_with_Emir_of_Qatar,_Feb._19,_2025_7.jpg",
+      "path": "figures/khamenei/wiki_028_Imam_Khamenei_met_with_Emir_of_Qatar,_Feb._19,_2025_7.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1595772,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.983984"
+    },
+    {
+      "id": "IMG_0180",
+      "filename": "wiki_030_Sixth_International_Conference_in_Support_of_the_Palestinian_Intifada,_Tehran_(12).jpg",
+      "path": "figures/khamenei/wiki_030_Sixth_International_Conference_in_Support_of_the_Palestinian_Intifada,_Tehran_(12).jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 2608920,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.987046"
+    },
+    {
+      "id": "IMG_0181",
+      "filename": "wiki_031_Pro-government_Syrians_demonstration_in_Damascus_after_US_missile_strike_06.jpg",
+      "path": "figures/khamenei/wiki_031_Pro-government_Syrians_demonstration_in_Damascus_after_US_missile_strike_06.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 204583,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.989542"
+    },
+    {
+      "id": "IMG_0182",
+      "filename": "wiki_032_Ali_Khamenei___Recep_Tayyip_Erdo\u011fan_in_Tehran,_7_September_2018.jpg",
+      "path": "figures/khamenei/wiki_032_Ali_Khamenei___Recep_Tayyip_Erdo\u011fan_in_Tehran,_7_September_2018.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1262097,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.992119"
+    },
+    {
+      "id": "IMG_0183",
+      "filename": "wiki_033_Friday_of_\"Anger_and_Victory\"_-_Tehran_-_Avash_20.jpg",
+      "path": "figures/khamenei/wiki_033_Friday_of_\"Anger_and_Victory\"_-_Tehran_-_Avash_20.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 715290,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.995332"
+    },
+    {
+      "id": "IMG_0184",
+      "filename": "wiki_035_1447_AH_\u0645\u0631\u0627\u0633\u0645_\u0639\u0632\u0627\u062f\u0627\u0631\u06cc_\u0634\u0627\u0645_\u063a\u0631\u06cc\u0628\u0627\u0646_\u062d\u0633\u06cc\u0646\u06cc_(\u0639\u0644\u06cc\u0647\u200c\u0627\u0644\u0633\u0644\u0627\u0645)_\u062f\u0631_\u062d\u0633\u06cc\u0646\u06cc\u0647_\u0627\u0645\u0627\u0645_\u062e\u0645\u06cc\u0646\u06cc_54.jpg",
+      "path": "figures/khamenei/wiki_035_1447_AH_\u0645\u0631\u0627\u0633\u0645_\u0639\u0632\u0627\u062f\u0627\u0631\u06cc_\u0634\u0627\u0645_\u063a\u0631\u06cc\u0628\u0627\u0646_\u062d\u0633\u06cc\u0646\u06cc_(\u0639\u0644\u06cc\u0647\u200c\u0627\u0644\u0633\u0644\u0627\u0645)_\u062f\u0631_\u062d\u0633\u06cc\u0646\u06cc\u0647_\u0627\u0645\u0627\u0645_\u062e\u0645\u06cc\u0646\u06cc_54.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 1390897,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:30.998151"
+    },
+    {
+      "id": "IMG_0185",
+      "filename": "wiki_036_Amir_Kabir_University_uprising_September_2022_(3).jpg",
+      "path": "figures/khamenei/wiki_036_Amir_Kabir_University_uprising_September_2022_(3).jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 9589809,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.000603"
+    },
+    {
+      "id": "IMG_0186",
+      "filename": "wiki_037_Supreme_leader_Ali_Khamenei_meeting_with_the_air_force_commanders_and_personnel_(4).jpg",
+      "path": "figures/khamenei/wiki_037_Supreme_leader_Ali_Khamenei_meeting_with_the_air_force_commanders_and_personnel_(4).jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 85949,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.002899"
+    },
+    {
+      "id": "IMG_0187",
+      "filename": "wiki_038_Ali_Khamenei_in_Rahian-e_Noor023.jpg",
+      "path": "figures/khamenei/wiki_038_Ali_Khamenei_in_Rahian-e_Noor023.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 607119,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.005399"
+    },
+    {
+      "id": "IMG_0188",
+      "filename": "wiki_039_Ali_Khamenei_prays_with_a_turbah,_February_2017.jpg",
+      "path": "figures/khamenei/wiki_039_Ali_Khamenei_prays_with_a_turbah,_February_2017.jpg",
+      "directory": "figures/khamenei",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "khamenei",
+        "supreme_leader",
+        "islamic_republic"
+      ],
+      "era": "1989-present",
+      "size_bytes": 132000,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.007664"
+    },
+    {
+      "id": "IMG_0189",
       "filename": "wiki_000_Dr_Mohammad_Mosaddeq.jpg",
       "path": "figures/mossadegh/wiki_000_Dr_Mohammad_Mosaddeq.jpg",
       "directory": "figures/mossadegh",
@@ -2999,10 +3889,10 @@
       "size_bytes": 1287067,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:08.027310"
+      "added": "2026-01-17T15:49:31.010398"
     },
     {
-      "id": "IMG_0146",
+      "id": "IMG_0190",
       "filename": "wiki_001_Mohammad_mossadegh_Signature.svg",
       "path": "figures/mossadegh/wiki_001_Mohammad_mossadegh_Signature.svg",
       "directory": "figures/mossadegh",
@@ -3021,10 +3911,10 @@
       "size_bytes": 2628,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.029719"
+      "added": "2026-01-17T15:49:31.012646"
     },
     {
-      "id": "IMG_0147",
+      "id": "IMG_0191",
       "filename": "wiki_003_Iranian_Liberalism_Flags_Symbol.svg",
       "path": "figures/mossadegh/wiki_003_Iranian_Liberalism_Flags_Symbol.svg",
       "directory": "figures/mossadegh",
@@ -3043,10 +3933,10 @@
       "size_bytes": 22929,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.031710"
+      "added": "2026-01-17T15:49:31.015032"
     },
     {
-      "id": "IMG_0148",
+      "id": "IMG_0192",
       "filename": "wiki_006_Farmanfarma1.jpg",
       "path": "figures/mossadegh/wiki_006_Farmanfarma1.jpg",
       "directory": "figures/mossadegh",
@@ -3065,10 +3955,10 @@
       "size_bytes": 85919,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.033800"
+      "added": "2026-01-17T15:49:31.017409"
     },
     {
-      "id": "IMG_0149",
+      "id": "IMG_0193",
       "filename": "wiki_007_Mossadegh_childhood.jpg",
       "path": "figures/mossadegh/wiki_007_Mossadegh_childhood.jpg",
       "directory": "figures/mossadegh",
@@ -3087,10 +3977,10 @@
       "size_bytes": 38486,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.036022"
+      "added": "2026-01-17T15:49:31.019519"
     },
     {
-      "id": "IMG_0150",
+      "id": "IMG_0194",
       "filename": "wiki_008_Mossadeghmohammadrezashah.jpg",
       "path": "figures/mossadegh/wiki_008_Mossadeghmohammadrezashah.jpg",
       "directory": "figures/mossadegh",
@@ -3109,10 +3999,10 @@
       "size_bytes": 70020,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.038285"
+      "added": "2026-01-17T15:49:31.021653"
     },
     {
-      "id": "IMG_0151",
+      "id": "IMG_0195",
       "filename": "wiki_009_Tehran_Mosavvar_13301013-438.pdf",
       "path": "figures/mossadegh/wiki_009_Tehran_Mosavvar_13301013-438.pdf",
       "directory": "figures/mossadegh",
@@ -3131,10 +4021,10 @@
       "size_bytes": 15944816,
       "file_type": "PDF document, version 1.6 (zip deflate encoded)",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.041669"
+      "added": "2026-01-17T15:49:31.024601"
     },
     {
-      "id": "IMG_0152",
+      "id": "IMG_0196",
       "filename": "wiki_010_TehranMosavar.png",
       "path": "figures/mossadegh/wiki_010_TehranMosavar.png",
       "directory": "figures/mossadegh",
@@ -3153,10 +4043,10 @@
       "size_bytes": 285595,
       "file_type": "PNG image data, 421 x 575, 8-bit/color RGB, non-in",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.044006"
+      "added": "2026-01-17T15:49:31.026792"
     },
     {
-      "id": "IMG_0153",
+      "id": "IMG_0197",
       "filename": "wiki_011_Prime_Minister_Mossadegh_of_Iran_at_Tomb_of_the_Unknown_Soldier_of_WWI.jpg",
       "path": "figures/mossadegh/wiki_011_Prime_Minister_Mossadegh_of_Iran_at_Tomb_of_the_Unknown_Soldier_of_WWI.jpg",
       "directory": "figures/mossadegh",
@@ -3175,10 +4065,10 @@
       "size_bytes": 300877,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.046279"
+      "added": "2026-01-17T15:49:31.030249"
     },
     {
-      "id": "IMG_0154",
+      "id": "IMG_0198",
       "filename": "wiki_012_Shaban_jafari.jpg",
       "path": "figures/mossadegh/wiki_012_Shaban_jafari.jpg",
       "directory": "figures/mossadegh",
@@ -3197,10 +4087,10 @@
       "size_bytes": 15179,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.048279"
+      "added": "2026-01-17T15:49:31.032515"
     },
     {
-      "id": "IMG_0155",
+      "id": "IMG_0199",
       "filename": "wiki_013_Mohammad_Mosaddeq,_Ahmadabad_1967.jpg",
       "path": "figures/mossadegh/wiki_013_Mohammad_Mosaddeq,_Ahmadabad_1967.jpg",
       "directory": "figures/mossadegh",
@@ -3219,10 +4109,10 @@
       "size_bytes": 99924,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.050341"
+      "added": "2026-01-17T15:49:31.034641"
     },
     {
-      "id": "IMG_0156",
+      "id": "IMG_0200",
       "filename": "wiki_014_Mosaddegh_stamp.jpg",
       "path": "figures/mossadegh/wiki_014_Mosaddegh_stamp.jpg",
       "directory": "figures/mossadegh",
@@ -3241,10 +4131,10 @@
       "size_bytes": 48724,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.052386"
+      "added": "2026-01-17T15:49:31.036744"
     },
     {
-      "id": "IMG_0157",
+      "id": "IMG_0201",
       "filename": "wiki_015_President_Truman_and_Prime_Minister_Mohammad_Mossadegh_of_Iran.TIF",
       "path": "figures/mossadegh/wiki_015_President_Truman_and_Prime_Minister_Mohammad_Mossadegh_of_Iran.TIF",
       "directory": "figures/mossadegh",
@@ -3263,10 +4153,10 @@
       "size_bytes": 7173282,
       "file_type": "TIFF image data, little-endian, direntries=17, hei",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.054877"
+      "added": "2026-01-17T15:49:31.039576"
     },
     {
-      "id": "IMG_0158",
+      "id": "IMG_0202",
       "filename": "wiki_000_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
       "path": "figures/pahlavi-dynasty/wiki_000_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3280,13 +4170,13 @@
         "reza_pahlavi"
       ],
       "era": "1900s-1970s",
-      "size_bytes": 13389472,
-      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "size_bytes": 752531,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": true,
-      "added": "2026-01-17T15:39:08.057835"
+      "added": "2026-01-17T15:49:31.042547"
     },
     {
-      "id": "IMG_0159",
+      "id": "IMG_0203",
       "filename": "wiki_001_Mohammadreza_pahlavi_signature.svg",
       "path": "figures/pahlavi-dynasty/wiki_001_Mohammadreza_pahlavi_signature.svg",
       "directory": "figures/pahlavi-dynasty",
@@ -3303,10 +4193,10 @@
       "size_bytes": 5323,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.059940"
+      "added": "2026-01-17T15:49:31.044720"
     },
     {
-      "id": "IMG_0160",
+      "id": "IMG_0204",
       "filename": "wiki_002_Signature_of_Mohammad_Reza_Pahlavi.svg",
       "path": "figures/pahlavi-dynasty/wiki_002_Signature_of_Mohammad_Reza_Pahlavi.svg",
       "directory": "figures/pahlavi-dynasty",
@@ -3323,10 +4213,10 @@
       "size_bytes": 14586,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.062149"
+      "added": "2026-01-17T15:49:31.046993"
     },
     {
-      "id": "IMG_0161",
+      "id": "IMG_0205",
       "filename": "wiki_004_CrownPrinceMohammadRezaPahlavi.jpg",
       "path": "figures/pahlavi-dynasty/wiki_004_CrownPrinceMohammadRezaPahlavi.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3343,10 +4233,10 @@
       "size_bytes": 606862,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.064464"
+      "added": "2026-01-17T15:49:31.049496"
     },
     {
-      "id": "IMG_0162",
+      "id": "IMG_0206",
       "filename": "wiki_005_CrownPrinceMohammadRezaPahlavi1.jpg",
       "path": "figures/pahlavi-dynasty/wiki_005_CrownPrinceMohammadRezaPahlavi1.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3363,10 +4253,10 @@
       "size_bytes": 111613,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.066790"
+      "added": "2026-01-17T15:49:31.052449"
     },
     {
-      "id": "IMG_0163",
+      "id": "IMG_0207",
       "filename": "wiki_006_Ashraf_et_shah.jpg",
       "path": "figures/pahlavi-dynasty/wiki_006_Ashraf_et_shah.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3383,10 +4273,10 @@
       "size_bytes": 31681,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.068858"
+      "added": "2026-01-17T15:49:31.055140"
     },
     {
-      "id": "IMG_0164",
+      "id": "IMG_0208",
       "filename": "wiki_007_Banquet_\u00e0_T\u00e9h\u00e9ran_lors_du_mariage_de_Fawzia_Fuad_et_de_Mohammad_Reza_Pahlavi_-_1.jpg",
       "path": "figures/pahlavi-dynasty/wiki_007_Banquet_\u00e0_T\u00e9h\u00e9ran_lors_du_mariage_de_Fawzia_Fuad_et_de_Mohammad_Reza_Pahlavi_-_1.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3403,10 +4293,10 @@
       "size_bytes": 219369,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.071015"
+      "added": "2026-01-17T15:49:31.057508"
     },
     {
-      "id": "IMG_0165",
+      "id": "IMG_0209",
       "filename": "wiki_008_Mohammad_Reza_Pahlavi_Entering_a_Military_School,_Tehran_1938.jpg",
       "path": "figures/pahlavi-dynasty/wiki_008_Mohammad_Reza_Pahlavi_Entering_a_Military_School,_Tehran_1938.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3423,10 +4313,10 @@
       "size_bytes": 787697,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.074047"
+      "added": "2026-01-17T15:49:31.060332"
     },
     {
-      "id": "IMG_0166",
+      "id": "IMG_0210",
       "filename": "wiki_009_Crown_Prince_Mohammad_Reza_Pahlavi_and_Teymourtash2.jpg",
       "path": "figures/pahlavi-dynasty/wiki_009_Crown_Prince_Mohammad_Reza_Pahlavi_and_Teymourtash2.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3443,10 +4333,10 @@
       "size_bytes": 19923,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.076392"
+      "added": "2026-01-17T15:49:31.063241"
     },
     {
-      "id": "IMG_0167",
+      "id": "IMG_0211",
       "filename": "wiki_010_Fawzia+Reza.jpg",
       "path": "figures/pahlavi-dynasty/wiki_010_Fawzia+Reza.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3463,10 +4353,10 @@
       "size_bytes": 52131,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.078643"
+      "added": "2026-01-17T15:49:31.065472"
     },
     {
-      "id": "IMG_0168",
+      "id": "IMG_0212",
       "filename": "wiki_011_Shah_with_FDR.jpeg",
       "path": "figures/pahlavi-dynasty/wiki_011_Shah_with_FDR.jpeg",
       "directory": "figures/pahlavi-dynasty",
@@ -3483,10 +4373,10 @@
       "size_bytes": 181988,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.080739"
+      "added": "2026-01-17T15:49:31.067743"
     },
     {
-      "id": "IMG_0169",
+      "id": "IMG_0213",
       "filename": "wiki_012_Shahstalinmolotov.JPG",
       "path": "figures/pahlavi-dynasty/wiki_012_Shahstalinmolotov.JPG",
       "directory": "figures/pahlavi-dynasty",
@@ -3503,10 +4393,10 @@
       "size_bytes": 42765,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.082675"
+      "added": "2026-01-17T15:49:31.070106"
     },
     {
-      "id": "IMG_0170",
+      "id": "IMG_0214",
       "filename": "wiki_013_Mrp1941.jpg",
       "path": "figures/pahlavi-dynasty/wiki_013_Mrp1941.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3523,10 +4413,10 @@
       "size_bytes": 796269,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.085018"
+      "added": "2026-01-17T15:49:31.072703"
     },
     {
-      "id": "IMG_0171",
+      "id": "IMG_0215",
       "filename": "wiki_014_PMforoughi2.jpg",
       "path": "figures/pahlavi-dynasty/wiki_014_PMforoughi2.jpg",
       "directory": "figures/pahlavi-dynasty",
@@ -3543,10 +4433,2391 @@
       "size_bytes": 44159,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.086943"
+      "added": "2026-01-17T15:49:31.076182"
     },
     {
-      "id": "IMG_0172",
+      "id": "IMG_0216",
+      "filename": "wiki_015_RSMRS.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_015_RSMRS.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 59906,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.080919"
+    },
+    {
+      "id": "IMG_0217",
+      "filename": "wiki_016_Mohamad_Reza_Shah_Pahlavi_in_hospital_1949_jpeg.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_016_Mohamad_Reza_Shah_Pahlavi_in_hospital_1949_jpeg.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 53459,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.083466"
+    },
+    {
+      "id": "IMG_0218",
+      "filename": "wiki_017_Photograph_of_the_President_and_Mrs._Truman_with_the_Shah_of_Iran,_in_formal_attire,_during_the_Shah",
+      "path": "figures/pahlavi-dynasty/wiki_017_Photograph_of_the_President_and_Mrs._Truman_with_the_Shah_of_Iran,_in_formal_attire,_during_the_Shah",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 1584378,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.086064"
+    },
+    {
+      "id": "IMG_0219",
+      "filename": "wiki_018_Zahedifirman.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_018_Zahedifirman.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 119838,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.088400"
+    },
+    {
+      "id": "IMG_0220",
+      "filename": "wiki_019_Mohammad_Reza_Pahlavi_with_Ernest_Perron.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_019_Mohammad_Reza_Pahlavi_with_Ernest_Perron.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 41697,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.090733"
+    },
+    {
+      "id": "IMG_0221",
+      "filename": "wiki_020_Portrait_of_a_Young_Mohammad_Reza_Shah_Pahlavi_in_Full_Military_Dress.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_020_Portrait_of_a_Young_Mohammad_Reza_Shah_Pahlavi_in_Full_Military_Dress.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 121860,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.093785"
+    },
+    {
+      "id": "IMG_0222",
+      "filename": "wiki_021_Proshah1954.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_021_Proshah1954.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 49704,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.096792"
+    },
+    {
+      "id": "IMG_0223",
+      "filename": "wiki_023_Shah_lighting_cigarette_for_his_wife_Sorraya.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_023_Shah_lighting_cigarette_for_his_wife_Sorraya.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 1209181,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.100133"
+    },
+    {
+      "id": "IMG_0224",
+      "filename": "wiki_024_Mpr1963.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_024_Mpr1963.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 494301,
+      "file_type": "JPEG image data, JFIF standard 1.00, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.103345"
+    },
+    {
+      "id": "IMG_0225",
+      "filename": "wiki_025_ShahanshahWedding1338.png",
+      "path": "figures/pahlavi-dynasty/wiki_025_ShahanshahWedding1338.png",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 694410,
+      "file_type": "PNG image data, 704 x 436, 8-bit/color RGBA, non-i",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.106357"
+    },
+    {
+      "id": "IMG_0226",
+      "filename": "wiki_026_A_prince_is_born1.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_026_A_prince_is_born1.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 100590,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.108762"
+    },
+    {
+      "id": "IMG_0227",
+      "filename": "wiki_027_Ludwig_Binder_Haus_der_Geschichte_Studentenrevolte_1968_2001_03_0275.0138_(16457761403).jpg",
+      "path": "figures/pahlavi-dynasty/wiki_027_Ludwig_Binder_Haus_der_Geschichte_Studentenrevolte_1968_2001_03_0275.0138_(16457761403).jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 204244,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.112171"
+    },
+    {
+      "id": "IMG_0228",
+      "filename": "wiki_028_ShahanshahiIran2500YearsPasargad1.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_028_ShahanshahiIran2500YearsPasargad1.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 221664,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.114565"
+    },
+    {
+      "id": "IMG_0229",
+      "filename": "wiki_029_Portrait_of_H.I.M._Mohammad_Reza_Shah_Pahlavi.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_029_Portrait_of_H.I.M._Mohammad_Reza_Shah_Pahlavi.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 87540,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.117080"
+    },
+    {
+      "id": "IMG_0230",
+      "filename": "wiki_030_Shahvisitkharg.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_030_Shahvisitkharg.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 1353021,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.119877"
+    },
+    {
+      "id": "IMG_0231",
+      "filename": "wiki_031_Kennedy_with_Shah_of_Iran,_1961.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_031_Kennedy_with_Shah_of_Iran,_1961.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 161772,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.122081"
+    },
+    {
+      "id": "IMG_0232",
+      "filename": "wiki_032_Pahlavi_meets_Brezhnev_in_1970.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_032_Pahlavi_meets_Brezhnev_in_1970.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 300394,
+      "file_type": "JPEG image data, JFIF standard 1.00, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.124779"
+    },
+    {
+      "id": "IMG_0233",
+      "filename": "wiki_033_Shah_Mohammed_Reza_Pahlavi_in_Tapiola,_Finland_in_1970.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_033_Shah_Mohammed_Reza_Pahlavi_in_Tapiola,_Finland_in_1970.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 12462260,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.127823"
+    },
+    {
+      "id": "IMG_0234",
+      "filename": "wiki_034_Pahlavis_meet_Indira_Gandhi_in_India,_1970.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_034_Pahlavis_meet_Indira_Gandhi_in_India,_1970.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 599502,
+      "file_type": "JPEG image data, JFIF standard 1.00, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.130595"
+    },
+    {
+      "id": "IMG_0235",
+      "filename": "wiki_035_President_Richard_Nixon_chats_with_the_Shah_of_Iran,_Mohammed_Reza_Pahlavi_in_the_Oval_Office.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_035_President_Richard_Nixon_chats_with_the_Shah_of_Iran,_Mohammed_Reza_Pahlavi_in_the_Oval_Office.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 2467218,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.133117"
+    },
+    {
+      "id": "IMG_0236",
+      "filename": "wiki_036_Queen_Farah_of_Persia_Egyption_President_Anwar_Sadat_Mohammad_Reza_Shah_Pahlavi_of_Persia_1975.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_036_Queen_Farah_of_Persia_Egyption_President_Anwar_Sadat_Mohammad_Reza_Shah_Pahlavi_of_Persia_1975.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 565702,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.135717"
+    },
+    {
+      "id": "IMG_0237",
+      "filename": "wiki_037_1975_Algiers_Agreement.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_037_1975_Algiers_Agreement.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 294400,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.138014"
+    },
+    {
+      "id": "IMG_0238",
+      "filename": "wiki_038_Gerald_Ford_and_Mohammad_Reza_Shah_Pahlavi_Whitehouse_South_Lawn.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_038_Gerald_Ford_and_Mohammad_Reza_Shah_Pahlavi_Whitehouse_South_Lawn.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 3549250,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.140666"
+    },
+    {
+      "id": "IMG_0239",
+      "filename": "wiki_039_ShahOPECmembers.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_039_ShahOPECmembers.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 1220506,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.143415"
+    },
+    {
+      "id": "IMG_0240",
+      "filename": "wiki_040_Shahanshah_visit_microwave_network.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_040_Shahanshah_visit_microwave_network.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 1044936,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.146384"
+    },
+    {
+      "id": "IMG_0241",
+      "filename": "wiki_041_Mrpwr.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_041_Mrpwr.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 3010795,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.148994"
+    },
+    {
+      "id": "IMG_0242",
+      "filename": "wiki_042_ShahanshahRoyalFamily2.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_042_ShahanshahRoyalFamily2.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 189415,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.151272"
+    },
+    {
+      "id": "IMG_0243",
+      "filename": "wiki_043_TheShahNeilArmstrong.png",
+      "path": "figures/pahlavi-dynasty/wiki_043_TheShahNeilArmstrong.png",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 81255,
+      "file_type": "PNG image data, 320 x 168, 8-bit/color RGBA, non-i",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.153368"
+    },
+    {
+      "id": "IMG_0244",
+      "filename": "wiki_044_Shahanshah_historical_pressconference.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_044_Shahanshah_historical_pressconference.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 729900,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.156135"
+    },
+    {
+      "id": "IMG_0245",
+      "filename": "wiki_045_Atomic_women_Iran.JPG",
+      "path": "figures/pahlavi-dynasty/wiki_045_Atomic_women_Iran.JPG",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 72783,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.158151"
+    },
+    {
+      "id": "IMG_0246",
+      "filename": "wiki_046_Jahanbani-1.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_046_Jahanbani-1.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 48129,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.160724"
+    },
+    {
+      "id": "IMG_0247",
+      "filename": "wiki_047_Jimmy_Carter_with_King_Hussein_of_Jordan_the_Shah_of_Iran_and_Shahbanou_of_Iran_-_NARA_-_177332_04.j",
+      "path": "figures/pahlavi-dynasty/wiki_047_Jimmy_Carter_with_King_Hussein_of_Jordan_the_Shah_of_Iran_and_Shahbanou_of_Iran_-_NARA_-_177332_04.j",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 3487789,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.165885"
+    },
+    {
+      "id": "IMG_0248",
+      "filename": "wiki_048_Statue_of_Shah_Revolution.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_048_Statue_of_Shah_Revolution.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 51584,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.169291"
+    },
+    {
+      "id": "IMG_0249",
+      "filename": "wiki_049_Shah_Farah_Leave.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_049_Shah_Farah_Leave.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 47545,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.172361"
+    },
+    {
+      "id": "IMG_0250",
+      "filename": "wiki_050_Shah's_exit_from_Iran_04.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_050_Shah's_exit_from_Iran_04.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 101009,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.175104"
+    },
+    {
+      "id": "IMG_0251",
+      "filename": "wiki_051_Shah_Mohammad_Reza_Pahlavi,_Henry_Boniet_in_Cuernavaca,_Mexico,_1979.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_051_Shah_Mohammad_Reza_Pahlavi,_Henry_Boniet_in_Cuernavaca,_Mexico,_1979.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 563348,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.178883"
+    },
+    {
+      "id": "IMG_0252",
+      "filename": "wiki_052_Mohammad-Reza_Shah_Pahlavi_and_the_Royal_Family_at_Persian_Senate,_Tehran,_1975..jpg",
+      "path": "figures/pahlavi-dynasty/wiki_052_Mohammad-Reza_Shah_Pahlavi_and_the_Royal_Family_at_Persian_Senate,_Tehran,_1975..jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 257458,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.181960"
+    },
+    {
+      "id": "IMG_0253",
+      "filename": "wiki_053_Ghassem_Rezai_With_Shah.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_053_Ghassem_Rezai_With_Shah.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 86801,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.185015"
+    },
+    {
+      "id": "IMG_0254",
+      "filename": "wiki_054_Iranian_Conservatism_Flags_Symbol.svg",
+      "path": "figures/pahlavi-dynasty/wiki_054_Iranian_Conservatism_Flags_Symbol.svg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 20447,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.188284"
+    },
+    {
+      "id": "IMG_0255",
+      "filename": "wiki_057_Lion_and_Sun_Emblem_of_Iran_(Pahlavi).svg",
+      "path": "figures/pahlavi-dynasty/wiki_057_Lion_and_Sun_Emblem_of_Iran_(Pahlavi).svg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 41074,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.192263"
+    },
+    {
+      "id": "IMG_0256",
+      "filename": "wiki_060_Tomb_of_Mohammad_Reza_Pahlavi_2.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_060_Tomb_of_Mohammad_Reza_Pahlavi_2.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 2007426,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.195359"
+    },
+    {
+      "id": "IMG_0257",
+      "filename": "wiki_061_Shah-zahedi-haj.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_061_Shah-zahedi-haj.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 35793,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.197878"
+    },
+    {
+      "id": "IMG_0258",
+      "filename": "wiki_062_Coronation39b.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_062_Coronation39b.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 32635,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.200160"
+    },
+    {
+      "id": "IMG_0259",
+      "filename": "wiki_009_Flag_of_Quds_Force.svg",
+      "path": "figures/irgc/wiki_009_Flag_of_Quds_Force.svg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 1091447,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.203514"
+    },
+    {
+      "id": "IMG_0260",
+      "filename": "wiki_010_Flag_of_the_Quds_Force.svg",
+      "path": "figures/irgc/wiki_010_Flag_of_the_Quds_Force.svg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 1091426,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.206718"
+    },
+    {
+      "id": "IMG_0261",
+      "filename": "wiki_011_Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+      "path": "figures/irgc/wiki_011_Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 40898,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.209204"
+    },
+    {
+      "id": "IMG_0262",
+      "filename": "wiki_012_Quds_Force_Operations.png",
+      "path": "figures/irgc/wiki_012_Quds_Force_Operations.png",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 48163,
+      "file_type": "PNG image data, 1365 x 628, 8-bit/color RGB, non-i",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.211728"
+    },
+    {
+      "id": "IMG_0263",
+      "filename": "wiki_013_Battle_of_Tikrit_(2015)_(digitized).jpg",
+      "path": "figures/irgc/wiki_013_Battle_of_Tikrit_(2015)_(digitized).jpg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 2612306,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.214460"
+    },
+    {
+      "id": "IMG_0264",
+      "filename": "wiki_016_Ahmad_Vahidi_13990806_0446722.jpg",
+      "path": "figures/irgc/wiki_016_Ahmad_Vahidi_13990806_0446722.jpg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 62622,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.217192"
+    },
+    {
+      "id": "IMG_0265",
+      "filename": "wiki_017_Qasem_Soleimani_with_Zolfaghar_Order.jpg",
+      "path": "figures/irgc/wiki_017_Qasem_Soleimani_with_Zolfaghar_Order.jpg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 1522851,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.219980"
+    },
+    {
+      "id": "IMG_0266",
+      "filename": "wiki_018_Esmail_Ghaani_in_january_2020.jpg",
+      "path": "figures/irgc/wiki_018_Esmail_Ghaani_in_january_2020.jpg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 838828,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.223107"
+    },
+    {
+      "id": "IMG_0267",
+      "filename": "wiki_021_Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+      "path": "figures/irgc/wiki_021_Seal_of_the_Army_of_the_Guardians_of_the_Islamic_Revolution.svg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 40898,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.225699"
+    },
+    {
+      "id": "IMG_0268",
+      "filename": "wiki_024_Seal_of_the_General_Staff_of_the_Armed_Forces_of_the_Islamic_Republic_of_Iran.svg",
+      "path": "figures/irgc/wiki_024_Seal_of_the_General_Staff_of_the_Armed_Forces_of_the_Islamic_Republic_of_Iran.svg",
+      "directory": "figures/irgc",
+      "patterns": [
+        "great_power_game",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "irgc",
+        "quds_force",
+        "soleimani",
+        "military",
+        "regime"
+      ],
+      "era": "1979-present",
+      "size_bytes": 269671,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.228950"
+    },
+    {
+      "id": "IMG_0269",
+      "filename": "wiki_000_General_Michael_Kurilla_outgoing_commander_at_Change_of_Command_ceremony_for_the_United_States_Centr",
+      "path": "figures/us-military/wiki_000_General_Michael_Kurilla_outgoing_commander_at_Change_of_Command_ceremony_for_the_United_States_Centr",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 226565,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": true,
+      "added": "2026-01-17T15:49:31.231839"
+    },
+    {
+      "id": "IMG_0270",
+      "filename": "wiki_002_2022_USCENTCOM_Change_of_Command_220401-D-BN624-0561_(51975969887).jpg",
+      "path": "figures/us-military/wiki_002_2022_USCENTCOM_Change_of_Command_220401-D-BN624-0561_(51975969887).jpg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13474741,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.234479"
+    },
+    {
+      "id": "IMG_0271",
+      "filename": "wiki_003_General_Michael_Kurilla_in_2025_(cropped).jpg",
+      "path": "figures/us-military/wiki_003_General_Michael_Kurilla_in_2025_(cropped).jpg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 491342,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.237002"
+    },
+    {
+      "id": "IMG_0272",
+      "filename": "wiki_009_Defense_Superior_Service_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_009_Defense_Superior_Service_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13966,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.239886"
+    },
+    {
+      "id": "IMG_0273",
+      "filename": "wiki_014_Legion_of_Merit_ribbon.svg",
+      "path": "figures/us-military/wiki_014_Legion_of_Merit_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13007,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.242143"
+    },
+    {
+      "id": "IMG_0274",
+      "filename": "wiki_028_Defense_Meritorious_Service_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_028_Defense_Meritorious_Service_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 14019,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.244750"
+    },
+    {
+      "id": "IMG_0275",
+      "filename": "wiki_033_Meritorious_Service_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_033_Meritorious_Service_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13181,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.247996"
+    },
+    {
+      "id": "IMG_0276",
+      "filename": "wiki_038_Joint_Service_Commendation_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_038_Joint_Service_Commendation_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 14017,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.250178"
+    },
+    {
+      "id": "IMG_0277",
+      "filename": "wiki_041_Army_Commendation_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_041_Army_Commendation_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13931,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.252246"
+    },
+    {
+      "id": "IMG_0278",
+      "filename": "wiki_046_Army_Achievement_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_046_Army_Achievement_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 14043,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.254219"
+    },
+    {
+      "id": "IMG_0279",
+      "filename": "wiki_049_U.S._Army_and_U.S._Air_Force_Presidential_Unit_Citation_ribbon.svg",
+      "path": "figures/us-military/wiki_049_U.S._Army_and_U.S._Air_Force_Presidential_Unit_Citation_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 4407,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.256290"
+    },
+    {
+      "id": "IMG_0280",
+      "filename": "wiki_050_Joint_Meritorious_Unit_Award_ribbon.svg",
+      "path": "figures/us-military/wiki_050_Joint_Meritorious_Unit_Award_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 9843,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.258608"
+    },
+    {
+      "id": "IMG_0281",
+      "filename": "wiki_051_Valorous_Unit_Award_ribbon.svg",
+      "path": "figures/us-military/wiki_051_Valorous_Unit_Award_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 11335,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.260758"
+    },
+    {
+      "id": "IMG_0282",
+      "filename": "wiki_052_Meritorious_Unit_Commendation_ribbon.svg",
+      "path": "figures/us-military/wiki_052_Meritorious_Unit_Commendation_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 4664,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.262925"
+    },
+    {
+      "id": "IMG_0283",
+      "filename": "wiki_053_National_Defense_Service_Medal_ribbon,_2nd_award.svg",
+      "path": "figures/us-military/wiki_053_National_Defense_Service_Medal_ribbon,_2nd_award.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 19764,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.265101"
+    },
+    {
+      "id": "IMG_0284",
+      "filename": "wiki_056_Armed_Forces_Expeditionary_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_056_Armed_Forces_Expeditionary_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13908,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.267460"
+    },
+    {
+      "id": "IMG_0285",
+      "filename": "wiki_059_Southwest_Asia_Service_Medal_ribbon_(1991\u20132016).svg",
+      "path": "figures/us-military/wiki_059_Southwest_Asia_Service_Medal_ribbon_(1991\u20132016).svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13090,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.269599"
+    },
+    {
+      "id": "IMG_0286",
+      "filename": "wiki_062_Afghanistan_Campaign_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_062_Afghanistan_Campaign_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 14027,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.271628"
+    },
+    {
+      "id": "IMG_0287",
+      "filename": "wiki_065_Iraq_Campaign_Medal_ribbon,_2nd_award.svg",
+      "path": "figures/us-military/wiki_065_Iraq_Campaign_Medal_ribbon,_2nd_award.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 20158,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.273589"
+    },
+    {
+      "id": "IMG_0288",
+      "filename": "wiki_066_Inherent_Resolve_Campaign_Medal_ribbon,_1st_award.svg",
+      "path": "figures/us-military/wiki_066_Inherent_Resolve_Campaign_Medal_ribbon,_1st_award.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 20895,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.275591"
+    },
+    {
+      "id": "IMG_0289",
+      "filename": "wiki_067_Global_War_on_Terrorism_Expeditionary_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_067_Global_War_on_Terrorism_Expeditionary_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 15033,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.278081"
+    },
+    {
+      "id": "IMG_0290",
+      "filename": "wiki_068_Global_War_on_Terrorism_Service_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_068_Global_War_on_Terrorism_Service_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 15633,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.280777"
+    },
+    {
+      "id": "IMG_0291",
+      "filename": "wiki_069_Korea_Defense_Service_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_069_Korea_Defense_Service_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 15959,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.282881"
+    },
+    {
+      "id": "IMG_0292",
+      "filename": "wiki_070_Humanitarian_Service_Medal_ribbon.svg",
+      "path": "figures/us-military/wiki_070_Humanitarian_Service_Medal_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13428,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.284879"
+    },
+    {
+      "id": "IMG_0293",
+      "filename": "wiki_071_Army_Service_Ribbon.svg",
+      "path": "figures/us-military/wiki_071_Army_Service_Ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13582,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.287035"
+    },
+    {
+      "id": "IMG_0294",
+      "filename": "wiki_072_Army_Overseas_Service_Ribbon.svg",
+      "path": "figures/us-military/wiki_072_Army_Overseas_Service_Ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13582,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.289090"
+    },
+    {
+      "id": "IMG_0295",
+      "filename": "wiki_075_NATO_Medal_Yugoslavia_ribbon_bar.svg",
+      "path": "figures/us-military/wiki_075_NATO_Medal_Yugoslavia_ribbon_bar.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 41779,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.291111"
+    },
+    {
+      "id": "IMG_0296",
+      "filename": "wiki_076_Kuwait_Liberation_Medal_(Saudi_Arabia)_ribbon.svg",
+      "path": "figures/us-military/wiki_076_Kuwait_Liberation_Medal_(Saudi_Arabia)_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 37660,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.293144"
+    },
+    {
+      "id": "IMG_0297",
+      "filename": "wiki_077_Kuwait_Liberation_Medal_(Kuwait)_ribbon.svg",
+      "path": "figures/us-military/wiki_077_Kuwait_Liberation_Medal_(Kuwait)_ribbon.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 13680,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.295746"
+    },
+    {
+      "id": "IMG_0298",
+      "filename": "wiki_078_Nishan-e-Imtiaz_(military)_ribbon_bar.svg",
+      "path": "figures/us-military/wiki_078_Nishan-e-Imtiaz_(military)_ribbon_bar.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 2440,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.298317"
+    },
+    {
+      "id": "IMG_0299",
+      "filename": "wiki_079_CIB2.svg",
+      "path": "figures/us-military/wiki_079_CIB2.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 424408,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.301085"
+    },
+    {
+      "id": "IMG_0300",
+      "filename": "wiki_080_Ranger_Tab.svg",
+      "path": "figures/us-military/wiki_080_Ranger_Tab.svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 2680,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.303647"
+    },
+    {
+      "id": "IMG_0301",
+      "filename": "wiki_081_Master_Parachutist_badge_(United_States).svg",
+      "path": "figures/us-military/wiki_081_Master_Parachutist_badge_(United_States).svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 62630,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.306060"
+    },
+    {
+      "id": "IMG_0302",
+      "filename": "wiki_083_Joint_Chiefs_of_Staff_seal_(2).svg",
+      "path": "figures/us-military/wiki_083_Joint_Chiefs_of_Staff_seal_(2).svg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 163982,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.308244"
+    },
+    {
+      "id": "IMG_0303",
+      "filename": "wiki_084_Seal_of_the_United_States_Central_Command.png",
+      "path": "figures/us-military/wiki_084_Seal_of_the_United_States_Central_Command.png",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1815868,
+      "file_type": "PNG image data, 1906 x 1906, 8-bit/color RGBA, non",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.310868"
+    },
+    {
+      "id": "IMG_0304",
+      "filename": "wiki_085_75_Ranger_Regiment_SCSIB.png",
+      "path": "figures/us-military/wiki_085_75_Ranger_Regiment_SCSIB.png",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 12066129,
+      "file_type": "PNG image data, 2302 x 1308, 8-bit/color RGBA, int",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.314145"
+    },
+    {
+      "id": "IMG_0305",
+      "filename": "wiki_086_Brevet_Parachutiste.jpg",
+      "path": "figures/us-military/wiki_086_Brevet_Parachutiste.jpg",
+      "directory": "figures/us-military",
+      "patterns": [
+        "great_power_game",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "us_military",
+        "centcom",
+        "generals",
+        "pentagon"
+      ],
+      "era": "contemporary",
+      "size_bytes": 69598,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.316649"
+    },
+    {
+      "id": "IMG_0306",
+      "filename": "wiki_000_US_Navy_031130-N-3653A-002_USS_George_Washington_(CVN_73)_Carrier_Strike_Group_formation_sails_in_th",
+      "path": "military/us-navy/wiki_000_US_Navy_031130-N-3653A-002_USS_George_Washington_(CVN_73)_Carrier_Strike_Group_formation_sails_in_th",
+      "directory": "military/us-navy",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "carrier",
+        "fleet",
+        "navy",
+        "persian_gulf",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1080997,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:49:31.319597"
+    },
+    {
+      "id": "IMG_0307",
+      "filename": "wiki_001_2010._7.24._\ud658\ud0dc\ud3c9\uc591\uc5f0\ud569\uad70\uc0ac\ud6c8\ub828_Republic_of_Korea_Navy_Rim_of_the_Pacific_Exercise('10_Rimpac_Exercise)_(8692",
+      "path": "military/us-navy/wiki_001_2010._7.24._\ud658\ud0dc\ud3c9\uc591\uc5f0\ud569\uad70\uc0ac\ud6c8\ub828_Republic_of_Korea_Navy_Rim_of_the_Pacific_Exercise('10_Rimpac_Exercise)_(8692",
+      "directory": "military/us-navy",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "carrier",
+        "fleet",
+        "navy",
+        "persian_gulf",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1853052,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.322657"
+    },
+    {
+      "id": "IMG_0308",
+      "filename": "wiki_002_Ambox_current_red_Asia_Australia.svg",
+      "path": "military/us-navy/wiki_002_Ambox_current_red_Asia_Australia.svg",
+      "directory": "military/us-navy",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "carrier",
+        "fleet",
+        "navy",
+        "persian_gulf",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 15962,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.324962"
+    },
+    {
+      "id": "IMG_0309",
+      "filename": "wiki_004_Emblem_of_the_United_States_Navy.svg",
+      "path": "military/us-navy/wiki_004_Emblem_of_the_United_States_Navy.svg",
+      "directory": "military/us-navy",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "carrier",
+        "fleet",
+        "navy",
+        "persian_gulf",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 211166,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.327640"
+    },
+    {
+      "id": "IMG_0310",
+      "filename": "wiki_001_RAF_F-35B_integration_flying_training_with_USAF_B-2_30092019_-_4.jpg",
+      "path": "military/us-airforce/wiki_001_RAF_F-35B_integration_flying_training_with_USAF_B-2_30092019_-_4.jpg",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1853497,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.330693"
+    },
+    {
+      "id": "IMG_0311",
+      "filename": "wiki_002_B2_bomber_initial_rollout_ceremony_1988.jpg",
+      "path": "military/us-airforce/wiki_002_B2_bomber_initial_rollout_ceremony_1988.jpg",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 4551167,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.333438"
+    },
+    {
+      "id": "IMG_0312",
+      "filename": "wiki_003_B-2_first_flight_071201-F-9999J-034.jpg",
+      "path": "military/us-airforce/wiki_003_B-2_first_flight_071201-F-9999J-034.jpg",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 2484144,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.337660"
+    },
+    {
+      "id": "IMG_0313",
+      "filename": "wiki_004_B2_silhouette.JPG",
+      "path": "military/us-airforce/wiki_004_B2_silhouette.JPG",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1355806,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.340790"
+    },
+    {
+      "id": "IMG_0314",
+      "filename": "wiki_005_US_Air_Force_B-2_Spirit.jpg",
+      "path": "military/us-airforce/wiki_005_US_Air_Force_B-2_Spirit.jpg",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 505068,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.343921"
+    },
+    {
+      "id": "IMG_0315",
+      "filename": "wiki_006_B-2_bomb_bay_050411-F-1740G-005.jpg",
+      "path": "military/us-airforce/wiki_006_B-2_bomb_bay_050411-F-1740G-005.jpg",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 2591799,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.346960"
+    },
+    {
+      "id": "IMG_0316",
+      "filename": "wiki_007_B-2_Spirit_050413-F-1740G-001a.jpg",
+      "path": "military/us-airforce/wiki_007_B-2_Spirit_050413-F-1740G-001a.jpg",
+      "directory": "military/us-airforce",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "airforce",
+        "jets",
+        "bombers",
+        "us_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1600295,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:49:31.349939"
+    },
+    {
+      "id": "IMG_0317",
+      "filename": "wiki_000_MOABAFAM.JPG",
+      "path": "military/weapons/wiki_000_MOABAFAM.JPG",
+      "directory": "military/weapons",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "missiles",
+        "weapons",
+        "ordnance",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 137527,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.352531"
+    },
+    {
+      "id": "IMG_0318",
+      "filename": "wiki_001_MOABprototype.jpg",
+      "path": "military/weapons/wiki_001_MOABprototype.jpg",
+      "directory": "military/weapons",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "missiles",
+        "weapons",
+        "ordnance",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 277685,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.355092"
+    },
+    {
+      "id": "IMG_0319",
+      "filename": "wiki_000_Seal_of_the_General_Staff_of_the_Armed_Forces_of_the_Islamic_Republic_of_Iran.svg",
+      "path": "military/irgc-assets/wiki_000_Seal_of_the_General_Staff_of_the_Armed_Forces_of_the_Islamic_Republic_of_Iran.svg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 269671,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.358024"
+    },
+    {
+      "id": "IMG_0320",
+      "filename": "wiki_029_Iranian_Cavalery_1930.jpg",
+      "path": "military/irgc-assets/wiki_029_Iranian_Cavalery_1930.jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 180101,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.360443"
+    },
+    {
+      "id": "IMG_0321",
+      "filename": "wiki_030_Iran-Iraq_War_photos_by_Amir_Ali_Javadian_(05).jpg",
+      "path": "military/irgc-assets/wiki_030_Iran-Iraq_War_photos_by_Amir_Ali_Javadian_(05).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 287035,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.362940"
+    },
+    {
+      "id": "IMG_0322",
+      "filename": "wiki_031_\u067e\u06cc\u0648\u0633\u062a\u0646_\u0646\u0627\u0648\u0634\u06a9\u0646_\u062c\u0645\u0627\u0631\u0627\u0646_\u0628\u0647_\u0646\u0627\u0648\u06af\u0627\u0646_\u062f\u0631\u06cc\u0627\u06cc\u06cc_\u0627\u0631\u062a\u0634_(12).jpg",
+      "path": "military/irgc-assets/wiki_031_\u067e\u06cc\u0648\u0633\u062a\u0646_\u0646\u0627\u0648\u0634\u06a9\u0646_\u062c\u0645\u0627\u0631\u0627\u0646_\u0628\u0647_\u0646\u0627\u0648\u06af\u0627\u0646_\u062f\u0631\u06cc\u0627\u06cc\u06cc_\u0627\u0631\u062a\u0634_(12).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 68525,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.365024"
+    },
+    {
+      "id": "IMG_0323",
+      "filename": "wiki_032_Joint_morning_call_of_Iranian_Armed_Forces_in_2019_(10).jpg",
+      "path": "military/irgc-assets/wiki_032_Joint_morning_call_of_Iranian_Armed_Forces_in_2019_(10).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 244425,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.367380"
+    },
+    {
+      "id": "IMG_0324",
+      "filename": "wiki_038_Five_Iranian_Air_Force_F-14A_Tomcats_in_flight.jpg",
+      "path": "military/irgc-assets/wiki_038_Five_Iranian_Air_Force_F-14A_Tomcats_in_flight.jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 326937,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.369793"
+    },
+    {
+      "id": "IMG_0325",
+      "filename": "wiki_039_Iranian_Kilo-class_diesel_submarine.jpg",
+      "path": "military/irgc-assets/wiki_039_Iranian_Kilo-class_diesel_submarine.jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 692412,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.372030"
+    },
+    {
+      "id": "IMG_0326",
+      "filename": "wiki_040_Fateh-110_missiles_and_launchers.jpg",
+      "path": "military/irgc-assets/wiki_040_Fateh-110_missiles_and_launchers.jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 121028,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.374202"
+    },
+    {
+      "id": "IMG_0327",
+      "filename": "wiki_041_Shahed_129_(4).jpg",
+      "path": "military/irgc-assets/wiki_041_Shahed_129_(4).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 482760,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.376637"
+    },
+    {
+      "id": "IMG_0328",
+      "filename": "wiki_042_Islamic_Republic_of_Iran_Armed_Forces_Day_exhibition_in_Isfahan_(01).jpg",
+      "path": "military/irgc-assets/wiki_042_Islamic_Republic_of_Iran_Armed_Forces_Day_exhibition_in_Isfahan_(01).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 336947,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.380602"
+    },
+    {
+      "id": "IMG_0329",
+      "filename": "wiki_043_Great_Prophet_II_(84).jpg",
+      "path": "military/irgc-assets/wiki_043_Great_Prophet_II_(84).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 54974,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.383375"
+    },
+    {
+      "id": "IMG_0330",
+      "filename": "wiki_044_Holy_Defense_Museum_in_Tehran_(005).jpg",
+      "path": "military/irgc-assets/wiki_044_Holy_Defense_Museum_in_Tehran_(005).jpg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 321432,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.386107"
+    },
+    {
+      "id": "IMG_0331",
+      "filename": "wiki_067_Seal_of_the_General_Staff_of_the_Armed_Forces_of_the_Islamic_Republic_of_Iran.svg",
+      "path": "military/irgc-assets/wiki_067_Seal_of_the_General_Staff_of_the_Armed_Forces_of_the_Islamic_Republic_of_Iran.svg",
+      "directory": "military/irgc-assets",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "irgc",
+        "drones",
+        "missiles",
+        "iran_military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 269671,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.388711"
+    },
+    {
+      "id": "IMG_0332",
       "filename": "wiki_018_Tahmasb_I,_chehelsotoun_palace.PNG",
       "path": "maps/turkmenchay-loss/wiki_018_Tahmasb_I,_chehelsotoun_palace.PNG",
       "directory": "maps/turkmenchay-loss",
@@ -3564,10 +6835,10 @@
       "size_bytes": 83412,
       "file_type": "PNG image data, 129 x 224, 8-bit/color RGB, non-in",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.089100"
+      "added": "2026-01-17T15:49:31.390882"
     },
     {
-      "id": "IMG_0173",
+      "id": "IMG_0333",
       "filename": "wiki_019_General\u02b9nai\ufe20a\ufe21_Karta_Astrakhanskoi\u0306_Gubernii_S\u02ba_pokazaniem\u02ba_pochtovykh\u02ba_i_bol\u02b9shikh\u02ba_proi\ufe20e\ufe21zzhikh\u02ba_d",
       "path": "maps/turkmenchay-loss/wiki_019_General\u02b9nai\ufe20a\ufe21_Karta_Astrakhanskoi\u0306_Gubernii_S\u02ba_pokazaniem\u02ba_pochtovykh\u02ba_i_bol\u02b9shikh\u02ba_proi\ufe20e\ufe21zzhikh\u02ba_d",
       "directory": "maps/turkmenchay-loss",
@@ -3585,10 +6856,10 @@
       "size_bytes": 10096040,
       "file_type": "TIFF image data, big-endian",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.091515"
+      "added": "2026-01-17T15:49:31.393257"
     },
     {
-      "id": "IMG_0174",
+      "id": "IMG_0334",
       "filename": "wiki_020_Shah_abbas_I-_L_by_Bishn_Das.jpg",
       "path": "maps/turkmenchay-loss/wiki_020_Shah_abbas_I-_L_by_Bishn_Das.jpg",
       "directory": "maps/turkmenchay-loss",
@@ -3606,10 +6877,10 @@
       "size_bytes": 764707,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.094060"
+      "added": "2026-01-17T15:49:31.396152"
     },
     {
-      "id": "IMG_0175",
+      "id": "IMG_0335",
       "filename": "wiki_021_Map_Safavid_persia.png",
       "path": "maps/turkmenchay-loss/wiki_021_Map_Safavid_persia.png",
       "directory": "maps/turkmenchay-loss",
@@ -3627,10 +6898,10 @@
       "size_bytes": 296505,
       "file_type": "PNG image data, 1033 x 717, 8-bit/color RGB, non-i",
       "is_hero": true,
-      "added": "2026-01-17T15:39:08.096381"
+      "added": "2026-01-17T15:49:31.400214"
     },
     {
-      "id": "IMG_0176",
+      "id": "IMG_0336",
       "filename": "wiki_022_Agha_mohamad_khan_qajar.JPG",
       "path": "maps/turkmenchay-loss/wiki_022_Agha_mohamad_khan_qajar.JPG",
       "directory": "maps/turkmenchay-loss",
@@ -3648,10 +6919,10 @@
       "size_bytes": 48077,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.098499"
+      "added": "2026-01-17T15:49:31.402387"
     },
     {
-      "id": "IMG_0177",
+      "id": "IMG_0337",
       "filename": "wiki_023_Khartli-Kakheti.svg",
       "path": "maps/turkmenchay-loss/wiki_023_Khartli-Kakheti.svg",
       "directory": "maps/turkmenchay-loss",
@@ -3669,10 +6940,10 @@
       "size_bytes": 3909643,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.101249"
+      "added": "2026-01-17T15:49:31.405189"
     },
     {
-      "id": "IMG_0178",
+      "id": "IMG_0338",
       "filename": "wiki_024_Persia_1814.jpg",
       "path": "maps/turkmenchay-loss/wiki_024_Persia_1814.jpg",
       "directory": "maps/turkmenchay-loss",
@@ -3690,10 +6961,10 @@
       "size_bytes": 1675922,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.104015"
+      "added": "2026-01-17T15:49:31.408156"
     },
     {
-      "id": "IMG_0179",
+      "id": "IMG_0339",
       "filename": "wiki_025_Turkmenchay_persian_1_page.jpg",
       "path": "maps/turkmenchay-loss/wiki_025_Turkmenchay_persian_1_page.jpg",
       "directory": "maps/turkmenchay-loss",
@@ -3711,10 +6982,10 @@
       "size_bytes": 270949,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.106315"
+      "added": "2026-01-17T15:49:31.410689"
     },
     {
-      "id": "IMG_0180",
+      "id": "IMG_0340",
       "filename": "wiki_026_Gulistan-Treaty.jpg",
       "path": "maps/turkmenchay-loss/wiki_026_Gulistan-Treaty.jpg",
       "directory": "maps/turkmenchay-loss",
@@ -3732,10 +7003,10 @@
       "size_bytes": 339307,
       "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.108430"
+      "added": "2026-01-17T15:49:31.413215"
     },
     {
-      "id": "IMG_0181",
+      "id": "IMG_0341",
       "filename": "wiki_027_Soviet_Caucasus_map.svg",
       "path": "maps/turkmenchay-loss/wiki_027_Soviet_Caucasus_map.svg",
       "directory": "maps/turkmenchay-loss",
@@ -3753,10 +7024,10 @@
       "size_bytes": 748459,
       "file_type": "SVG Scalable Vector Graphics image",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.111220"
+      "added": "2026-01-17T15:49:31.415849"
     },
     {
-      "id": "IMG_0182",
+      "id": "IMG_0342",
       "filename": "wiki_000_Qajar_princess_paiting.JPG",
       "path": "maps/ethnic-distribution/wiki_000_Qajar_princess_paiting.JPG",
       "directory": "maps/ethnic-distribution",
@@ -3775,10 +7046,10 @@
       "size_bytes": 277443,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.113974"
+      "added": "2026-01-17T15:49:31.418315"
     },
     {
-      "id": "IMG_0183",
+      "id": "IMG_0343",
       "filename": "wiki_002_Iran_ethnoreligious_distribution_2004.jpg",
       "path": "maps/ethnic-distribution/wiki_002_Iran_ethnoreligious_distribution_2004.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3797,10 +7068,10 @@
       "size_bytes": 314912,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": true,
-      "added": "2026-01-17T15:39:08.116340"
+      "added": "2026-01-17T15:49:31.420699"
     },
     {
-      "id": "IMG_0184",
+      "id": "IMG_0344",
       "filename": "wiki_003_Ethnolinguisticswasiacia.jpg",
       "path": "maps/ethnic-distribution/wiki_003_Ethnolinguisticswasiacia.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3819,10 +7090,10 @@
       "size_bytes": 9450727,
       "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.118785"
+      "added": "2026-01-17T15:49:31.423464"
     },
     {
-      "id": "IMG_0185",
+      "id": "IMG_0345",
       "filename": "wiki_004_Kurdish_Danse.jpg",
       "path": "maps/ethnic-distribution/wiki_004_Kurdish_Danse.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3841,10 +7112,10 @@
       "size_bytes": 3321689,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.121241"
+      "added": "2026-01-17T15:49:31.427899"
     },
     {
-      "id": "IMG_0186",
+      "id": "IMG_0346",
       "filename": "wiki_005_Baloch_people_in_Iran_._Canon_photography._Photographer_Mostafa_Meraji_29.jpg",
       "path": "maps/ethnic-distribution/wiki_005_Baloch_people_in_Iran_._Canon_photography._Photographer_Mostafa_Meraji_29.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3860,13 +7131,13 @@
         "baloch"
       ],
       "era": "contemporary",
-      "size_bytes": 12907304,
-      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "size_bytes": 941544,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.123640"
+      "added": "2026-01-17T15:49:31.430931"
     },
     {
-      "id": "IMG_0187",
+      "id": "IMG_0347",
       "filename": "wiki_006_Qashqai_traditional_wedding_ceremony_in_Firuzabad_20190503_48.jpg",
       "path": "maps/ethnic-distribution/wiki_006_Qashqai_traditional_wedding_ceremony_in_Firuzabad_20190503_48.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3885,10 +7156,10 @@
       "size_bytes": 363263,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.125892"
+      "added": "2026-01-17T15:49:31.433897"
     },
     {
-      "id": "IMG_0188",
+      "id": "IMG_0348",
       "filename": "wiki_007_North_Khorasan_ethnicities,_Three_Turkmen_men,_Raz_and_Jargalan_District.jpg",
       "path": "maps/ethnic-distribution/wiki_007_North_Khorasan_ethnicities,_Three_Turkmen_men,_Raz_and_Jargalan_District.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3907,10 +7178,10 @@
       "size_bytes": 208676,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.128250"
+      "added": "2026-01-17T15:49:31.436187"
     },
     {
-      "id": "IMG_0189",
+      "id": "IMG_0349",
       "filename": "wiki_008_Family_in_Street_-_Shush_-_Southwestern_Iran_(7423708642).jpg",
       "path": "maps/ethnic-distribution/wiki_008_Family_in_Street_-_Shush_-_Southwestern_Iran_(7423708642).jpg",
       "directory": "maps/ethnic-distribution",
@@ -3929,10 +7200,10 @@
       "size_bytes": 2929272,
       "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.131047"
+      "added": "2026-01-17T15:49:31.438583"
     },
     {
-      "id": "IMG_0190",
+      "id": "IMG_0350",
       "filename": "wiki_009_Assyrians_in_Urmia,_Iran.jpg",
       "path": "maps/ethnic-distribution/wiki_009_Assyrians_in_Urmia,_Iran.jpg",
       "directory": "maps/ethnic-distribution",
@@ -3951,10 +7222,10 @@
       "size_bytes": 66133,
       "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.133434"
+      "added": "2026-01-17T15:49:31.440746"
     },
     {
-      "id": "IMG_0191",
+      "id": "IMG_0351",
       "filename": "wiki_010_New_Year's_Eve_celebrations_at_Vank_Cathedral,_Isfahan_(12).jpg",
       "path": "maps/ethnic-distribution/wiki_010_New_Year's_Eve_celebrations_at_Vank_Cathedral,_Isfahan_(12).jpg",
       "directory": "maps/ethnic-distribution",
@@ -3973,10 +7244,10 @@
       "size_bytes": 185452,
       "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.135598"
+      "added": "2026-01-17T15:49:31.443227"
     },
     {
-      "id": "IMG_0192",
+      "id": "IMG_0352",
       "filename": "wiki_011_Special_military_ceremony-_University_of_Imam_Hussein_-Commander-in-chief_of_Iranian_Armed_Forces_(5",
       "path": "maps/ethnic-distribution/wiki_011_Special_military_ceremony-_University_of_Imam_Hussein_-Commander-in-chief_of_Iranian_Armed_Forces_(5",
       "directory": "maps/ethnic-distribution",
@@ -3995,7 +7266,491 @@
       "size_bytes": 151175,
       "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
       "is_hero": false,
-      "added": "2026-01-17T15:39:08.137758"
+      "added": "2026-01-17T15:49:31.445717"
+    },
+    {
+      "id": "IMG_0353",
+      "filename": "wiki_000_Stra\u00dfe_von_Hormuz.jpg",
+      "path": "maps/persian-gulf/wiki_000_Stra\u00dfe_von_Hormuz.jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 104281,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.448156"
+    },
+    {
+      "id": "IMG_0354",
+      "filename": "wiki_001_Iran_relief_location_map.jpg",
+      "path": "maps/persian-gulf/wiki_001_Iran_relief_location_map.jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 963934,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.450617"
+    },
+    {
+      "id": "IMG_0355",
+      "filename": "wiki_005_Strait_of_hormuz_full.jpg",
+      "path": "maps/persian-gulf/wiki_005_Strait_of_hormuz_full.jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 308530,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.452843"
+    },
+    {
+      "id": "IMG_0356",
+      "filename": "wiki_006_Strait_of_hormuz.jpg",
+      "path": "maps/persian-gulf/wiki_006_Strait_of_hormuz.jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 220537,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.454891"
+    },
+    {
+      "id": "IMG_0357",
+      "filename": "wiki_007_Strait_of_Hormuz_from_35,000_Feet.jpg",
+      "path": "maps/persian-gulf/wiki_007_Strait_of_Hormuz_from_35,000_Feet.jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 98947,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.457445"
+    },
+    {
+      "id": "IMG_0358",
+      "filename": "wiki_008_Volume_of_crude_oil_and_condensate_transported_through_the_Strait_of_Hormuz_in_2014_through_2018_(48",
+      "path": "maps/persian-gulf/wiki_008_Volume_of_crude_oil_and_condensate_transported_through_the_Strait_of_Hormuz_in_2014_through_2018_(48",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 36859,
+      "file_type": "PNG image data, 775 x 367, 8-bit/color RGBA, non-i",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.459839"
+    },
+    {
+      "id": "IMG_0359",
+      "filename": "wiki_009_Flickr_-_Official_U.S._Navy_Imagery_-_USS_Porter_transits_the_Strait_of_Hormuz..jpg",
+      "path": "maps/persian-gulf/wiki_009_Flickr_-_Official_U.S._Navy_Imagery_-_USS_Porter_transits_the_Strait_of_Hormuz..jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1313034,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.463230"
+    },
+    {
+      "id": "IMG_0360",
+      "filename": "wiki_010_CVN_69_transits_the_Strait_of_Hormuz_(28465403076).jpg",
+      "path": "maps/persian-gulf/wiki_010_CVN_69_transits_the_Strait_of_Hormuz_(28465403076).jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 5742507,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.465983"
+    },
+    {
+      "id": "IMG_0361",
+      "filename": "wiki_011_Crude_oil,_condensate,_and_petroleum_products_transported_through_the_Strait_of_Hormuz_in_2014_throu",
+      "path": "maps/persian-gulf/wiki_011_Crude_oil,_condensate,_and_petroleum_products_transported_through_the_Strait_of_Hormuz_in_2014_throu",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 47769,
+      "file_type": "PNG image data, 493 x 302, 8-bit/color RGBA, non-i",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.468433"
+    },
+    {
+      "id": "IMG_0362",
+      "filename": "wiki_014_Hormozgan_in_Iran.svg",
+      "path": "maps/persian-gulf/wiki_014_Hormozgan_in_Iran.svg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 341243,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.471082"
+    },
+    {
+      "id": "IMG_0363",
+      "filename": "wiki_015_CIAIranKarteOelGas.jpg",
+      "path": "maps/persian-gulf/wiki_015_CIAIranKarteOelGas.jpg",
+      "directory": "maps/persian-gulf",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "persian_gulf",
+        "strait_hormuz",
+        "military"
+      ],
+      "era": "contemporary",
+      "size_bytes": 52497,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.473266"
+    },
+    {
+      "id": "IMG_0364",
+      "filename": "wiki_001_Ambox_current_red_Asia_Australia.svg",
+      "path": "geopolitics/us-iran/wiki_001_Ambox_current_red_Asia_Australia.svg",
+      "directory": "geopolitics/us-iran",
+      "patterns": [
+        "great_power_game",
+        "western_betrayal"
+      ],
+      "tags": [
+        "us_iran",
+        "sanctions",
+        "diplomacy",
+        "confrontation"
+      ],
+      "era": "contemporary",
+      "size_bytes": 15962,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.475804"
+    },
+    {
+      "id": "IMG_0365",
+      "filename": "wiki_002_Iran_liquid_fuels,_crude_oil,_and_lease_condensate_production_and_exports_from_Jan_2011_to_Sep_2018_",
+      "path": "geopolitics/us-iran/wiki_002_Iran_liquid_fuels,_crude_oil,_and_lease_condensate_production_and_exports_from_Jan_2011_to_Sep_2018_",
+      "directory": "geopolitics/us-iran",
+      "patterns": [
+        "great_power_game",
+        "western_betrayal"
+      ],
+      "tags": [
+        "us_iran",
+        "sanctions",
+        "diplomacy",
+        "confrontation"
+      ],
+      "era": "contemporary",
+      "size_bytes": 35861,
+      "file_type": "PNG image data, 574 x 291, 8-bit/color RGBA, non-i",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.479584"
+    },
+    {
+      "id": "IMG_0366",
+      "filename": "wiki_004_CIAIranKarteOelGas.jpg",
+      "path": "geopolitics/us-iran/wiki_004_CIAIranKarteOelGas.jpg",
+      "directory": "geopolitics/us-iran",
+      "patterns": [
+        "great_power_game",
+        "western_betrayal"
+      ],
+      "tags": [
+        "us_iran",
+        "sanctions",
+        "diplomacy",
+        "confrontation"
+      ],
+      "era": "contemporary",
+      "size_bytes": 52497,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.482127"
+    },
+    {
+      "id": "IMG_0367",
+      "filename": "wiki_006_Emblem_of_Iran.svg",
+      "path": "geopolitics/us-iran/wiki_006_Emblem_of_Iran.svg",
+      "directory": "geopolitics/us-iran",
+      "patterns": [
+        "great_power_game",
+        "western_betrayal"
+      ],
+      "tags": [
+        "us_iran",
+        "sanctions",
+        "diplomacy",
+        "confrontation"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1290,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.484116"
+    },
+    {
+      "id": "IMG_0368",
+      "filename": "wiki_000_Iran_Russia_Locator.png",
+      "path": "geopolitics/china-russia/wiki_000_Iran_Russia_Locator.png",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 65902,
+      "file_type": "PNG image data, 1425 x 625, 8-bit/color RGBA, non-",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.486207"
+    },
+    {
+      "id": "IMG_0369",
+      "filename": "wiki_001_Flag_of_Iran.svg",
+      "path": "geopolitics/china-russia/wiki_001_Flag_of_Iran.svg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 2218,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.488115"
+    },
+    {
+      "id": "IMG_0370",
+      "filename": "wiki_003_Meeting_between_Putin_and_Khamenei_1.jpeg",
+      "path": "geopolitics/china-russia/wiki_003_Meeting_between_Putin_and_Khamenei_1.jpeg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 1166583,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.490714"
+    },
+    {
+      "id": "IMG_0371",
+      "filename": "wiki_004_Shah_soleiman_safavi.jpg",
+      "path": "geopolitics/china-russia/wiki_004_Shah_soleiman_safavi.jpg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 211496,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.492930"
+    },
+    {
+      "id": "IMG_0372",
+      "filename": "wiki_005_Derbent_winter.jpg",
+      "path": "geopolitics/china-russia/wiki_005_Derbent_winter.jpg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 34730,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.495407"
+    },
+    {
+      "id": "IMG_0373",
+      "filename": "wiki_006_Stenka_Razin_by_Vasily_Surikov_1906.jpg",
+      "path": "geopolitics/china-russia/wiki_006_Stenka_Razin_by_Vasily_Surikov_1906.jpg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 296525,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.499965"
+    },
+    {
+      "id": "IMG_0374",
+      "filename": "wiki_007_\u0412\u0437\u044f\u0442\u0438\u0438_\u0448\u0442\u0443\u0440\u043c\u043e\u043c_\u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438_\u0413\u044f\u043d\u0434\u0436\u0438.jpg",
+      "path": "geopolitics/china-russia/wiki_007_\u0412\u0437\u044f\u0442\u0438\u0438_\u0448\u0442\u0443\u0440\u043c\u043e\u043c_\u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438_\u0413\u044f\u043d\u0434\u0436\u0438.jpg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 10166932,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.502854"
+    },
+    {
+      "id": "IMG_0375",
+      "filename": "wiki_008_Siege_of_Erivan_Fortress_on_1_October_1827.jpg",
+      "path": "geopolitics/china-russia/wiki_008_Siege_of_Erivan_Fortress_on_1_October_1827.jpg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 439971,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.505110"
+    },
+    {
+      "id": "IMG_0376",
+      "filename": "wiki_009_Alexander_II_of_Russia_and_Naser_al-Din_Shah_Qajar_by_M.Zichy_(1874,_Hermitage).jpg",
+      "path": "geopolitics/china-russia/wiki_009_Alexander_II_of_Russia_and_Naser_al-Din_Shah_Qajar_by_M.Zichy_(1874,_Hermitage).jpg",
+      "directory": "geopolitics/china-russia",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "china",
+        "russia",
+        "axis",
+        "partnership"
+      ],
+      "era": "contemporary",
+      "size_bytes": 983024,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": "",
+      "added": "2026-01-17T15:49:31.507635"
     }
   ]
 }

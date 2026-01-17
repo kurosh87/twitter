@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "id": "evt_2026-01-15_pahlavi_washington_presser",
+      "date": "2026-01-15",
+      "category": "resistance",
+      "severity": 4,
+      "title": "Pahlavi Washington Press Conference - Vision for Free Iran",
+      "description": "Crown Prince Reza Pahlavi in video and Washington press conference pledged to end nuclear program, recognize Israel, normalize US ties, and lead transitional government toward secular democracy. Urged international pressure including IRGC strikes and asset freezes. Trump praised halt to hangings but questioned Pahlavi's domestic support.",
+      "location": "Washington DC",
+      "sources": [
+        {
+          "name": "Grok/X Summary",
+          "url": null,
+          "date": "2026-01-15"
+        }
+      ],
+      "verified": true,
+      "relatedEvents": ["evt_2026-01-09_pahlavi_overnight"],
+      "tags": ["pahlavi", "policy", "vision", "nuclear", "israel", "secular-democracy"]
+    },
+    {
       "id": "evt_2026-01-27_call_for_coordinated_protests_",
       "date": "2026-01-27",
       "category": "protest",

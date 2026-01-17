@@ -256,25 +256,28 @@ DRAFTS_DIR = Path(__file__).parent / "drafts"
 
 
 class MediaMatcher:
-    """Matches synthesis patterns to available media files."""
+    """Matches synthesis patterns to available media files using metadata catalog."""
 
-    # Pattern to media directory mapping
+    # Pattern to media directory mapping (expanded for geopolitics)
     PATTERN_MEDIA_DIRS = {
-        "fire_parallel": ["events/cinema-rex-1978", "current/rasht-2026"],
-        "counter_revolution": ["historical/1979-revolution"],
-        "western_betrayal": ["events/guadeloupe-1979"],
+        "fire_parallel": ["events/cinema-rex-1978", "events/bloody-november-2019", "current/rasht-2026"],
+        "counter_revolution": ["historical/1979-revolution", "figures/khomeini"],
+        "western_betrayal": ["events/guadeloupe-1979", "figures/us-officials", "geopolitics/us-iran"],
         "ethnic_unity": ["maps/ethnic-distribution", "historical/1980-1988"],
-        "iraq_contrast": ["historical/1906-1953", "figures/mossadegh"],
-        "great_power_game": ["events/turkmenchay-1828", "maps/turkmenchay-loss"],
-        "constitutional_memory": ["historical/1906-1953", "events/constitutional-1906"],
-        "massacre_escalation": ["current/rasht-2026", "historical/2022-mahsa"],
+        "iraq_contrast": ["events/constitutional-1906", "figures/mossadegh", "historical/1980-1988"],
+        "great_power_game": ["events/turkmenchay-1828", "maps/turkmenchay-loss", "military/us-navy",
+                            "military/us-airforce", "figures/us-military", "figures/khamenei",
+                            "figures/irgc", "military/irgc-assets", "geopolitics/china-russia"],
+        "constitutional_memory": ["events/constitutional-1906", "figures/mossadegh"],
+        "massacre_escalation": ["events/1988-executions", "events/bloody-november-2019",
+                               "historical/2022-mahsa", "current/rasht-2026"],
     }
 
     # Pattern to search terms for auto-acquisition
     PATTERN_SEARCH_TERMS = {
         "fire_parallel": ["Cinema Rex 1978 Abadan", "Rasht bazaar fire 2026"],
         "western_betrayal": ["Guadeloupe Conference 1979 Carter"],
-        "great_power_game": ["Treaty of Turkmenchay 1828 map"],
+        "great_power_game": ["Treaty of Turkmenchay 1828 map", "US carrier strike group Persian Gulf"],
         "constitutional_memory": ["Iran Constitutional Revolution 1906 Majlis"],
     }
 
@@ -288,7 +291,62 @@ class MediaMatcher:
         if metadata_file.exists():
             with open(metadata_file, 'r') as f:
                 return json.load(f)
-        return {"media": []}
+        return {"media": [], "patterns": {}}
+
+    def get_hero_images(self, pattern: str) -> List[Dict]:
+        """Get hero (primary) images for a pattern from metadata catalog."""
+        heroes = []
+        for item in self.metadata.get("media", []):
+            if pattern in item.get("patterns", []) and item.get("is_hero", False):
+                heroes.append({
+                    "path": str(self.media_dir / item["path"]),
+                    "filename": item["filename"],
+                    "directory": item["directory"],
+                    "tags": item.get("tags", [])
+                })
+        return heroes
+
+    def get_all_media_for_pattern(self, pattern: str) -> List[Dict]:
+        """Get all media items for a pattern from metadata catalog."""
+        items = []
+        for item in self.metadata.get("media", []):
+            if pattern in item.get("patterns", []):
+                items.append({
+                    "path": str(self.media_dir / item["path"]),
+                    "filename": item["filename"],
+                    "directory": item["directory"],
+                    "tags": item.get("tags", []),
+                    "is_hero": item.get("is_hero", False),
+                    "size_bytes": item.get("size_bytes", 0)
+                })
+        return items
+
+    def auto_attach_media(self, pattern: str, max_images: int = 4) -> Dict[str, Any]:
+        """Auto-attach media for a tweet based on pattern. Returns attachment info."""
+        heroes = self.get_hero_images(pattern)
+        all_media = self.get_all_media_for_pattern(pattern)
+
+        # Primary: hero images first
+        attached = heroes[:max_images]
+
+        # Fill remaining slots with largest non-hero images
+        if len(attached) < max_images:
+            non_heroes = [m for m in all_media if not m.get("is_hero")]
+            # Sort by size (prefer larger, more detailed images)
+            non_heroes.sort(key=lambda x: x.get("size_bytes", 0), reverse=True)
+            for m in non_heroes:
+                if len(attached) >= max_images:
+                    break
+                if m not in attached:
+                    attached.append(m)
+
+        return {
+            "pattern": pattern,
+            "attached_count": len(attached),
+            "media": [{"path": m["path"], "filename": m["filename"]} for m in attached],
+            "has_media": len(attached) > 0,
+            "total_available": len(all_media)
+        }
 
     def find_media_for_pattern(self, pattern: str) -> Dict[str, Any]:
         """Find available media for a synthesis pattern."""
@@ -446,6 +504,47 @@ RULES:
 
 PERSIAN:"""
         return claude_client.generate_fast(prompt).strip()
+
+    def download_tweet_media(self, tweet_id: str, handle: str) -> List[str]:
+        """Download media from a tweet using yt-dlp or gallery-dl."""
+        import subprocess
+        import urllib.request
+
+        media_dir = Path(__file__).parent / "media" / "downloaded" / handle
+        media_dir.mkdir(parents=True, exist_ok=True)
+
+        downloaded = []
+        tweet_url = f"https://x.com/{handle}/status/{tweet_id}"
+
+        # Try gallery-dl first (better for images)
+        try:
+            result = subprocess.run(
+                ["gallery-dl", "--dest", str(media_dir), tweet_url],
+                capture_output=True, text=True, timeout=30
+            )
+            if result.returncode == 0:
+                # Find downloaded files
+                for f in media_dir.glob(f"*{tweet_id}*"):
+                    downloaded.append(str(f))
+                    print(f"  📷 Downloaded: {f.name}")
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            pass
+
+        # Fallback to yt-dlp for videos
+        if not downloaded:
+            try:
+                result = subprocess.run(
+                    ["yt-dlp", "-o", str(media_dir / f"{tweet_id}.%(ext)s"), tweet_url],
+                    capture_output=True, text=True, timeout=60
+                )
+                if result.returncode == 0:
+                    for f in media_dir.glob(f"{tweet_id}.*"):
+                        downloaded.append(str(f))
+                        print(f"  🎬 Downloaded: {f.name}")
+            except (FileNotFoundError, subprocess.TimeoutExpired):
+                pass
+
+        return downloaded
 
     def enrich_draft(self, draft: Dict, claude_client: 'ClaudeClient' = None) -> Dict:
         """Enrich a bucket-based draft with historical context."""
