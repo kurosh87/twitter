@@ -397,6 +397,24 @@ PARALLEL: [which historical parallel you used]
 HASHTAGS: [suggested hashtags]
 """
 
+    def translate_to_persian(self, english_text: str, claude_client: 'ClaudeClient') -> str:
+        """Translate breaking news to Persian for bilingual posting."""
+        prompt = f"""Translate this breaking news tweet to Persian (Farsi).
+
+ENGLISH:
+{english_text}
+
+RULES:
+1. Keep the same factual content and tone
+2. Use standard Persian, not overly formal
+3. If there are hashtags in English, translate them to Persian equivalents
+4. Keep names transliterated (not translated)
+5. Maximum 280 characters
+6. Output ONLY the Persian translation, nothing else
+
+PERSIAN:"""
+        return claude_client.generate(prompt).strip()
+
     def enrich_draft(self, draft: Dict, claude_client: 'ClaudeClient' = None) -> Dict:
         """Enrich a bucket-based draft with historical context."""
         text = draft.get('english', '')
@@ -434,7 +452,7 @@ class FaytuksDaemon:
         self.draft_mgr = DraftManager()
         self.running = False
 
-    def scrape_recent_tweets(self, bucket: str, max_age_hours: int) -> List[Dict]:
+    def scrape_recent_tweets(self, bucket: str, max_age_hours: float) -> List[Dict]:
         """Get recent tweets from a bucket."""
         from datetime import timezone, timedelta
 
@@ -479,41 +497,49 @@ class FaytuksDaemon:
         """Generate drafts from recent bucket tweets."""
         created = []
 
-        # Breaking: < 1 hour
-        breaking = self.scrape_recent_tweets("breaking", max_age_hours=1)
+        # Breaking: < 10 minutes (immediate)
+        breaking = self.scrape_recent_tweets("breaking", max_age_hours=0.17)
 
         # Commentary & Geopolitics: < 24 hours
         commentary = self.scrape_recent_tweets("commentary", max_age_hours=24)
         geopolitics = self.scrape_recent_tweets("geopolitics", max_age_hours=24)
 
-        all_tweets = breaking + commentary + geopolitics
+        # Process breaking tweets FIRST (bilingual, auto-approve)
+        for tweet in breaking[:5]:
+            english_text = tweet.get('text', '')
+            pattern = self.enricher.detect_pattern(english_text)
 
-        for tweet in all_tweets[:10]:  # Top 10
-            pattern = self.enricher.detect_pattern(tweet.get('text', ''))
-            draft_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-            draft = {
-                "id": f"auto_{draft_id}",
-                "created_at": datetime.now().isoformat(),
-                "status": "pending",
-                "pattern": pattern or "general",
-                "english": tweet.get('text', ''),
-                "persian": "",
-                "media": [],
-                "sources": [f"@{tweet.get('handle', 'unknown')}", tweet.get('bucket', '')],
-                "source_tweet_date": tweet.get('date', ''),
-            }
-
-            # Enrich with historical context
+            # Translate breaking to Persian
+            persian_text = ""
             if claude_client:
-                enriched = self.enricher.enrich_draft(draft, claude_client)
-                draft = enriched
+                try:
+                    persian_text = self.enricher.translate_to_persian(english_text, claude_client)
+                except:
+                    pass
 
             path = self.draft_mgr.save_draft(
-                english=draft['english'],
+                english=english_text,
+                persian=persian_text,
+                pattern=pattern or "breaking",
+                sources=[f"@{tweet.get('handle', 'unknown')}", "breaking"]
+            )
+
+            # Auto-approve breaking tweets
+            draft_id = Path(path).stem if path else None
+            if draft_id:
+                self.draft_mgr.approve_draft(draft_id)
+            created.append(path)
+
+        # Process other buckets as drafts (English only for now)
+        for tweet in (commentary + geopolitics)[:10]:
+            english_text = tweet.get('text', '')
+            pattern = self.enricher.detect_pattern(english_text)
+
+            path = self.draft_mgr.save_draft(
+                english=english_text,
                 persian="",
-                pattern=draft['pattern'],
-                sources=draft.get('sources', [])
+                pattern=pattern or "general",
+                sources=[f"@{tweet.get('handle', 'unknown')}", tweet.get('bucket', '')]
             )
             created.append(path)
 
@@ -2464,30 +2490,42 @@ def main():
 
         print("=== REFRESHING FROM BUCKETS ===\n")
 
-        # Breaking: immediate (< 10 minutes) - auto-approve
-        breaking_mins = getattr(args, 'breaking_hours', 1) * 60  # Convert to use minutes
-        breaking = daemon.scrape_recent_tweets("breaking", max_age_hours=0.17)  # ~10 mins
+        # Breaking: use CLI arg (default 0.17 = ~10 mins), auto-approve, bilingual
+        breaking_hours = getattr(args, 'breaking_hours', 0.17)
+        breaking = daemon.scrape_recent_tweets("breaking", max_age_hours=breaking_hours)
 
         # Commentary & Geopolitics: < 24 hours - drafts only
         other_hours = getattr(args, 'other_hours', 24)
         commentary = daemon.scrape_recent_tweets("commentary", max_age_hours=other_hours)
         geopolitics = daemon.scrape_recent_tweets("geopolitics", max_age_hours=other_hours)
 
-        print(f"Breaking (< 10 min):     {len(breaking)} tweets → AUTO-APPROVE")
+        breaking_mins = int(breaking_hours * 60)
+        print(f"Breaking (< {breaking_mins} min):     {len(breaking)} tweets → AUTO-APPROVE")
         print(f"Commentary (< {other_hours}h):    {len(commentary)} tweets → drafts")
         print(f"Geopolitics (< {other_hours}h):   {len(geopolitics)} tweets → drafts")
 
         created_breaking = 0
         created_drafts = 0
 
-        # Process breaking tweets - immediate posting
+        # Process breaking tweets - immediate posting (BILINGUAL)
         for tweet in breaking[:5]:
-            pattern = enricher.detect_pattern(tweet.get('text', ''))
+            english_text = tweet.get('text', '')
+            pattern = enricher.detect_pattern(english_text)
+
+            # Translate to Persian if Claude is available
+            persian_text = ""
+            if claude:
+                try:
+                    persian_text = enricher.translate_to_persian(english_text, claude)
+                    print(f"  🔄 Translated to Persian ({len(persian_text)} chars)")
+                except Exception as e:
+                    print(f"  ⚠️ Translation failed: {e}")
+
             draft_id = datetime.now().strftime("%Y%m%d_%H%M%S")
 
             path = daemon.draft_mgr.save_draft(
-                english=tweet.get('text', ''),
-                persian="",
+                english=english_text,
+                persian=persian_text,
                 pattern=pattern or "breaking",
                 sources=[f"@{tweet.get('handle', '')}", "breaking"]
             )
@@ -2495,7 +2533,8 @@ def main():
             # Auto-approve breaking tweets
             daemon.draft_mgr.approve_draft(draft_id)
             created_breaking += 1
-            print(f"  ⚡ BREAKING: @{tweet.get('handle', '')} → approved")
+            lang_status = "EN+FA" if persian_text else "EN only"
+            print(f"  ⚡ BREAKING [{lang_status}]: @{tweet.get('handle', '')} → approved")
 
         # Process other buckets as regular drafts
         for tweet in (commentary + geopolitics)[:10]:

@@ -1,15 +1,4001 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-01-17T15:00:00Z",
-  "total_items": 0,
+  "version": "2.0",
+  "last_updated": "2026-01-17T15:39:07.650348",
+  "total_items": 193,
   "categories": {
     "historical": "Pre-2022 historical images",
     "events": "Key historical events (Cinema Rex, Turkmenchay, etc.)",
-    "figures": "Notable people (Pahlavi, Mossadegh, victims)",
+    "figures": "Notable people (Pahlavi, Mossadegh, IRGC, US officials)",
     "maps": "Geographic and territorial maps",
+    "military": "Military assets, carriers, weapons",
+    "geopolitics": "US-Iran, China-Russia relations",
     "current": "2025-2026 revolution media",
-    "infographics": "Created visual content",
-    "video": "Video clips"
+    "infographics": "Created visual content"
   },
-  "media": []
+  "patterns": {
+    "fire_parallel": "Cinema Rex 1978 / Current fire events",
+    "counter_revolution": "1979 hijack of democratic movement",
+    "western_betrayal": "Guadeloupe 1979, Western silence",
+    "ethnic_unity": "Iranian ethnic groups united",
+    "iraq_contrast": "Why Iran isn't Iraq",
+    "great_power_game": "Russia/China relations, US military, Turkmenchay",
+    "constitutional_memory": "1906 revolution, democratic heritage",
+    "massacre_escalation": "1988 \u2192 2019 \u2192 2022 \u2192 2026"
+  },
+  "media": [
+    {
+      "id": "IMG_0000",
+      "filename": "wiki_000_Rex_Cinema_Fire.jpg",
+      "path": "events/cinema-rex-1978/wiki_000_Rex_Cinema_Fire.jpg",
+      "directory": "events/cinema-rex-1978",
+      "patterns": [
+        "fire_parallel",
+        "massacre_escalation"
+      ],
+      "tags": [
+        "cinema_rex",
+        "1978",
+        "fire",
+        "abadan",
+        "arson"
+      ],
+      "era": "1970s",
+      "size_bytes": 173569,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.653684"
+    },
+    {
+      "id": "IMG_0001",
+      "filename": "wiki_000_Treaty_of_Turkmenchay_by_Moshkov.jpg",
+      "path": "events/turkmenchay-1828/wiki_000_Treaty_of_Turkmenchay_by_Moshkov.jpg",
+      "directory": "events/turkmenchay-1828",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "turkmenchay",
+        "1828",
+        "russia",
+        "treaty",
+        "territory_loss"
+      ],
+      "era": "1800s",
+      "size_bytes": 222917,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.656593"
+    },
+    {
+      "id": "IMG_0002",
+      "filename": "wiki_004_Persian_payment_of_indemnity_in_Tabriz.jpg",
+      "path": "events/turkmenchay-1828/wiki_004_Persian_payment_of_indemnity_in_Tabriz.jpg",
+      "directory": "events/turkmenchay-1828",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "turkmenchay",
+        "1828",
+        "russia",
+        "treaty",
+        "territory_loss"
+      ],
+      "era": "1800s",
+      "size_bytes": 1499970,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.659337"
+    },
+    {
+      "id": "IMG_0003",
+      "filename": "wiki_005_Treaty_of_Turkmenchay_Cannon.JPG",
+      "path": "events/turkmenchay-1828/wiki_005_Treaty_of_Turkmenchay_Cannon.JPG",
+      "directory": "events/turkmenchay-1828",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "turkmenchay",
+        "1828",
+        "russia",
+        "treaty",
+        "territory_loss"
+      ],
+      "era": "1800s",
+      "size_bytes": 2212563,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.662221"
+    },
+    {
+      "id": "IMG_0004",
+      "filename": "wiki_006_\"Treat_of_Turkmanchay\"_memorial_medal_in_Museum_of_History_of_Azerbaijan.jpg",
+      "path": "events/turkmenchay-1828/wiki_006_\"Treat_of_Turkmanchay\"_memorial_medal_in_Museum_of_History_of_Azerbaijan.jpg",
+      "directory": "events/turkmenchay-1828",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "turkmenchay",
+        "1828",
+        "russia",
+        "treaty",
+        "territory_loss"
+      ],
+      "era": "1800s",
+      "size_bytes": 157109,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.664634"
+    },
+    {
+      "id": "IMG_0005",
+      "filename": "wiki_007_2024_Paskevich_statue_2.gif",
+      "path": "events/turkmenchay-1828/wiki_007_2024_Paskevich_statue_2.gif",
+      "directory": "events/turkmenchay-1828",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "turkmenchay",
+        "1828",
+        "russia",
+        "treaty",
+        "territory_loss"
+      ],
+      "era": "1800s",
+      "size_bytes": 4606075,
+      "file_type": "GIF image data, version 87a, 2530 x 4029",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.666988"
+    },
+    {
+      "id": "IMG_0006",
+      "filename": "wiki_000_Carter_guadeloupe_cropped.png",
+      "path": "events/guadeloupe-1979/wiki_000_Carter_guadeloupe_cropped.png",
+      "directory": "events/guadeloupe-1979",
+      "patterns": [
+        "western_betrayal"
+      ],
+      "tags": [
+        "guadeloupe",
+        "1979",
+        "carter",
+        "western_powers",
+        "betrayal"
+      ],
+      "era": "1970s",
+      "size_bytes": 6138040,
+      "file_type": "PNG image data, 2255 x 1584, 8-bit/color RGB, non-",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.669486"
+    },
+    {
+      "id": "IMG_0007",
+      "filename": "wiki_001_1979_Iranian_Revolution.jpg",
+      "path": "events/guadeloupe-1979/wiki_001_1979_Iranian_Revolution.jpg",
+      "directory": "events/guadeloupe-1979",
+      "patterns": [
+        "western_betrayal"
+      ],
+      "tags": [
+        "guadeloupe",
+        "1979",
+        "carter",
+        "western_powers",
+        "betrayal"
+      ],
+      "era": "1970s",
+      "size_bytes": 47708,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.671654"
+    },
+    {
+      "id": "IMG_0008",
+      "filename": "wiki_002_Carter_cropped.jpg",
+      "path": "events/guadeloupe-1979/wiki_002_Carter_cropped.jpg",
+      "directory": "events/guadeloupe-1979",
+      "patterns": [
+        "western_betrayal"
+      ],
+      "tags": [
+        "guadeloupe",
+        "1979",
+        "carter",
+        "western_powers",
+        "betrayal"
+      ],
+      "era": "1970s",
+      "size_bytes": 770819,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.674570"
+    },
+    {
+      "id": "IMG_0009",
+      "filename": "wiki_003_Seal_of_the_President_of_the_United_States.svg",
+      "path": "events/guadeloupe-1979/wiki_003_Seal_of_the_President_of_the_United_States.svg",
+      "directory": "events/guadeloupe-1979",
+      "patterns": [
+        "western_betrayal"
+      ],
+      "tags": [
+        "guadeloupe",
+        "1979",
+        "carter",
+        "western_powers",
+        "betrayal"
+      ],
+      "era": "1970s",
+      "size_bytes": 168533,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.677411"
+    },
+    {
+      "id": "IMG_0010",
+      "filename": "wiki_000_Translation_to_english_arrow.svg",
+      "path": "events/constitutional-1906/wiki_000_Translation_to_english_arrow.svg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 1714,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.679782"
+    },
+    {
+      "id": "IMG_0011",
+      "filename": "wiki_001_TabrizRevolutionaries.JPG",
+      "path": "events/constitutional-1906/wiki_001_TabrizRevolutionaries.JPG",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 22223,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.681845"
+    },
+    {
+      "id": "IMG_0012",
+      "filename": "wiki_008_Farmane_e_mashrutiyat.jpg",
+      "path": "events/constitutional-1906/wiki_008_Farmane_e_mashrutiyat.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 75265,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.683942"
+    },
+    {
+      "id": "IMG_0013",
+      "filename": "wiki_009_BastBritishEmbassy.jpg",
+      "path": "events/constitutional-1906/wiki_009_BastBritishEmbassy.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 46051,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.686104"
+    },
+    {
+      "id": "IMG_0014",
+      "filename": "wiki_010_First_Majlis_MPs.jpg",
+      "path": "events/constitutional-1906/wiki_010_First_Majlis_MPs.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 710776,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.688636"
+    },
+    {
+      "id": "IMG_0015",
+      "filename": "wiki_011_Parliamenttehran1906.jpg",
+      "path": "events/constitutional-1906/wiki_011_Parliamenttehran1906.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 925830,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.691391"
+    },
+    {
+      "id": "IMG_0016",
+      "filename": "wiki_012_\u062f\u06a9\u062a\u0631_\u0627\u0645\u06cc\u0631\u0627\u0639\u0644\u0645_\u062f\u0631_\u062d\u0627\u0644_\u0645\u062f\u0627\u0648\u0627\u06cc_\u06cc\u06a9\u06cc_\u0627\u0632_\u0645\u062c\u0631\u0648\u062d\u06cc\u0646_\u067e\u0633_\u0627\u0632_\u0641\u062a\u062d_\u062a\u0647\u0631\u0627\u0646.jpg",
+      "path": "events/constitutional-1906/wiki_012_\u062f\u06a9\u062a\u0631_\u0627\u0645\u06cc\u0631\u0627\u0639\u0644\u0645_\u062f\u0631_\u062d\u0627\u0644_\u0645\u062f\u0627\u0648\u0627\u06cc_\u06cc\u06a9\u06cc_\u0627\u0632_\u0645\u062c\u0631\u0648\u062d\u06cc\u0646_\u067e\u0633_\u0627\u0632_\u0641\u062a\u062d_\u062a\u0647\u0631\u0627\u0646.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 131440,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.694063"
+    },
+    {
+      "id": "IMG_0017",
+      "filename": "wiki_014_Akhund_Khurasani,_Mirza_Husayn_Tehrani,_and_Abdullah_Mazandarani.jpg",
+      "path": "events/constitutional-1906/wiki_014_Akhund_Khurasani,_Mirza_Husayn_Tehrani,_and_Abdullah_Mazandarani.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 15403,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.696474"
+    },
+    {
+      "id": "IMG_0018",
+      "filename": "wiki_015_Sheikh_Fazlollah_Noori.jpg",
+      "path": "events/constitutional-1906/wiki_015_Sheikh_Fazlollah_Noori.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 13483,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.698774"
+    },
+    {
+      "id": "IMG_0019",
+      "filename": "wiki_016_Seqat-ol-Eslam_Tabrizi.PNG",
+      "path": "events/constitutional-1906/wiki_016_Seqat-ol-Eslam_Tabrizi.PNG",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 215588,
+      "file_type": "PNG image data, 367 x 479, 8-bit/color RGBA, non-i",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.700756"
+    },
+    {
+      "id": "IMG_0020",
+      "filename": "wiki_017_Mohammad_Kazem_Tabataba'i_Yazdi.jpg",
+      "path": "events/constitutional-1906/wiki_017_Mohammad_Kazem_Tabataba'i_Yazdi.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 14791,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.702664"
+    },
+    {
+      "id": "IMG_0021",
+      "filename": "wiki_018_Ibrahim_Zanjani.jpg",
+      "path": "events/constitutional-1906/wiki_018_Ibrahim_Zanjani.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 39185,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.704755"
+    },
+    {
+      "id": "IMG_0022",
+      "filename": "wiki_019_Conquerors_of_Tehran_(Constitutional_Movement).jpg",
+      "path": "events/constitutional-1906/wiki_019_Conquerors_of_Tehran_(Constitutional_Movement).jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 105968,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.706934"
+    },
+    {
+      "id": "IMG_0023",
+      "filename": "wiki_020_Sattar_khan_and_Bagir_khan.jpg",
+      "path": "events/constitutional-1906/wiki_020_Sattar_khan_and_Bagir_khan.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 26445,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.709047"
+    },
+    {
+      "id": "IMG_0024",
+      "filename": "wiki_021_Keri_Yeprem_Khetcho.jpg",
+      "path": "events/constitutional-1906/wiki_021_Keri_Yeprem_Khetcho.jpg",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 135602,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.711586"
+    },
+    {
+      "id": "IMG_0025",
+      "filename": "wiki_022_Kalimi_mashrutiat.JPG",
+      "path": "events/constitutional-1906/wiki_022_Kalimi_mashrutiat.JPG",
+      "directory": "events/constitutional-1906",
+      "patterns": [
+        "constitutional_memory",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "constitutional",
+        "1906",
+        "majlis",
+        "mashruteh",
+        "democracy"
+      ],
+      "era": "1900s",
+      "size_bytes": 28146,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.714049"
+    },
+    {
+      "id": "IMG_0026",
+      "filename": "wiki_000_JalehSquare2.jpg",
+      "path": "events/black-friday-1978/wiki_000_JalehSquare2.jpg",
+      "directory": "events/black-friday-1978",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "black_friday",
+        "1978",
+        "jaleh_square",
+        "massacre"
+      ],
+      "era": "1970s",
+      "size_bytes": 235938,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.716436"
+    },
+    {
+      "id": "IMG_0027",
+      "filename": "wiki_001_Jafar_Sharif-Emami_1978.jpg",
+      "path": "events/black-friday-1978/wiki_001_Jafar_Sharif-Emami_1978.jpg",
+      "directory": "events/black-friday-1978",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "black_friday",
+        "1978",
+        "jaleh_square",
+        "massacre"
+      ],
+      "era": "1970s",
+      "size_bytes": 21744,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.718412"
+    },
+    {
+      "id": "IMG_0028",
+      "filename": "wiki_003_Islamic_Government_(17_Shahrivar).jpg",
+      "path": "events/black-friday-1978/wiki_003_Islamic_Government_(17_Shahrivar).jpg",
+      "directory": "events/black-friday-1978",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "black_friday",
+        "1978",
+        "jaleh_square",
+        "massacre"
+      ],
+      "era": "1970s",
+      "size_bytes": 57445,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.720433"
+    },
+    {
+      "id": "IMG_0029",
+      "filename": "wiki_004_1985_\"17_Shahrivar\"_stamp_of_Iran.jpg",
+      "path": "events/black-friday-1978/wiki_004_1985_\"17_Shahrivar\"_stamp_of_Iran.jpg",
+      "directory": "events/black-friday-1978",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "black_friday",
+        "1978",
+        "jaleh_square",
+        "massacre"
+      ],
+      "era": "1970s",
+      "size_bytes": 38746,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.722339"
+    },
+    {
+      "id": "IMG_0030",
+      "filename": "wiki_001_Ebrahim_Raisi_and_Mostafa_Pourmohammadi.jpg",
+      "path": "events/1988-executions/wiki_001_Ebrahim_Raisi_and_Mostafa_Pourmohammadi.jpg",
+      "directory": "events/1988-executions",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "1988",
+        "executions",
+        "political_prisoners",
+        "raisi"
+      ],
+      "era": "1980s",
+      "size_bytes": 61126,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.724433"
+    },
+    {
+      "id": "IMG_0031",
+      "filename": "wiki_002_Question_book-new.svg",
+      "path": "events/1988-executions/wiki_002_Question_book-new.svg",
+      "directory": "events/1988-executions",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "1988",
+        "executions",
+        "political_prisoners",
+        "raisi"
+      ],
+      "era": "1980s",
+      "size_bytes": 13175,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.726671"
+    },
+    {
+      "id": "IMG_0032",
+      "filename": "wiki_003_67letter.gif",
+      "path": "events/1988-executions/wiki_003_67letter.gif",
+      "directory": "events/1988-executions",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "1988",
+        "executions",
+        "political_prisoners",
+        "raisi"
+      ],
+      "era": "1980s",
+      "size_bytes": 37327,
+      "file_type": "GIF image data, version 89a, 500 x 722",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.728997"
+    },
+    {
+      "id": "IMG_0033",
+      "filename": "wiki_005_Montazeri_khomeyni.JPG",
+      "path": "events/1988-executions/wiki_005_Montazeri_khomeyni.JPG",
+      "directory": "events/1988-executions",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "1988",
+        "executions",
+        "political_prisoners",
+        "raisi"
+      ],
+      "era": "1980s",
+      "size_bytes": 30063,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.731183"
+    },
+    {
+      "id": "IMG_0034",
+      "filename": "wiki_007_Iran_1988_massacre_protest_in_Finchley,_London_04.jpg",
+      "path": "events/1988-executions/wiki_007_Iran_1988_massacre_protest_in_Finchley,_London_04.jpg",
+      "directory": "events/1988-executions",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "1988",
+        "executions",
+        "political_prisoners",
+        "raisi"
+      ],
+      "era": "1980s",
+      "size_bytes": 1808653,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.734004"
+    },
+    {
+      "id": "IMG_0035",
+      "filename": "wiki_000_Protests_against_Ukraine_International_Airlines_Flight_752_shot_down_by_Sepah_in_Tehran_7.jpg",
+      "path": "events/bloody-november-2019/wiki_000_Protests_against_Ukraine_International_Airlines_Flight_752_shot_down_by_Sepah_in_Tehran_7.jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 239237,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.736417"
+    },
+    {
+      "id": "IMG_0036",
+      "filename": "wiki_001_2019_Iranian_fuel_protests_Day_1_by_Fars_News_(10).jpg",
+      "path": "events/bloody-november-2019/wiki_001_2019_Iranian_fuel_protests_Day_1_by_Fars_News_(10).jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 336654,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.738922"
+    },
+    {
+      "id": "IMG_0037",
+      "filename": "wiki_002_2019_Iranian_fuel_protests_Fars_News_(18).jpg",
+      "path": "events/bloody-november-2019/wiki_002_2019_Iranian_fuel_protests_Fars_News_(18).jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 272000,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.741290"
+    },
+    {
+      "id": "IMG_0038",
+      "filename": "wiki_003_2019_Iranian_fuel_protests_Fars_News_(3).jpg",
+      "path": "events/bloody-november-2019/wiki_003_2019_Iranian_fuel_protests_Fars_News_(3).jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 361216,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.743582"
+    },
+    {
+      "id": "IMG_0039",
+      "filename": "wiki_004_2019_Iranian_fuel_protests_Fars_News_(1).jpg",
+      "path": "events/bloody-november-2019/wiki_004_2019_Iranian_fuel_protests_Fars_News_(1).jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 190345,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.746024"
+    },
+    {
+      "id": "IMG_0040",
+      "filename": "wiki_005_Sit-in_in_Behbahan_2019-11-15.jpg",
+      "path": "events/bloody-november-2019/wiki_005_Sit-in_in_Behbahan_2019-11-15.jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 54498,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.748211"
+    },
+    {
+      "id": "IMG_0041",
+      "filename": "wiki_006_Gathering_and_protest_rally_outside_Amir_Kabir_University_2020-01-11_03.jpg",
+      "path": "events/bloody-november-2019/wiki_006_Gathering_and_protest_rally_outside_Amir_Kabir_University_2020-01-11_03.jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 218173,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.750717"
+    },
+    {
+      "id": "IMG_0042",
+      "filename": "wiki_010_2019_Iranian_fuel_protests_mehr_news_(4).jpg",
+      "path": "events/bloody-november-2019/wiki_010_2019_Iranian_fuel_protests_mehr_news_(4).jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 297161,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.753136"
+    },
+    {
+      "id": "IMG_0043",
+      "filename": "wiki_011_Gathering_and_protest_rally_outside_Amir_Kabir_University_2020-01-11_10.jpg",
+      "path": "events/bloody-november-2019/wiki_011_Gathering_and_protest_rally_outside_Amir_Kabir_University_2020-01-11_10.jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 537623,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.755677"
+    },
+    {
+      "id": "IMG_0044",
+      "filename": "wiki_012_Iranian_protesters_in_November_of_2019._Isfahan.jpg",
+      "path": "events/bloody-november-2019/wiki_012_Iranian_protesters_in_November_of_2019._Isfahan.jpg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 56052,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.758114"
+    },
+    {
+      "id": "IMG_0045",
+      "filename": "wiki_013_People-died-in-iran-2019-protesters.svg",
+      "path": "events/bloody-november-2019/wiki_013_People-died-in-iran-2019-protesters.svg",
+      "directory": "events/bloody-november-2019",
+      "patterns": [
+        "massacre_escalation",
+        "fire_parallel"
+      ],
+      "tags": [
+        "2019",
+        "bloody_november",
+        "fuel_protests",
+        "aban"
+      ],
+      "era": "2010s",
+      "size_bytes": 457851,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.760828"
+    },
+    {
+      "id": "IMG_0046",
+      "filename": "wiki_002_Mass_demonstration_in_Iran,_date_unknown.jpg",
+      "path": "historical/1979-revolution/wiki_002_Mass_demonstration_in_Iran,_date_unknown.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 99857,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.763217"
+    },
+    {
+      "id": "IMG_0047",
+      "filename": "wiki_019_1979_Iranian_Revolution.jpg",
+      "path": "historical/1979-revolution/wiki_019_1979_Iranian_Revolution.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 47708,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.765313"
+    },
+    {
+      "id": "IMG_0048",
+      "filename": "wiki_021_Persepolis_24.11.2009_11-12-14.jpg",
+      "path": "historical/1979-revolution/wiki_021_Persepolis_24.11.2009_11-12-14.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 3632699,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.767832"
+    },
+    {
+      "id": "IMG_0049",
+      "filename": "wiki_023_Shah_Mohammad_Reza_Pahlavi,_1973.jpg",
+      "path": "historical/1979-revolution/wiki_023_Shah_Mohammad_Reza_Pahlavi,_1973.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 16008665,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.770346"
+    },
+    {
+      "id": "IMG_0050",
+      "filename": "wiki_024_15khordad1.jpg",
+      "path": "historical/1979-revolution/wiki_024_15khordad1.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 647155,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.773033"
+    },
+    {
+      "id": "IMG_0051",
+      "filename": "wiki_025_The_Shah_with_Atherton,_Sullivan,_Vance,_Carter_and_Brzezinski,_1977.jpg",
+      "path": "historical/1979-revolution/wiki_025_The_Shah_with_Atherton,_Sullivan,_Vance,_Carter_and_Brzezinski,_1977.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 4772339,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.775655"
+    },
+    {
+      "id": "IMG_0052",
+      "filename": "wiki_026_RastakhizPartyDemoAgainstTerrorTabrizFarvardin2537.jpg",
+      "path": "historical/1979-revolution/wiki_026_RastakhizPartyDemoAgainstTerrorTabrizFarvardin2537.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 1091674,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.778144"
+    },
+    {
+      "id": "IMG_0053",
+      "filename": "wiki_027_Islamic_Government_(17_Shahrivar).jpg",
+      "path": "historical/1979-revolution/wiki_027_Islamic_Government_(17_Shahrivar).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 57445,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.780129"
+    },
+    {
+      "id": "IMG_0054",
+      "filename": "wiki_028_Demonstration_(17_Shahrivar).jpg",
+      "path": "historical/1979-revolution/wiki_028_Demonstration_(17_Shahrivar).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 90341,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.782733"
+    },
+    {
+      "id": "IMG_0055",
+      "filename": "wiki_029_Dead_Revolutionaries_(17_Shahrivar).jpg",
+      "path": "historical/1979-revolution/wiki_029_Dead_Revolutionaries_(17_Shahrivar).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 41797,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.785032"
+    },
+    {
+      "id": "IMG_0056",
+      "filename": "wiki_030_Imam_in_Paris.jpg",
+      "path": "historical/1979-revolution/wiki_030_Imam_in_Paris.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 365982,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.787638"
+    },
+    {
+      "id": "IMG_0057",
+      "filename": "wiki_031_Tehran_Ashura_Demonstration,_11_December_1978_(04).jpg",
+      "path": "historical/1979-revolution/wiki_031_Tehran_Ashura_Demonstration,_11_December_1978_(04).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 98061,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.789918"
+    },
+    {
+      "id": "IMG_0058",
+      "filename": "wiki_033_Tehran_Ashura_Demonstration,_11_December_1978_(10).jpg",
+      "path": "historical/1979-revolution/wiki_033_Tehran_Ashura_Demonstration,_11_December_1978_(10).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 231574,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.792146"
+    },
+    {
+      "id": "IMG_0059",
+      "filename": "wiki_034_Tehran_Ashura_Demonstration,_11_December_1978_(08).jpg",
+      "path": "historical/1979-revolution/wiki_034_Tehran_Ashura_Demonstration,_11_December_1978_(08).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 158589,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.794286"
+    },
+    {
+      "id": "IMG_0060",
+      "filename": "wiki_035_1979_Islamic_Revolution.jpg",
+      "path": "historical/1979-revolution/wiki_035_1979_Islamic_Revolution.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 53477,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.796549"
+    },
+    {
+      "id": "IMG_0061",
+      "filename": "wiki_036_Shah's_exit_from_Iran_01.jpg",
+      "path": "historical/1979-revolution/wiki_036_Shah's_exit_from_Iran_01.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 97597,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.798800"
+    },
+    {
+      "id": "IMG_0062",
+      "filename": "wiki_037_Ruhollah_Khomeini_press_conference_of_17_January_1979,_Neauphle-le-Ch\u00e2teau.jpg",
+      "path": "historical/1979-revolution/wiki_037_Ruhollah_Khomeini_press_conference_of_17_January_1979,_Neauphle-le-Ch\u00e2teau.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 189700,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.800918"
+    },
+    {
+      "id": "IMG_0063",
+      "filename": "wiki_038_Ettelaat13571026.pdf",
+      "path": "historical/1979-revolution/wiki_038_Ettelaat13571026.pdf",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 50768985,
+      "file_type": "PDF document, version 1.6 (zip deflate encoded)",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.803849"
+    },
+    {
+      "id": "IMG_0064",
+      "filename": "wiki_039_Bakhtiar_and_mosaddegh_cartoon.jpg",
+      "path": "historical/1979-revolution/wiki_039_Bakhtiar_and_mosaddegh_cartoon.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 100103,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.806455"
+    },
+    {
+      "id": "IMG_0065",
+      "filename": "wiki_041_\u0645\u0631\u062f\u0645_\u0645\u0633\u0644\u062d_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "path": "historical/1979-revolution/wiki_041_\u0645\u0631\u062f\u0645_\u0645\u0633\u0644\u062d_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 120812,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.808844"
+    },
+    {
+      "id": "IMG_0066",
+      "filename": "wiki_042_Tehran_Ashura_Demonstration,_11_December_1978_(14).jpg",
+      "path": "historical/1979-revolution/wiki_042_Tehran_Ashura_Demonstration,_11_December_1978_(14).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 174941,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.811282"
+    },
+    {
+      "id": "IMG_0067",
+      "filename": "wiki_043_Tehran_Ashura_Demonstration,_11_December_1978_(06).jpg",
+      "path": "historical/1979-revolution/wiki_043_Tehran_Ashura_Demonstration,_11_December_1978_(06).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 200454,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.813512"
+    },
+    {
+      "id": "IMG_0068",
+      "filename": "wiki_044_Shahada_green.svg",
+      "path": "historical/1979-revolution/wiki_044_Shahada_green.svg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 32972,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.815571"
+    },
+    {
+      "id": "IMG_0069",
+      "filename": "wiki_048_Firing_Squad_in_Iran.jpg",
+      "path": "historical/1979-revolution/wiki_048_Firing_Squad_in_Iran.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 3949305,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.818020"
+    },
+    {
+      "id": "IMG_0070",
+      "filename": "wiki_049_ExecutionGenerals150279.jpg",
+      "path": "historical/1979-revolution/wiki_049_ExecutionGenerals150279.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 37672,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.819937"
+    },
+    {
+      "id": "IMG_0071",
+      "filename": "wiki_050_Shariatmadari_and_Khomeini.jpg",
+      "path": "historical/1979-revolution/wiki_050_Shariatmadari_and_Khomeini.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 67217,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.822297"
+    },
+    {
+      "id": "IMG_0072",
+      "filename": "wiki_051_Obverse_of_Iranian_20_Rials_coin_-_monument_of_3rd_anniversary_of_Islamic_revolution_(cropped_square",
+      "path": "historical/1979-revolution/wiki_051_Obverse_of_Iranian_20_Rials_coin_-_monument_of_3rd_anniversary_of_Islamic_revolution_(cropped_square",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 3810346,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.825110"
+    },
+    {
+      "id": "IMG_0073",
+      "filename": "wiki_052_Reverse_of_Iranian_20_Rials_coin_-_monument_of_3rd_anniversary_of_Islamic_revolution_(cropped_square",
+      "path": "historical/1979-revolution/wiki_052_Reverse_of_Iranian_20_Rials_coin_-_monument_of_3rd_anniversary_of_Islamic_revolution_(cropped_square",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 2317363,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.828613"
+    },
+    {
+      "id": "IMG_0074",
+      "filename": "wiki_053_Feb_2_2014_-_Martyrs_Sq_-_Mashhad_(1).jpg",
+      "path": "historical/1979-revolution/wiki_053_Feb_2_2014_-_Martyrs_Sq_-_Mashhad_(1).jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 911012,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.856332"
+    },
+    {
+      "id": "IMG_0075",
+      "filename": "wiki_054_\u0632\u062e\u0645\u06cc_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "path": "historical/1979-revolution/wiki_054_\u0632\u062e\u0645\u06cc_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 132016,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.859091"
+    },
+    {
+      "id": "IMG_0076",
+      "filename": "wiki_055_\u0627\u0639\u062a\u0631\u0627\u0636_\u0645\u0631\u062f\u0645_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "path": "historical/1979-revolution/wiki_055_\u0627\u0639\u062a\u0631\u0627\u0636_\u0645\u0631\u062f\u0645_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 133295,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.861870"
+    },
+    {
+      "id": "IMG_0077",
+      "filename": "wiki_056_\u0634\u0647\u06cc\u062f\u0627\u0646_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "path": "historical/1979-revolution/wiki_056_\u0634\u0647\u06cc\u062f\u0627\u0646_\u0627\u0646\u0642\u0644\u0627\u0628\u06cc.JPG",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 110169,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.864200"
+    },
+    {
+      "id": "IMG_0078",
+      "filename": "wiki_057_Ali_Khamenei_in_Iranian_Revolution_protests.jpg",
+      "path": "historical/1979-revolution/wiki_057_Ali_Khamenei_in_Iranian_Revolution_protests.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 90998,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.866379"
+    },
+    {
+      "id": "IMG_0079",
+      "filename": "wiki_058_Shapour_Bakhtiar_Cabinet.jpg",
+      "path": "historical/1979-revolution/wiki_058_Shapour_Bakhtiar_Cabinet.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 148662,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.868843"
+    },
+    {
+      "id": "IMG_0080",
+      "filename": "wiki_059_Shah's_exit_from_Iran_04.jpg",
+      "path": "historical/1979-revolution/wiki_059_Shah's_exit_from_Iran_04.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 101009,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.871408"
+    },
+    {
+      "id": "IMG_0081",
+      "filename": "wiki_060_Statue_of_Shah_Revolution.jpg",
+      "path": "historical/1979-revolution/wiki_060_Statue_of_Shah_Revolution.jpg",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 51584,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.873823"
+    },
+    {
+      "id": "IMG_0082",
+      "filename": "wiki_061_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0645\u0647\u0631\u0622\u0628\u0627\u062f.JPG",
+      "path": "historical/1979-revolution/wiki_061_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0645\u0647\u0631\u0622\u0628\u0627\u062f.JPG",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 34968,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.875919"
+    },
+    {
+      "id": "IMG_0083",
+      "filename": "wiki_062_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0628\u0647\u0634\u062a_\u0632\u0647\u0631\u0627.JPG",
+      "path": "historical/1979-revolution/wiki_062_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0628\u0647\u0634\u062a_\u0632\u0647\u0631\u0627.JPG",
+      "directory": "historical/1979-revolution",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "1979",
+        "revolution",
+        "khomeini",
+        "demonstrations"
+      ],
+      "era": "1970s",
+      "size_bytes": 38424,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.878328"
+    },
+    {
+      "id": "IMG_0084",
+      "filename": "wiki_002_Children_In_iraq-iran_war4_(cropped).jpg",
+      "path": "historical/1980-1988/wiki_002_Children_In_iraq-iran_war4_(cropped).jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 39822,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:07.881013"
+    },
+    {
+      "id": "IMG_0085",
+      "filename": "wiki_003_Chemical_weapon1.jpg",
+      "path": "historical/1980-1988/wiki_003_Chemical_weapon1.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 79542,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.883528"
+    },
+    {
+      "id": "IMG_0086",
+      "filename": "wiki_004_USS_Stark_edit.jpg",
+      "path": "historical/1980-1988/wiki_004_USS_Stark_edit.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 2254930,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.886203"
+    },
+    {
+      "id": "IMG_0087",
+      "filename": "wiki_005_Mersad.jpg",
+      "path": "historical/1980-1988/wiki_005_Mersad.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 91915,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.888535"
+    },
+    {
+      "id": "IMG_0088",
+      "filename": "wiki_006_Khorramshahr_POWs_crop.jpg",
+      "path": "historical/1980-1988/wiki_006_Khorramshahr_POWs_crop.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 133923,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.890812"
+    },
+    {
+      "id": "IMG_0089",
+      "filename": "wiki_007_152_mm_howitzer_D-20_belong_to_Military_of_Iran.jpg",
+      "path": "historical/1980-1988/wiki_007_152_mm_howitzer_D-20_belong_to_Military_of_Iran.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 64097,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.892977"
+    },
+    {
+      "id": "IMG_0090",
+      "filename": "wiki_027_1975_Algiers_Agreement.jpg",
+      "path": "historical/1980-1988/wiki_027_1975_Algiers_Agreement.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 294400,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.895556"
+    },
+    {
+      "id": "IMG_0091",
+      "filename": "wiki_028_Portrait_of_Ruhollah_Khomeini.jpg",
+      "path": "historical/1980-1988/wiki_028_Portrait_of_Ruhollah_Khomeini.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 161656,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.897759"
+    },
+    {
+      "id": "IMG_0092",
+      "filename": "wiki_029_Abulhassan_Banisadr_iran_iraq_war.jpg",
+      "path": "historical/1980-1988/wiki_029_Abulhassan_Banisadr_iran_iraq_war.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 180292,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.900169"
+    },
+    {
+      "id": "IMG_0093",
+      "filename": "wiki_030_Locator_map_Iran_Khuzestan_Province.png",
+      "path": "historical/1980-1988/wiki_030_Locator_map_Iran_Khuzestan_Province.png",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 133915,
+      "file_type": "PNG image data, 672 x 600, 8-bit/color RGBA, non-i",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.902383"
+    },
+    {
+      "id": "IMG_0094",
+      "filename": "wiki_031_Shatt_al_arab.png",
+      "path": "historical/1980-1988/wiki_031_Shatt_al_arab.png",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 27278,
+      "file_type": "PNG image data, 500 x 391, 8-bit colormap, non-int",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.904419"
+    },
+    {
+      "id": "IMG_0095",
+      "filename": "wiki_033_Iran_Iraq_War_Start_Attack_on_Tehran_Airport_1980-09-22.jpg",
+      "path": "historical/1980-1988/wiki_033_Iran_Iraq_War_Start_Attack_on_Tehran_Airport_1980-09-22.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 1738363,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.907248"
+    },
+    {
+      "id": "IMG_0096",
+      "filename": "wiki_034_Destroyed_Douglas_C-47_of_IIAF.jpg",
+      "path": "historical/1980-1988/wiki_034_Destroyed_Douglas_C-47_of_IIAF.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 103181,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.909379"
+    },
+    {
+      "id": "IMG_0097",
+      "filename": "wiki_035_Irani_F-14_Tomcats_carrying_AIM-54_Phoenixs.jpg",
+      "path": "historical/1980-1988/wiki_035_Irani_F-14_Tomcats_carrying_AIM-54_Phoenixs.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 71840,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.911608"
+    },
+    {
+      "id": "IMG_0098",
+      "filename": "wiki_036_Battle_of_khorramshahr_2.jpg",
+      "path": "historical/1980-1988/wiki_036_Battle_of_khorramshahr_2.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 219948,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.913874"
+    },
+    {
+      "id": "IMG_0099",
+      "filename": "wiki_038_Banisadr_iran_iraq_war_2.jpg",
+      "path": "historical/1980-1988/wiki_038_Banisadr_iran_iraq_war_2.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 51761,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.915964"
+    },
+    {
+      "id": "IMG_0100",
+      "filename": "wiki_039_Operation_H3_map.png",
+      "path": "historical/1980-1988/wiki_039_Operation_H3_map.png",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 187122,
+      "file_type": "PNG image data, 1000 x 1067, 8-bit/color RGB, non-",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.918014"
+    },
+    {
+      "id": "IMG_0101",
+      "filename": "wiki_040_Iranian_soldier_holding_IV_bag_during_Iran-Iraq_war.jpeg",
+      "path": "historical/1980-1988/wiki_040_Iranian_soldier_holding_IV_bag_during_Iran-Iraq_war.jpeg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 162377,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.920362"
+    },
+    {
+      "id": "IMG_0102",
+      "filename": "wiki_041_Iranian_Northrop_F-5_during_Iran-Iraq_war.jpg",
+      "path": "historical/1980-1988/wiki_041_Iranian_Northrop_F-5_during_Iran-Iraq_war.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 925689,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.923203"
+    },
+    {
+      "id": "IMG_0103",
+      "filename": "wiki_042_Me,_Iraqi_war_tank.jpg",
+      "path": "historical/1980-1988/wiki_042_Me,_Iraqi_war_tank.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 1490004,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.926025"
+    },
+    {
+      "id": "IMG_0104",
+      "filename": "wiki_043_Capture_in_Khorramshahr.jpg",
+      "path": "historical/1980-1988/wiki_043_Capture_in_Khorramshahr.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 86583,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.928486"
+    },
+    {
+      "id": "IMG_0105",
+      "filename": "wiki_044_An_Iraqi_notice_for_Propaganda_against_Iranian_forces.jpg",
+      "path": "historical/1980-1988/wiki_044_An_Iraqi_notice_for_Propaganda_against_Iranian_forces.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 164388,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.930780"
+    },
+    {
+      "id": "IMG_0106",
+      "filename": "wiki_045_Children_In_iraq-iran_war4.jpg",
+      "path": "historical/1980-1988/wiki_045_Children_In_iraq-iran_war4.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 69776,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.932783"
+    },
+    {
+      "id": "IMG_0107",
+      "filename": "wiki_046_Map_of_the_frontlines_in_the_Iran-Iraq_War.jpg",
+      "path": "historical/1980-1988/wiki_046_Map_of_the_frontlines_in_the_Iran-Iraq_War.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 915317,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.935244"
+    },
+    {
+      "id": "IMG_0108",
+      "filename": "wiki_047_These_photograph_was_taken_in_1984_by_the_Iraqis_at_Salahedin_camp,_near_Takrit,_Iraq.jpg",
+      "path": "historical/1980-1988/wiki_047_These_photograph_was_taken_in_1984_by_the_Iraqis_at_Salahedin_camp,_near_Takrit,_Iraq.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 107077,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.937490"
+    },
+    {
+      "id": "IMG_0109",
+      "filename": "wiki_048_Murdered_Iraqi_POW_2.jpg",
+      "path": "historical/1980-1988/wiki_048_Murdered_Iraqi_POW_2.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 455951,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.939863"
+    },
+    {
+      "id": "IMG_0110",
+      "filename": "wiki_049_152_mm_howitzer_D-20_belong_to_Military_of_Iran.jpg",
+      "path": "historical/1980-1988/wiki_049_152_mm_howitzer_D-20_belong_to_Military_of_Iran.jpg",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 64097,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.942112"
+    },
+    {
+      "id": "IMG_0111",
+      "filename": "wiki_050_USS_Hawes_(FFG-53),_USS_William_H._Standley_(CG-32)_and_USS_Guadalcanal_(LPH-7)_escort_tanker_Gas_Ki",
+      "path": "historical/1980-1988/wiki_050_USS_Hawes_(FFG-53),_USS_William_H._Standley_(CG-32)_and_USS_Guadalcanal_(LPH-7)_escort_tanker_Gas_Ki",
+      "directory": "historical/1980-1988",
+      "patterns": [
+        "ethnic_unity",
+        "iraq_contrast"
+      ],
+      "tags": [
+        "iran_iraq_war",
+        "1980s",
+        "khuzestan",
+        "war"
+      ],
+      "era": "1980s",
+      "size_bytes": 2247579,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.945001"
+    },
+    {
+      "id": "IMG_0112",
+      "filename": "wiki_001_Amir_Kabir_University_uprising_September_2022_(3).jpg",
+      "path": "historical/2022-mahsa/wiki_001_Amir_Kabir_University_uprising_September_2022_(3).jpg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 9589809,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.947819"
+    },
+    {
+      "id": "IMG_0113",
+      "filename": "wiki_002_Uprising_in_Tehran,_Keshavarz_Boulvard_September_2022_(3).jpg",
+      "path": "historical/2022-mahsa/wiki_002_Uprising_in_Tehran,_Keshavarz_Boulvard_September_2022_(3).jpg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 684933,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.950417"
+    },
+    {
+      "id": "IMG_0114",
+      "filename": "wiki_016_\u0632\u0646_\u0632\u0646\u062f\u06af\u06cc_\u0622\u0632\u0627\u062f\u06cc.jpg",
+      "path": "historical/2022-mahsa/wiki_016_\u0632\u0646_\u0632\u0646\u062f\u06af\u06cc_\u0622\u0632\u0627\u062f\u06cc.jpg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 6071869,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.953045"
+    },
+    {
+      "id": "IMG_0115",
+      "filename": "wiki_017_2022_Iran_Protests_(Killed).svg",
+      "path": "historical/2022-mahsa/wiki_017_2022_Iran_Protests_(Killed).svg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 358820,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.955497"
+    },
+    {
+      "id": "IMG_0116",
+      "filename": "wiki_018_2022_Iran_Protests_(Killed)_County.svg",
+      "path": "historical/2022-mahsa/wiki_018_2022_Iran_Protests_(Killed)_County.svg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 1628599,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.958435"
+    },
+    {
+      "id": "IMG_0117",
+      "filename": "wiki_019_Iran_solidairty_protests_22_October_2022_in_Berlin_19.jpg",
+      "path": "historical/2022-mahsa/wiki_019_Iran_solidairty_protests_22_October_2022_in_Berlin_19.jpg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 4819252,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.961500"
+    },
+    {
+      "id": "IMG_0118",
+      "filename": "wiki_022_Iran_national_team_fan_04.jpg",
+      "path": "historical/2022-mahsa/wiki_022_Iran_national_team_fan_04.jpg",
+      "directory": "historical/2022-mahsa",
+      "patterns": [
+        "massacre_escalation"
+      ],
+      "tags": [
+        "2022",
+        "mahsa_amini",
+        "woman_life_freedom",
+        "protests"
+      ],
+      "era": "2020s",
+      "size_bytes": 4163151,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.964224"
+    },
+    {
+      "id": "IMG_0119",
+      "filename": "wiki_001_Portrait_of_Ruhollah_Khomeini.jpg",
+      "path": "figures/khomeini/wiki_001_Portrait_of_Ruhollah_Khomeini.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 161656,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.966564"
+    },
+    {
+      "id": "IMG_0120",
+      "filename": "wiki_002_Ruhollah_Khomeini_signature.svg",
+      "path": "figures/khomeini/wiki_002_Ruhollah_Khomeini_signature.svg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 3247,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.968429"
+    },
+    {
+      "id": "IMG_0121",
+      "filename": "wiki_004_Ruhollah_Khomeinii_(3x4_cropped).jpg",
+      "path": "figures/khomeini/wiki_004_Ruhollah_Khomeinii_(3x4_cropped).jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 647643,
+      "file_type": "JPEG image data, baseline, precision 8, 1536x2048,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.970622"
+    },
+    {
+      "id": "IMG_0122",
+      "filename": "wiki_005_Emblem_of_Iran.svg",
+      "path": "figures/khomeini/wiki_005_Emblem_of_Iran.svg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 1290,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.972746"
+    },
+    {
+      "id": "IMG_0123",
+      "filename": "wiki_006_Ruhollah_Khomeini_birthplace_5.jpg",
+      "path": "figures/khomeini/wiki_006_Ruhollah_Khomeini_birthplace_5.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 299985,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.975175"
+    },
+    {
+      "id": "IMG_0124",
+      "filename": "wiki_007_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0647\u0645\u062f\u0631\u0633\u0627\u0646.JPG",
+      "path": "figures/khomeini/wiki_007_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0647\u0645\u062f\u0631\u0633\u0627\u0646.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 305192,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.977703"
+    },
+    {
+      "id": "IMG_0125",
+      "filename": "wiki_008_Ayatollah_Khomeini_young.jpg",
+      "path": "figures/khomeini/wiki_008_Ayatollah_Khomeini_young.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 15590,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.980072"
+    },
+    {
+      "id": "IMG_0126",
+      "filename": "wiki_009_Ruhollah_Khomeini_speaking_to_his_followers_against_capitulation_day_1964.jpg",
+      "path": "figures/khomeini/wiki_009_Ruhollah_Khomeini_speaking_to_his_followers_against_capitulation_day_1964.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 56153,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.982286"
+    },
+    {
+      "id": "IMG_0127",
+      "filename": "wiki_010_June_3,_1963_speech_by_Ruhollah_Khomeini-_Feyziyeh_School,_Qom_(5).jpg",
+      "path": "figures/khomeini/wiki_010_June_3,_1963_speech_by_Ruhollah_Khomeini-_Feyziyeh_School,_Qom_(5).jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 87671,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.984777"
+    },
+    {
+      "id": "IMG_0128",
+      "filename": "wiki_011_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
+      "path": "figures/khomeini/wiki_011_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 13389472,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.987368"
+    },
+    {
+      "id": "IMG_0129",
+      "filename": "wiki_012_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0646\u0645\u0627\u0632.JPG",
+      "path": "figures/khomeini/wiki_012_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u0646\u0645\u0627\u0632.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 35824,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.989496"
+    },
+    {
+      "id": "IMG_0130",
+      "filename": "wiki_013_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u062a\u0631\u06a9\u06cc\u0647.JPG",
+      "path": "figures/khomeini/wiki_013_\u062e\u0645\u06cc\u0646\u06cc_\u062f\u0631_\u062a\u0631\u06a9\u06cc\u0647.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 33203,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.991573"
+    },
+    {
+      "id": "IMG_0131",
+      "filename": "wiki_014_Khomeini's_House_in_Iraq-Najaf_Ashraf_by_Samenp.jpg",
+      "path": "figures/khomeini/wiki_014_Khomeini's_House_in_Iraq-Najaf_Ashraf_by_Samenp.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 171424,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.993911"
+    },
+    {
+      "id": "IMG_0132",
+      "filename": "wiki_015_Imam_in_Paris.jpg",
+      "path": "figures/khomeini/wiki_015_Imam_in_Paris.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 365982,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.996219"
+    },
+    {
+      "id": "IMG_0133",
+      "filename": "wiki_016_Imam_Khomeini_in_Mehrabad.jpg",
+      "path": "figures/khomeini/wiki_016_Imam_Khomeini_in_Mehrabad.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 98628,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:07.998690"
+    },
+    {
+      "id": "IMG_0134",
+      "filename": "wiki_017_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0645\u0631\u062f\u0645.JPG",
+      "path": "figures/khomeini/wiki_017_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0645\u0631\u062f\u0645.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 549960,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.001282"
+    },
+    {
+      "id": "IMG_0135",
+      "filename": "wiki_018_Carpet_given_to_Id_Kah_mosque_by_Ayatollah_Khomeini.jpg",
+      "path": "figures/khomeini/wiki_018_Carpet_given_to_Id_Kah_mosque_by_Ayatollah_Khomeini.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 506189,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.003649"
+    },
+    {
+      "id": "IMG_0136",
+      "filename": "wiki_019_KhomeiniRajai32.jpg",
+      "path": "figures/khomeini/wiki_019_KhomeiniRajai32.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 157737,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.005771"
+    },
+    {
+      "id": "IMG_0137",
+      "filename": "wiki_020_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(5).jpg",
+      "path": "figures/khomeini/wiki_020_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(5).jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 298241,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.008079"
+    },
+    {
+      "id": "IMG_0138",
+      "filename": "wiki_021_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(6).jpg",
+      "path": "figures/khomeini/wiki_021_Funeral_of_Ruhollah_Khomeini,_4_June_1989_(6).jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 323208,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.010291"
+    },
+    {
+      "id": "IMG_0139",
+      "filename": "wiki_022_President_Ali_Khamenei_visit_to_Ruhollah_Khomeini_-_August_13,_1986.jpg",
+      "path": "figures/khomeini/wiki_022_President_Ali_Khamenei_visit_to_Ruhollah_Khomeini_-_August_13,_1986.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 334888,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.012657"
+    },
+    {
+      "id": "IMG_0140",
+      "filename": "wiki_024_Iranian_Conservatism_Flags_Symbol.svg",
+      "path": "figures/khomeini/wiki_024_Iranian_Conservatism_Flags_Symbol.svg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 20447,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.014795"
+    },
+    {
+      "id": "IMG_0141",
+      "filename": "wiki_027_Esfahan_(Iran)_Emam_Place_with_Emam_Mosque.JPG",
+      "path": "figures/khomeini/wiki_027_Esfahan_(Iran)_Emam_Place_with_Emam_Mosque.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 436399,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.017251"
+    },
+    {
+      "id": "IMG_0142",
+      "filename": "wiki_029_Imam_Khomeini_Potrait.jpg",
+      "path": "figures/khomeini/wiki_029_Imam_Khomeini_Potrait.jpg",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 541009,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.020023"
+    },
+    {
+      "id": "IMG_0143",
+      "filename": "wiki_030_\u0628\u0686\u0647_\u0648_\u062e\u0645\u06cc\u0646\u06cc.JPG",
+      "path": "figures/khomeini/wiki_030_\u0628\u0686\u0647_\u0648_\u062e\u0645\u06cc\u0646\u06cc.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 79143,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.022367"
+    },
+    {
+      "id": "IMG_0144",
+      "filename": "wiki_031_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0646\u0648\u0647\u200c\u0647\u0627.JPG",
+      "path": "figures/khomeini/wiki_031_\u062e\u0645\u06cc\u0646\u06cc_\u0648_\u0646\u0648\u0647\u200c\u0647\u0627.JPG",
+      "directory": "figures/khomeini",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "khomeini",
+        "ayatollah",
+        "islamic_republic"
+      ],
+      "era": "1970s-1980s",
+      "size_bytes": 150584,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.024436"
+    },
+    {
+      "id": "IMG_0145",
+      "filename": "wiki_000_Dr_Mohammad_Mosaddeq.jpg",
+      "path": "figures/mossadegh/wiki_000_Dr_Mohammad_Mosaddeq.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 1287067,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:08.027310"
+    },
+    {
+      "id": "IMG_0146",
+      "filename": "wiki_001_Mohammad_mossadegh_Signature.svg",
+      "path": "figures/mossadegh/wiki_001_Mohammad_mossadegh_Signature.svg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 2628,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.029719"
+    },
+    {
+      "id": "IMG_0147",
+      "filename": "wiki_003_Iranian_Liberalism_Flags_Symbol.svg",
+      "path": "figures/mossadegh/wiki_003_Iranian_Liberalism_Flags_Symbol.svg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 22929,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.031710"
+    },
+    {
+      "id": "IMG_0148",
+      "filename": "wiki_006_Farmanfarma1.jpg",
+      "path": "figures/mossadegh/wiki_006_Farmanfarma1.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 85919,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.033800"
+    },
+    {
+      "id": "IMG_0149",
+      "filename": "wiki_007_Mossadegh_childhood.jpg",
+      "path": "figures/mossadegh/wiki_007_Mossadegh_childhood.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 38486,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.036022"
+    },
+    {
+      "id": "IMG_0150",
+      "filename": "wiki_008_Mossadeghmohammadrezashah.jpg",
+      "path": "figures/mossadegh/wiki_008_Mossadeghmohammadrezashah.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 70020,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.038285"
+    },
+    {
+      "id": "IMG_0151",
+      "filename": "wiki_009_Tehran_Mosavvar_13301013-438.pdf",
+      "path": "figures/mossadegh/wiki_009_Tehran_Mosavvar_13301013-438.pdf",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 15944816,
+      "file_type": "PDF document, version 1.6 (zip deflate encoded)",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.041669"
+    },
+    {
+      "id": "IMG_0152",
+      "filename": "wiki_010_TehranMosavar.png",
+      "path": "figures/mossadegh/wiki_010_TehranMosavar.png",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 285595,
+      "file_type": "PNG image data, 421 x 575, 8-bit/color RGB, non-in",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.044006"
+    },
+    {
+      "id": "IMG_0153",
+      "filename": "wiki_011_Prime_Minister_Mossadegh_of_Iran_at_Tomb_of_the_Unknown_Soldier_of_WWI.jpg",
+      "path": "figures/mossadegh/wiki_011_Prime_Minister_Mossadegh_of_Iran_at_Tomb_of_the_Unknown_Soldier_of_WWI.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 300877,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.046279"
+    },
+    {
+      "id": "IMG_0154",
+      "filename": "wiki_012_Shaban_jafari.jpg",
+      "path": "figures/mossadegh/wiki_012_Shaban_jafari.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 15179,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.048279"
+    },
+    {
+      "id": "IMG_0155",
+      "filename": "wiki_013_Mohammad_Mosaddeq,_Ahmadabad_1967.jpg",
+      "path": "figures/mossadegh/wiki_013_Mohammad_Mosaddeq,_Ahmadabad_1967.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 99924,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.050341"
+    },
+    {
+      "id": "IMG_0156",
+      "filename": "wiki_014_Mosaddegh_stamp.jpg",
+      "path": "figures/mossadegh/wiki_014_Mosaddegh_stamp.jpg",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 48724,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.052386"
+    },
+    {
+      "id": "IMG_0157",
+      "filename": "wiki_015_President_Truman_and_Prime_Minister_Mohammad_Mossadegh_of_Iran.TIF",
+      "path": "figures/mossadegh/wiki_015_President_Truman_and_Prime_Minister_Mohammad_Mossadegh_of_Iran.TIF",
+      "directory": "figures/mossadegh",
+      "patterns": [
+        "iraq_contrast",
+        "constitutional_memory"
+      ],
+      "tags": [
+        "mossadegh",
+        "1951",
+        "1953",
+        "nationalization",
+        "coup"
+      ],
+      "era": "1950s",
+      "size_bytes": 7173282,
+      "file_type": "TIFF image data, little-endian, direntries=17, hei",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.054877"
+    },
+    {
+      "id": "IMG_0158",
+      "filename": "wiki_000_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
+      "path": "figures/pahlavi-dynasty/wiki_000_Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 13389472,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:08.057835"
+    },
+    {
+      "id": "IMG_0159",
+      "filename": "wiki_001_Mohammadreza_pahlavi_signature.svg",
+      "path": "figures/pahlavi-dynasty/wiki_001_Mohammadreza_pahlavi_signature.svg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 5323,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.059940"
+    },
+    {
+      "id": "IMG_0160",
+      "filename": "wiki_002_Signature_of_Mohammad_Reza_Pahlavi.svg",
+      "path": "figures/pahlavi-dynasty/wiki_002_Signature_of_Mohammad_Reza_Pahlavi.svg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 14586,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.062149"
+    },
+    {
+      "id": "IMG_0161",
+      "filename": "wiki_004_CrownPrinceMohammadRezaPahlavi.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_004_CrownPrinceMohammadRezaPahlavi.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 606862,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.064464"
+    },
+    {
+      "id": "IMG_0162",
+      "filename": "wiki_005_CrownPrinceMohammadRezaPahlavi1.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_005_CrownPrinceMohammadRezaPahlavi1.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 111613,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.066790"
+    },
+    {
+      "id": "IMG_0163",
+      "filename": "wiki_006_Ashraf_et_shah.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_006_Ashraf_et_shah.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 31681,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.068858"
+    },
+    {
+      "id": "IMG_0164",
+      "filename": "wiki_007_Banquet_\u00e0_T\u00e9h\u00e9ran_lors_du_mariage_de_Fawzia_Fuad_et_de_Mohammad_Reza_Pahlavi_-_1.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_007_Banquet_\u00e0_T\u00e9h\u00e9ran_lors_du_mariage_de_Fawzia_Fuad_et_de_Mohammad_Reza_Pahlavi_-_1.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 219369,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.071015"
+    },
+    {
+      "id": "IMG_0165",
+      "filename": "wiki_008_Mohammad_Reza_Pahlavi_Entering_a_Military_School,_Tehran_1938.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_008_Mohammad_Reza_Pahlavi_Entering_a_Military_School,_Tehran_1938.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 787697,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.074047"
+    },
+    {
+      "id": "IMG_0166",
+      "filename": "wiki_009_Crown_Prince_Mohammad_Reza_Pahlavi_and_Teymourtash2.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_009_Crown_Prince_Mohammad_Reza_Pahlavi_and_Teymourtash2.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 19923,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.076392"
+    },
+    {
+      "id": "IMG_0167",
+      "filename": "wiki_010_Fawzia+Reza.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_010_Fawzia+Reza.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 52131,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.078643"
+    },
+    {
+      "id": "IMG_0168",
+      "filename": "wiki_011_Shah_with_FDR.jpeg",
+      "path": "figures/pahlavi-dynasty/wiki_011_Shah_with_FDR.jpeg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 181988,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.080739"
+    },
+    {
+      "id": "IMG_0169",
+      "filename": "wiki_012_Shahstalinmolotov.JPG",
+      "path": "figures/pahlavi-dynasty/wiki_012_Shahstalinmolotov.JPG",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 42765,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.082675"
+    },
+    {
+      "id": "IMG_0170",
+      "filename": "wiki_013_Mrp1941.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_013_Mrp1941.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 796269,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.085018"
+    },
+    {
+      "id": "IMG_0171",
+      "filename": "wiki_014_PMforoughi2.jpg",
+      "path": "figures/pahlavi-dynasty/wiki_014_PMforoughi2.jpg",
+      "directory": "figures/pahlavi-dynasty",
+      "patterns": [
+        "counter_revolution"
+      ],
+      "tags": [
+        "pahlavi",
+        "shah",
+        "monarchy",
+        "reza_pahlavi"
+      ],
+      "era": "1900s-1970s",
+      "size_bytes": 44159,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.086943"
+    },
+    {
+      "id": "IMG_0172",
+      "filename": "wiki_018_Tahmasb_I,_chehelsotoun_palace.PNG",
+      "path": "maps/turkmenchay-loss/wiki_018_Tahmasb_I,_chehelsotoun_palace.PNG",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 83412,
+      "file_type": "PNG image data, 129 x 224, 8-bit/color RGB, non-in",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.089100"
+    },
+    {
+      "id": "IMG_0173",
+      "filename": "wiki_019_General\u02b9nai\ufe20a\ufe21_Karta_Astrakhanskoi\u0306_Gubernii_S\u02ba_pokazaniem\u02ba_pochtovykh\u02ba_i_bol\u02b9shikh\u02ba_proi\ufe20e\ufe21zzhikh\u02ba_d",
+      "path": "maps/turkmenchay-loss/wiki_019_General\u02b9nai\ufe20a\ufe21_Karta_Astrakhanskoi\u0306_Gubernii_S\u02ba_pokazaniem\u02ba_pochtovykh\u02ba_i_bol\u02b9shikh\u02ba_proi\ufe20e\ufe21zzhikh\u02ba_d",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 10096040,
+      "file_type": "TIFF image data, big-endian",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.091515"
+    },
+    {
+      "id": "IMG_0174",
+      "filename": "wiki_020_Shah_abbas_I-_L_by_Bishn_Das.jpg",
+      "path": "maps/turkmenchay-loss/wiki_020_Shah_abbas_I-_L_by_Bishn_Das.jpg",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 764707,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.094060"
+    },
+    {
+      "id": "IMG_0175",
+      "filename": "wiki_021_Map_Safavid_persia.png",
+      "path": "maps/turkmenchay-loss/wiki_021_Map_Safavid_persia.png",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 296505,
+      "file_type": "PNG image data, 1033 x 717, 8-bit/color RGB, non-i",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:08.096381"
+    },
+    {
+      "id": "IMG_0176",
+      "filename": "wiki_022_Agha_mohamad_khan_qajar.JPG",
+      "path": "maps/turkmenchay-loss/wiki_022_Agha_mohamad_khan_qajar.JPG",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 48077,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.098499"
+    },
+    {
+      "id": "IMG_0177",
+      "filename": "wiki_023_Khartli-Kakheti.svg",
+      "path": "maps/turkmenchay-loss/wiki_023_Khartli-Kakheti.svg",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 3909643,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.101249"
+    },
+    {
+      "id": "IMG_0178",
+      "filename": "wiki_024_Persia_1814.jpg",
+      "path": "maps/turkmenchay-loss/wiki_024_Persia_1814.jpg",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 1675922,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.104015"
+    },
+    {
+      "id": "IMG_0179",
+      "filename": "wiki_025_Turkmenchay_persian_1_page.jpg",
+      "path": "maps/turkmenchay-loss/wiki_025_Turkmenchay_persian_1_page.jpg",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 270949,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.106315"
+    },
+    {
+      "id": "IMG_0180",
+      "filename": "wiki_026_Gulistan-Treaty.jpg",
+      "path": "maps/turkmenchay-loss/wiki_026_Gulistan-Treaty.jpg",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 339307,
+      "file_type": "JPEG image data, JFIF standard 1.02, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.108430"
+    },
+    {
+      "id": "IMG_0181",
+      "filename": "wiki_027_Soviet_Caucasus_map.svg",
+      "path": "maps/turkmenchay-loss/wiki_027_Soviet_Caucasus_map.svg",
+      "directory": "maps/turkmenchay-loss",
+      "patterns": [
+        "great_power_game"
+      ],
+      "tags": [
+        "map",
+        "territory",
+        "russia",
+        "caucasus",
+        "turkmenchay"
+      ],
+      "era": "historical",
+      "size_bytes": 748459,
+      "file_type": "SVG Scalable Vector Graphics image",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.111220"
+    },
+    {
+      "id": "IMG_0182",
+      "filename": "wiki_000_Qajar_princess_paiting.JPG",
+      "path": "maps/ethnic-distribution/wiki_000_Qajar_princess_paiting.JPG",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 277443,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.113974"
+    },
+    {
+      "id": "IMG_0183",
+      "filename": "wiki_002_Iran_ethnoreligious_distribution_2004.jpg",
+      "path": "maps/ethnic-distribution/wiki_002_Iran_ethnoreligious_distribution_2004.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 314912,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": true,
+      "added": "2026-01-17T15:39:08.116340"
+    },
+    {
+      "id": "IMG_0184",
+      "filename": "wiki_003_Ethnolinguisticswasiacia.jpg",
+      "path": "maps/ethnic-distribution/wiki_003_Ethnolinguisticswasiacia.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 9450727,
+      "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio,",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.118785"
+    },
+    {
+      "id": "IMG_0185",
+      "filename": "wiki_004_Kurdish_Danse.jpg",
+      "path": "maps/ethnic-distribution/wiki_004_Kurdish_Danse.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 3321689,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.121241"
+    },
+    {
+      "id": "IMG_0186",
+      "filename": "wiki_005_Baloch_people_in_Iran_._Canon_photography._Photographer_Mostafa_Meraji_29.jpg",
+      "path": "maps/ethnic-distribution/wiki_005_Baloch_people_in_Iran_._Canon_photography._Photographer_Mostafa_Meraji_29.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 12907304,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.123640"
+    },
+    {
+      "id": "IMG_0187",
+      "filename": "wiki_006_Qashqai_traditional_wedding_ceremony_in_Firuzabad_20190503_48.jpg",
+      "path": "maps/ethnic-distribution/wiki_006_Qashqai_traditional_wedding_ceremony_in_Firuzabad_20190503_48.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 363263,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.125892"
+    },
+    {
+      "id": "IMG_0188",
+      "filename": "wiki_007_North_Khorasan_ethnicities,_Three_Turkmen_men,_Raz_and_Jargalan_District.jpg",
+      "path": "maps/ethnic-distribution/wiki_007_North_Khorasan_ethnicities,_Three_Turkmen_men,_Raz_and_Jargalan_District.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 208676,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.128250"
+    },
+    {
+      "id": "IMG_0189",
+      "filename": "wiki_008_Family_in_Street_-_Shush_-_Southwestern_Iran_(7423708642).jpg",
+      "path": "maps/ethnic-distribution/wiki_008_Family_in_Street_-_Shush_-_Southwestern_Iran_(7423708642).jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 2929272,
+      "file_type": "JPEG image data, Exif standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.131047"
+    },
+    {
+      "id": "IMG_0190",
+      "filename": "wiki_009_Assyrians_in_Urmia,_Iran.jpg",
+      "path": "maps/ethnic-distribution/wiki_009_Assyrians_in_Urmia,_Iran.jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 66133,
+      "file_type": "JPEG image data, JFIF standard 1.02, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.133434"
+    },
+    {
+      "id": "IMG_0191",
+      "filename": "wiki_010_New_Year's_Eve_celebrations_at_Vank_Cathedral,_Isfahan_(12).jpg",
+      "path": "maps/ethnic-distribution/wiki_010_New_Year's_Eve_celebrations_at_Vank_Cathedral,_Isfahan_(12).jpg",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 185452,
+      "file_type": "JPEG image data, JFIF standard 1.01, resolution (D",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.135598"
+    },
+    {
+      "id": "IMG_0192",
+      "filename": "wiki_011_Special_military_ceremony-_University_of_Imam_Hussein_-Commander-in-chief_of_Iranian_Armed_Forces_(5",
+      "path": "maps/ethnic-distribution/wiki_011_Special_military_ceremony-_University_of_Imam_Hussein_-Commander-in-chief_of_Iranian_Armed_Forces_(5",
+      "directory": "maps/ethnic-distribution",
+      "patterns": [
+        "ethnic_unity"
+      ],
+      "tags": [
+        "map",
+        "ethnic",
+        "diversity",
+        "kurds",
+        "azeris",
+        "baloch"
+      ],
+      "era": "contemporary",
+      "size_bytes": 151175,
+      "file_type": "JPEG image data, Exif Standard: [TIFF image data, ",
+      "is_hero": false,
+      "added": "2026-01-17T15:39:08.137758"
+    }
+  ]
 }
